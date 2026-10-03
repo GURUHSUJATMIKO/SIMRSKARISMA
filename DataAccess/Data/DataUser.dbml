@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="USER_DATABASE" Class="DataUserDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=USER_DATABASE;Integrated Security=True" SettingsObjectName="DataAccess.My.MySettings" SettingsPropertyName="USER_DATABASEConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.SET_COMPANY" Member="SET_COMPANies">
+    <Type Name="SET_COMPANY">
+      <Column Name="KDCOMPANY" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="COMPANY" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="ADDRESS" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="PHONE" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="NPWP" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="ISACTIVE" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="SET_COMPANY_SET_USER" Member="SET_USERs" ThisKey="KDCOMPANY" OtherKey="KDCOMPANY" Type="SET_USER" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SET_OTORITY_D" Member="SET_OTORITY_Ds">
+    <Type Name="SET_OTORITY_D">
+      <Column Name="KDOTORITY" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MODUL" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MENUNAME" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ISADD" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ISUPDATE" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ISDELETE" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ISPRINT" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ISVIEW" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="SET_OTORITY_H_SET_OTORITY_D" Member="SET_OTORITY_H" ThisKey="KDOTORITY" OtherKey="KDOTORITY" Type="SET_OTORITY_H" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SET_OTORITY_H" Member="SET_OTORITY_Hs">
+    <Type Name="SET_OTORITY_H">
+      <Column Name="KDOTORITY" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="ISACTIVE" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="SET_OTORITY_H_SET_OTORITY_D" Member="SET_OTORITY_Ds" ThisKey="KDOTORITY" OtherKey="KDOTORITY" Type="SET_OTORITY_D" />
+      <Association Name="SET_OTORITY_H_SET_USER" Member="SET_USERs" ThisKey="KDOTORITY" OtherKey="KDOTORITY" Type="SET_USER" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SET_USER" Member="SET_USERs">
+    <Type Name="SET_USER">
+      <Column Name="KDUSER" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KDSERVER" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="KDDATABASE" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="KDSERVER_TAX" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="KDDATABASE_TAX" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="KDOTORITY" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="KDCOMPANY" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PASSWORD" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="ISACTIVE" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="NIK" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Association Name="SET_USER_SET_USER_D" Member="SET_USER_Ds" ThisKey="KDUSER" OtherKey="KDUSER" Type="SET_USER_D" />
+      <Association Name="SET_COMPANY_SET_USER" Member="SET_COMPANY" ThisKey="KDCOMPANY" OtherKey="KDCOMPANY" Type="SET_COMPANY" IsForeignKey="true" />
+      <Association Name="SET_OTORITY_H_SET_USER" Member="SET_OTORITY_H" ThisKey="KDOTORITY" OtherKey="KDOTORITY" Type="SET_OTORITY_H" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SET_USER_D" Member="SET_USER_Ds">
+    <Type Name="SET_USER_D">
+      <Column Name="KDUSER" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SEQ" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KDWAREHOUSE" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ISDEFAULT" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="REMARKS" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Association Name="SET_USER_SET_USER_D" Member="SET_USER" ThisKey="KDUSER" OtherKey="KDUSER" Type="SET_USER" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SET_USER_KDITEM_L1" Member="SET_USER_KDITEM_L1s">
+    <Type Name="SET_USER_KDITEM_L1">
+      <Column Name="KDUSER" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SEQ" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KDITEM_L1" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ISDEFAULT" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="REMARKS" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SET_BPJS_KONEKSI" Member="SET_BPJS_KONEKSIs">
+    <Type Name="SET_BPJS_KONEKSI">
+      <Column Name="DATECREATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DATEUPDATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KDKONEKSI" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NAME_DISPLAY" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PPKPELAYANAN" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CONSID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SECREATKEY" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ALAMATWEB" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="REMARKS" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="ISACTIVE" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BUDIJAYAGROUP_RSKC" Class="DataMainPendaftaranDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.2.212\MSSQLSERVER2016;Initial Catalog=BUDIJAYAGROUP_RSKC;User ID=sa" SettingsObjectName="DataAccess.My.MySettings" SettingsPropertyName="BUDIJAYAGROUP_RSKCConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.S_MERGE" Member="S_MERGEs">
+    <Type Name="S_MERGE">
+      <Column Name="KDMERGE" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CATEGORY" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DATECREATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KDREG" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NOSEP" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="KDCUSTOMER" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ISCHEKED" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="MEMO" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="NOIDUSER" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.S_PDF_D" Member="S_PDF_Ds">
+    <Type Name="S_PDF_D">
+      <Column Name="KDPDFTRANSAKSI" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KDPDF" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SEQ" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TYPE" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ALAMATAWAL_PDF" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ALAMATAKHIR_PDF" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="MEMO" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="S_PDF_H_S_PDF_D" Member="S_PDF_H" ThisKey="KDPDFTRANSAKSI" OtherKey="KDPDFTRANSAKSI" Type="S_PDF_H" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.S_PDF_H" Member="S_PDF_Hs">
+    <Type Name="S_PDF_H">
+      <Column Name="DATECREATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DATEUPDATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KDPDFTRANSAKSI" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KDREG" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DATE" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="NOIDUSER" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="S_PDF_H_S_PDF_D" Member="S_PDF_Ds" ThisKey="KDPDFTRANSAKSI" OtherKey="KDPDFTRANSAKSI" Type="S_PDF_D" />
+      <Association Name="S_PENDAFTARAN_H_S_PDF_H" Member="S_PENDAFTARAN_H" ThisKey="KDREG" OtherKey="KDREG" Type="S_PENDAFTARAN_H" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SET_MODUL" Member="SET_MODULs">
+    <Type Name="SET_MODUL">
+      <Column Name="NOIDMODUL" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.M_PDF" Member="M_PDFs">
+    <Type Name="M_PDF">
+      <Column Name="KDPDF" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ISACTIVE" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ISDEFAULT" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.I_JADWALDOCTOR_D" Member="I_JADWALDOCTOR_Ds">
+    <Type Name="I_JADWALDOCTOR_D">
+      <Column Name="KDJADWAL" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SEQ" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="HARI" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="JAMDARI" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="JAMSAMPAI" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KELOMPOK" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ISBUKA" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="SISAKUOTAJKN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KUOTAJKN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SISAKUOTANONJKN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KUOTANONJKN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="I_JADWALDOCTOR_H_I_JADWALDOCTOR_D" Member="I_JADWALDOCTOR_H" ThisKey="KDJADWAL" OtherKey="KDJADWAL" Type="I_JADWALDOCTOR_H" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.I_JADWALDOCTOR_H" Member="I_JADWALDOCTOR_Hs">
+    <Type Name="I_JADWALDOCTOR_H">
+      <Column Name="KDJADWAL" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DATECREATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DATEUPDATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KDDOCTOR" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KDDEPARTMENT" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="NOIDUSER" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ISACTIVE" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="I_JADWALDOCTOR_H_I_JADWALDOCTOR_D" Member="I_JADWALDOCTOR_Ds" ThisKey="KDJADWAL" OtherKey="KDJADWAL" Type="I_JADWALDOCTOR_D" />
+    </Type>
+  </Table>
+  <Table Name="dbo.A_JADWAL" Member="A_JADWALs">
+    <Type Name="A_JADWAL">
+      <Column Name="KDJADWAL" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DATECREATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DATEUPDATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DATE" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="MEMO" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="NOIDUSER" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.S_REQ_CPPT_UPDATE" Member="S_REQ_CPPT_UPDATEs">
+    <Type Name="S_REQ_CPPT_UPDATE">
+      <Column Name="DATECREATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KDREG" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.S_PENDAFTARAN_PENUNJANGHARIINISELESAI" Member="S_PENDAFTARAN_PENUNJANGHARIINISELESAIs">
+    <Type Name="S_PENDAFTARAN_PENUNJANGHARIINISELESAI">
+      <Column Name="KDREG" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KET_1" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="KET_3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.S_UMPANBALIK" Member="S_UMPANBALIKs">
+    <Type Name="S_UMPANBALIK">
+      <Column Name="DATECREATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DATEUPDATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="PTD" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ADMISSION_DATE" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DISCHARGE_DATE" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DISCHARGE_STATUS" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NOMORSEP" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DPJP" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="MRN" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="KDREG" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DIAGLIST" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="PROCLIST" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="INACBG" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="INACBG_DESKRIPSI" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="TANGGALVERIFIKASI" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="BIAYA_RIILRS" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_PROSEDUR_NON_BEDAH" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_PROSEDUR_BEDAH" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_KONSULTASI" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_TENAGA_AHLI" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_KEPERAWATAN" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_PENUNJANG" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_RADIOLOGI" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_LABORATORIUM" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_PELAYANAN_DARAH" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_REHABILITASI" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_KAMAR_AKOMODASI" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_RAWAT_INTENSIF" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_OBAT" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_ALKES" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_BMHP" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_SEWA_ALAT" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_OBAT_KRONIS" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_OBAT_KEMO" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_INACBG" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_DIAJUKAN" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="BIAYA_DISETUJUI" Type="System.Decimal" DbType="Decimal(12,2)" CanBeNull="true" />
+      <Column Name="ISCHEKED" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ISUMPANBALIK" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="NOIDUSER" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.S_PENDAFTARAN_WAKTUIGD" Member="S_PENDAFTARAN_WAKTUIGDs">
+    <Type Name="S_PENDAFTARAN_WAKTUIGD">
+      <Column Name="KDREG" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="WAKTU" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Z_ANTRIAN_ADMISI" Member="Z_ANTRIAN_ADMISIs">
+    <Type Name="Z_ANTRIAN_ADMISI">
+      <Column Name="KODEBOOKING" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TAKSID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="WAKTU" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="WAKTU_TEXT" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="KODE_BPJS" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="REQUEST" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="RESPONS" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.M_CUSTOMER" Member="M_CUSTOMERs">
+    <Type Name="M_CUSTOMER">
+      <Column Name="KDCUSTOMER" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="KDCOA" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NAME_DISPLAY" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="EMAIL" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="MOBILE" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="OTHER" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="WEBSITE" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="MEMO" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="PAYMENTTERM" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="CREDITLIMIT" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="PAYABLES" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="RECEIVEABLES" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ISACTIVE" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="KDCUSTOMER_L1" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KDCUSTOMER_L2" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NIK" Type="System.String" DbType="NVarChar(16) NOT NULL" CanBeNull="false" />
+      <Column Name="TANGGALLAHIR" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="NMASURANSI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NOASURANSI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TGLTAT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TGLTMT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FRONT_TITLE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BACK_TITLE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TEMPATLAHIR" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="JK" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="STATUS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JMLANAK" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="AGAMA" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GOLDARAH" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TINGGI" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="BERAT" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="KDPEKERJAAN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NPWP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KEWARGANEGARAAN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PHONE" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="BAHASA" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="HAMBATAN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KDETNIS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PENDIDIKAN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TANGGALDAFTAR" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="NOIDUSERDAFTAR" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="M_CUSTOMER_S_PENDAFTARAN_H" Member="S_PENDAFTARAN_Hs" ThisKey="KDCUSTOMER" OtherKey="KDCUSTOMER" Type="S_PENDAFTARAN_H" />
+      <Association Name="M_CUSTOMER_M_CUSTOMER_BPJSRME" Member="M_CUSTOMER_BPJSRME" ThisKey="KDCUSTOMER" OtherKey="KDCUSTOMER" Type="M_CUSTOMER_BPJSRME" Cardinality="One" />
+    </Type>
+  </Table>
+  <Table Name="dbo.S_PENDAFTARAN_H" Member="S_PENDAFTARAN_Hs">
+    <Type Name="S_PENDAFTARAN_H">
+      <Column Name="KDREG" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DATECREATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DATEUPDATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DATE" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KDDOCTOR" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PRIORITAS" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PENDAFTARANVIA" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CATATAN" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="KDDEBTOR" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="JENISASURANSI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KARTUBPJS" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="KDGROUPCUSTOMER" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NIK" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="NAMA_PJ" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="NIK_PJ" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="ASALRUJUKAN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NOMORRUJUKAN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CATEGORY" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NOIDUSER" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="RUJUKAN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KDDEPARTMENT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ADDRESS_STREET" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="PHONE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NAMA_WALI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="HUBUNGAN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ADDRESS_WALI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="PHONE_WALI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DOKTER_RUJUKAN" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DIKIRIM_MELALUI" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="KDDIAGNOSA" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TANGGALMASUK" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="KELASRAWAT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KDMROOM" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="JENISDIET" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="KETERANGANDIET" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="UANGMUKA" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="KETRANAP" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="BERASALDARI" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KETHUBUNGAN" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KDCUSTOMER" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ISDOKUMENRM" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="STATUSDAFTAR" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GRANDTOTAL" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="PAYAMOUNT" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+      <Column Name="ISUPDATEPULANG" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="DATEPULANG" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="USIA" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="WAKTUDOKUMENRM" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ISPROLANIS" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="KDSKDP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KDKELASRAWAT" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NOMORSEP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KDPESERTA" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KDASALRUJUKAN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KDPPK" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DATERUJUKAN" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="ISEKSEKUTIF" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ISKATARAK" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ISCOB" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ISPENJAMINKKL" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ISJASARAHARJA" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ISKETENAGAKERJAAN" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ISASABRI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ISSUPLESI" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ISTASPEN" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="TANGGALKEJADIAN" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="KODEPROV" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KODEKOTA" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KODEKEC" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="KETERANGANKKL" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="REQUEST" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="RESPONSE" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="KDCOB" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="NOSUPLESI" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TYPE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="STATUSBPJS" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ISOFFLINE" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="INFORMASIBPJS" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CETAK" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KONSUL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DOKTERKONSUL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KDREGAWAL" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ISNAIKRANAP" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="NOMORANTRIAN" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ISRESUME" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ANTRIANDOKTER" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ISPERAWAT" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="KDANTRIANNEW" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="KETERANGAN_TINDAKLANJUT" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="TUJUANKUNJUNGAN" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ASSEMENTPEL" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FLAGPROCEDURE" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KDPENUNJANG" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="S_PENDAFTARAN_H_S_PDF_H" Member="S_PDF_Hs" ThisKey="KDREG" OtherKey="KDREG" Type="S_PDF_H" />
+      <Association Name="M_CUSTOMER_S_PENDAFTARAN_H" Member="M_CUSTOMER" ThisKey="KDCUSTOMER" OtherKey="KDCUSTOMER" Type="M_CUSTOMER" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.M_CUSTOMER_BPJSRME" Member="M_CUSTOMER_BPJSRMEs">
+    <Type Name="M_CUSTOMER_BPJSRME">
+      <Column Name="DATECREATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DATEUPDATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KDCUSTOMER" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="REQUEST" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="RESPON" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="ISDEFAULT" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ISACTIVE" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="M_CUSTOMER_M_CUSTOMER_BPJSRME" Member="M_CUSTOMER" ThisKey="KDCUSTOMER" OtherKey="KDCUSTOMER" Type="M_CUSTOMER" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.S_PENDAFTARAN_BPJSRME" Member="S_PENDAFTARAN_BPJSRMEs">
+    <Type Name="S_PENDAFTARAN_BPJSRME">
+      <Column Name="DATECREATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="DATEUPDATED" Type="System.DateTime" DbType="SmallDateTime NOT NULL" CanBeNull="false" />
+      <Column Name="KDREG" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ID1" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="ID2" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="ID3" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="ID4" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="ID5" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="ID6" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="ID7" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="ID8" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="ID9" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="ID10" Type="System.String" DbType="NVarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="REQUEST" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="RESPON" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="CATEGORY" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ISDEFAULT" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="ISACTIVE" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

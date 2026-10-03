@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{7E0DEFC6-24B1-4125-992F-35C474349E1B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>DataAccess</RootNamespace>
+    <AssemblyName>DataAccess</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>DataAccess.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>DataAccess.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v15.1, Version=15.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="itextsharp">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="LZStringVBNet, Version=2.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\LZStringVBNet.2.0.1\lib\net35-client\LZStringVBNet.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admission SIMRS\clsPendafataranPenunjangHariIni.vb" />
+    <Compile Include="Admission SIMRS\clsPendaftaranWaktuIGD.vb" />
+    <Compile Include="Admission\clsApproval_Penjaminan_SEP.vb" />
+    <Compile Include="Admission\clsKoding.vb" />
+    <Compile Include="Admission\clsReqCPPTUpdate.vb" />
+    <Compile Include="Admission\clsPendaftaran_PRB.vb" />
+    <Compile Include="Admission\clsLPK.vb" />
+    <Compile Include="Admission\clsRujukan.vb" />
+    <Compile Include="Admission\clsSKD.vb" />
+    <Compile Include="Admission\clsTracking.vb" />
+    <Compile Include="Antrian\clsSET_PANGGIL_ANTRIAN.vb" />
+    <Compile Include="Antrian\clsSet_Antrian_Simpan.vb" />
+    <Compile Include="Antrian\clsSet_Antrian_Sisa.vb" />
+    <Compile Include="Antrian\clsSet_CounterAntrian.vb" />
+    <Compile Include="Briging\FhirGzipCompressor.vb" />
+    <Compile Include="Briging\SatusehatAuth.vb" />
+    <Compile Include="Data\DataMain.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataMain.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Data\DataMainPendaftaran.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataMainPendaftaran.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Order\clsAlihDPJP.vb" />
+    <Compile Include="Order\clsOrderPenunjang.vb" />
+    <Compile Include="Reference\clsADokumenMaster.vb" />
+    <Compile Include="Reference\clsPendaftaranBPJSRME.vb" />
+    <Compile Include="Reference\clsCustomerBPJSRME.vb" />
+    <Compile Include="Reference\clsDepartmentBPJSRME.vb" />
+    <Compile Include="Reference\clsOrganizationBPJSRME.vb" />
+    <Compile Include="Reference\clsDoctorBPJSRME.vb" />
+    <Compile Include="Reference\clsAgama.vb" />
+    <Compile Include="Reference\EMedrek\clsJenisLaporanTindakan.vb" />
+    <Compile Include="Reference\EMedrek\clsJenisLaporanOperasi.vb" />
+    <Compile Include="Reference\clsMerge.vb" />
+    <Compile Include="Reference\clsPDFTransaksi.vb" />
+    <Compile Include="Setting\clsBPJSKoneksi.vb" />
+    <Compile Include="Setting\clsConnectionAdmision.vb" />
+    <Compile Include="Setting\clsConnectionMain2.vb" />
+    <Compile Include="Template\clsS_DIGITAL_OK_LAPORANOPERASITemplate.vb" />
+    <Compile Include="Template\clsDigital_DischargePlanningTemplate.vb" />
+    <Compile Include="Template\clsTemplateRingkasanKeluar.vb" />
+    <Compile Include="Template\clsCPPTTemplate.vb" />
+    <Compile Include="Inventory\clsMutationBHP.vb" />
+    <Compile Include="Reference\clsItemDiagnosaPerawat.vb" />
+    <Compile Include="Reference\clsReqGrouperTest.vb" />
+    <Compile Include="Reference\clsItem_L9.vb" />
+    <Compile Include="Reference\clsItem_L8.vb" />
+    <Compile Include="Reference\clsTemplateResep.vb" />
+    <Compile Include="Reference\clsCustomerDetil.vb" />
+    <Compile Include="Reference\clsCustomerUnit.vb" />
+    <Compile Include="Reference\clsItemRadiologi.vb" />
+    <Compile Include="Reference\clsItem_L7.vb" />
+    <Compile Include="Reference\clsUnitKasir.vb" />
+    <Compile Include="Reference\clsDoctorLuar.vb" />
+    <Compile Include="Reference\clsSigna.vb" />
+    <Compile Include="Reference\clsUnit.vb" />
+    <Compile Include="Reference\clsPerusahaan.vb" />
+    <Compile Include="Reference\clsProducer.vb" />
+    <Compile Include="Transaksi\clsCekGrouper.vb" />
+    <Compile Include="Transaksi\clsDigital_MedicalChekUp.vb" />
+    <Compile Include="Transaksi\clsDigital_MPPB.vb" />
+    <Compile Include="Transaksi\clsDigital_MPPA.vb" />
+    <Compile Include="Transaksi\clsDigital_AskepRawatJalan.vb" />
+    <Compile Include="Transaksi\clsSuratKeteranganSehat.vb" />
+    <Compile Include="Transaksi\clsSuratKeteranganSakit.vb" />
+    <Compile Include="Transaksi\clsReqRecipeRawatInap.vb" />
+    <Compile Include="Transaksi\clsResepTerima.vb" />
+    <Compile Include="Transaksi\clsCatatanPerawat.vb" />
+    <Compile Include="Transaksi\clsMonitoringEvaluasiGizi.vb" />
+    <Compile Include="Transaksi\clsS_DIGITAL_ASESMENGIZILANJUT.vb" />
+    <Compile Include="Transaksi\clsDigital_RI_20.vb" />
+    <Compile Include="Transaksi\clsLembarObservasi.vb" />
+    <Compile Include="Transaksi\clsDiagnosaPerawat.vb" />
+    <Compile Include="Transaksi\clsDigital_RI_17.vb" />
+    <Compile Include="Transaksi\clsDigital_RI_40.vb" />
+    <Compile Include="Transaksi\clsDigital_RJ_29.vb" />
+    <Compile Include="Transaksi\clsDigital_RJ_31.vb" />
+    <Compile Include="Transaksi\clsDigital_RJ_34.vb" />
+    <Compile Include="Transaksi\clsDigital_RJ_36.vb" />
+    <Compile Include="Transaksi\clsDigital_RI_38.vb" />
+    <Compile Include="Transaksi\clsReqCPPTACCPerawat.vb" />
+    <Compile Include="Transaksi\clsS_DIGITAL_ASKEP_NEONATAL.vb" />
+    <Compile Include="Transaksi\clsS_DIGITAL_LEMBARDISCHARGEPLANNING.vb" />
+    <Compile Include="Transaksi\clsS_DIGITAL_LEMBARMEOWS.vb" />
+    <Compile Include="Transaksi\clsS_DIGITAL_LEMBARNEWS.vb" />
+    <Compile Include="Transaksi\clsS_DIGITAL_LEMBARPEWS.vb" />
+    <Compile Include="Transaksi\clsS_DIGITAL_OK_LAPORANTINDAKAN.vb" />
+    <Compile Include="Transaksi\clsS_DIGITAL_OK_LAPORANOPERASI.vb" />
+    <Compile Include="Transaksi\clsS_DIGITAL_RI_16.vb" />
+    <Compile Include="Transaksi\clsS_DIGITAL_RI_29.vb" />
+    <Compile Include="Transaksi\clsS_DIGITAL_RI_MEDIS_ICU.vb" />
+    <Compile Include="Transaksi\clsTemplateLaporanOperasi.vb" />
+    <Compile Include="Transaksi\clsTransferInternal.vb" />
+    <Compile Include="Transaksi\clsRingkasanKeluarRawatInap.vb" />
+    <Compile Include="Transaksi\clsDigital_DischargePlanning.vb" />
+    <Compile Include="Transaksi\clsRekonsiliasiObat.vb" />
+    <Compile Include="Transaksi\clsCPPT.vb" />
+    <Compile Include="Transaksi\clsDigital_SBAR.vb" />
+    <Compile Include="Transaksi\clsDIGITAL_IGD_01_AWAL.vb" />
+    <Compile Include="Transaksi\clsDigital_IGD_01_GERD.vb" />
+    <Compile Include="Transaksi\clsDigital_IGD_01.vb" />
+    <Compile Include="Transaksi\clsDigital_IGD_02.vb" />
+    <Compile Include="Transaksi\clsDigital_IGD_03.vb" />
+    <Compile Include="Transaksi\clsDigital_HandOver.vb" />
+    <Compile Include="Transaksi\clsReqCPPT.vb" />
+    <Compile Include="Transaksi\clsReqAkhirPemeriksaan.vb" />
+    <Compile Include="Transaksi\clsReqAwalPemeriksaan.vb" />
+    <Compile Include="Transaksi\clsRadiologi.vb" />
+    <Compile Include="Transaksi\clsRequestRecipeTracking.vb" />
+    <Compile Include="Transaksi\clsReq_Recipe.vb" />
+    <Compile Include="Transaksi\clsREQ_BHP.vb" />
+    <Compile Include="Transaksi\clsBillingUnit.vb" />
+    <Compile Include="Transaksi\clsBillingTanpaResep.vb" />
+    <Compile Include="Briging\clsSetKoneksi.vb" />
+    <Compile Include="Data\DataUser.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataUser.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="EClaim\clsKlaim.vb" />
+    <Compile Include="Inventory\clsAdjustment.vb" />
+    <Compile Include="Inventory\clsMutation.vb" />
+    <Compile Include="Inventory\clsOpname.vb" />
+    <Compile Include="Language\Statement.Designer.vb">
+      <DependentUpon>Statement.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Purchasing\clsPurchaseInvoice.vb" />
+    <Compile Include="Purchasing\clsPurchaseOrder.vb" />
+    <Compile Include="Purchasing\clsPurchaseReturn.vb" />
+    <Compile Include="Reference\clsCaraKeluar.vb" />
+    <Compile Include="Reference\clsCOB.vb" />
+    <Compile Include="Reference\clsCaraBayar.vb" />
+    <Compile Include="Reference\clsCaraPakai.vb" />
+    <Compile Include="Reference\clsHubungan.vb" />
+    <Compile Include="Reference\clsDaftar_L1.vb" />
+    <Compile Include="Reference\clsDaftar_L2.vb" />
+    <Compile Include="Reference\clsDaftar_L3.vb" />
+    <Compile Include="Reference\clsDaftar_L4.vb" />
+    <Compile Include="Reference\clsDaftar_L5.vb" />
+    <Compile Include="Reference\clsDaftar_L6.vb" />
+    <Compile Include="Reference\clsItem.vb" />
+    <Compile Include="Reference\clsItemJasa.vb" />
+    <Compile Include="Reference\clsItem_L1.vb" />
+    <Compile Include="Reference\clsItem_L2.vb" />
+    <Compile Include="Reference\clsItem_L3.vb" />
+    <Compile Include="Reference\clsItem_L4.vb" />
+    <Compile Include="Reference\clsItem_L5.vb" />
+    <Compile Include="Reference\clsItem_L6.vb" />
+    <Compile Include="Reference\clsPaymentType.vb" />
+    <Compile Include="Reference\clsRuangRawat.vb" />
+    <Compile Include="Reference\clsDepartment.vb" />
+    <Compile Include="Reference\clsDiagnosa_PRB.vb" />
+    <Compile Include="Reference\clsDiagnosa.vb" />
+    <Compile Include="Reference\clsDoctor.vb" />
+    <Compile Include="Reference\clsKabupaten.vb" />
+    <Compile Include="Reference\clsKecamatan.vb" />
+    <Compile Include="Reference\clsKelasRawat.vb" />
+    <Compile Include="Reference\clsKelurahan.vb" />
+    <Compile Include="Reference\clsPascaPulang.vb" />
+    <Compile Include="Reference\clsPenjamin.vb" />
+    <Compile Include="Reference\clsKodeTarif_Klaim.vb" />
+    <Compile Include="Reference\clsPPK.vb" />
+    <Compile Include="Reference\clsPropinsi.vb" />
+    <Compile Include="Reference\clsProsedur.vb" />
+    <Compile Include="Reference\clsSpesialistik.vb" />
+    <Compile Include="Reference\clsSuku.vb" />
+    <Compile Include="Reference\clsUOM.vb" />
+    <Compile Include="Reference\clsVendor.vb" />
+    <Compile Include="Reference\clsWarehouse.vb" />
+    <Compile Include="Setting\clsConnectionMain.vb" />
+    <Compile Include="Setting\clsCounter.vb" />
+    <Compile Include="Setting\clsDelete.vb" />
+    <Compile Include="Setting\clsUser.vb" />
+    <Compile Include="Setting\clsError.vb" />
+    <Compile Include="Setting\clsGlobals.vb" />
+    <Compile Include="Setting\clsOtority.vb" />
+    <Compile Include="Setting\clsConnectionUser.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Data\DataMain.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataMain.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\DataMainPendaftaran.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataMainPendaftaran.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data\DataUser.dbml.layout">
+      <DependentUpon>DataUser.dbml</DependentUpon>
+    </None>
+    <None Include="Data\DataMainPendaftaran.dbml.layout">
+      <DependentUpon>DataMainPendaftaran.dbml</DependentUpon>
+    </None>
+    <None Include="Data\DataMain.dbml.layout">
+      <DependentUpon>DataMain.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Language\Statement.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Statement.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Data\DataUser.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataUser.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WinHttp">
+      <Guid>{662901FC-6951-4854-9EB2-D9A2570F2B2E}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

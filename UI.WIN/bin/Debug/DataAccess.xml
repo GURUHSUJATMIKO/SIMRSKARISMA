@@ -1,0 +1,187 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DataAccess
+</name>
+</assembly>
+<members>
+<member name="T:DataAccess.My.Resources.Statement">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.BackupFail">
+<summary>
+  Looks up a localized string similar to Backup not success! Please consult your administrator!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.BackupSuccess">
+<summary>
+  Looks up a localized string similar to Backup success!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.CheckDefault">
+<summary>
+  Looks up a localized string similar to There must be a minimum of one listed as default!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.DatabaseInactive">
+<summary>
+  Looks up a localized string similar to Database is not active! Please consult your administrator!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.DeleteFail">
+<summary>
+  Looks up a localized string similar to Delete not success! Please consult your administrator!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.DeleteQuestion">
+<summary>
+  Looks up a localized string similar to Delete this transaction?.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.DeleteSuccess">
+<summary>
+  Looks up a localized string similar to Delete success!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.ErrorDetail">
+<summary>
+  Looks up a localized string similar to Detail required!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.ErrorEqual">
+<summary>
+  Looks up a localized string similar to Debit and credit must equal!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.ErrorPasswordRepeat">
+<summary>
+  Looks up a localized string similar to Repeat same password!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.ErrorRegistered">
+<summary>
+  Looks up a localized string similar to Is already registered!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.ErrorRequired">
+<summary>
+  Looks up a localized string similar to Is required!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.ErrorRequiredRate">
+<summary>
+  Looks up a localized string similar to Minimum 1 unit with rate : 1.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.ErrorStatement">
+<summary>
+  Looks up a localized string similar to Error : .
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.ErrorUOM">
+<summary>
+  Looks up a localized string similar to Unit is not registered on this item, please contact your administrator!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.ErrorUserPassword">
+<summary>
+  Looks up a localized string similar to Username or Password is not correct! Please consult your administrator!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.ExitApplication">
+<summary>
+  Looks up a localized string similar to Are you sure to exit application?.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.ExportData">
+<summary>
+  Looks up a localized string similar to data..
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.ExportDone">
+<summary>
+  Looks up a localized string similar to Saving to database.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.ExportProcessing">
+<summary>
+  Looks up a localized string similar to Processing.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.ExportQuestion">
+<summary>
+  Looks up a localized string similar to Export?.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.ExportSuccess">
+<summary>
+  Looks up a localized string similar to Export Done!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.RestoreFail">
+<summary>
+  Looks up a localized string similar to Restore not success! Please consult your administrator!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.RestoreSuccess">
+<summary>
+  Looks up a localized string similar to Restore success!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.SaveDatabase">
+<summary>
+  Looks up a localized string similar to Save configuration? (Application will be shut down!).
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.SaveFail">
+<summary>
+  Looks up a localized string similar to Save not success! Please consult your administrator!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.SaveQuestion">
+<summary>
+  Looks up a localized string similar to Save this transaction?.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.SaveSuccess">
+<summary>
+  Looks up a localized string similar to Save success!.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Statement.SecurityNotInstalled">
+<summary>
+  Looks up a localized string similar to Security is not installed, please contact your administrator!.
+</summary>
+</member>
+<member name="T:DataAccess.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DataAccess.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>

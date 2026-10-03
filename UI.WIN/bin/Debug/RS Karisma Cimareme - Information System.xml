@@ -1,0 +1,5928 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+RS Karisma Cimareme - Information System
+</name>
+</assembly>
+<members>
+<member name="T:UI.WIN.MAIN.My.Resources.Tracking">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Tracking.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Tracking.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Tracking.TITLE">
+<summary>
+  Looks up a localized string similar to Tracking.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Tracking.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Laporan Tracking.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.ItemRontgen">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.ItemRontgen.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.ItemRontgen.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.ItemRontgen.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.ItemRontgen.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.ItemRontgen.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.ItemRontgen.TITLE">
+<summary>
+  Looks up a localized string similar to Item Rontgen.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Producer">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.BILL_CITY">
+<summary>
+  Looks up a localized string similar to City.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.BILL_COUNTRY">
+<summary>
+  Looks up a localized string similar to Country.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.BILL_STATE">
+<summary>
+  Looks up a localized string similar to State.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.BILL_STREET">
+<summary>
+  Looks up a localized string similar to Street.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.BILL_ZIP">
+<summary>
+  Looks up a localized string similar to Zip Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.EMAIL">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.FAX">
+<summary>
+  Looks up a localized string similar to Fax.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.KDWAREHOUSE">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.MOBILE">
+<summary>
+  Looks up a localized string similar to Mobile.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.NAME_DISPLAY">
+<summary>
+  Looks up a localized string similar to Display Name.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.OTHER">
+<summary>
+  Looks up a localized string similar to Other.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.PHONE">
+<summary>
+  Looks up a localized string similar to Phone.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.TAB_BILL">
+<summary>
+  Looks up a localized string similar to Address Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.TAB_CONTACT">
+<summary>
+  Looks up a localized string similar to Contact Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.TAB_OTHER">
+<summary>
+  Looks up a localized string similar to Other Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.TITLE">
+<summary>
+  Looks up a localized string similar to Producer.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Producer.WEBSITE">
+<summary>
+  Looks up a localized string similar to Website.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Item_L7">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L7.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L7.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L7.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L7.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L7.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Perusahaan">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.BILL_CITY">
+<summary>
+  Looks up a localized string similar to City.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.BILL_COUNTRY">
+<summary>
+  Looks up a localized string similar to Country.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.BILL_STATE">
+<summary>
+  Looks up a localized string similar to State.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.BILL_STREET">
+<summary>
+  Looks up a localized string similar to Street.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.BILL_ZIP">
+<summary>
+  Looks up a localized string similar to Zip Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.EMAIL">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.FAX">
+<summary>
+  Looks up a localized string similar to Fax.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.KDWAREHOUSE">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.MOBILE">
+<summary>
+  Looks up a localized string similar to Mobile.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.NAME_DISPLAY">
+<summary>
+  Looks up a localized string similar to Display Name.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.OTHER">
+<summary>
+  Looks up a localized string similar to Other.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.PHONE">
+<summary>
+  Looks up a localized string similar to Phone.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.TAB_BILL">
+<summary>
+  Looks up a localized string similar to Address Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.TAB_CONTACT">
+<summary>
+  Looks up a localized string similar to Contact Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.TAB_OTHER">
+<summary>
+  Looks up a localized string similar to Other Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.TITLE">
+<summary>
+  Looks up a localized string similar to Company.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Perusahaan.WEBSITE">
+<summary>
+  Looks up a localized string similar to Website.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Radiologi">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Radiologi.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Radiologi.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Radiologi.KDKUNJUNGAN">
+<summary>
+  Looks up a localized string similar to No. Kunjungan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Radiologi.KDPENDAFTARAN">
+<summary>
+  Looks up a localized string similar to No. Pendaftaran.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Radiologi.KDPENJAMIN">
+<summary>
+  Looks up a localized string similar to Penjamin.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Radiologi.TITLE">
+<summary>
+  Looks up a localized string similar to Radiologi Rontgen.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.USG">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.USG.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.USG.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.USG.DESCRIPTION">
+<summary>
+  Looks up a localized string similar to Hasil Pemeriksaan USG.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.USG.GEJALA">
+<summary>
+  Looks up a localized string similar to DK/Gejala.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.USG.KDKUNJUNGAN">
+<summary>
+  Looks up a localized string similar to No. Kunjungan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.USG.KDPENDAFTARAN">
+<summary>
+  Looks up a localized string similar to No. Pendaftaran.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.USG.KDPENJAMIN">
+<summary>
+  Looks up a localized string similar to Penjamin.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.USG.KDTRARIF">
+<summary>
+  Looks up a localized string similar to Pemeriksaan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.USG.NOUSG">
+<summary>
+  Looks up a localized string similar to No. USG.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.USG.TANGGAL">
+<summary>
+  Looks up a localized string similar to Tanggal Input.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.USG.TITLE">
+<summary>
+  Looks up a localized string similar to Radiologi USG.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.BillingUnit">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingUnit.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingUnit.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingUnit.KDBILLING_POLI">
+<summary>
+  Looks up a localized string similar to No. Billing.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingUnit.KDKUNJUNGAN_POLI">
+<summary>
+  Looks up a localized string similar to No. Kunjungan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingUnit.KDPENDAFTARAN">
+<summary>
+  Looks up a localized string similar to No. Pendaftaran.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingUnit.KDUSER">
+<summary>
+  Looks up a localized string similar to User.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingUnit.NAMA">
+<summary>
+  Looks up a localized string similar to Nama Pasien.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingUnit.PENJAMIN">
+<summary>
+  Looks up a localized string similar to Penjamin.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingUnit.REKAMMEDIS">
+<summary>
+  Looks up a localized string similar to No. Rekam Medis.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingUnit.SUDAHBAYAR">
+<summary>
+  Looks up a localized string similar to Sudah Bayar.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingUnit.TANGGAL">
+<summary>
+  Looks up a localized string similar to Tanggal Input.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingUnit.TITLE">
+<summary>
+  Looks up a localized string similar to Billing Unit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingUnit.TUJUAN">
+<summary>
+  Looks up a localized string similar to Tujuan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingUnit.WAREHOUSE">
+<summary>
+  Looks up a localized string similar to Depo.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.CustomerUnit">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.BILL_CITY">
+<summary>
+  Looks up a localized string similar to City.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.BILL_COUNTRY">
+<summary>
+  Looks up a localized string similar to Country.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.BILL_STATE">
+<summary>
+  Looks up a localized string similar to State.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.BILL_STREET">
+<summary>
+  Looks up a localized string similar to Street.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.BILL_ZIP">
+<summary>
+  Looks up a localized string similar to Zip Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.DUE">
+<summary>
+  Looks up a localized string similar to Due.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.EMAIL">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.FAX">
+<summary>
+  Looks up a localized string similar to Fax.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.KDCOA">
+<summary>
+  Looks up a localized string similar to Account.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.KDCUSTOMER">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.LIMIT">
+<summary>
+  Looks up a localized string similar to Credit Limit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.MOBILE">
+<summary>
+  Looks up a localized string similar to Mobile.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.NAME_DISPLAY">
+<summary>
+  Looks up a localized string similar to Display Name.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.OTHER">
+<summary>
+  Looks up a localized string similar to Other.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.PHONE">
+<summary>
+  Looks up a localized string similar to Phone.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.TAB_ACCOUNT">
+<summary>
+  Looks up a localized string similar to Account Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.TAB_BILL">
+<summary>
+  Looks up a localized string similar to Address Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.TAB_CONTACT">
+<summary>
+  Looks up a localized string similar to Contact Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.TAB_OTHER">
+<summary>
+  Looks up a localized string similar to Other Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.TITLE">
+<summary>
+  Looks up a localized string similar to Customer.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CustomerUnit.WEBSITE">
+<summary>
+  Looks up a localized string similar to Website.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.MutationBHP">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.MutationBHP.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.MutationBHP.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.MutationBHP.DETAIL_KDITEM">
+<summary>
+  Looks up a localized string similar to Item.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.MutationBHP.DETAIL_KDUOM">
+<summary>
+  Looks up a localized string similar to Unit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.MutationBHP.DETAIL_QTY">
+<summary>
+  Looks up a localized string similar to Qty.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.MutationBHP.DETAIL_REMARKS">
+<summary>
+  Looks up a localized string similar to Remarks.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.MutationBHP.KDMUTATION">
+<summary>
+  Looks up a localized string similar to Number.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.MutationBHP.KDUNIT">
+<summary>
+  Looks up a localized string similar to Ke Unit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.MutationBHP.KDWAREHOUSE">
+<summary>
+  Looks up a localized string similar to From Warehouse.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.MutationBHP.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.MutationBHP.TAB_DETAIL">
+<summary>
+  Looks up a localized string similar to Detail Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.MutationBHP.TAB_MEMO">
+<summary>
+  Looks up a localized string similar to Memo Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.MutationBHP.TANGGAL">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.MutationBHP.TITLE">
+<summary>
+  Looks up a localized string similar to Mutation BHP.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.MutationBHP.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Report Mutation BHP.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.DoctorLuar">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.BILL_CITY">
+<summary>
+  Looks up a localized string similar to City.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.BILL_COUNTRY">
+<summary>
+  Looks up a localized string similar to Country.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.BILL_STATE">
+<summary>
+  Looks up a localized string similar to State.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.BILL_STREET">
+<summary>
+  Looks up a localized string similar to Street.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.BILL_ZIP">
+<summary>
+  Looks up a localized string similar to Zip Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.DATESIP">
+<summary>
+  Looks up a localized string similar to Date SIP.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.EMAIL">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.FAX">
+<summary>
+  Looks up a localized string similar to Fax.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.JENISPELAYANAN">
+<summary>
+  Looks up a localized string similar to Type of Service.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.KDDEPARTMENT">
+<summary>
+  Looks up a localized string similar to Kode Spesialis/Subspesialis.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.KDDOCTOR">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.KDSPESIALISTIK">
+<summary>
+  Looks up a localized string similar to Spesialistik.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.MOBILE">
+<summary>
+  Looks up a localized string similar to Mobile.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.NAME_DISPLAY">
+<summary>
+  Looks up a localized string similar to Display Name.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.OTHER">
+<summary>
+  Looks up a localized string similar to Other.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.PHONE">
+<summary>
+  Looks up a localized string similar to Phone.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.SIP">
+<summary>
+  Looks up a localized string similar to Nomor SIP.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.SUBSPESIALIS">
+<summary>
+  Looks up a localized string similar to Subspesialis.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.TAB_BILL">
+<summary>
+  Looks up a localized string similar to Address Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.TAB_CONTACT">
+<summary>
+  Looks up a localized string similar to Contact Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.TAB_OTHER">
+<summary>
+  Looks up a localized string similar to Other Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.TITLE">
+<summary>
+  Looks up a localized string similar to Doctor Luar.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.DoctorLuar.WEBSITE">
+<summary>
+  Looks up a localized string similar to Website.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.UnitKasir">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.UnitKasir.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.UnitKasir.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.UnitKasir.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.UnitKasir.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.UnitKasir.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.UnitKasir.TITLE">
+<summary>
+  Looks up a localized string similar to Unit Kasir.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Unit">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Unit.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Unit.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Unit.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Unit.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Unit.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Unit.TITLE">
+<summary>
+  Looks up a localized string similar to Unit.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Signa">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Signa.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Signa.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Signa.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Signa.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Signa.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Signa.SIGNA_1">
+<summary>
+  Looks up a localized string similar to Signa 1.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Signa.SIGNA_2">
+<summary>
+  Looks up a localized string similar to Signa 2.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Signa.TITLE">
+<summary>
+  Looks up a localized string similar to Signa.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.BillingTanpaResep">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingTanpaResep.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingTanpaResep.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingTanpaResep.KDBILLING_POLI">
+<summary>
+  Looks up a localized string similar to No. Billing.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingTanpaResep.KDKUNJUNGAN_POLI">
+<summary>
+  Looks up a localized string similar to No. Kunjungan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingTanpaResep.KDPENDAFTARAN">
+<summary>
+  Looks up a localized string similar to No. Pendaftaran.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingTanpaResep.KDUSER">
+<summary>
+  Looks up a localized string similar to User.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingTanpaResep.NAMA">
+<summary>
+  Looks up a localized string similar to Nama Pasien.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingTanpaResep.PENJAMIN">
+<summary>
+  Looks up a localized string similar to Penjamin.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingTanpaResep.REKAMMEDIS">
+<summary>
+  Looks up a localized string similar to No. Rekam Medis.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingTanpaResep.SUDAHBAYAR">
+<summary>
+  Looks up a localized string similar to Sudah Bayar.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingTanpaResep.TANGGAL">
+<summary>
+  Looks up a localized string similar to Tanggal Input.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingTanpaResep.TITLE">
+<summary>
+  Looks up a localized string similar to Billing Resep Luar.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingTanpaResep.TUJUAN">
+<summary>
+  Looks up a localized string similar to Tujuan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.BillingTanpaResep.WAREHOUSE">
+<summary>
+  Looks up a localized string similar to Depo.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Billing">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Billing.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Billing.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Billing.KDBILLING_POLI">
+<summary>
+  Looks up a localized string similar to No. Billing.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Billing.KDKUNJUNGAN_POLI">
+<summary>
+  Looks up a localized string similar to No. Kunjungan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Billing.KDPENDAFTARAN">
+<summary>
+  Looks up a localized string similar to No. Pendaftaran.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Billing.KDUSER">
+<summary>
+  Looks up a localized string similar to User.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Billing.NAMA">
+<summary>
+  Looks up a localized string similar to Nama Pasien.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Billing.PENJAMIN">
+<summary>
+  Looks up a localized string similar to Penjamin.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Billing.REKAMMEDIS">
+<summary>
+  Looks up a localized string similar to No. Rekam Medis.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Billing.SUDAHBAYAR">
+<summary>
+  Looks up a localized string similar to Sudah Bayar.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Billing.TANGGAL">
+<summary>
+  Looks up a localized string similar to Tanggal Input.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Billing.TITLE">
+<summary>
+  Looks up a localized string similar to Billing.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Billing.TUJUAN">
+<summary>
+  Looks up a localized string similar to Tujuan.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganRuangan">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganRuangan.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganRuangan.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganRuangan.DATE_KELUAR">
+<summary>
+  Looks up a localized string similar to Date Out.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganRuangan.DATE_MASUK">
+<summary>
+  Looks up a localized string similar to Date In.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganRuangan.ISCHEKED">
+<summary>
+  Looks up a localized string similar to Is Cheked.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganRuangan.KDKUNJUNGAN_POLI">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganRuangan.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganRuangan.TITLE">
+<summary>
+  Looks up a localized string similar to Room Visit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganRuangan.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Report Room Visit.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Prosedur_H">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Prosedur_H.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Prosedur_H.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Prosedur_H.KDPENDAFTARAN">
+<summary>
+  Looks up a localized string similar to No. Registration.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Prosedur_H.KDPROSEDUR_H">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Prosedur_H.TAB_DETAIL">
+<summary>
+  Looks up a localized string similar to Procedure Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Prosedur_H.TAB_MEMO">
+<summary>
+  Looks up a localized string similar to Informasi Catatan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Prosedur_H.TANGGAL">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Prosedur_H.TITLE">
+<summary>
+  Looks up a localized string similar to Procedure (ICD IX).
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Diagnosa_H">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa_H.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa_H.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa_H.KDDIAGNOSA_H">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa_H.KDPENDAFTARAN">
+<summary>
+  Looks up a localized string similar to No. Registration.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa_H.TAB_DETAIL">
+<summary>
+  Looks up a localized string similar to Diagnosa Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa_H.TAB_MEMO">
+<summary>
+  Looks up a localized string similar to Informasi Catatan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa_H.TANGGAL">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa_H.TITLE">
+<summary>
+  Looks up a localized string similar to Diagnosa (ICD X).
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Rujukan">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Rujukan.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Rujukan.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Rujukan.CATATAN">
+<summary>
+  Looks up a localized string similar to Note.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Rujukan.KDDEPARTMENT">
+<summary>
+  Looks up a localized string similar to Poly Referral.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Rujukan.KDDIAGNOSA">
+<summary>
+  Looks up a localized string similar to Diagnosa.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Rujukan.KDPENDAFTARAN">
+<summary>
+  Looks up a localized string similar to Registration Number.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Rujukan.KDPPK">
+<summary>
+  Looks up a localized string similar to Faskes on Referrals.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Rujukan.KDRUJUKAN">
+<summary>
+  Looks up a localized string similar to Reference Number.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Rujukan.NOMORSEP">
+<summary>
+  Looks up a localized string similar to SEP Number.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Rujukan.TANGGAL">
+<summary>
+  Looks up a localized string similar to Reference Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Rujukan.TIPERUJUKAN">
+<summary>
+  Looks up a localized string similar to Reference Type.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Rujukan.TITLE">
+<summary>
+  Looks up a localized string similar to Surat Kontrol Dokter.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Rujukan.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Laporan Surat Kontrol Dokter.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.LPK">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.DATE_KELUAR">
+<summary>
+  Looks up a localized string similar to Exit Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.DATE_KONTROL">
+<summary>
+  Looks up a localized string similar to Control Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.DATE_MASUK">
+<summary>
+  Looks up a localized string similar to Entry Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.JAMINAN">
+<summary>
+  Looks up a localized string similar to Guarantee.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.KDCARAKELUAR">
+<summary>
+  Looks up a localized string similar to How to Exit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.KDDEPARTMENT">
+<summary>
+  Looks up a localized string similar to Poly/Room.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.KDDEPARTMENT_KONTROL">
+<summary>
+  Looks up a localized string similar to Checks field.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.KDDOCTOR">
+<summary>
+  Looks up a localized string similar to DPJP Doctor.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.KDKELASRAWAT">
+<summary>
+  Looks up a localized string similar to Rawat Class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.KDLPK">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.KDPASCAPULANG">
+<summary>
+  Looks up a localized string similar to Home Conditions.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.KDPENDAFTARAN">
+<summary>
+  Looks up a localized string similar to No. Registration.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.KDPPK">
+<summary>
+  Looks up a localized string similar to Referred To.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.KDRUANGRAWAT">
+<summary>
+  Looks up a localized string similar to Ruang Rawat.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.KDSPESIALISTIK">
+<summary>
+  Looks up a localized string similar to Specialist.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.NOMORSEP">
+<summary>
+  Looks up a localized string similar to No. SEP.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.TINDAKLANJUT">
+<summary>
+  Looks up a localized string similar to Follow-up.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.TITLE">
+<summary>
+  Looks up a localized string similar to Claim Submission Sheet.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.LPK.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Claim Submission Sheet Report.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Approval_Penjaminan_SEP">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Approval_Penjaminan_SEP.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Approval_Penjaminan_SEP.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Approval_Penjaminan_SEP.CATEGORY">
+<summary>
+  Looks up a localized string similar to Category.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Approval_Penjaminan_SEP.DESCRIPTION">
+<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Approval_Penjaminan_SEP.JENISPENGAJUAN">
+<summary>
+  Looks up a localized string similar to Submission Type.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Approval_Penjaminan_SEP.JENISRAWAT">
+<summary>
+  Looks up a localized string similar to Type of care.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Approval_Penjaminan_SEP.KDAPPROVAL">
+<summary>
+  Looks up a localized string similar to Number.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Approval_Penjaminan_SEP.KDCUSTOMER">
+<summary>
+  Looks up a localized string similar to Patient.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Approval_Penjaminan_SEP.TANGGAL">
+<summary>
+  Looks up a localized string similar to Date SEP.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Approval_Penjaminan_SEP.TITLE">
+<summary>
+  Looks up a localized string similar to The Approval of SEP guarantee.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Approval_Penjaminan_SEP.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Report The Approval of SEP guarantee.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganPoli">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganPoli.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganPoli.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganPoli.DATE_KELUAR">
+<summary>
+  Looks up a localized string similar to Date Out.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganPoli.DATE_MASUK">
+<summary>
+  Looks up a localized string similar to Date In.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganPoli.ISCHEKED">
+<summary>
+  Looks up a localized string similar to Is Cheked.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganPoli.KDKUNJUNGAN_POLI">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganPoli.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganPoli.TITLE">
+<summary>
+  Looks up a localized string similar to Poli Visit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_KunjunganPoli.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Report Poli Visit.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Pendaftaran_PRB">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_PRB.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_PRB.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_PRB.DETAIL_JUMLAH">
+<summary>
+  Looks up a localized string similar to Qty.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_PRB.DETAIL_KDOBAT">
+<summary>
+  Looks up a localized string similar to Drug Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_PRB.DETAIL_NAMAOBAT">
+<summary>
+  Looks up a localized string similar to Name of the Drug.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_PRB.DETAIL_SIGNA1">
+<summary>
+  Looks up a localized string similar to Signa 1.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_PRB.DETAIL_SIGNA2">
+<summary>
+  Looks up a localized string similar to Signa 2.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_PRB.EMAIL">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_PRB.KDDIAGNOSA_PRB">
+<summary>
+  Looks up a localized string similar to Program PRB.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_PRB.KDDOCTOR">
+<summary>
+  Looks up a localized string similar to DPJP.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_PRB.KDPRB">
+<summary>
+  Looks up a localized string similar to No SRB.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_PRB.KETERANGAN">
+<summary>
+  Looks up a localized string similar to Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_PRB.SARAN">
+<summary>
+  Looks up a localized string similar to Suggestion.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_PRB.TITLE">
+<summary>
+  Looks up a localized string similar to Re-Manufacturing (PRB).
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran_PRB.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Report On The Manufacture referendum (PRB).
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Update_Tanggal_Pulang">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Update_Tanggal_Pulang.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Update_Tanggal_Pulang.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Update_Tanggal_Pulang.CARAPULANG">
+<summary>
+  Looks up a localized string similar to How To Go Home.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Update_Tanggal_Pulang.DATE_MENINGGAL">
+<summary>
+  Looks up a localized string similar to Tanggal Meninggal.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Update_Tanggal_Pulang.KDPENDAFTARAN">
+<summary>
+  Looks up a localized string similar to No. Pendaftaran.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Update_Tanggal_Pulang.KDUPDATE_TANGGAL_PULANG">
+<summary>
+  Looks up a localized string similar to Number.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Update_Tanggal_Pulang.NOLPMANUAL">
+<summary>
+  Looks up a localized string similar to No LP Manual.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Update_Tanggal_Pulang.NOMORSEP">
+<summary>
+  Looks up a localized string similar to Number SEP.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Update_Tanggal_Pulang.NOSURATMENINGGAL">
+<summary>
+  Looks up a localized string similar to No Surat Meninggal.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Update_Tanggal_Pulang.TANGGAL">
+<summary>
+  Looks up a localized string similar to Return date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Update_Tanggal_Pulang.TITLE">
+<summary>
+  Looks up a localized string similar to Pasien Pulang.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Update_Tanggal_Pulang.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Pasien Pulang Report.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.SKD">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SKD.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SKD.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SKD.ALASAN">
+<summary>
+  Looks up a localized string similar to Alasan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SKD.DESCRIPTION">
+<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SKD.ISCATEGORY">
+<summary>
+  Looks up a localized string similar to Category.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SKD.ISCHEKED">
+<summary>
+  Looks up a localized string similar to Chek.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SKD.KDDEPARTMENT">
+<summary>
+  Looks up a localized string similar to Tujuan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SKD.KDDOCTOR">
+<summary>
+  Looks up a localized string similar to DPJP Pemberi Surat SKDP/SPRI.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SKD.KDPENDAFTARAN">
+<summary>
+  Looks up a localized string similar to No Registration.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SKD.KDSKD">
+<summary>
+  Looks up a localized string similar to Kode.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SKD.NOMORRUJUKAN">
+<summary>
+  Looks up a localized string similar to Nomor Rujukan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SKD.TANGGAL">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SKD.TANGGAL_KONTROL">
+<summary>
+  Looks up a localized string similar to Date Kunjungan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SKD.TINDAKLANJUT">
+<summary>
+  Looks up a localized string similar to Tindak Lanjut.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SKD.TITLE">
+<summary>
+  Looks up a localized string similar to Rencana Surat Kontrol / SPRI.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SKD.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Laporan Rencana Surat Kontrol / SPRI.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Pendaftaran">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.ASALRUJUKAN">
+<summary>
+  Looks up a localized string similar to Reference Origin.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.ASESMENTPEL">
+<summary>
+  Looks up a localized string similar to Service Assessment.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.CATATAN">
+<summary>
+  Looks up a localized string similar to Note.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.CATEGORY">
+<summary>
+  Looks up a localized string similar to Kind of service.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.DATE_RUJUKAN">
+<summary>
+  Looks up a localized string similar to Date of reference.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.FLAGPROCEDURE">
+<summary>
+  Looks up a localized string similar to Procedure Flags.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.ISCOB">
+<summary>
+  Looks up a localized string similar to COB?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.JAMINAN_ISLAKLANTAS">
+<summary>
+  Looks up a localized string similar to Penjamin KLL?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.JAMINAN_PENJAMIN_KETERANGAN">
+<summary>
+  Looks up a localized string similar to Keterangan KLL.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.JAMINAN_PENJAMIN_PENJAMIN1">
+<summary>
+  Looks up a localized string similar to Jasa raharja PT.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.JAMINAN_PENJAMIN_PENJAMIN2">
+<summary>
+  Looks up a localized string similar to BPJS Ketenagakerjaan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.JAMINAN_PENJAMIN_PENJAMIN3">
+<summary>
+  Looks up a localized string similar to TASPEN PT.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.JAMINAN_PENJAMIN_PENJAMIN4">
+<summary>
+  Looks up a localized string similar to ASABRI PT.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.JAMINAN_PENJAMIN_SUPLESI_ISSUPLESI">
+<summary>
+  Looks up a localized string similar to Suplesi?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.JAMINAN_PENJAMIN_SUPLESI_LOKASILAKA_KABUPATEN">
+<summary>
+  Looks up a localized string similar to Districts.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.JAMINAN_PENJAMIN_SUPLESI_LOKASILAKA_KDPROPINSI">
+<summary>
+  Looks up a localized string similar to Province.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.JAMINAN_PENJAMIN_SUPLESI_LOKASILAKA_KECAMATAN">
+<summary>
+  Looks up a localized string similar to Sub-district.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.JAMINAN_PENJAMIN_SUPLESI_NOSEPSUPLESI">
+<summary>
+  Looks up a localized string similar to No SEP Suplesi.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.JAMINAN_PENJAMIN_TGLKEJADIAN">
+<summary>
+  Looks up a localized string similar to Date of Occurrence.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KARTUBPJS">
+<summary>
+  Looks up a localized string similar to No. BPJS Card / Asuransi.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDCUSTOMER">
+<summary>
+  Looks up a localized string similar to No. Medical Record.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDCUSTOMER_ALAMAT">
+<summary>
+  Looks up a localized string similar to Address.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDCUSTOMER_NAMAPASIEN">
+<summary>
+  Looks up a localized string similar to Patient.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDDEPARTMENT">
+<summary>
+  Looks up a localized string similar to Poli.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDDIAGNOSA">
+<summary>
+  Looks up a localized string similar to Diagnosis.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDDOCTOR">
+<summary>
+  Looks up a localized string similar to Unit Medis.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDDOCTOR_PELAYANAN">
+<summary>
+  Looks up a localized string similar to DPJP Services.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDKELASRAWAT">
+<summary>
+  Looks up a localized string similar to Kelas Rawat.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDKELASRAWAT_NAIKKELAS">
+<summary>
+  Looks up a localized string similar to Kelas Pelayanan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDPENDAFTARAN">
+<summary>
+  Looks up a localized string similar to Registration Number.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDPENDAFTARAN_AWAL">
+<summary>
+  Looks up a localized string similar to Initial Registration Number.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDPENJAMIN">
+<summary>
+  Looks up a localized string similar to Guarantor.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDPENUNJANG">
+<summary>
+  Looks up a localized string similar to Support Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDPERUSAHAAN">
+<summary>
+  Looks up a localized string similar to Company.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDPPK">
+<summary>
+  Looks up a localized string similar to Faskes.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDSTATUSKECELAKAAN">
+<summary>
+  Looks up a localized string similar to Accident Status.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.KDUPDATE_APLICARE">
+<summary>
+  Looks up a localized string similar to Availability of Beds.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.NOMORRUJUKAN">
+<summary>
+  Looks up a localized string similar to No. Reference.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.NOMORSEP">
+<summary>
+  Looks up a localized string similar to No. SEP.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.NOMORSKDP">
+<summary>
+  Looks up a localized string similar to No. SPRJ/SPRI.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.NOMORTELEPON">
+<summary>
+  Looks up a localized string similar to No. Phone.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.PEMBIAYAAN">
+<summary>
+  Looks up a localized string similar to Financing.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.PENANGGUNGJAWAB">
+<summary>
+  Looks up a localized string similar to Person Responsible.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.STATUSDAFTAR">
+<summary>
+  Looks up a localized string similar to Status List.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.TAB_1">
+<summary>
+  Looks up a localized string similar to Infromasi Kunjungan Pasien.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.TAB_2">
+<summary>
+  Looks up a localized string similar to Infromasi Pasien.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.TAB_3">
+<summary>
+  Looks up a localized string similar to Potensi Suplesi Jasa Raharja.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.TANGGAL">
+<summary>
+  Looks up a localized string similar to Date of Arrival.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.TITLE">
+<summary>
+  Looks up a localized string similar to Registration.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Registration Report.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Pendaftaran.TUJUANKUNJUNGAN">
+<summary>
+  Looks up a localized string similar to Purpose of Visit.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Opname">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Opname.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Opname.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Opname.DETAIL_KDITEM">
+<summary>
+  Looks up a localized string similar to Item.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Opname.DETAIL_KDUOM">
+<summary>
+  Looks up a localized string similar to Unit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Opname.DETAIL_QTY">
+<summary>
+  Looks up a localized string similar to Qty.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Opname.DETAIL_QTY_FISIK">
+<summary>
+  Looks up a localized string similar to Qty Fisik.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Opname.DETAIL_QTY_KOMPUTER">
+<summary>
+  Looks up a localized string similar to Qty Komputer.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Opname.DETAIL_REMARKS">
+<summary>
+  Looks up a localized string similar to Remarks.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Opname.KDOPNAME">
+<summary>
+  Looks up a localized string similar to Number.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Opname.KDWAREHOUSE">
+<summary>
+  Looks up a localized string similar to Warehouse.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Opname.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Opname.TAB_DETAIL">
+<summary>
+  Looks up a localized string similar to Detail Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Opname.TAB_MEMO">
+<summary>
+  Looks up a localized string similar to Memo Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Opname.TANGGAL">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Opname.TITLE">
+<summary>
+  Looks up a localized string similar to Opname.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Opname.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Report Opname.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.CashIn">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.ADMIN">
+<summary>
+  Looks up a localized string similar to Admin.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.CHARGE_PERSEN">
+<summary>
+  Looks up a localized string similar to Charge.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.DEPOSIT">
+<summary>
+  Looks up a localized string similar to Deposit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.DISCOUNT_PERSEN">
+<summary>
+  Looks up a localized string similar to Discount.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.GRANDTOTAL">
+<summary>
+  Looks up a localized string similar to Grand Total.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.KDCASHIN">
+<summary>
+  Looks up a localized string similar to No. Invoice.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.KDKUNJUNGAN">
+<summary>
+  Looks up a localized string similar to No. Kunjungan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.KDPAYMENTYPE">
+<summary>
+  Looks up a localized string similar to Tipe Pembayaran.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.KDPENDAFTARAN">
+<summary>
+  Looks up a localized string similar to No. Pendaftaran.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.KDPENJAMIN">
+<summary>
+  Looks up a localized string similar to Penjamin.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.MEMO">
+<summary>
+  Looks up a localized string similar to Catatan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.REKAMMEDIS">
+<summary>
+  Looks up a localized string similar to Rekam Medis.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.ROUND">
+<summary>
+  Looks up a localized string similar to Pembulatan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.SUBTOTAL">
+<summary>
+  Looks up a localized string similar to Sub Total.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.TANGGAL">
+<summary>
+  Looks up a localized string similar to Tanggal Input.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CashIn.TITLE">
+<summary>
+  Looks up a localized string similar to Kasir.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Adjustment">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Adjustment.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Adjustment.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Adjustment.DETAIL_KDITEM">
+<summary>
+  Looks up a localized string similar to Item.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Adjustment.DETAIL_KDUOM">
+<summary>
+  Looks up a localized string similar to Unit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Adjustment.DETAIL_QTY">
+<summary>
+  Looks up a localized string similar to Qty.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Adjustment.DETAIL_REMARKS">
+<summary>
+  Looks up a localized string similar to Remarks.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Adjustment.KDADJUSTMENT">
+<summary>
+  Looks up a localized string similar to Number.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Adjustment.KDWAREHOUSE">
+<summary>
+  Looks up a localized string similar to Warehouse.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Adjustment.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Adjustment.TAB_DETAIL">
+<summary>
+  Looks up a localized string similar to Detail Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Adjustment.TAB_MEMO">
+<summary>
+  Looks up a localized string similar to Memo Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Adjustment.TANGGAL">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Adjustment.TITLE">
+<summary>
+  Looks up a localized string similar to Adjusment.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Adjustment.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Report Adjusment.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Mutation">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Mutation.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Mutation.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Mutation.DETAIL_KDITEM">
+<summary>
+  Looks up a localized string similar to Item.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Mutation.DETAIL_KDUOM">
+<summary>
+  Looks up a localized string similar to Unit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Mutation.DETAIL_QTY">
+<summary>
+  Looks up a localized string similar to Qty.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Mutation.DETAIL_REMARKS">
+<summary>
+  Looks up a localized string similar to Remarks.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Mutation.KDMUTATION">
+<summary>
+  Looks up a localized string similar to Number.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Mutation.KDWAREHOUSEFROM">
+<summary>
+  Looks up a localized string similar to From Warehouse.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Mutation.KDWAREHOUSETO">
+<summary>
+  Looks up a localized string similar to To Warehouse.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Mutation.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Mutation.TAB_DETAIL">
+<summary>
+  Looks up a localized string similar to Detail Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Mutation.TAB_MEMO">
+<summary>
+  Looks up a localized string similar to Memo Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Mutation.TANGGAL">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Mutation.TITLE">
+<summary>
+  Looks up a localized string similar to Mutation.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Mutation.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Report Mutation.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Klaim">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Klaim.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Klaim.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Klaim.TITLE">
+<summary>
+  Looks up a localized string similar to Claim.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.PurchaseInvoice">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.DATEDUE">
+<summary>
+  Looks up a localized string similar to Due Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.DETAIL_DISCOUNT">
+<summary>
+  Looks up a localized string similar to Discount.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.DETAIL_GRANDTOTAL">
+<summary>
+  Looks up a localized string similar to Grand Total.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.DETAIL_KDITEM">
+<summary>
+  Looks up a localized string similar to Item.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.DETAIL_KDUOM">
+<summary>
+  Looks up a localized string similar to Unit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.DETAIL_PRICE">
+<summary>
+  Looks up a localized string similar to Price.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.DETAIL_QTY">
+<summary>
+  Looks up a localized string similar to Qty.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.DETAIL_REMARKS">
+<summary>
+  Looks up a localized string similar to Remarks.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.DETAIL_SUBTOTAL">
+<summary>
+  Looks up a localized string similar to Sub Total.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.DISCOUNT">
+<summary>
+  Looks up a localized string similar to Discount.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.GRANDTOTAL">
+<summary>
+  Looks up a localized string similar to Grand Total.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.KDPI">
+<summary>
+  Looks up a localized string similar to Number.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.KDVENDOR">
+<summary>
+  Looks up a localized string similar to Vendor.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.KDWAREHOUSE">
+<summary>
+  Looks up a localized string similar to Warehouse.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.PAYAMOUNT">
+<summary>
+  Looks up a localized string similar to Pay Amount.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.SUBTOTAL">
+<summary>
+  Looks up a localized string similar to Sub Total.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.TAB_DETAIL">
+<summary>
+  Looks up a localized string similar to Detail Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.TAB_MEMO">
+<summary>
+  Looks up a localized string similar to Memo Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.TANGGAL">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.TAX">
+<summary>
+  Looks up a localized string similar to Tax.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.TITLE">
+<summary>
+  Looks up a localized string similar to Purchase Invoice.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseInvoice.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Report Purchase Invoice.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.PurchaseOrder">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseOrder.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseOrder.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseOrder.DETAIL_KDITEM">
+<summary>
+  Looks up a localized string similar to Item.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseOrder.DETAIL_KDUOM">
+<summary>
+  Looks up a localized string similar to Unit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseOrder.DETAIL_QTY">
+<summary>
+  Looks up a localized string similar to Qty.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseOrder.DETAIL_REMARKS">
+<summary>
+  Looks up a localized string similar to Remarks.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseOrder.KDPO">
+<summary>
+  Looks up a localized string similar to Number.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseOrder.KDVENDOR">
+<summary>
+  Looks up a localized string similar to Vendor.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseOrder.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseOrder.TAB_DETAIL">
+<summary>
+  Looks up a localized string similar to Detail Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseOrder.TAB_MEMO">
+<summary>
+  Looks up a localized string similar to Memo Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseOrder.TANGGAL">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseOrder.TITLE">
+<summary>
+  Looks up a localized string similar to Purchase Order.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseOrder.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Report Purchase Order.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.PurchaseReturn">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.DETAIL_DISCOUNT">
+<summary>
+  Looks up a localized string similar to Discount.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.DETAIL_GRANDTOTAL">
+<summary>
+  Looks up a localized string similar to Grand Total.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.DETAIL_KDITEM">
+<summary>
+  Looks up a localized string similar to Item.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.DETAIL_KDUOM">
+<summary>
+  Looks up a localized string similar to Unit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.DETAIL_PRICE">
+<summary>
+  Looks up a localized string similar to Price.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.DETAIL_QTY">
+<summary>
+  Looks up a localized string similar to Qty.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.DETAIL_REMARKS">
+<summary>
+  Looks up a localized string similar to Remarks.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.DETAIL_SUBTOTAL">
+<summary>
+  Looks up a localized string similar to Sub Total.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.DISCOUNT">
+<summary>
+  Looks up a localized string similar to Discount.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.GRANDTOTAL">
+<summary>
+  Looks up a localized string similar to Grand Total.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.KDPR">
+<summary>
+  Looks up a localized string similar to Number.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.KDVENDOR">
+<summary>
+  Looks up a localized string similar to Vendor.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.KDWAREHOUSE">
+<summary>
+  Looks up a localized string similar to Warehouse.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.PAYAMOUNT">
+<summary>
+  Looks up a localized string similar to Pay Amount.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.SUBTOTAL">
+<summary>
+  Looks up a localized string similar to Sub Total.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.TAB_DETAIL">
+<summary>
+  Looks up a localized string similar to Detail Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.TAB_MEMO">
+<summary>
+  Looks up a localized string similar to Memo Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.TANGGAL">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.TAX">
+<summary>
+  Looks up a localized string similar to Tax.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.TITLE">
+<summary>
+  Looks up a localized string similar to Purchase Return.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PurchaseReturn.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Report Purchase Return.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.CaraBayar">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraBayar.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraBayar.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraBayar.CODE">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraBayar.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraBayar.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraBayar.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraBayar.TITLE">
+<summary>
+  Looks up a localized string similar to Cara Bayar.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.CaraPakai">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraPakai.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraPakai.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraPakai.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraPakai.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraPakai.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraPakai.TITLE">
+<summary>
+  Looks up a localized string similar to Cara Pakai.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Hubungan">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Hubungan.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Hubungan.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Hubungan.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Hubungan.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Hubungan.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Hubungan.TITLE">
+<summary>
+  Looks up a localized string similar to Hubungan.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Item">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.AMOUNT">
+<summary>
+  Looks up a localized string similar to Amount.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.AMOUNT_SAE">
+<summary>
+  Looks up a localized string similar to Amount Sae.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.ATTACHMENT">
+<summary>
+  Looks up a localized string similar to Attachment.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.CARD_DATE">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.CARD_HPPAVERAGE">
+<summary>
+  Looks up a localized string similar to Price Average.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.CARD_HPPIN">
+<summary>
+  Looks up a localized string similar to Price In.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.CARD_HPPOUT">
+<summary>
+  Looks up a localized string similar to Price Out.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.CARD_NOREFERENCE">
+<summary>
+  Looks up a localized string similar to Reference.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.CARD_QTYAVERAGE">
+<summary>
+  Looks up a localized string similar to Qty Average.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.CARD_QTYIN">
+<summary>
+  Looks up a localized string similar to Qty In.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.CARD_QTYOUT">
+<summary>
+  Looks up a localized string similar to Qty Out.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.CARD_TOTALAVERAGE">
+<summary>
+  Looks up a localized string similar to Total Average.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.CARD_TOTALIN">
+<summary>
+  Looks up a localized string similar to Total In.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.CARD_TOTALOUT">
+<summary>
+  Looks up a localized string similar to Total Out.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.DETAILUOM_KDUOM">
+<summary>
+  Looks up a localized string similar to Unit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.DETAILUOM_MARGIN">
+<summary>
+  Looks up a localized string similar to Margin (%).
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.DETAILUOM_PRICEPURCHASESTANDARD">
+<summary>
+  Looks up a localized string similar to Purchase Price.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.DETAILUOM_PRICESALESSTANDARD">
+<summary>
+  Looks up a localized string similar to Sales Price.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.DETAILUOM_RATE">
+<summary>
+  Looks up a localized string similar to Rate.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.ISTAX">
+<summary>
+  Looks up a localized string similar to Is Tax?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.KDCOA_COST">
+<summary>
+  Looks up a localized string similar to Cost Account.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.KDCOA_INVENTORY">
+<summary>
+  Looks up a localized string similar to Inventory Account.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.KDCOA_SALES">
+<summary>
+  Looks up a localized string similar to Sales Account.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.KDUOM">
+<summary>
+  Looks up a localized string similar to Unit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.KDWAREHOUSE">
+<summary>
+  Looks up a localized string similar to Warehouse.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.NMITEM1">
+<summary>
+  Looks up a localized string similar to Barcode.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.NMITEM2">
+<summary>
+  Looks up a localized string similar to Name.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.NMITEM3">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.QTYMAXIMUM">
+<summary>
+  Looks up a localized string similar to Maximum Quantity.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.QTYMINIMUM">
+<summary>
+  Looks up a localized string similar to Minimum Quantity.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.TAB_ACCOUNT">
+<summary>
+  Looks up a localized string similar to Account Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.TAB_ATTACHMENT">
+<summary>
+  Looks up a localized string similar to Attachment Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.TAB_SPESIFICATION">
+<summary>
+  Looks up a localized string similar to Spesification Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.TAB_UNIT">
+<summary>
+  Looks up a localized string similar to Unit Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.TITLE">
+<summary>
+  Looks up a localized string similar to Item.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item.TITLE_REPORT">
+<summary>
+  Looks up a localized string similar to Monitoring Item.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.PaymentType">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PaymentType.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PaymentType.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PaymentType.CHARGE">
+<summary>
+  Looks up a localized string similar to Charge.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PaymentType.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PaymentType.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PaymentType.KDCOA">
+<summary>
+  Looks up a localized string similar to Account.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PaymentType.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PaymentType.TITLE">
+<summary>
+  Looks up a localized string similar to Payment Type.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.UOM">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.UOM.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.UOM.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.UOM.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.UOM.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.UOM.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.UOM.TITLE">
+<summary>
+  Looks up a localized string similar to Satuan.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Item_L6">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L6.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L6.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L6.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L6.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L6.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Item_L5">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L5.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L5.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L5.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L5.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L5.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Item_L4">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L4.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L4.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L4.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L4.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L4.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Item_L3">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L3.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L3.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L3.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L3.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L3.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Item_L2">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L2.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L2.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L2.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L2.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L2.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Item_L1">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L1.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L1.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L1.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L1.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Item_L1.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.RuangRawat">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.BILL_CITY">
+<summary>
+  Looks up a localized string similar to City.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.BILL_COUNTRY">
+<summary>
+  Looks up a localized string similar to Country.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.BILL_STATE">
+<summary>
+  Looks up a localized string similar to State.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.BILL_STREET">
+<summary>
+  Looks up a localized string similar to Street.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.BILL_ZIP">
+<summary>
+  Looks up a localized string similar to Zip Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.DUE">
+<summary>
+  Looks up a localized string similar to Due.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.EMAIL">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.FAX">
+<summary>
+  Looks up a localized string similar to Fax.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.KDRUANGRAWAT">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.KDRUANGRAWAT_BPJS">
+<summary>
+  Looks up a localized string similar to Kode BPJS.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.MOBILE">
+<summary>
+  Looks up a localized string similar to Mobile.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.NAME_DISPLAY">
+<summary>
+  Looks up a localized string similar to Display Name.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.OTHER">
+<summary>
+  Looks up a localized string similar to Other.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.PHONE">
+<summary>
+  Looks up a localized string similar to Phone.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.TAB_BILL">
+<summary>
+  Looks up a localized string similar to Address Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.TAB_CONTACT">
+<summary>
+  Looks up a localized string similar to Contact Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.TAB_OTHER">
+<summary>
+  Looks up a localized string similar to Other Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.TITLE">
+<summary>
+  Looks up a localized string similar to Treatment Room.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.RuangRawat.WEBSITE">
+<summary>
+  Looks up a localized string similar to Website.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Diagnosa_PRB">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa_PRB.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa_PRB.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa_PRB.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa_PRB.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa_PRB.KDDIAGNOSA">
+<summary>
+  Looks up a localized string similar to Diagnostic Code PRB.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa_PRB.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa_PRB.TITLE">
+<summary>
+  Looks up a localized string similar to Diagnostic PRB.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Penjamin">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Penjamin.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Penjamin.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Penjamin.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Penjamin.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Penjamin.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Penjamin.TITLE">
+<summary>
+  Looks up a localized string similar to Guarantor.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Daftar_L6">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L6.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L6.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L6.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L6.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L6.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Daftar_L5">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L5.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L5.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L5.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L5.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L5.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Daftar_L4">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L4.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L4.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L4.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L4.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L4.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Daftar_L3">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L3.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L3.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L3.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L3.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L3.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Daftar_L2">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L2.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L2.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L2.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L2.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L2.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Daftar_L1">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L1.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L1.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L1.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L1.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Daftar_L1.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Customer">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.EMAIL">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Aktif?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.JALAN">
+<summary>
+  Looks up a localized string similar to Jalan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.KARTUBPJS">
+<summary>
+  Looks up a localized string similar to No. BPJS.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.KDAGAMA">
+<summary>
+  Looks up a localized string similar to Agama.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.KDCUSTOMER">
+<summary>
+  Looks up a localized string similar to No. Medrec.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.KDDAFTAR_L2">
+<summary>
+  Looks up a localized string similar to Jenis Pasien.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.KDDAFTAR_L3">
+<summary>
+  Looks up a localized string similar to Pekerjaan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.KDDAFTAR_L4">
+<summary>
+  Looks up a localized string similar to Hubungan Pasien.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.KDDAFTAR_L5">
+<summary>
+  Looks up a localized string similar to Bahasa.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.KDGOLONGANDARAH">
+<summary>
+  Looks up a localized string similar to Golongan Darah.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.KDJENISKELAMIN">
+<summary>
+  Looks up a localized string similar to Jenis Kelamin.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.KDKELURAHAN">
+<summary>
+  Looks up a localized string similar to Kelurahan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.KDSTATUSHIDUP">
+<summary>
+  Looks up a localized string similar to Status Hidup?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.KDSUKU">
+<summary>
+  Looks up a localized string similar to Suku.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.KECAMATAN">
+<summary>
+  Looks up a localized string similar to Kecamatan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.KODEPPOS">
+<summary>
+  Looks up a localized string similar to Kode Pos.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.KOTA">
+<summary>
+  Looks up a localized string similar to Kota/Kabupaten.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.KTP">
+<summary>
+  Looks up a localized string similar to No. KTP.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.LAIN_LAIN">
+<summary>
+  Looks up a localized string similar to Lain-Lain.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.NAME_DISPLAY">
+<summary>
+  Looks up a localized string similar to Nama Pasien.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.NEGARA">
+<summary>
+  Looks up a localized string similar to Warga Negara.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.NOTELEPON">
+<summary>
+  Looks up a localized string similar to No. Tlp.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.NOTELEPON_WA">
+<summary>
+  Looks up a localized string similar to No. Tlp WA.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.PENDIDIKAN">
+<summary>
+  Looks up a localized string similar to Pendidikan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.STATUSKAWIN">
+<summary>
+  Looks up a localized string similar to Status Perkawinan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.TANGGALLAHIR">
+<summary>
+  Looks up a localized string similar to Tanggal Lahir.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.TEMPATLAHIR">
+<summary>
+  Looks up a localized string similar to Tempat Lahir.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Customer.TITLE">
+<summary>
+  Looks up a localized string similar to Pasien.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Suku">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Suku.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Suku.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Suku.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Suku.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Suku.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Suku.TITLE">
+<summary>
+  Looks up a localized string similar to Tribe.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Agama">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Agama.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Agama.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Agama.CODE">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Agama.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Agama.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Agama.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Agama.TITLE">
+<summary>
+  Looks up a localized string similar to Religion.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Kelurahan">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kelurahan.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kelurahan.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kelurahan.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kelurahan.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kelurahan.KDKECAMATAN">
+<summary>
+  Looks up a localized string similar to Sub-Districts Name.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kelurahan.KODEPOS">
+<summary>
+  Looks up a localized string similar to Postal Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kelurahan.MEMO">
+<summary>
+  Looks up a localized string similar to Village Office Name.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kelurahan.TITLE">
+<summary>
+  Looks up a localized string similar to Village Office.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Kecamatan">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kecamatan.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kecamatan.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kecamatan.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kecamatan.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kecamatan.KDKABUPATEN">
+<summary>
+  Looks up a localized string similar to Districts Name/City.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kecamatan.MEMO">
+<summary>
+  Looks up a localized string similar to Sub-Districts Name.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kecamatan.TITLE">
+<summary>
+  Looks up a localized string similar to Sub-District.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kecamatan.VCLAIM_KODE">
+<summary>
+  Looks up a localized string similar to V-Claim Code.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Kabupaten">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kabupaten.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kabupaten.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kabupaten.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kabupaten.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kabupaten.KDPROPINSI">
+<summary>
+  Looks up a localized string similar to Province Name.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kabupaten.MEMO">
+<summary>
+  Looks up a localized string similar to Districts Name/City.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kabupaten.TITLE">
+<summary>
+  Looks up a localized string similar to Districts.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Kabupaten.VCLAIM_KODE">
+<summary>
+  Looks up a localized string similar to V-Claim Code.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Propinsi">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Propinsi.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Propinsi.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Propinsi.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Propinsi.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Propinsi.MEMO">
+<summary>
+  Looks up a localized string similar to Province Name.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Propinsi.TITLE">
+<summary>
+  Looks up a localized string similar to Province.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Propinsi.VCLAIM_KODE">
+<summary>
+  Looks up a localized string similar to V-Claim Code.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.CaraKeluar">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraKeluar.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraKeluar.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraKeluar.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraKeluar.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraKeluar.KDCARAKELUAR">
+<summary>
+  Looks up a localized string similar to Exit Way Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraKeluar.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.CaraKeluar.TITLE">
+<summary>
+  Looks up a localized string similar to Exit Way.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.PascaPulang">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PascaPulang.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PascaPulang.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PascaPulang.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PascaPulang.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PascaPulang.KDPASCAPULANG">
+<summary>
+  Looks up a localized string similar to Post Home Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PascaPulang.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PascaPulang.TITLE">
+<summary>
+  Looks up a localized string similar to Post Home.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.KelasRawat">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.KelasRawat.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.KelasRawat.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.KelasRawat.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.KelasRawat.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.KelasRawat.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.KelasRawat.TITLE">
+<summary>
+  Looks up a localized string similar to Class Care.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Prosedur">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Prosedur.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Prosedur.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Prosedur.CODE">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Prosedur.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Prosedur.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Prosedur.KDPROSEDUR">
+<summary>
+  Looks up a localized string similar to Code ICD IX.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Prosedur.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Prosedur.TITLE">
+<summary>
+  Looks up a localized string similar to Proccedure.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.PPK">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PPK.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PPK.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PPK.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PPK.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PPK.JENISFASKES">
+<summary>
+  Looks up a localized string similar to Jenis Faskes.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PPK.KDFASKES">
+<summary>
+  Looks up a localized string similar to Kode Faskes.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PPK.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.PPK.TITLE">
+<summary>
+  Looks up a localized string similar to Fasilitas Kesehatan.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Spesialistik">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Spesialistik.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Spesialistik.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Spesialistik.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Spesialistik.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Spesialistik.KDSPESIALISTIK">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Spesialistik.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Spesialistik.TITLE">
+<summary>
+  Looks up a localized string similar to Spesialistik.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Doctor">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.BILL_CITY">
+<summary>
+  Looks up a localized string similar to City.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.BILL_COUNTRY">
+<summary>
+  Looks up a localized string similar to Country.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.BILL_STATE">
+<summary>
+  Looks up a localized string similar to State.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.BILL_STREET">
+<summary>
+  Looks up a localized string similar to Street.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.BILL_ZIP">
+<summary>
+  Looks up a localized string similar to Zip Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.DATESIP">
+<summary>
+  Looks up a localized string similar to Date SIP.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.EMAIL">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.FAX">
+<summary>
+  Looks up a localized string similar to Fax.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.JENISPELAYANAN">
+<summary>
+  Looks up a localized string similar to Type of Service.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.KDDEPARTMENT">
+<summary>
+  Looks up a localized string similar to Kode Spesialis/Subspesialis.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.KDDOCTOR">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.KDSPESIALISTIK">
+<summary>
+  Looks up a localized string similar to Spesialistik.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.MOBILE">
+<summary>
+  Looks up a localized string similar to Mobile.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.NAME_DISPLAY">
+<summary>
+  Looks up a localized string similar to Display Name.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.OTHER">
+<summary>
+  Looks up a localized string similar to Other.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.PHONE">
+<summary>
+  Looks up a localized string similar to Phone.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.SIP">
+<summary>
+  Looks up a localized string similar to Nomor SIP.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.SUBSPESIALIS">
+<summary>
+  Looks up a localized string similar to Subspesialis.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.TAB_BILL">
+<summary>
+  Looks up a localized string similar to Address Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.TAB_CONTACT">
+<summary>
+  Looks up a localized string similar to Contact Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.TAB_OTHER">
+<summary>
+  Looks up a localized string similar to Other Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.TITLE">
+<summary>
+  Looks up a localized string similar to Doctor.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.VCLAIM_KDDOCTOR">
+<summary>
+  Looks up a localized string similar to Kode Doctor V Claim.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.VCLAIM_KDDPJP">
+<summary>
+  Looks up a localized string similar to Kode DPJP V Claim.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Doctor.WEBSITE">
+<summary>
+  Looks up a localized string similar to Website.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Diagnosa">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa.KDDIAGNOSA">
+<summary>
+  Looks up a localized string similar to Diagnostic Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Diagnosa.TITLE">
+<summary>
+  Looks up a localized string similar to Diagnostic.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Department">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.BILL_CITY">
+<summary>
+  Looks up a localized string similar to City.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.BILL_COUNTRY">
+<summary>
+  Looks up a localized string similar to Country.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.BILL_STATE">
+<summary>
+  Looks up a localized string similar to State.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.BILL_STREET">
+<summary>
+  Looks up a localized string similar to Street.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.BILL_ZIP">
+<summary>
+  Looks up a localized string similar to Zip Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.DUE">
+<summary>
+  Looks up a localized string similar to Due.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.EMAIL">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.FAX">
+<summary>
+  Looks up a localized string similar to Fax.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.KDDEPARTMENT">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.KDDEPARTMENT_BPJS">
+<summary>
+  Looks up a localized string similar to Kode BPJS.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.MOBILE">
+<summary>
+  Looks up a localized string similar to Mobile.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.NAME_DISPLAY">
+<summary>
+  Looks up a localized string similar to Display Name.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.OTHER">
+<summary>
+  Looks up a localized string similar to Other.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.PHONE">
+<summary>
+  Looks up a localized string similar to Phone.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.TAB_BILL">
+<summary>
+  Looks up a localized string similar to Address Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.TAB_CONTACT">
+<summary>
+  Looks up a localized string similar to Contact Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.TAB_OTHER">
+<summary>
+  Looks up a localized string similar to Other Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.TITLE">
+<summary>
+  Looks up a localized string similar to Poli.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Department.WEBSITE">
+<summary>
+  Looks up a localized string similar to Website.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.KelasAplicare">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.KelasAplicare.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.KelasAplicare.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.KelasAplicare.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.KelasAplicare.ISDEFAULT">
+<summary>
+  Looks up a localized string similar to Is Default?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.KelasAplicare.KDKELASAPLICARE">
+<summary>
+  Looks up a localized string similar to Aplicare Class Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.KelasAplicare.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.KelasAplicare.TITLE">
+<summary>
+  Looks up a localized string similar to Aplicare Class.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Vendor">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.BILL_CITY">
+<summary>
+  Looks up a localized string similar to City.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.BILL_COUNTRY">
+<summary>
+  Looks up a localized string similar to Country.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.BILL_STATE">
+<summary>
+  Looks up a localized string similar to State.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.BILL_STREET">
+<summary>
+  Looks up a localized string similar to Street.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.BILL_ZIP">
+<summary>
+  Looks up a localized string similar to Zip Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.DUE">
+<summary>
+  Looks up a localized string similar to Due.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.EMAIL">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.FAX">
+<summary>
+  Looks up a localized string similar to Fax.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.KDCOA">
+<summary>
+  Looks up a localized string similar to Account.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.KDVENDOR">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.LIMIT">
+<summary>
+  Looks up a localized string similar to Credit Limit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.MOBILE">
+<summary>
+  Looks up a localized string similar to Mobile.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.NAME_DISPLAY">
+<summary>
+  Looks up a localized string similar to Display Name.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.OTHER">
+<summary>
+  Looks up a localized string similar to Other.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.PHONE">
+<summary>
+  Looks up a localized string similar to Phone.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.TAB_ACCOUNT">
+<summary>
+  Looks up a localized string similar to Account Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.TAB_BILL">
+<summary>
+  Looks up a localized string similar to Address Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.TAB_CONTACT">
+<summary>
+  Looks up a localized string similar to Contact Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.TAB_OTHER">
+<summary>
+  Looks up a localized string similar to Other Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.TITLE">
+<summary>
+  Looks up a localized string similar to Vendor.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Vendor.WEBSITE">
+<summary>
+  Looks up a localized string similar to Website.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Warehouse">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.BILL_CITY">
+<summary>
+  Looks up a localized string similar to City.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.BILL_COUNTRY">
+<summary>
+  Looks up a localized string similar to Country.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.BILL_STATE">
+<summary>
+  Looks up a localized string similar to State.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.BILL_STREET">
+<summary>
+  Looks up a localized string similar to Street.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.BILL_ZIP">
+<summary>
+  Looks up a localized string similar to Zip Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.EMAIL">
+<summary>
+  Looks up a localized string similar to Email.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.FAX">
+<summary>
+  Looks up a localized string similar to Fax.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.KDWAREHOUSE">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.MEMO">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.MOBILE">
+<summary>
+  Looks up a localized string similar to Mobile.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.NAME_DISPLAY">
+<summary>
+  Looks up a localized string similar to Display Name.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.OTHER">
+<summary>
+  Looks up a localized string similar to Other.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.PHONE">
+<summary>
+  Looks up a localized string similar to Phone.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.TAB_BILL">
+<summary>
+  Looks up a localized string similar to Address Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.TAB_CONTACT">
+<summary>
+  Looks up a localized string similar to Contact Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.TAB_OTHER">
+<summary>
+  Looks up a localized string similar to Other Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.TITLE">
+<summary>
+  Looks up a localized string similar to Warehouse.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Warehouse.WEBSITE">
+<summary>
+  Looks up a localized string similar to Website.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Report">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Report.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Report.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Report.FILTER_DATE">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Report.FILTER_DATEFROM">
+<summary>
+  Looks up a localized string similar to From Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Report.FILTER_DATETO">
+<summary>
+  Looks up a localized string similar to To Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Report.FILTER_ITEM_TYPE_01">
+<summary>
+  Looks up a localized string similar to Current.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Report.FILTER_ITEM_TYPE_02">
+<summary>
+  Looks up a localized string similar to Stock Card.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Report.FILTER_MONTH">
+<summary>
+  Looks up a localized string similar to Month.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Report.FILTER_TYPE">
+<summary>
+  Looks up a localized string similar to Type.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Report.FILTER_TYPE_01">
+<summary>
+  Looks up a localized string similar to Master Detail.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Report.FILTER_TYPE_02">
+<summary>
+  Looks up a localized string similar to Master Only.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Report.FILTER_TYPE_03">
+<summary>
+  Looks up a localized string similar to Detail Only.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Report.FILTER_TYPE_04">
+<summary>
+  Looks up a localized string similar to All.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Report.FILTER_YEAR">
+<summary>
+  Looks up a localized string similar to Year.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Report.REPORT_PAGE">
+<summary>
+  Looks up a localized string similar to Page.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.SetKoneksi">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SetKoneksi.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SetKoneksi.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SetKoneksi.ALMATWEB">
+<summary>
+  Looks up a localized string similar to Address Web.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SetKoneksi.CONSID">
+<summary>
+  Looks up a localized string similar to Number Cons ID.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SetKoneksi.FOLDER">
+<summary>
+  Looks up a localized string similar to Folder.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SetKoneksi.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Is Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SetKoneksi.KDKONEKSI">
+<summary>
+  Looks up a localized string similar to Number.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SetKoneksi.KODERS">
+<summary>
+  Looks up a localized string similar to Kode RS.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SetKoneksi.NAME_DISPLAY">
+<summary>
+  Looks up a localized string similar to Memo.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SetKoneksi.PASSWORDRS">
+<summary>
+  Looks up a localized string similar to Password RS.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SetKoneksi.PPKPELAYANAN">
+<summary>
+  Looks up a localized string similar to Code Faskes.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SetKoneksi.REMARKS">
+<summary>
+  Looks up a localized string similar to Remarks.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SetKoneksi.SCREATKEY">
+<summary>
+  Looks up a localized string similar to Screat Key.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.SetKoneksi.TITLE">
+<summary>
+  Looks up a localized string similar to Set Connection.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Caption">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.Admission">
+<summary>
+  Looks up a localized string similar to Admission.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.AdmissionApprovalPenjaminanSEP">
+<summary>
+  Looks up a localized string similar to The Approval of SEP guarantee.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.AdmissionPendaftaran">
+<summary>
+  Looks up a localized string similar to Registration.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.AdmissionPendaftaranKunjunganPoli">
+<summary>
+  Looks up a localized string similar to Poli Visite.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.AdmissionPendaftaranKunjunganRuangan">
+<summary>
+  Looks up a localized string similar to Room Viste.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.AdmissionPRB">
+<summary>
+  Looks up a localized string similar to Re-Manufacturing (PRB).
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.AdmissionRujukan">
+<summary>
+  Looks up a localized string similar to Reference.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.AdmissionSKD">
+<summary>
+  Looks up a localized string similar to Rencana Surat Kontrol / SPRI.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.AdmissionUpdateTanggalPulang">
+<summary>
+  Looks up a localized string similar to Pasien Pulang.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ColumnChooser">
+<summary>
+  Looks up a localized string similar to Column Chooser.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ColumnChooserDetail">
+<summary>
+  Looks up a localized string similar to Detail Column Chooser.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ColumnChooserMaster">
+<summary>
+  Looks up a localized string similar to Master Column Chooser.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.FileChangePassword">
+<summary>
+  Looks up a localized string similar to Change Password.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.FileExit">
+<summary>
+  Looks up a localized string similar to Exit.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.FileLanguage">
+<summary>
+  Looks up a localized string similar to Language.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.FileLanguageEnglish">
+<summary>
+  Looks up a localized string similar to English.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.FileLanguageIndonesian">
+<summary>
+  Looks up a localized string similar to Indonesian.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.FormClose">
+<summary>
+  Looks up a localized string similar to F12 - Close.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.FormListButtonView">
+<summary>
+  Looks up a localized string similar to View.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.FormListGroupControlInfo">
+<summary>
+  Looks up a localized string similar to Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.FormSaveClose">
+<summary>
+  Looks up a localized string similar to F3 - Save &amp;&amp; Close.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.FormSaveNew">
+<summary>
+  Looks up a localized string similar to F2 - Save &amp;&amp; New.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.FormSavePayment">
+<summary>
+  Looks up a localized string similar to F5 - Save &amp;&amp; Pay.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.Inventory">
+<summary>
+  Looks up a localized string similar to Inventory.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.InventoryMutation">
+<summary>
+  Looks up a localized string similar to Mutation.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.InventoryOpname">
+<summary>
+  Looks up a localized string similar to Opname.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.InventoryReport">
+<summary>
+  Looks up a localized string similar to Report.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.InventoryReportMonitoringItem">
+<summary>
+  Looks up a localized string similar to Monitoring Item.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.Purchasing">
+<summary>
+  Looks up a localized string similar to Purchasing.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.PurchasingPurchaseInvoice">
+<summary>
+  Looks up a localized string similar to Purchase Invoice.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.PurchasingPurchaseOrder">
+<summary>
+  Looks up a localized string similar to Purchase Order.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.PurchasingPurchaseReturn">
+<summary>
+  Looks up a localized string similar to Purchase Return.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.PurchasingReport">
+<summary>
+  Looks up a localized string similar to Report.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.Reference">
+<summary>
+  Looks up a localized string similar to Reference.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferenceAgama">
+<summary>
+  Looks up a localized string similar to Regligion.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferenceCaraKeluar">
+<summary>
+  Looks up a localized string similar to Exit Way.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferenceCustomer">
+<summary>
+  Looks up a localized string similar to Patients.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferenceDepartment">
+<summary>
+  Looks up a localized string similar to Poli.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferenceDiagnosa">
+<summary>
+  Looks up a localized string similar to Diagnostic (ICD X).
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferenceDiagnosa_PRB">
+<summary>
+  Looks up a localized string similar to Diagnosa PRB.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferenceDoctor">
+<summary>
+  Looks up a localized string similar to Doctor.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferenceKabupaten">
+<summary>
+  Looks up a localized string similar to Districts/City.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferenceKecamatan">
+<summary>
+  Looks up a localized string similar to Sub-District.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferenceKelasRawat">
+<summary>
+  Looks up a localized string similar to Class Care.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferenceKelurahan">
+<summary>
+  Looks up a localized string similar to Village Office.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferencePascaPulang">
+<summary>
+  Looks up a localized string similar to Post Home.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferencePenjamin">
+<summary>
+  Looks up a localized string similar to Guarantor.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferencePPK">
+<summary>
+  Looks up a localized string similar to Fasilitas Kesehatan.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferenceProcedure">
+<summary>
+  Looks up a localized string similar to Procedure (ICD IX).
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferencePropinsi">
+<summary>
+  Looks up a localized string similar to Provinci.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferenceRuangRawat">
+<summary>
+  Looks up a localized string similar to Treatment Room.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferenceSpesialistik">
+<summary>
+  Looks up a localized string similar to Spesialistik.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.ReferenceSuku">
+<summary>
+  Looks up a localized string similar to Suku.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.Search">
+<summary>
+  Looks up a localized string similar to Search.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.Setting">
+<summary>
+  Looks up a localized string similar to Setting.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.SettingDatabase">
+<summary>
+  Looks up a localized string similar to Database.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.SettingDatabaseBackup">
+<summary>
+  Looks up a localized string similar to Backup.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.SettingDatabaseConnection">
+<summary>
+  Looks up a localized string similar to Connection.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.SettingDatabaseConnectionUser">
+<summary>
+  Looks up a localized string similar to User.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.SettingDatabaseRestore">
+<summary>
+  Looks up a localized string similar to Restore.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.SettingUser">
+<summary>
+  Looks up a localized string similar to User.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.SettingUserOtority">
+<summary>
+  Looks up a localized string similar to Otority.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.SettingUserUser">
+<summary>
+  Looks up a localized string similar to User.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.Tanggal">
+<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.Title">
+<summary>
+  Looks up a localized string similar to RS Karisma Cimareme - Information System.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.User">
+<summary>
+  Looks up a localized string similar to User.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Caption.Version">
+<summary>
+  Looks up a localized string similar to Version.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Otority">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Otority.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Otority.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Otority.DESCRIPTION">
+<summary>
+  Looks up a localized string similar to Description.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Otority.DETAIL_ISADD">
+<summary>
+  Looks up a localized string similar to Add?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Otority.DETAIL_ISDELETE">
+<summary>
+  Looks up a localized string similar to Delete?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Otority.DETAIL_ISPRINT">
+<summary>
+  Looks up a localized string similar to Print?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Otority.DETAIL_ISUPDATE">
+<summary>
+  Looks up a localized string similar to Update?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Otority.DETAIL_ISVIEW">
+<summary>
+  Looks up a localized string similar to View?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Otority.DETAIL_MENUNAME">
+<summary>
+  Looks up a localized string similar to Name.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Otority.DETAIL_MODUL">
+<summary>
+  Looks up a localized string similar to Modul.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Otority.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Otority.KDOTORITY">
+<summary>
+  Looks up a localized string similar to Code.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Otority.TAB_DESCRIPTION">
+<summary>
+  Looks up a localized string similar to Description Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Otority.TAB_DETAIL">
+<summary>
+  Looks up a localized string similar to Detail Information.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Otority.TITLE">
+<summary>
+  Looks up a localized string similar to Otority.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Statement">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.BackupFail">
+<summary>
+  Looks up a localized string similar to Backup not success! Please consult your administrator!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.BackupSuccess">
+<summary>
+  Looks up a localized string similar to Backup success!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.CheckDefault">
+<summary>
+  Looks up a localized string similar to There must be a minimum of one listed as default!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.DatabaseInactive">
+<summary>
+  Looks up a localized string similar to Database is not active! Please consult your administrator!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.DeleteFail">
+<summary>
+  Looks up a localized string similar to Delete not success! Please consult your administrator!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.DeleteQuestion">
+<summary>
+  Looks up a localized string similar to Delete this transaction?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.DeleteSuccess">
+<summary>
+  Looks up a localized string similar to Delete success!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.ErrorDetail">
+<summary>
+  Looks up a localized string similar to Detail required!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.ErrorEqual">
+<summary>
+  Looks up a localized string similar to Debit and credit must equal!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.ErrorPasswordRepeat">
+<summary>
+  Looks up a localized string similar to Repeat same password!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.ErrorRegistered">
+<summary>
+  Looks up a localized string similar to Is already registered!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.ErrorRequired">
+<summary>
+  Looks up a localized string similar to Is required!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.ErrorRequiredRate">
+<summary>
+  Looks up a localized string similar to Minimum 1 unit with rate : 1.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.ErrorStatement">
+<summary>
+  Looks up a localized string similar to Error : .
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.ErrorUOM">
+<summary>
+  Looks up a localized string similar to Unit is not registered on this item, please contact your administrator!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.ErrorUserPassword">
+<summary>
+  Looks up a localized string similar to Username or Password is not correct! Please consult your administrator!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.ExitApplication">
+<summary>
+  Looks up a localized string similar to Are you sure to exit application?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.ExportData">
+<summary>
+  Looks up a localized string similar to data..
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.ExportDone">
+<summary>
+  Looks up a localized string similar to Saving to database.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.ExportProcessing">
+<summary>
+  Looks up a localized string similar to Processing.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.ExportQuestion">
+<summary>
+  Looks up a localized string similar to Export?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.ExportSuccess">
+<summary>
+  Looks up a localized string similar to Export Done!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.RestoreFail">
+<summary>
+  Looks up a localized string similar to Restore not success! Please consult your administrator!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.RestoreSuccess">
+<summary>
+  Looks up a localized string similar to Restore success!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.SaveDatabase">
+<summary>
+  Looks up a localized string similar to Save configuration? (Application will be shut down!).
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.SaveFail">
+<summary>
+  Looks up a localized string similar to Save not success! Please consult your administrator!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.SaveQuestion">
+<summary>
+  Looks up a localized string similar to Save this transaction?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.SaveSuccess">
+<summary>
+  Looks up a localized string similar to Save success!.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Statement.SecurityNotInstalled">
+<summary>
+  Looks up a localized string similar to Security is not installed, please contact your administrator!.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Tax">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Tax.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Tax.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Tax.EXPORT">
+<summary>
+  Looks up a localized string similar to Export.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Tax.TITLE">
+<summary>
+  Looks up a localized string similar to Tax.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.User">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.User.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.User.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.User.ISACTIVE">
+<summary>
+  Looks up a localized string similar to Active?.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.User.KDOTORITY">
+<summary>
+  Looks up a localized string similar to Otority.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.User.KDUSER">
+<summary>
+  Looks up a localized string similar to User.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.User.PASSWORD1">
+<summary>
+  Looks up a localized string similar to Password.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.User.PASSWORD2">
+<summary>
+  Looks up a localized string similar to Repeat.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.User.TITLE">
+<summary>
+  Looks up a localized string similar to User.
+</summary>
+</member>
+<member name="T:UI.WIN.MAIN.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.Add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.Add2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.approve">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.Delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.Edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.Edit2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.gambar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.gambar_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.gambar_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.gambartelinga">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.gambarwajah">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.gambarwajahlakilaki">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.image_kosong">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.medicalckeup">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.newrologi">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.paru">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.pemberi">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.penerima">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.Refresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WIN.MAIN.My.Resources.Resources.skala_nyeri">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:UI.WIN.MAIN.Startup.#ctor">
+ <summary>
+ The main entry point for the application.
+ </summary>
+</member>
+</members>
+</doc>

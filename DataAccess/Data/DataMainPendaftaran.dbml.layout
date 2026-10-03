@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 16.125, 40.375" name="DataMainPendaftaran">
+  <DataContextMoniker Name="/DataMainPendaftaranDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d60315c5-79a3-4e8d-badd-aad844096377" absoluteBounds="3.375, 2.75, 2, 2.5401025390625">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/S_MERGE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ae0ac288-0dbd-4973-b0fc-83ad7984f439" absoluteBounds="3.39, 3.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="149ecc99-e044-4ae3-ab63-4d54b6c27c89" absoluteBounds="9.125, 0.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/S_PDF_D" />
+      <nestedChildShapes>
+        <elementListCompartment Id="792d4675-8e55-4cf7-8cb0-81ea01bc2db5" absoluteBounds="9.14, 1.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9d9ddc8a-ed36-49a5-a5f2-0821abb450a5" absoluteBounds="6.375, 0.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/S_PDF_H" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e7ae5ac7-f8ed-42dc-94b9-bf81ded07b2b" absoluteBounds="6.39, 1.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.375 : 1.95274983723958); (9.125 : 1.95274983723958)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataMainPendaftaranDataContext/S_PDF_H/S_PDF_H_S_PDF_D" />
+      <nodes>
+        <classShapeMoniker Id="9d9ddc8a-ed36-49a5-a5f2-0821abb450a5" />
+        <classShapeMoniker Id="149ecc99-e044-4ae3-ab63-4d54b6c27c89" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="f3244fe4-1cc3-4c07-ad0f-d83f934e3ac3" absoluteBounds="8, 4.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/SET_MODUL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ea11ce97-508d-41dd-873c-7bd1355d27e7" absoluteBounds="8.015, 4.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c216aa5b-159c-4088-9dbb-bec1d1977816" absoluteBounds="11.375, 3.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/M_PDF" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d54dc409-6706-40ec-b264-c02a8e097ed5" absoluteBounds="11.39, 4.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a4144526-ded3-4220-8167-b231fd315486" absoluteBounds="3.5, 7, 2, 3.1170068359375014">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/I_JADWALDOCTOR_D" />
+      <nestedChildShapes>
+        <elementListCompartment Id="73e9eda9-f8cd-4881-942c-8d9d50d5852a" absoluteBounds="3.515, 7.46, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="da8f7055-0e5d-4bb2-b1d9-3410007d7174" absoluteBounds="0.75, 7.375, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/I_JADWALDOCTOR_H" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cee7d25f-1952-4346-9d98-a0fd0ff8827e" absoluteBounds="0.765, 7.835, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.4687505 : 9.72280110677083); (1.4687505 : 14.2014469401042); (4.9062495 : 14.2014469401042); (4.9062495 : 10.1170068359375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataMainPendaftaranDataContext/I_JADWALDOCTOR_H/I_JADWALDOCTOR_H_I_JADWALDOCTOR_D" />
+      <nodes>
+        <classShapeMoniker Id="da8f7055-0e5d-4bb2-b1d9-3410007d7174" />
+        <classShapeMoniker Id="a4144526-ded3-4220-8167-b231fd315486" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5072f439-adbc-4708-893d-ed8023b31fdb" absoluteBounds="8.375, 7.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/A_JADWAL" />
+      <nestedChildShapes>
+        <elementListCompartment Id="20462501-5ced-43c6-865a-5aba4d86070c" absoluteBounds="8.39, 8.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b20016ac-096d-4f06-baf9-d86e07e5cde6" absoluteBounds="2.125, 1.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/S_REQ_CPPT_UPDATE" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4718c361-abea-4fc6-bb1e-75db891ac626" absoluteBounds="2.14, 2.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7986e23d-f533-41c4-8b03-4bf163e1c873" absoluteBounds="11.375, 7.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/S_PENDAFTARAN_PENUNJANGHARIINISELESAI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="acc0ffdb-eb62-4019-afde-4e3ddcea37ad" absoluteBounds="11.39, 7.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2689b9f0-2320-45bd-bd8f-4e7b5603d5ce" absoluteBounds="2.25, 5.5, 2, 8.5014469401041666">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/S_UMPANBALIK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="270ec721-7c93-42e6-8870-302143134416" absoluteBounds="2.265, 5.96, 1.9700000000000002, 7.941446940104167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4a9aebfd-5ced-4e23-9c4d-a8f8724bf1a7" absoluteBounds="6, 5.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/S_PENDAFTARAN_WAKTUIGD" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3836a2d2-ee2e-4211-8d17-a5d9dd17a5ab" absoluteBounds="6.015, 5.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e58cdbc1-5208-4ff7-b38d-5efed8808d65" absoluteBounds="1.25, 4.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/Z_ANTRIAN_ADMISI" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0800de05-74ba-4af8-b4e9-7a8ab113fd65" absoluteBounds="1.2650000000000001, 4.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9ebc39f9-d422-4259-a4e7-c61fa16438b0" absoluteBounds="0.875, 26.375, 2, 8.6937483723958344">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/M_CUSTOMER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bd06ab91-484c-4b28-8000-dee296decd1e" absoluteBounds="0.89, 26.835, 1.9700000000000002, 8.1337483723958321" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4b795a6d-19f6-49c2-9bdf-47a344794745" absoluteBounds="3.625, 21.375, 2, 18.6934228515625">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/S_PENDAFTARAN_H" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dff3c5d0-250b-4388-bfd4-e8a5f5ca7dd8" absoluteBounds="3.64, 21.835, 1.9700000000000002, 18.1334228515625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.59375 : 21.375); (5.59375 : 1.28125); (6.375 : 1.28125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataMainPendaftaranDataContext/S_PENDAFTARAN_H/S_PENDAFTARAN_H_S_PDF_H" />
+      <nodes>
+        <classShapeMoniker Id="4b795a6d-19f6-49c2-9bdf-47a344794745" />
+        <classShapeMoniker Id="9d9ddc8a-ed36-49a5-a5f2-0821abb450a5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.875 : 30.7218741861979); (3.625 : 30.7218741861979)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataMainPendaftaranDataContext/M_CUSTOMER/M_CUSTOMER_S_PENDAFTARAN_H" />
+      <nodes>
+        <classShapeMoniker Id="9ebc39f9-d422-4259-a4e7-c61fa16438b0" />
+        <classShapeMoniker Id="4b795a6d-19f6-49c2-9bdf-47a344794745" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="23938054-1d8d-4047-9afb-0b229d09464e" absoluteBounds="13.875, 21.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/M_CUSTOMER_BPJSRME" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3a1bd242-e3b6-442a-8b48-48a1a7b4f069" absoluteBounds="13.89, 21.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.875 : 26.375); (1.875 : 21.125); (5.51041666666667 : 21.125 : JumpStart); (5.67708333333333 : 21.125 : JumpEnd); (13.5 : 21.125); (13.5 : 22.6739005533854); (13.875 : 22.6739005533854)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DataMainPendaftaranDataContext/M_CUSTOMER/M_CUSTOMER_M_CUSTOMER_BPJSRME" />
+      <nodes>
+        <classShapeMoniker Id="9ebc39f9-d422-4259-a4e7-c61fa16438b0" />
+        <classShapeMoniker Id="23938054-1d8d-4047-9afb-0b229d09464e" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5090000a-4883-41bf-a269-7aed5b7e5f82" absoluteBounds="8.5, 22.75, 2, 4.2708154296875">
+      <DataClassMoniker Name="/DataMainPendaftaranDataContext/S_PENDAFTARAN_BPJSRME" />
+      <nestedChildShapes>
+        <elementListCompartment Id="17df2c58-418a-47d3-a27a-9a60f0c01883" absoluteBounds="8.515, 23.21, 1.9700000000000002, 3.7108154296875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
