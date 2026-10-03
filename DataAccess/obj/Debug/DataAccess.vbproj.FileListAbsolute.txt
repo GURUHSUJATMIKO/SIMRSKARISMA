@@ -25,3 +25,4 @@ D:\Program\Simrs Medrec\DataAccess\obj\Debug\DataAccess.vbproj.GenerateResource.
 D:\Program\Simrs Medrec\DataAccess\obj\Debug\DataAccess.dll
 D:\Program\Simrs Medrec\DataAccess\obj\Debug\DataAccess.xml
 D:\Program\Simrs Medrec\DataAccess\obj\Debug\DataAccess.pdb
+D:\Program\Simrs Medrec\DataAccess\obj\Debug\DataAccess.vbprojResolveAssemblyReference.cache

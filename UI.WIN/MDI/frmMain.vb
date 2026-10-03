@@ -32,7 +32,7 @@ Public Class frmMain
     Private Sub fn_LoadLogin()
         frmLogin.ShowDialog()
 
-        statusKDUSER.Caption = Caption.User & " : " & sUserID & " Version 266"
+        statusKDUSER.Caption = Caption.User & " : " & sUserID & " Version 267"
         statusDATE.Caption = Caption.Tanggal & " : " & Now.ToString("dd/MM/yyyy")
 
         'If isMedrek = False Then

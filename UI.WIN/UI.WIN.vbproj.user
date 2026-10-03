@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <PublishUrlHistory>D:\Publish\|D:\Publish SIM\RSKC_NEW\MEDREC Publish 18122025_1344\|D:\Publish SIM\RSKC_NEW\MEDREC Publish 04122025_1556\|D:\Publish SIM\RSKC_NEW\|D:\Publish SIM\RS AVISENA\</PublishUrlHistory>
+    <PublishUrlHistory>D:\Publish\RME\|D:\Publish\|D:\Publish SIM\RSKC_NEW\MEDREC Publish 18122025_1344\|D:\Publish SIM\RSKC_NEW\MEDREC Publish 04122025_1556\|D:\Publish SIM\RSKC_NEW\</PublishUrlHistory>
     <InstallUrlHistory />
     <SupportUrlHistory>http://zigma.budijayagroup.com/</SupportUrlHistory>
     <UpdateUrlHistory>\\192.168.2.112\Program New\|\\192.168.1.203\source\program\|\\192.168.1.192\PROGRAM\|\\192.168.0.186\VMK\|\\192.168.0.186\rs guntur\</UpdateUrlHistory>

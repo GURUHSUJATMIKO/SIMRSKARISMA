@@ -19,7 +19,7 @@
     <UpgradeBackupLocation />
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <TargetFrameworkProfile />
-    <PublishUrl>D:\Publish\</PublishUrl>
+    <PublishUrl>D:\Publish\RME\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
@@ -33,7 +33,7 @@
     <TargetCulture>en-US</TargetCulture>
     <ProductName>RS Karisma Cimareme - Information System</ProductName>
     <PublisherName>RS Karisma Cimareme - Information System</PublisherName>
-    <MinimumRequiredVersion>2021.1.1.266</MinimumRequiredVersion>
+    <MinimumRequiredVersion>2021.1.1.267</MinimumRequiredVersion>
     <ApplicationRevision>267</ApplicationRevision>
     <ApplicationVersion>2021.1.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
