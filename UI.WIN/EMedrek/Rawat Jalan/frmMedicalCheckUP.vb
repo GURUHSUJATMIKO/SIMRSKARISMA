@@ -98,8 +98,8 @@ Public Class frmMedicalCheckUP
         MemoEdit12.Properties.ReadOnly = Status
         MemoEdit13.Properties.ReadOnly = Status
         MemoEdit14.Properties.ReadOnly = Status
-        'MemoEdit15.Properties.ReadOnly = Status
-        'MemoEdit16.Properties.ReadOnly = Status
+        MemoEdit15.Properties.ReadOnly = Status
+        MemoEdit16.Properties.ReadOnly = Status
         'MemoEdit17.Properties.ReadOnly = Status
         'MemoEdit18.Properties.ReadOnly = Status
         'MemoEdit19.Properties.ReadOnly = Status
@@ -241,9 +241,9 @@ Public Class frmMedicalCheckUP
         MemoEdit12.ResetText()
         MemoEdit13.ResetText()
         MemoEdit14.ResetText()
-        'MemoEdit15.ResetText()
-        'MemoEdit16.ResetText()
-        'MemoEdit17.ResetText()
+        MemoEdit15.ResetText()
+        MemoEdit16.ResetText()
+        MemoEdit17.ResetText()
         'MemoEdit18.ResetText()
         'MemoEdit19.ResetText()
         'MemoEdit20.ResetText()
@@ -365,6 +365,17 @@ Public Class frmMedicalCheckUP
         CheckEdit95.Checked = False
         CheckEdit96.Checked = False
         CheckEdit97.Checked = False
+
+        Dim oReqAwalPemeriksaan As New Transaksi.clsReqAwalPemeriksaan
+        'Dim dsReqAwalPemeriksaan = oReqAwalPemeriksaan.GetData(sKDPENDAFTARAN)
+
+        Dim dsTambahan = oReqAwalPemeriksaan.GetDataTambahan(sKDPENDAFTARAN)
+        If dsTambahan IsNot Nothing Then
+            'txtOBJEKTIF_KESADARAN.Text = dsTambahan.TAMBAH1
+            MemoEdit17.Text = dsTambahan.TAMBAH2
+            'txtOBJEKTIF_BBIDEAL.Text = dsTambahan.TAMBAH3
+            'txtOBJEKTIF_BBDITURUNKAN.Text = dsTambahan.TAMBAH4
+        End If
     End Sub
     Private Sub fn_LoadData()
         Try
@@ -388,9 +399,9 @@ Public Class frmMedicalCheckUP
                 MemoEdit12.Text = .MemoEdit12
                 MemoEdit13.Text = .MemoEdit13
                 MemoEdit14.Text = .MemoEdit14
-                'MemoEdit15.Text = .MemoEdit15
-                'MemoEdit16.Text = .MemoEdit16
-                'MemoEdit17.Text = .MemoEdit17
+                MemoEdit15.Text = .MemoEdit15
+                MemoEdit16.Text = .MemoEdit16
+                MemoEdit17.Text = .MemoEdit17
                 'MemoEdit18.Text = .MemoEdit18
                 'MemoEdit19.Text = .MemoEdit19
                 'MemoEdit20.Text = .MemoEdit20
@@ -604,9 +615,9 @@ Public Class frmMedicalCheckUP
                 .MemoEdit12 = MemoEdit12.Text
                 .MemoEdit13 = MemoEdit13.Text
                 .MemoEdit14 = MemoEdit14.Text
-                .MemoEdit15 = ""
-                .MemoEdit16 = ""
-                .MemoEdit17 = ""
+                .MemoEdit15 = MemoEdit15.Text
+                .MemoEdit16 = MemoEdit16.Text
+                .MemoEdit17 = MemoEdit17.Text
                 .MemoEdit18 = ""
                 .MemoEdit19 = ""
                 .MemoEdit20 = ""

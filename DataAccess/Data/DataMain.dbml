@@ -5583,6 +5583,7 @@
       <Column Name="ANAMNESIS_20_1_CHEK" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
       <Column Name="ANAMNESIS_20_2_CHEK" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
       <Association Name="S_DIGITAL_RI_13_S_DIGITAL_RI_13_DIAGNOSA" Member="S_DIGITAL_RI_13_DIAGNOSAs" ThisKey="KDREG" OtherKey="KDREG" Type="S_DIGITAL_RI_13_DIAGNOSA" />
+      <Association Name="S_DIGITAL_RI_13_S_DIGITAL_RI_13_RESEP" Member="S_DIGITAL_RI_13_RESEPs" ThisKey="KDREG" OtherKey="KDREG" Type="S_DIGITAL_RI_13_RESEP" />
     </Type>
   </Table>
   <Table Name="dbo.S_DIGITAL_RI_13_DIAGNOSA" Member="S_DIGITAL_RI_13_DIAGNOSAs">
@@ -12078,6 +12079,30 @@
       <Column Name="REMARKS_FARMASI" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
       <Column Name="DOSIS" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
       <Association Name="S_REQ_RECIPE_H_S_REQ_RECIPE_D" Member="S_REQ_RECIPE_H" ThisKey="KDREQRECIPE" OtherKey="KDREQRECIPE" Type="S_REQ_RECIPE_H" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.S_DIGITAL_RI_13_RESEP" Member="S_DIGITAL_RI_13_RESEPs">
+    <Type Name="S_DIGITAL_RI_13_RESEP">
+      <Column Name="KDREG" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NAMAOBAT" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="SEQ" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SATUAN" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SIGNA" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CARAPAKAI" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="QTY" Type="System.Decimal" DbType="Decimal(12,2) NOT NULL" CanBeNull="false" />
+      <Column Name="PRICE" Type="System.Decimal" DbType="Decimal(12,2) NOT NULL" CanBeNull="false" />
+      <Column Name="GRANDTOTAL" Type="System.Decimal" DbType="Decimal(12,2) NOT NULL" CanBeNull="false" />
+      <Column Name="ROMAWI" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="REMARKS_DOKTER" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="KDITEM" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="KDSIGNA" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="KDUOM" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="KDCARAPAKAI" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="QTY_PERUBAHAN" Type="System.Decimal" DbType="Decimal(12,2) NOT NULL" CanBeNull="false" />
+      <Column Name="REMARKS_FARMASI" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="DOSIS" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="STATUSKIRIMRESEP" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="S_DIGITAL_RI_13_S_DIGITAL_RI_13_RESEP" Member="S_DIGITAL_RI_13" ThisKey="KDREG" OtherKey="KDREG" Type="S_DIGITAL_RI_13" IsForeignKey="true" />
     </Type>
   </Table>
 </Database>

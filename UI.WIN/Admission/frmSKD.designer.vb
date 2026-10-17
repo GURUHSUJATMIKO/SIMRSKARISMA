@@ -72,6 +72,8 @@ Partial Class frmSKD
         Me.lOrderRad = New DevExpress.XtraLayout.LayoutControlItem()
         Me.lOrder = New DevExpress.XtraLayout.LayoutControlItem()
         Me.lDATE_KONTROL_2 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.lblSisaKuota = New DevExpress.XtraEditors.LabelControl()
+        Me.lKUOTA = New DevExpress.XtraLayout.LayoutControlItem()
         CType(Me.layoutControl, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.layoutControl.SuspendLayout()
         CType(Me.deDATEKONTROL_2.Properties.CalendarTimeProperties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -111,10 +113,12 @@ Partial Class frmSKD
         CType(Me.lOrderRad, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lOrder, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lDATE_KONTROL_2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lKUOTA, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'layoutControl
         '
+        Me.layoutControl.Controls.Add(Me.lblSisaKuota)
         Me.layoutControl.Controls.Add(Me.deDATEKONTROL_2)
         Me.layoutControl.Controls.Add(Me.txtORDERPENUNJANG)
         Me.layoutControl.Controls.Add(Me.btnOrderRadiologi)
@@ -250,16 +254,16 @@ Partial Class frmSKD
         '
         'txtORDERPENUNJANG
         '
-        Me.txtORDERPENUNJANG.Location = New System.Drawing.Point(167, 368)
+        Me.txtORDERPENUNJANG.Location = New System.Drawing.Point(167, 381)
         Me.txtORDERPENUNJANG.MenuManager = Me.barManager
         Me.txtORDERPENUNJANG.Name = "txtORDERPENUNJANG"
-        Me.txtORDERPENUNJANG.Size = New System.Drawing.Size(369, 42)
+        Me.txtORDERPENUNJANG.Size = New System.Drawing.Size(369, 29)
         Me.txtORDERPENUNJANG.StyleController = Me.layoutControl
         Me.txtORDERPENUNJANG.TabIndex = 1014
         '
         'btnOrderRadiologi
         '
-        Me.btnOrderRadiologi.Location = New System.Drawing.Point(330, 296)
+        Me.btnOrderRadiologi.Location = New System.Drawing.Point(330, 323)
         Me.btnOrderRadiologi.Name = "btnOrderRadiologi"
         Me.btnOrderRadiologi.Size = New System.Drawing.Size(314, 22)
         Me.btnOrderRadiologi.StyleController = Me.layoutControl
@@ -268,7 +272,7 @@ Partial Class frmSKD
         '
         'btnOrderLaboratorium
         '
-        Me.btnOrderLaboratorium.Location = New System.Drawing.Point(12, 296)
+        Me.btnOrderLaboratorium.Location = New System.Drawing.Point(12, 323)
         Me.btnOrderLaboratorium.Name = "btnOrderLaboratorium"
         Me.btnOrderLaboratorium.Size = New System.Drawing.Size(314, 22)
         Me.btnOrderLaboratorium.StyleController = Me.layoutControl
@@ -299,13 +303,13 @@ Partial Class frmSKD
         'picSimpan
         '
         Me.picSimpan.EditValue = CType(resources.GetObject("picSimpan.EditValue"), Object)
-        Me.picSimpan.Location = New System.Drawing.Point(540, 322)
+        Me.picSimpan.Location = New System.Drawing.Point(540, 349)
         Me.picSimpan.Name = "picSimpan"
         Me.picSimpan.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picSimpan.Properties.Appearance.Options.UseBackColor = True
         Me.picSimpan.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder
         Me.picSimpan.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch
-        Me.picSimpan.Size = New System.Drawing.Size(104, 88)
+        Me.picSimpan.Size = New System.Drawing.Size(104, 61)
         Me.picSimpan.StyleController = Me.layoutControl
         Me.picSimpan.TabIndex = 16
         '
@@ -444,9 +448,9 @@ Partial Class frmSKD
         'txtDESCRIPTION
         '
         Me.txtDESCRIPTION.EditValue = ""
-        Me.txtDESCRIPTION.Location = New System.Drawing.Point(167, 322)
+        Me.txtDESCRIPTION.Location = New System.Drawing.Point(167, 349)
         Me.txtDESCRIPTION.Name = "txtDESCRIPTION"
-        Me.txtDESCRIPTION.Size = New System.Drawing.Size(369, 42)
+        Me.txtDESCRIPTION.Size = New System.Drawing.Size(369, 28)
         Me.txtDESCRIPTION.StyleController = Me.layoutControl
         Me.txtDESCRIPTION.TabIndex = 9
         '
@@ -455,7 +459,7 @@ Partial Class frmSKD
         Me.LayoutControlGroup1.CustomizationFormText = "LayoutControlGroup1"
         Me.LayoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
         Me.LayoutControlGroup1.GroupBordersVisible = False
-        Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lKDSKD, Me.lDESCRIPTION, Me.lKDDOCTOR, Me.lDATE, Me.lKDDEPARTMENT, Me.lSEPKARTU, Me.LayoutControlItem1, Me.lALASAN, Me.lDATE_KONTROL, Me.lTINDAKLANJUT, Me.lSEARCHTEXT, Me.lOrderLab, Me.lOrderRad, Me.lOrder, Me.lDATE_KONTROL_2})
+        Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lKDSKD, Me.lDESCRIPTION, Me.lKDDOCTOR, Me.lDATE, Me.lKDDEPARTMENT, Me.lSEPKARTU, Me.LayoutControlItem1, Me.lALASAN, Me.lDATE_KONTROL, Me.lTINDAKLANJUT, Me.lSEARCHTEXT, Me.lOrderLab, Me.lOrderRad, Me.lOrder, Me.lDATE_KONTROL_2, Me.lKUOTA})
         Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup1.Name = "LayoutControlGroup1"
         Me.LayoutControlGroup1.Size = New System.Drawing.Size(656, 422)
@@ -481,9 +485,9 @@ Partial Class frmSKD
         Me.lDESCRIPTION.AppearanceItemCaption.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap
         Me.lDESCRIPTION.Control = Me.txtDESCRIPTION
         Me.lDESCRIPTION.CustomizationFormText = "Rencana Pemeriksaan Saat Kontrol Selanjutnya"
-        Me.lDESCRIPTION.Location = New System.Drawing.Point(0, 310)
+        Me.lDESCRIPTION.Location = New System.Drawing.Point(0, 337)
         Me.lDESCRIPTION.Name = "lDESCRIPTION"
-        Me.lDESCRIPTION.Size = New System.Drawing.Size(528, 46)
+        Me.lDESCRIPTION.Size = New System.Drawing.Size(528, 32)
         Me.lDESCRIPTION.Text = "Rencana Pemeriksaan Saat Kontrol Selanjutnya"
         Me.lDESCRIPTION.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lDESCRIPTION.TextSize = New System.Drawing.Size(150, 20)
@@ -541,9 +545,9 @@ Partial Class frmSKD
         'LayoutControlItem1
         '
         Me.LayoutControlItem1.Control = Me.picSimpan
-        Me.LayoutControlItem1.Location = New System.Drawing.Point(528, 310)
+        Me.LayoutControlItem1.Location = New System.Drawing.Point(528, 337)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(108, 92)
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(108, 65)
         Me.LayoutControlItem1.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem1.TextVisible = False
         '
@@ -600,7 +604,7 @@ Partial Class frmSKD
         'lOrderLab
         '
         Me.lOrderLab.Control = Me.btnOrderLaboratorium
-        Me.lOrderLab.Location = New System.Drawing.Point(0, 284)
+        Me.lOrderLab.Location = New System.Drawing.Point(0, 311)
         Me.lOrderLab.Name = "lOrderLab"
         Me.lOrderLab.Size = New System.Drawing.Size(318, 26)
         Me.lOrderLab.TextSize = New System.Drawing.Size(0, 0)
@@ -609,7 +613,7 @@ Partial Class frmSKD
         'lOrderRad
         '
         Me.lOrderRad.Control = Me.btnOrderRadiologi
-        Me.lOrderRad.Location = New System.Drawing.Point(318, 284)
+        Me.lOrderRad.Location = New System.Drawing.Point(318, 311)
         Me.lOrderRad.Name = "lOrderRad"
         Me.lOrderRad.Size = New System.Drawing.Size(318, 26)
         Me.lOrderRad.TextSize = New System.Drawing.Size(0, 0)
@@ -621,9 +625,9 @@ Partial Class frmSKD
         Me.lOrder.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.lOrder.AppearanceItemCaption.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top
         Me.lOrder.Control = Me.txtORDERPENUNJANG
-        Me.lOrder.Location = New System.Drawing.Point(0, 356)
+        Me.lOrder.Location = New System.Drawing.Point(0, 369)
         Me.lOrder.Name = "lOrder"
-        Me.lOrder.Size = New System.Drawing.Size(528, 46)
+        Me.lOrder.Size = New System.Drawing.Size(528, 33)
         Me.lOrder.Text = "Order Penunjang :"
         Me.lOrder.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lOrder.TextSize = New System.Drawing.Size(150, 20)
@@ -641,6 +645,28 @@ Partial Class frmSKD
         Me.lDATE_KONTROL_2.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lDATE_KONTROL_2.TextSize = New System.Drawing.Size(150, 20)
         Me.lDATE_KONTROL_2.TextToControlDistance = 5
+        '
+        'lblSisaKuota
+        '
+        Me.lblSisaKuota.Appearance.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSisaKuota.Appearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.lblSisaKuota.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.lblSisaKuota.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.lblSisaKuota.Location = New System.Drawing.Point(12, 296)
+        Me.lblSisaKuota.Name = "lblSisaKuota"
+        Me.lblSisaKuota.Size = New System.Drawing.Size(632, 23)
+        Me.lblSisaKuota.StyleController = Me.layoutControl
+        Me.lblSisaKuota.TabIndex = 1015
+        Me.lblSisaKuota.Text = "0"
+        '
+        'lKUOTA
+        '
+        Me.lKUOTA.Control = Me.lblSisaKuota
+        Me.lKUOTA.Location = New System.Drawing.Point(0, 284)
+        Me.lKUOTA.Name = "lKUOTA"
+        Me.lKUOTA.Size = New System.Drawing.Size(636, 27)
+        Me.lKUOTA.TextSize = New System.Drawing.Size(0, 0)
+        Me.lKUOTA.TextVisible = False
         '
         'frmSKD
         '
@@ -698,6 +724,7 @@ Partial Class frmSKD
         CType(Me.lOrderRad, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lOrder, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lDATE_KONTROL_2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lKUOTA, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -753,4 +780,6 @@ Partial Class frmSKD
     Friend WithEvents lOrder As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents deDATEKONTROL_2 As DevExpress.XtraEditors.DateEdit
     Friend WithEvents lDATE_KONTROL_2 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents lblSisaKuota As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents lKUOTA As DevExpress.XtraLayout.LayoutControlItem
 End Class

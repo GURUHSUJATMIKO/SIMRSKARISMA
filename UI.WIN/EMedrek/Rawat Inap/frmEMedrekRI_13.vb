@@ -345,13 +345,13 @@ Public Class frmEMedrekRI_13
 
             If oFormMode = FORM_MODE.FORM_MODE_ADD Then
                 Try
-                    fn_Save = oS_DIGITAL_RI_13.InsertData(ds, Nothing)
+                    fn_Save = oS_DIGITAL_RI_13.InsertData(ds, Nothing, Nothing)
                 Catch ex As Exception
                     MsgBox("Simpan Data : " & vbCrLf & ex.Message, MsgBoxStyle.Exclamation, Me.Text)
                 End Try
             ElseIf oFormMode = FORM_MODE.FORM_MODE_EDIT Then
                 Try
-                    fn_Save = oS_DIGITAL_RI_13.UpdateData(ds, Nothing)
+                    fn_Save = oS_DIGITAL_RI_13.UpdateData(ds, Nothing, Nothing)
                 Catch ex As Exception
                     MsgBox("Simpan Data : " & vbCrLf & ex.Message, MsgBoxStyle.Exclamation, Me.Text)
                 End Try

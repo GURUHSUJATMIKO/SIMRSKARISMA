@@ -1753,6 +1753,12 @@ Partial Public Class DataMainDataContext
     End Sub
   Partial Private Sub DeleteS_REQ_RECIPE_D(instance As S_REQ_RECIPE_D)
     End Sub
+  Partial Private Sub InsertS_DIGITAL_RI_13_RESEP(instance As S_DIGITAL_RI_13_RESEP)
+    End Sub
+  Partial Private Sub UpdateS_DIGITAL_RI_13_RESEP(instance As S_DIGITAL_RI_13_RESEP)
+    End Sub
+  Partial Private Sub DeleteS_DIGITAL_RI_13_RESEP(instance As S_DIGITAL_RI_13_RESEP)
+    End Sub
   #End Region
 	
 	Public Sub New()
@@ -3499,6 +3505,12 @@ Partial Public Class DataMainDataContext
 	Public ReadOnly Property S_REQ_RECIPE_Ds() As System.Data.Linq.Table(Of S_REQ_RECIPE_D)
 		Get
 			Return Me.GetTable(Of S_REQ_RECIPE_D)
+		End Get
+	End Property
+	
+	Public ReadOnly Property S_DIGITAL_RI_13_RESEPs() As System.Data.Linq.Table(Of S_DIGITAL_RI_13_RESEP)
+		Get
+			Return Me.GetTable(Of S_DIGITAL_RI_13_RESEP)
 		End Get
 	End Property
 End Class
@@ -120824,6 +120836,8 @@ Partial Public Class S_DIGITAL_RI_13
 	
 	Private _S_DIGITAL_RI_13_DIAGNOSAs As EntitySet(Of S_DIGITAL_RI_13_DIAGNOSA)
 	
+	Private _S_DIGITAL_RI_13_RESEPs As EntitySet(Of S_DIGITAL_RI_13_RESEP)
+	
     #Region "Extensibility Method Definitions"
     Partial Private Sub OnLoaded()
     End Sub
@@ -121084,6 +121098,7 @@ Partial Public Class S_DIGITAL_RI_13
 	Public Sub New()
 		MyBase.New
 		Me._S_DIGITAL_RI_13_DIAGNOSAs = New EntitySet(Of S_DIGITAL_RI_13_DIAGNOSA)(AddressOf Me.attach_S_DIGITAL_RI_13_DIAGNOSAs, AddressOf Me.detach_S_DIGITAL_RI_13_DIAGNOSAs)
+		Me._S_DIGITAL_RI_13_RESEPs = New EntitySet(Of S_DIGITAL_RI_13_RESEP)(AddressOf Me.attach_S_DIGITAL_RI_13_RESEPs, AddressOf Me.detach_S_DIGITAL_RI_13_RESEPs)
 		OnCreated
 	End Sub
 	
@@ -122105,6 +122120,16 @@ Partial Public Class S_DIGITAL_RI_13
 		End Set
 	End Property
 	
+	<Global.System.Data.Linq.Mapping.AssociationAttribute(Name:="S_DIGITAL_RI_13_S_DIGITAL_RI_13_RESEP", Storage:="_S_DIGITAL_RI_13_RESEPs", ThisKey:="KDREG", OtherKey:="KDREG")>  _
+	Public Property S_DIGITAL_RI_13_RESEPs() As EntitySet(Of S_DIGITAL_RI_13_RESEP)
+		Get
+			Return Me._S_DIGITAL_RI_13_RESEPs
+		End Get
+		Set
+			Me._S_DIGITAL_RI_13_RESEPs.Assign(value)
+		End Set
+	End Property
+	
 	Public Event PropertyChanging As PropertyChangingEventHandler Implements System.ComponentModel.INotifyPropertyChanging.PropertyChanging
 	
 	Public Event PropertyChanged As PropertyChangedEventHandler Implements System.ComponentModel.INotifyPropertyChanged.PropertyChanged
@@ -122129,6 +122154,16 @@ Partial Public Class S_DIGITAL_RI_13
 	End Sub
 	
 	Private Sub detach_S_DIGITAL_RI_13_DIAGNOSAs(ByVal entity As S_DIGITAL_RI_13_DIAGNOSA)
+		Me.SendPropertyChanging
+		entity.S_DIGITAL_RI_13 = Nothing
+	End Sub
+	
+	Private Sub attach_S_DIGITAL_RI_13_RESEPs(ByVal entity As S_DIGITAL_RI_13_RESEP)
+		Me.SendPropertyChanging
+		entity.S_DIGITAL_RI_13 = Me
+	End Sub
+	
+	Private Sub detach_S_DIGITAL_RI_13_RESEPs(ByVal entity As S_DIGITAL_RI_13_RESEP)
 		Me.SendPropertyChanging
 		entity.S_DIGITAL_RI_13 = Nothing
 	End Sub
@@ -263574,6 +263609,502 @@ Partial Public Class S_REQ_RECIPE_D
 					Me._KDREQRECIPE = CType(Nothing, String)
 				End If
 				Me.SendPropertyChanged("S_REQ_RECIPE_H")
+			End If
+		End Set
+	End Property
+	
+	Public Event PropertyChanging As PropertyChangingEventHandler Implements System.ComponentModel.INotifyPropertyChanging.PropertyChanging
+	
+	Public Event PropertyChanged As PropertyChangedEventHandler Implements System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+	
+	Protected Overridable Sub SendPropertyChanging()
+		If ((Me.PropertyChangingEvent Is Nothing)  _
+					= false) Then
+			RaiseEvent PropertyChanging(Me, emptyChangingEventArgs)
+		End If
+	End Sub
+	
+	Protected Overridable Sub SendPropertyChanged(ByVal propertyName As [String])
+		If ((Me.PropertyChangedEvent Is Nothing)  _
+					= false) Then
+			RaiseEvent PropertyChanged(Me, New PropertyChangedEventArgs(propertyName))
+		End If
+	End Sub
+End Class
+
+<Global.System.Data.Linq.Mapping.TableAttribute(Name:="dbo.S_DIGITAL_RI_13_RESEP")>  _
+Partial Public Class S_DIGITAL_RI_13_RESEP
+	Implements System.ComponentModel.INotifyPropertyChanging, System.ComponentModel.INotifyPropertyChanged
+	
+	Private Shared emptyChangingEventArgs As PropertyChangingEventArgs = New PropertyChangingEventArgs(String.Empty)
+	
+	Private _KDREG As String
+	
+	Private _NAMAOBAT As String
+	
+	Private _SEQ As Integer
+	
+	Private _SATUAN As String
+	
+	Private _SIGNA As String
+	
+	Private _CARAPAKAI As String
+	
+	Private _QTY As Decimal
+	
+	Private _PRICE As Decimal
+	
+	Private _GRANDTOTAL As Decimal
+	
+	Private _ROMAWI As String
+	
+	Private _REMARKS_DOKTER As String
+	
+	Private _KDITEM As String
+	
+	Private _KDSIGNA As String
+	
+	Private _KDUOM As String
+	
+	Private _KDCARAPAKAI As String
+	
+	Private _QTY_PERUBAHAN As Decimal
+	
+	Private _REMARKS_FARMASI As String
+	
+	Private _DOSIS As String
+	
+	Private _STATUSKIRIMRESEP As String
+	
+	Private _S_DIGITAL_RI_13 As EntityRef(Of S_DIGITAL_RI_13)
+	
+    #Region "Extensibility Method Definitions"
+    Partial Private Sub OnLoaded()
+    End Sub
+    Partial Private Sub OnValidate(action As System.Data.Linq.ChangeAction)
+    End Sub
+    Partial Private Sub OnCreated()
+    End Sub
+    Partial Private Sub OnKDREGChanging(value As String)
+    End Sub
+    Partial Private Sub OnKDREGChanged()
+    End Sub
+    Partial Private Sub OnNAMAOBATChanging(value As String)
+    End Sub
+    Partial Private Sub OnNAMAOBATChanged()
+    End Sub
+    Partial Private Sub OnSEQChanging(value As Integer)
+    End Sub
+    Partial Private Sub OnSEQChanged()
+    End Sub
+    Partial Private Sub OnSATUANChanging(value As String)
+    End Sub
+    Partial Private Sub OnSATUANChanged()
+    End Sub
+    Partial Private Sub OnSIGNAChanging(value As String)
+    End Sub
+    Partial Private Sub OnSIGNAChanged()
+    End Sub
+    Partial Private Sub OnCARAPAKAIChanging(value As String)
+    End Sub
+    Partial Private Sub OnCARAPAKAIChanged()
+    End Sub
+    Partial Private Sub OnQTYChanging(value As Decimal)
+    End Sub
+    Partial Private Sub OnQTYChanged()
+    End Sub
+    Partial Private Sub OnPRICEChanging(value As Decimal)
+    End Sub
+    Partial Private Sub OnPRICEChanged()
+    End Sub
+    Partial Private Sub OnGRANDTOTALChanging(value As Decimal)
+    End Sub
+    Partial Private Sub OnGRANDTOTALChanged()
+    End Sub
+    Partial Private Sub OnROMAWIChanging(value As String)
+    End Sub
+    Partial Private Sub OnROMAWIChanged()
+    End Sub
+    Partial Private Sub OnREMARKS_DOKTERChanging(value As String)
+    End Sub
+    Partial Private Sub OnREMARKS_DOKTERChanged()
+    End Sub
+    Partial Private Sub OnKDITEMChanging(value As String)
+    End Sub
+    Partial Private Sub OnKDITEMChanged()
+    End Sub
+    Partial Private Sub OnKDSIGNAChanging(value As String)
+    End Sub
+    Partial Private Sub OnKDSIGNAChanged()
+    End Sub
+    Partial Private Sub OnKDUOMChanging(value As String)
+    End Sub
+    Partial Private Sub OnKDUOMChanged()
+    End Sub
+    Partial Private Sub OnKDCARAPAKAIChanging(value As String)
+    End Sub
+    Partial Private Sub OnKDCARAPAKAIChanged()
+    End Sub
+    Partial Private Sub OnQTY_PERUBAHANChanging(value As Decimal)
+    End Sub
+    Partial Private Sub OnQTY_PERUBAHANChanged()
+    End Sub
+    Partial Private Sub OnREMARKS_FARMASIChanging(value As String)
+    End Sub
+    Partial Private Sub OnREMARKS_FARMASIChanged()
+    End Sub
+    Partial Private Sub OnDOSISChanging(value As String)
+    End Sub
+    Partial Private Sub OnDOSISChanged()
+    End Sub
+    Partial Private Sub OnSTATUSKIRIMRESEPChanging(value As String)
+    End Sub
+    Partial Private Sub OnSTATUSKIRIMRESEPChanged()
+    End Sub
+    #End Region
+	
+	Public Sub New()
+		MyBase.New
+		Me._S_DIGITAL_RI_13 = CType(Nothing, EntityRef(Of S_DIGITAL_RI_13))
+		OnCreated
+	End Sub
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_KDREG", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false, IsPrimaryKey:=true)>  _
+	Public Property KDREG() As String
+		Get
+			Return Me._KDREG
+		End Get
+		Set
+			If (String.Equals(Me._KDREG, value) = false) Then
+				If Me._S_DIGITAL_RI_13.HasLoadedOrAssignedValue Then
+					Throw New System.Data.Linq.ForeignKeyReferenceAlreadyHasValueException()
+				End If
+				Me.OnKDREGChanging(value)
+				Me.SendPropertyChanging
+				Me._KDREG = value
+				Me.SendPropertyChanged("KDREG")
+				Me.OnKDREGChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_NAMAOBAT", DbType:="NVarChar(MAX)")>  _
+	Public Property NAMAOBAT() As String
+		Get
+			Return Me._NAMAOBAT
+		End Get
+		Set
+			If (String.Equals(Me._NAMAOBAT, value) = false) Then
+				Me.OnNAMAOBATChanging(value)
+				Me.SendPropertyChanging
+				Me._NAMAOBAT = value
+				Me.SendPropertyChanged("NAMAOBAT")
+				Me.OnNAMAOBATChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_SEQ", DbType:="Int NOT NULL", IsPrimaryKey:=true)>  _
+	Public Property SEQ() As Integer
+		Get
+			Return Me._SEQ
+		End Get
+		Set
+			If ((Me._SEQ = value)  _
+						= false) Then
+				Me.OnSEQChanging(value)
+				Me.SendPropertyChanging
+				Me._SEQ = value
+				Me.SendPropertyChanged("SEQ")
+				Me.OnSEQChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_SATUAN", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
+	Public Property SATUAN() As String
+		Get
+			Return Me._SATUAN
+		End Get
+		Set
+			If (String.Equals(Me._SATUAN, value) = false) Then
+				Me.OnSATUANChanging(value)
+				Me.SendPropertyChanging
+				Me._SATUAN = value
+				Me.SendPropertyChanged("SATUAN")
+				Me.OnSATUANChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_SIGNA", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
+	Public Property SIGNA() As String
+		Get
+			Return Me._SIGNA
+		End Get
+		Set
+			If (String.Equals(Me._SIGNA, value) = false) Then
+				Me.OnSIGNAChanging(value)
+				Me.SendPropertyChanging
+				Me._SIGNA = value
+				Me.SendPropertyChanged("SIGNA")
+				Me.OnSIGNAChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_CARAPAKAI", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
+	Public Property CARAPAKAI() As String
+		Get
+			Return Me._CARAPAKAI
+		End Get
+		Set
+			If (String.Equals(Me._CARAPAKAI, value) = false) Then
+				Me.OnCARAPAKAIChanging(value)
+				Me.SendPropertyChanging
+				Me._CARAPAKAI = value
+				Me.SendPropertyChanged("CARAPAKAI")
+				Me.OnCARAPAKAIChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_QTY", DbType:="Decimal(12,2) NOT NULL")>  _
+	Public Property QTY() As Decimal
+		Get
+			Return Me._QTY
+		End Get
+		Set
+			If ((Me._QTY = value)  _
+						= false) Then
+				Me.OnQTYChanging(value)
+				Me.SendPropertyChanging
+				Me._QTY = value
+				Me.SendPropertyChanged("QTY")
+				Me.OnQTYChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_PRICE", DbType:="Decimal(12,2) NOT NULL")>  _
+	Public Property PRICE() As Decimal
+		Get
+			Return Me._PRICE
+		End Get
+		Set
+			If ((Me._PRICE = value)  _
+						= false) Then
+				Me.OnPRICEChanging(value)
+				Me.SendPropertyChanging
+				Me._PRICE = value
+				Me.SendPropertyChanged("PRICE")
+				Me.OnPRICEChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_GRANDTOTAL", DbType:="Decimal(12,2) NOT NULL")>  _
+	Public Property GRANDTOTAL() As Decimal
+		Get
+			Return Me._GRANDTOTAL
+		End Get
+		Set
+			If ((Me._GRANDTOTAL = value)  _
+						= false) Then
+				Me.OnGRANDTOTALChanging(value)
+				Me.SendPropertyChanging
+				Me._GRANDTOTAL = value
+				Me.SendPropertyChanged("GRANDTOTAL")
+				Me.OnGRANDTOTALChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_ROMAWI", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
+	Public Property ROMAWI() As String
+		Get
+			Return Me._ROMAWI
+		End Get
+		Set
+			If (String.Equals(Me._ROMAWI, value) = false) Then
+				Me.OnROMAWIChanging(value)
+				Me.SendPropertyChanging
+				Me._ROMAWI = value
+				Me.SendPropertyChanged("ROMAWI")
+				Me.OnROMAWIChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_REMARKS_DOKTER", DbType:="NVarChar(MAX) NOT NULL", CanBeNull:=false)>  _
+	Public Property REMARKS_DOKTER() As String
+		Get
+			Return Me._REMARKS_DOKTER
+		End Get
+		Set
+			If (String.Equals(Me._REMARKS_DOKTER, value) = false) Then
+				Me.OnREMARKS_DOKTERChanging(value)
+				Me.SendPropertyChanging
+				Me._REMARKS_DOKTER = value
+				Me.SendPropertyChanged("REMARKS_DOKTER")
+				Me.OnREMARKS_DOKTERChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_KDITEM", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
+	Public Property KDITEM() As String
+		Get
+			Return Me._KDITEM
+		End Get
+		Set
+			If (String.Equals(Me._KDITEM, value) = false) Then
+				Me.OnKDITEMChanging(value)
+				Me.SendPropertyChanging
+				Me._KDITEM = value
+				Me.SendPropertyChanged("KDITEM")
+				Me.OnKDITEMChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_KDSIGNA", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
+	Public Property KDSIGNA() As String
+		Get
+			Return Me._KDSIGNA
+		End Get
+		Set
+			If (String.Equals(Me._KDSIGNA, value) = false) Then
+				Me.OnKDSIGNAChanging(value)
+				Me.SendPropertyChanging
+				Me._KDSIGNA = value
+				Me.SendPropertyChanged("KDSIGNA")
+				Me.OnKDSIGNAChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_KDUOM", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
+	Public Property KDUOM() As String
+		Get
+			Return Me._KDUOM
+		End Get
+		Set
+			If (String.Equals(Me._KDUOM, value) = false) Then
+				Me.OnKDUOMChanging(value)
+				Me.SendPropertyChanging
+				Me._KDUOM = value
+				Me.SendPropertyChanged("KDUOM")
+				Me.OnKDUOMChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_KDCARAPAKAI", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
+	Public Property KDCARAPAKAI() As String
+		Get
+			Return Me._KDCARAPAKAI
+		End Get
+		Set
+			If (String.Equals(Me._KDCARAPAKAI, value) = false) Then
+				Me.OnKDCARAPAKAIChanging(value)
+				Me.SendPropertyChanging
+				Me._KDCARAPAKAI = value
+				Me.SendPropertyChanged("KDCARAPAKAI")
+				Me.OnKDCARAPAKAIChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_QTY_PERUBAHAN", DbType:="Decimal(12,2) NOT NULL")>  _
+	Public Property QTY_PERUBAHAN() As Decimal
+		Get
+			Return Me._QTY_PERUBAHAN
+		End Get
+		Set
+			If ((Me._QTY_PERUBAHAN = value)  _
+						= false) Then
+				Me.OnQTY_PERUBAHANChanging(value)
+				Me.SendPropertyChanging
+				Me._QTY_PERUBAHAN = value
+				Me.SendPropertyChanged("QTY_PERUBAHAN")
+				Me.OnQTY_PERUBAHANChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_REMARKS_FARMASI", DbType:="NVarChar(MAX) NOT NULL", CanBeNull:=false)>  _
+	Public Property REMARKS_FARMASI() As String
+		Get
+			Return Me._REMARKS_FARMASI
+		End Get
+		Set
+			If (String.Equals(Me._REMARKS_FARMASI, value) = false) Then
+				Me.OnREMARKS_FARMASIChanging(value)
+				Me.SendPropertyChanging
+				Me._REMARKS_FARMASI = value
+				Me.SendPropertyChanged("REMARKS_FARMASI")
+				Me.OnREMARKS_FARMASIChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_DOSIS", DbType:="NVarChar(100) NOT NULL", CanBeNull:=false)>  _
+	Public Property DOSIS() As String
+		Get
+			Return Me._DOSIS
+		End Get
+		Set
+			If (String.Equals(Me._DOSIS, value) = false) Then
+				Me.OnDOSISChanging(value)
+				Me.SendPropertyChanging
+				Me._DOSIS = value
+				Me.SendPropertyChanged("DOSIS")
+				Me.OnDOSISChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.ColumnAttribute(Storage:="_STATUSKIRIMRESEP", DbType:="NVarChar(50) NOT NULL", CanBeNull:=false)>  _
+	Public Property STATUSKIRIMRESEP() As String
+		Get
+			Return Me._STATUSKIRIMRESEP
+		End Get
+		Set
+			If (String.Equals(Me._STATUSKIRIMRESEP, value) = false) Then
+				Me.OnSTATUSKIRIMRESEPChanging(value)
+				Me.SendPropertyChanging
+				Me._STATUSKIRIMRESEP = value
+				Me.SendPropertyChanged("STATUSKIRIMRESEP")
+				Me.OnSTATUSKIRIMRESEPChanged
+			End If
+		End Set
+	End Property
+	
+	<Global.System.Data.Linq.Mapping.AssociationAttribute(Name:="S_DIGITAL_RI_13_S_DIGITAL_RI_13_RESEP", Storage:="_S_DIGITAL_RI_13", ThisKey:="KDREG", OtherKey:="KDREG", IsForeignKey:=true)>  _
+	Public Property S_DIGITAL_RI_13() As S_DIGITAL_RI_13
+		Get
+			Return Me._S_DIGITAL_RI_13.Entity
+		End Get
+		Set
+			Dim previousValue As S_DIGITAL_RI_13 = Me._S_DIGITAL_RI_13.Entity
+			If ((Object.Equals(previousValue, value) = false)  _
+						OrElse (Me._S_DIGITAL_RI_13.HasLoadedOrAssignedValue = false)) Then
+				Me.SendPropertyChanging
+				If ((previousValue Is Nothing)  _
+							= false) Then
+					Me._S_DIGITAL_RI_13.Entity = Nothing
+					previousValue.S_DIGITAL_RI_13_RESEPs.Remove(Me)
+				End If
+				Me._S_DIGITAL_RI_13.Entity = value
+				If ((value Is Nothing)  _
+							= false) Then
+					value.S_DIGITAL_RI_13_RESEPs.Add(Me)
+					Me._KDREG = value.KDREG
+				Else
+					Me._KDREG = CType(Nothing, String)
+				End If
+				Me.SendPropertyChanged("S_DIGITAL_RI_13")
 			End If
 		End Set
 	End Property

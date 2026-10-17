@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataAccess.dll" size="4129792">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataAccess.dll" size="4137984">
       <assemblyIdentity name="DataAccess" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>o5mCINI+AITMCi//51bmEVSNaE0=</dsig:DigestValue>
+        <dsig:DigestValue>7arKRlqr+7eWvmghY6fWeDGc3lA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1891,14 +1891,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RS Karisma Cimareme - Information System.exe" size="36828104">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RS Karisma Cimareme - Information System.exe" size="36860360">
       <assemblyIdentity name="RS Karisma Cimareme - Information System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>t2HHPPDLY2unuxw+V5LmH8cJj1c=</dsig:DigestValue>
+        <dsig:DigestValue>d32oALVYSMa+IFyvDcGr/1AEZf8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1910,17 +1910,17 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>KCKWC6NgUBdz4PB71dFgGzSssdg=</dsig:DigestValue>
+        <dsig:DigestValue>c9rkZ/DCb/l8mAsrdF86CmDS1t4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="DataAccess.pdb" size="11320832">
+  <file name="DataAccess.pdb" size="11343360">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>xT/ldH//ETWywekmxZo8uHasaB0=</dsig:DigestValue>
+      <dsig:DigestValue>PHZPk5RSFtndiTS0OUOgSCtdNBc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="DataAccess.xml" size="6340">
@@ -2247,13 +2247,13 @@
       <dsig:DigestValue>F2dSt5LFB38VbKZfrVnQtbYXHlg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="RS Karisma Cimareme - Information System.pdb" size="8992256">
+  <file name="RS Karisma Cimareme - Information System.pdb" size="9002496">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>9Z0IT/m8ys1rYiSvRW5b8Jq+0BU=</dsig:DigestValue>
+      <dsig:DigestValue>/tEOtLJ0coyDcLRPD+oZ8hMfWls=</dsig:DigestValue>
     </hash>
   </file>
   <file name="RS Karisma Cimareme - Information System.xml" size="187917">

@@ -924,7 +924,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         Me.btnMasukPoli.Appearance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnMasukPoli.Appearance.Options.UseFont = True
-        Me.btnMasukPoli.Location = New System.Drawing.Point(487, 124)
+        Me.btnMasukPoli.Location = New System.Drawing.Point(487, -116)
         Me.btnMasukPoli.Name = "btnMasukPoli"
         Me.btnMasukPoli.Size = New System.Drawing.Size(109, 23)
         Me.btnMasukPoli.StyleController = Me.LayoutControl1
@@ -1095,7 +1095,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.LabelControl50.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl50.Appearance.ForeColor = System.Drawing.Color.Black
         Me.LabelControl50.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl50.Location = New System.Drawing.Point(5, 1076)
+        Me.LabelControl50.Location = New System.Drawing.Point(5, 836)
         Me.LabelControl50.Name = "LabelControl50"
         Me.LabelControl50.Size = New System.Drawing.Size(600, 18)
         Me.LabelControl50.StyleController = Me.LayoutControl1
@@ -1108,7 +1108,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.LabelControl49.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl49.Appearance.ForeColor = System.Drawing.Color.Black
         Me.LabelControl49.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl49.Location = New System.Drawing.Point(5, 892)
+        Me.LabelControl49.Location = New System.Drawing.Point(5, 652)
         Me.LabelControl49.Name = "LabelControl49"
         Me.LabelControl49.Size = New System.Drawing.Size(600, 18)
         Me.LabelControl49.StyleController = Me.LayoutControl1
@@ -1121,7 +1121,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.LabelControl31.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl31.Appearance.ForeColor = System.Drawing.Color.Black
         Me.LabelControl31.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl31.Location = New System.Drawing.Point(5, 489)
+        Me.LabelControl31.Location = New System.Drawing.Point(5, 249)
         Me.LabelControl31.Name = "LabelControl31"
         Me.LabelControl31.Size = New System.Drawing.Size(600, 18)
         Me.LabelControl31.StyleController = Me.LayoutControl1
@@ -1130,7 +1130,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtLayananRataRata
         '
-        Me.txtLayananRataRata.Location = New System.Drawing.Point(187, 2171)
+        Me.txtLayananRataRata.Location = New System.Drawing.Point(187, 1931)
         Me.txtLayananRataRata.Name = "txtLayananRataRata"
         Me.txtLayananRataRata.Size = New System.Drawing.Size(421, 20)
         Me.txtLayananRataRata.StyleController = Me.LayoutControl1
@@ -1142,7 +1142,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.LabelControl48.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl48.Appearance.ForeColor = System.Drawing.Color.Black
         Me.LabelControl48.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl48.Location = New System.Drawing.Point(5, 350)
+        Me.LabelControl48.Location = New System.Drawing.Point(5, 110)
         Me.LabelControl48.Name = "LabelControl48"
         Me.LabelControl48.Size = New System.Drawing.Size(600, 18)
         Me.LabelControl48.StyleController = Me.LayoutControl1
@@ -1154,7 +1154,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.btnBATAL.Appearance.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold)
         Me.btnBATAL.Appearance.Options.UseFont = True
         Me.btnBATAL.Image = CType(resources.GetObject("btnBATAL.Image"), System.Drawing.Image)
-        Me.btnBATAL.Location = New System.Drawing.Point(307, 2126)
+        Me.btnBATAL.Location = New System.Drawing.Point(307, 1886)
         Me.btnBATAL.Name = "btnBATAL"
         Me.btnBATAL.Size = New System.Drawing.Size(298, 38)
         Me.btnBATAL.StyleController = Me.LayoutControl1
@@ -1166,7 +1166,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.btnSave.Appearance.Font = New System.Drawing.Font("Tahoma", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSave.Appearance.Options.UseFont = True
         Me.btnSave.Image = CType(resources.GetObject("btnSave.Image"), System.Drawing.Image)
-        Me.btnSave.Location = New System.Drawing.Point(5, 2126)
+        Me.btnSave.Location = New System.Drawing.Point(5, 1886)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(298, 38)
         Me.btnSave.StyleController = Me.LayoutControl1
@@ -1175,7 +1175,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'btnSuratKeteranganSakit
         '
-        Me.btnSuratKeteranganSakit.Location = New System.Drawing.Point(5, 2100)
+        Me.btnSuratKeteranganSakit.Location = New System.Drawing.Point(5, 1860)
         Me.btnSuratKeteranganSakit.Name = "btnSuratKeteranganSakit"
         Me.btnSuratKeteranganSakit.Size = New System.Drawing.Size(204, 22)
         Me.btnSuratKeteranganSakit.StyleController = Me.LayoutControl1
@@ -1184,7 +1184,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'btnSuratKeteranganSehat
         '
-        Me.btnSuratKeteranganSehat.Location = New System.Drawing.Point(5, 2074)
+        Me.btnSuratKeteranganSehat.Location = New System.Drawing.Point(5, 1834)
         Me.btnSuratKeteranganSehat.Name = "btnSuratKeteranganSehat"
         Me.btnSuratKeteranganSehat.Size = New System.Drawing.Size(204, 22)
         Me.btnSuratKeteranganSehat.StyleController = Me.LayoutControl1
@@ -1193,7 +1193,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl53
         '
-        Me.LabelControl53.Location = New System.Drawing.Point(5, 1702)
+        Me.LabelControl53.Location = New System.Drawing.Point(5, 1462)
         Me.LabelControl53.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl53.Name = "LabelControl53"
         Me.LabelControl53.Size = New System.Drawing.Size(0, 13)
@@ -1202,7 +1202,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl52
         '
-        Me.LabelControl52.Location = New System.Drawing.Point(5, 1719)
+        Me.LabelControl52.Location = New System.Drawing.Point(5, 1479)
         Me.LabelControl52.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl52.Name = "LabelControl52"
         Me.LabelControl52.Size = New System.Drawing.Size(0, 13)
@@ -1211,7 +1211,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl51
         '
-        Me.LabelControl51.Location = New System.Drawing.Point(5, 1685)
+        Me.LabelControl51.Location = New System.Drawing.Point(5, 1445)
         Me.LabelControl51.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl51.Name = "LabelControl51"
         Me.LabelControl51.Size = New System.Drawing.Size(0, 13)
@@ -1220,7 +1220,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'btnKembaliKeDokter
         '
-        Me.btnKembaliKeDokter.Location = New System.Drawing.Point(5, 2048)
+        Me.btnKembaliKeDokter.Location = New System.Drawing.Point(5, 1808)
         Me.btnKembaliKeDokter.Name = "btnKembaliKeDokter"
         Me.btnKembaliKeDokter.Size = New System.Drawing.Size(204, 22)
         Me.btnKembaliKeDokter.StyleController = Me.LayoutControl1
@@ -1229,7 +1229,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl47
         '
-        Me.LabelControl47.Location = New System.Drawing.Point(5, 1668)
+        Me.LabelControl47.Location = New System.Drawing.Point(5, 1428)
         Me.LabelControl47.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl47.Name = "LabelControl47"
         Me.LabelControl47.Size = New System.Drawing.Size(0, 13)
@@ -1238,7 +1238,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'btnSelesaiPengobatan
         '
-        Me.btnSelesaiPengobatan.Location = New System.Drawing.Point(5, 2022)
+        Me.btnSelesaiPengobatan.Location = New System.Drawing.Point(5, 1782)
         Me.btnSelesaiPengobatan.Name = "btnSelesaiPengobatan"
         Me.btnSelesaiPengobatan.Size = New System.Drawing.Size(204, 22)
         Me.btnSelesaiPengobatan.StyleController = Me.LayoutControl1
@@ -1247,7 +1247,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'SimpleButton6
         '
-        Me.SimpleButton6.Location = New System.Drawing.Point(5, 1918)
+        Me.SimpleButton6.Location = New System.Drawing.Point(5, 1678)
         Me.SimpleButton6.Name = "SimpleButton6"
         Me.SimpleButton6.Size = New System.Drawing.Size(204, 22)
         Me.SimpleButton6.StyleController = Me.LayoutControl1
@@ -1256,7 +1256,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'btnPenjadwalanOperasi
         '
-        Me.btnPenjadwalanOperasi.Location = New System.Drawing.Point(5, 1996)
+        Me.btnPenjadwalanOperasi.Location = New System.Drawing.Point(5, 1756)
         Me.btnPenjadwalanOperasi.Name = "btnPenjadwalanOperasi"
         Me.btnPenjadwalanOperasi.Size = New System.Drawing.Size(204, 22)
         Me.btnPenjadwalanOperasi.StyleController = Me.LayoutControl1
@@ -1266,7 +1266,7 @@ Partial Class frmMedrekRawatNew2JalanList
         'txtTINDAKLANJUT
         '
         Me.txtTINDAKLANJUT.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.txtTINDAKLANJUT.Location = New System.Drawing.Point(213, 1736)
+        Me.txtTINDAKLANJUT.Location = New System.Drawing.Point(213, 1496)
         Me.txtTINDAKLANJUT.Name = "txtTINDAKLANJUT"
         Me.txtTINDAKLANJUT.Size = New System.Drawing.Size(392, 386)
         Me.txtTINDAKLANJUT.TabIndex = 63
@@ -1274,7 +1274,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'btnRawatInap
         '
-        Me.btnRawatInap.Location = New System.Drawing.Point(5, 1970)
+        Me.btnRawatInap.Location = New System.Drawing.Point(5, 1730)
         Me.btnRawatInap.Name = "btnRawatInap"
         Me.btnRawatInap.Size = New System.Drawing.Size(204, 22)
         Me.btnRawatInap.StyleController = Me.LayoutControl1
@@ -1283,7 +1283,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl97
         '
-        Me.LabelControl97.Location = New System.Drawing.Point(5, 1447)
+        Me.LabelControl97.Location = New System.Drawing.Point(5, 1207)
         Me.LabelControl97.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl97.Name = "LabelControl97"
         Me.LabelControl97.Size = New System.Drawing.Size(0, 13)
@@ -1292,7 +1292,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'btnRujukBalik
         '
-        Me.btnRujukBalik.Location = New System.Drawing.Point(5, 1944)
+        Me.btnRujukBalik.Location = New System.Drawing.Point(5, 1704)
         Me.btnRujukBalik.Name = "btnRujukBalik"
         Me.btnRujukBalik.Size = New System.Drawing.Size(204, 22)
         Me.btnRujukBalik.StyleController = Me.LayoutControl1
@@ -1301,7 +1301,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl96
         '
-        Me.LabelControl96.Location = New System.Drawing.Point(5, 1464)
+        Me.LabelControl96.Location = New System.Drawing.Point(5, 1224)
         Me.LabelControl96.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl96.Name = "LabelControl96"
         Me.LabelControl96.Size = New System.Drawing.Size(0, 13)
@@ -1310,7 +1310,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl95
         '
-        Me.LabelControl95.Location = New System.Drawing.Point(5, 1481)
+        Me.LabelControl95.Location = New System.Drawing.Point(5, 1241)
         Me.LabelControl95.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl95.Name = "LabelControl95"
         Me.LabelControl95.Size = New System.Drawing.Size(0, 13)
@@ -1319,7 +1319,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'btnITERASI
         '
-        Me.btnITERASI.Location = New System.Drawing.Point(5, 1892)
+        Me.btnITERASI.Location = New System.Drawing.Point(5, 1652)
         Me.btnITERASI.Name = "btnITERASI"
         Me.btnITERASI.Size = New System.Drawing.Size(204, 22)
         Me.btnITERASI.StyleController = Me.LayoutControl1
@@ -1328,7 +1328,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl94
         '
-        Me.LabelControl94.Location = New System.Drawing.Point(5, 1532)
+        Me.LabelControl94.Location = New System.Drawing.Point(5, 1292)
         Me.LabelControl94.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl94.Name = "LabelControl94"
         Me.LabelControl94.Size = New System.Drawing.Size(0, 13)
@@ -1337,7 +1337,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl93
         '
-        Me.LabelControl93.Location = New System.Drawing.Point(5, 1549)
+        Me.LabelControl93.Location = New System.Drawing.Point(5, 1309)
         Me.LabelControl93.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl93.Name = "LabelControl93"
         Me.LabelControl93.Size = New System.Drawing.Size(0, 13)
@@ -1346,7 +1346,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'btnAlihRawat
         '
-        Me.btnAlihRawat.Location = New System.Drawing.Point(5, 1814)
+        Me.btnAlihRawat.Location = New System.Drawing.Point(5, 1574)
         Me.btnAlihRawat.Name = "btnAlihRawat"
         Me.btnAlihRawat.Size = New System.Drawing.Size(204, 22)
         Me.btnAlihRawat.StyleController = Me.LayoutControl1
@@ -1355,7 +1355,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'btnPRB
         '
-        Me.btnPRB.Location = New System.Drawing.Point(5, 1866)
+        Me.btnPRB.Location = New System.Drawing.Point(5, 1626)
         Me.btnPRB.Name = "btnPRB"
         Me.btnPRB.Size = New System.Drawing.Size(204, 22)
         Me.btnPRB.StyleController = Me.LayoutControl1
@@ -1364,7 +1364,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl46
         '
-        Me.LabelControl46.Location = New System.Drawing.Point(5, 1498)
+        Me.LabelControl46.Location = New System.Drawing.Point(5, 1258)
         Me.LabelControl46.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl46.Name = "LabelControl46"
         Me.LabelControl46.Size = New System.Drawing.Size(0, 13)
@@ -1373,7 +1373,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'btnRujukanHabis
         '
-        Me.btnRujukanHabis.Location = New System.Drawing.Point(5, 1840)
+        Me.btnRujukanHabis.Location = New System.Drawing.Point(5, 1600)
         Me.btnRujukanHabis.Name = "btnRujukanHabis"
         Me.btnRujukanHabis.Size = New System.Drawing.Size(204, 22)
         Me.btnRujukanHabis.StyleController = Me.LayoutControl1
@@ -1382,7 +1382,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl45
         '
-        Me.LabelControl45.Location = New System.Drawing.Point(5, 1600)
+        Me.LabelControl45.Location = New System.Drawing.Point(5, 1360)
         Me.LabelControl45.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl45.Name = "LabelControl45"
         Me.LabelControl45.Size = New System.Drawing.Size(0, 13)
@@ -1391,7 +1391,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl44
         '
-        Me.LabelControl44.Location = New System.Drawing.Point(5, 1515)
+        Me.LabelControl44.Location = New System.Drawing.Point(5, 1275)
         Me.LabelControl44.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl44.Name = "LabelControl44"
         Me.LabelControl44.Size = New System.Drawing.Size(0, 13)
@@ -1400,7 +1400,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl43
         '
-        Me.LabelControl43.Location = New System.Drawing.Point(5, 1430)
+        Me.LabelControl43.Location = New System.Drawing.Point(5, 1190)
         Me.LabelControl43.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl43.Name = "LabelControl43"
         Me.LabelControl43.Size = New System.Drawing.Size(0, 13)
@@ -1409,7 +1409,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl42
         '
-        Me.LabelControl42.Location = New System.Drawing.Point(5, 1566)
+        Me.LabelControl42.Location = New System.Drawing.Point(5, 1326)
         Me.LabelControl42.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl42.Name = "LabelControl42"
         Me.LabelControl42.Size = New System.Drawing.Size(0, 13)
@@ -1418,7 +1418,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'btnInternal
         '
-        Me.btnInternal.Location = New System.Drawing.Point(5, 1788)
+        Me.btnInternal.Location = New System.Drawing.Point(5, 1548)
         Me.btnInternal.Name = "btnInternal"
         Me.btnInternal.Size = New System.Drawing.Size(204, 22)
         Me.btnInternal.StyleController = Me.LayoutControl1
@@ -1427,7 +1427,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl41
         '
-        Me.LabelControl41.Location = New System.Drawing.Point(5, 1617)
+        Me.LabelControl41.Location = New System.Drawing.Point(5, 1377)
         Me.LabelControl41.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl41.Name = "LabelControl41"
         Me.LabelControl41.Size = New System.Drawing.Size(0, 13)
@@ -1436,7 +1436,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl40
         '
-        Me.LabelControl40.Location = New System.Drawing.Point(5, 1583)
+        Me.LabelControl40.Location = New System.Drawing.Point(5, 1343)
         Me.LabelControl40.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl40.Name = "LabelControl40"
         Me.LabelControl40.Size = New System.Drawing.Size(0, 13)
@@ -1445,7 +1445,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl39
         '
-        Me.LabelControl39.Location = New System.Drawing.Point(5, 1651)
+        Me.LabelControl39.Location = New System.Drawing.Point(5, 1411)
         Me.LabelControl39.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl39.Name = "LabelControl39"
         Me.LabelControl39.Size = New System.Drawing.Size(0, 13)
@@ -1454,7 +1454,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl38
         '
-        Me.LabelControl38.Location = New System.Drawing.Point(5, 1634)
+        Me.LabelControl38.Location = New System.Drawing.Point(5, 1394)
         Me.LabelControl38.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl38.Name = "LabelControl38"
         Me.LabelControl38.Size = New System.Drawing.Size(0, 13)
@@ -1463,7 +1463,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'btnEksternal
         '
-        Me.btnEksternal.Location = New System.Drawing.Point(5, 1762)
+        Me.btnEksternal.Location = New System.Drawing.Point(5, 1522)
         Me.btnEksternal.Name = "btnEksternal"
         Me.btnEksternal.Size = New System.Drawing.Size(204, 22)
         Me.btnEksternal.StyleController = Me.LayoutControl1
@@ -1472,7 +1472,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl35
         '
-        Me.LabelControl35.Location = New System.Drawing.Point(5, 1413)
+        Me.LabelControl35.Location = New System.Drawing.Point(5, 1173)
         Me.LabelControl35.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl35.Name = "LabelControl35"
         Me.LabelControl35.Size = New System.Drawing.Size(0, 13)
@@ -1481,7 +1481,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'btnSKD
         '
-        Me.btnSKD.Location = New System.Drawing.Point(5, 1736)
+        Me.btnSKD.Location = New System.Drawing.Point(5, 1496)
         Me.btnSKD.Name = "btnSKD"
         Me.btnSKD.Size = New System.Drawing.Size(204, 22)
         Me.btnSKD.StyleController = Me.LayoutControl1
@@ -1490,7 +1490,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl37
         '
-        Me.LabelControl37.Location = New System.Drawing.Point(5, 1362)
+        Me.LabelControl37.Location = New System.Drawing.Point(5, 1122)
         Me.LabelControl37.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl37.Name = "LabelControl37"
         Me.LabelControl37.Size = New System.Drawing.Size(0, 13)
@@ -1499,7 +1499,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl36
         '
-        Me.LabelControl36.Location = New System.Drawing.Point(5, 1345)
+        Me.LabelControl36.Location = New System.Drawing.Point(5, 1105)
         Me.LabelControl36.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl36.Name = "LabelControl36"
         Me.LabelControl36.Size = New System.Drawing.Size(0, 13)
@@ -1508,7 +1508,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl34
         '
-        Me.LabelControl34.Location = New System.Drawing.Point(5, 1226)
+        Me.LabelControl34.Location = New System.Drawing.Point(5, 986)
         Me.LabelControl34.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl34.Name = "LabelControl34"
         Me.LabelControl34.Size = New System.Drawing.Size(0, 13)
@@ -1517,7 +1517,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl28
         '
-        Me.LabelControl28.Location = New System.Drawing.Point(5, 1396)
+        Me.LabelControl28.Location = New System.Drawing.Point(5, 1156)
         Me.LabelControl28.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl28.Name = "LabelControl28"
         Me.LabelControl28.Size = New System.Drawing.Size(0, 13)
@@ -1526,7 +1526,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl27
         '
-        Me.LabelControl27.Location = New System.Drawing.Point(5, 1209)
+        Me.LabelControl27.Location = New System.Drawing.Point(5, 969)
         Me.LabelControl27.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl27.Name = "LabelControl27"
         Me.LabelControl27.Size = New System.Drawing.Size(0, 13)
@@ -1535,7 +1535,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl26
         '
-        Me.LabelControl26.Location = New System.Drawing.Point(5, 1311)
+        Me.LabelControl26.Location = New System.Drawing.Point(5, 1071)
         Me.LabelControl26.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl26.Name = "LabelControl26"
         Me.LabelControl26.Size = New System.Drawing.Size(0, 13)
@@ -1544,7 +1544,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl92
         '
-        Me.LabelControl92.Location = New System.Drawing.Point(5, 1243)
+        Me.LabelControl92.Location = New System.Drawing.Point(5, 1003)
         Me.LabelControl92.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl92.Name = "LabelControl92"
         Me.LabelControl92.Size = New System.Drawing.Size(0, 13)
@@ -1553,7 +1553,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl91
         '
-        Me.LabelControl91.Location = New System.Drawing.Point(5, 1277)
+        Me.LabelControl91.Location = New System.Drawing.Point(5, 1037)
         Me.LabelControl91.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl91.Name = "LabelControl91"
         Me.LabelControl91.Size = New System.Drawing.Size(0, 13)
@@ -1562,7 +1562,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtFrekuensi
         '
-        Me.txtFrekuensi.Location = New System.Drawing.Point(134, 1702)
+        Me.txtFrekuensi.Location = New System.Drawing.Point(134, 1462)
         Me.txtFrekuensi.Name = "txtFrekuensi"
         Me.txtFrekuensi.Size = New System.Drawing.Size(471, 30)
         Me.txtFrekuensi.StyleController = Me.LayoutControl1
@@ -1570,7 +1570,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtEdukasi
         '
-        Me.txtEdukasi.Location = New System.Drawing.Point(134, 1668)
+        Me.txtEdukasi.Location = New System.Drawing.Point(134, 1428)
         Me.txtEdukasi.Name = "txtEdukasi"
         Me.txtEdukasi.Size = New System.Drawing.Size(471, 30)
         Me.txtEdukasi.StyleController = Me.LayoutControl1
@@ -1578,7 +1578,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl90
         '
-        Me.LabelControl90.Location = New System.Drawing.Point(5, 1328)
+        Me.LabelControl90.Location = New System.Drawing.Point(5, 1088)
         Me.LabelControl90.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl90.Name = "LabelControl90"
         Me.LabelControl90.Size = New System.Drawing.Size(0, 13)
@@ -1587,7 +1587,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl89
         '
-        Me.LabelControl89.Location = New System.Drawing.Point(5, 1379)
+        Me.LabelControl89.Location = New System.Drawing.Point(5, 1139)
         Me.LabelControl89.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl89.Name = "LabelControl89"
         Me.LabelControl89.Size = New System.Drawing.Size(0, 13)
@@ -1596,7 +1596,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl88
         '
-        Me.LabelControl88.Location = New System.Drawing.Point(5, 1294)
+        Me.LabelControl88.Location = New System.Drawing.Point(5, 1054)
         Me.LabelControl88.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl88.Name = "LabelControl88"
         Me.LabelControl88.Size = New System.Drawing.Size(0, 13)
@@ -1605,7 +1605,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl87
         '
-        Me.LabelControl87.Location = New System.Drawing.Point(5, 1260)
+        Me.LabelControl87.Location = New System.Drawing.Point(5, 1020)
         Me.LabelControl87.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl87.Name = "LabelControl87"
         Me.LabelControl87.Size = New System.Drawing.Size(0, 13)
@@ -1614,7 +1614,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl86
         '
-        Me.LabelControl86.Location = New System.Drawing.Point(5, 1192)
+        Me.LabelControl86.Location = New System.Drawing.Point(5, 952)
         Me.LabelControl86.Name = "LabelControl86"
         Me.LabelControl86.Size = New System.Drawing.Size(81, 13)
         Me.LabelControl86.StyleController = Me.LayoutControl1
@@ -1623,7 +1623,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl84
         '
-        Me.LabelControl84.Location = New System.Drawing.Point(5, 1098)
+        Me.LabelControl84.Location = New System.Drawing.Point(5, 858)
         Me.LabelControl84.Name = "LabelControl84"
         Me.LabelControl84.Size = New System.Drawing.Size(89, 13)
         Me.LabelControl84.StyleController = Me.LayoutControl1
@@ -1632,7 +1632,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl83
         '
-        Me.LabelControl83.Location = New System.Drawing.Point(5, 1132)
+        Me.LabelControl83.Location = New System.Drawing.Point(5, 892)
         Me.LabelControl83.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl83.Name = "LabelControl83"
         Me.LabelControl83.Size = New System.Drawing.Size(0, 13)
@@ -1641,7 +1641,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl82
         '
-        Me.LabelControl82.Location = New System.Drawing.Point(5, 1115)
+        Me.LabelControl82.Location = New System.Drawing.Point(5, 875)
         Me.LabelControl82.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl82.Name = "LabelControl82"
         Me.LabelControl82.Size = New System.Drawing.Size(0, 13)
@@ -1650,7 +1650,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtGoalOfTreatment
         '
-        Me.txtGoalOfTreatment.Location = New System.Drawing.Point(9, 1115)
+        Me.txtGoalOfTreatment.Location = New System.Drawing.Point(9, 875)
         Me.txtGoalOfTreatment.Name = "txtGoalOfTreatment"
         Me.txtGoalOfTreatment.Size = New System.Drawing.Size(596, 30)
         Me.txtGoalOfTreatment.StyleController = Me.LayoutControl1
@@ -1658,7 +1658,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl81
         '
-        Me.LabelControl81.Location = New System.Drawing.Point(5, 1059)
+        Me.LabelControl81.Location = New System.Drawing.Point(5, 819)
         Me.LabelControl81.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl81.Name = "LabelControl81"
         Me.LabelControl81.Size = New System.Drawing.Size(0, 13)
@@ -1667,7 +1667,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl80
         '
-        Me.LabelControl80.Location = New System.Drawing.Point(5, 991)
+        Me.LabelControl80.Location = New System.Drawing.Point(5, 751)
         Me.LabelControl80.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl80.Name = "LabelControl80"
         Me.LabelControl80.Size = New System.Drawing.Size(0, 13)
@@ -1678,7 +1678,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         Me.grdTindakan.ContextMenuStrip = Me.ContextMenuStrip1
         Me.grdTindakan.DataSource = Me.BindingSource2
-        Me.grdTindakan.Location = New System.Drawing.Point(9, 1311)
+        Me.grdTindakan.Location = New System.Drawing.Point(9, 1071)
         Me.grdTindakan.MainView = Me.grvTindakan
         Me.grdTindakan.Name = "grdTindakan"
         Me.grdTindakan.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemSearchLookUpEdit4, Me.RepositoryItemGridLookUpEdit2, Me.RepositoryItemCheckEdit2, Me.RepositoryItemSearchLookUpEdit5, Me.RepositoryItemMemoEdit2, Me.RepositoryItemSearchLookUpEdit6})
@@ -1846,7 +1846,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl79
         '
-        Me.LabelControl79.Location = New System.Drawing.Point(5, 1025)
+        Me.LabelControl79.Location = New System.Drawing.Point(5, 785)
         Me.LabelControl79.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl79.Name = "LabelControl79"
         Me.LabelControl79.Size = New System.Drawing.Size(0, 13)
@@ -1855,7 +1855,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl78
         '
-        Me.LabelControl78.Location = New System.Drawing.Point(5, 974)
+        Me.LabelControl78.Location = New System.Drawing.Point(5, 734)
         Me.LabelControl78.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl78.Name = "LabelControl78"
         Me.LabelControl78.Size = New System.Drawing.Size(0, 13)
@@ -1864,7 +1864,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl77
         '
-        Me.LabelControl77.Location = New System.Drawing.Point(5, 957)
+        Me.LabelControl77.Location = New System.Drawing.Point(5, 717)
         Me.LabelControl77.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl77.Name = "LabelControl77"
         Me.LabelControl77.Size = New System.Drawing.Size(0, 13)
@@ -1873,7 +1873,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl76
         '
-        Me.LabelControl76.Location = New System.Drawing.Point(5, 1008)
+        Me.LabelControl76.Location = New System.Drawing.Point(5, 768)
         Me.LabelControl76.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl76.Name = "LabelControl76"
         Me.LabelControl76.Size = New System.Drawing.Size(0, 13)
@@ -1884,7 +1884,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         Me.grdDiagnosaPenyerta.ContextMenuStrip = Me.mnuStrip_
         Me.grdDiagnosaPenyerta.DataSource = Me.BindingSource1
-        Me.grdDiagnosaPenyerta.Location = New System.Drawing.Point(307, 957)
+        Me.grdDiagnosaPenyerta.Location = New System.Drawing.Point(307, 717)
         Me.grdDiagnosaPenyerta.MainView = Me.grvDiagnosaPenyerta
         Me.grdDiagnosaPenyerta.Name = "grdDiagnosaPenyerta"
         Me.grdDiagnosaPenyerta.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemSearchLookUpEdit3, Me.RepositoryItemGridLookUpEdit1, Me.RepositoryItemCheckEdit1, Me.RepositoryItemSearchLookUpEdit2, Me.RepositoryItemMemoEdit1, Me.RepositoryItemSearchLookUpEdit1})
@@ -2044,7 +2044,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl75
         '
-        Me.LabelControl75.Location = New System.Drawing.Point(5, 1042)
+        Me.LabelControl75.Location = New System.Drawing.Point(5, 802)
         Me.LabelControl75.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl75.Name = "LabelControl75"
         Me.LabelControl75.Size = New System.Drawing.Size(0, 13)
@@ -2053,7 +2053,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl73
         '
-        Me.LabelControl73.Location = New System.Drawing.Point(5, 875)
+        Me.LabelControl73.Location = New System.Drawing.Point(5, 635)
         Me.LabelControl73.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl73.Name = "LabelControl73"
         Me.LabelControl73.Size = New System.Drawing.Size(0, 13)
@@ -2062,7 +2062,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtDIAGNOOSA
         '
-        Me.txtDIAGNOOSA.Location = New System.Drawing.Point(9, 957)
+        Me.txtDIAGNOOSA.Location = New System.Drawing.Point(9, 717)
         Me.txtDIAGNOOSA.Name = "txtDIAGNOOSA"
         Me.txtDIAGNOOSA.Size = New System.Drawing.Size(294, 115)
         Me.txtDIAGNOOSA.StyleController = Me.LayoutControl1
@@ -2072,7 +2072,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         Me.grdTindakanPoli.ContextMenuStrip = Me.ContextMenuStrip2
         Me.grdTindakanPoli.DataSource = Me.BindingSource3
-        Me.grdTindakanPoli.Location = New System.Drawing.Point(9, 1209)
+        Me.grdTindakanPoli.Location = New System.Drawing.Point(9, 969)
         Me.grdTindakanPoli.MainView = Me.grvTindakanPoli
         Me.grdTindakanPoli.Name = "grdTindakanPoli"
         Me.grdTindakanPoli.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.RepositoryItemSearchLookUpEdit7, Me.RepositoryItemGridLookUpEdit3, Me.RepositoryItemCheckEdit3, Me.RepositoryItemSearchLookUpEdit8, Me.RepositoryItemMemoEdit3, Me.RepositoryItemSearchLookUpEdit9})
@@ -2234,7 +2234,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl72
         '
-        Me.LabelControl72.Location = New System.Drawing.Point(5, 739)
+        Me.LabelControl72.Location = New System.Drawing.Point(5, 499)
         Me.LabelControl72.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl72.Name = "LabelControl72"
         Me.LabelControl72.Size = New System.Drawing.Size(0, 13)
@@ -2244,7 +2244,7 @@ Partial Class frmMedrekRawatNew2JalanList
         'LabelControl2
         '
         Me.LabelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl2.Location = New System.Drawing.Point(5, 940)
+        Me.LabelControl2.Location = New System.Drawing.Point(5, 700)
         Me.LabelControl2.Name = "LabelControl2"
         Me.LabelControl2.Size = New System.Drawing.Size(600, 13)
         Me.LabelControl2.StyleController = Me.LayoutControl1
@@ -2253,7 +2253,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'SimpleButton5
         '
-        Me.SimpleButton5.Location = New System.Drawing.Point(555, 1166)
+        Me.SimpleButton5.Location = New System.Drawing.Point(555, 926)
         Me.SimpleButton5.Name = "SimpleButton5"
         Me.SimpleButton5.Size = New System.Drawing.Size(50, 22)
         Me.SimpleButton5.StyleController = Me.LayoutControl1
@@ -2262,7 +2262,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'btnDiagnosaTerakhir
         '
-        Me.btnDiagnosaTerakhir.Location = New System.Drawing.Point(5, 914)
+        Me.btnDiagnosaTerakhir.Location = New System.Drawing.Point(5, 674)
         Me.btnDiagnosaTerakhir.Name = "btnDiagnosaTerakhir"
         Me.btnDiagnosaTerakhir.Size = New System.Drawing.Size(600, 22)
         Me.btnDiagnosaTerakhir.StyleController = Me.LayoutControl1
@@ -2272,7 +2272,7 @@ Partial Class frmMedrekRawatNew2JalanList
         'cboPOLIMATA
         '
         Me.cboPOLIMATA.EditValue = "NCT"
-        Me.cboPOLIMATA.Location = New System.Drawing.Point(307, 1166)
+        Me.cboPOLIMATA.Location = New System.Drawing.Point(307, 926)
         Me.cboPOLIMATA.Name = "cboPOLIMATA"
         Me.cboPOLIMATA.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cboPOLIMATA.Properties.Items.AddRange(New Object() {"NCT", "Refraktometri", "Keratometri", "Biometri", "Insisi Kalazion", "Debridement", "Epilasi", "Ekstraksi Corpal Kornea", "Ekstraksi Corpal Konjuntiva"})
@@ -2283,7 +2283,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl71
         '
-        Me.LabelControl71.Location = New System.Drawing.Point(5, 824)
+        Me.LabelControl71.Location = New System.Drawing.Point(5, 584)
         Me.LabelControl71.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl71.Name = "LabelControl71"
         Me.LabelControl71.Size = New System.Drawing.Size(0, 13)
@@ -2293,7 +2293,7 @@ Partial Class frmMedrekRawatNew2JalanList
         'GroupControl1
         '
         Me.GroupControl1.Controls.Add(Me.LayoutControl4)
-        Me.GroupControl1.Location = New System.Drawing.Point(9, 1413)
+        Me.GroupControl1.Location = New System.Drawing.Point(9, 1173)
         Me.GroupControl1.Name = "GroupControl1"
         Me.GroupControl1.Size = New System.Drawing.Size(596, 251)
         Me.GroupControl1.TabIndex = 1
@@ -3061,7 +3061,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl70
         '
-        Me.LabelControl70.Location = New System.Drawing.Point(5, 756)
+        Me.LabelControl70.Location = New System.Drawing.Point(5, 516)
         Me.LabelControl70.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl70.Name = "LabelControl70"
         Me.LabelControl70.Size = New System.Drawing.Size(0, 13)
@@ -3070,7 +3070,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl69
         '
-        Me.LabelControl69.Location = New System.Drawing.Point(5, 807)
+        Me.LabelControl69.Location = New System.Drawing.Point(5, 567)
         Me.LabelControl69.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl69.Name = "LabelControl69"
         Me.LabelControl69.Size = New System.Drawing.Size(0, 13)
@@ -3080,7 +3080,7 @@ Partial Class frmMedrekRawatNew2JalanList
         'picGAMBAR2
         '
         Me.picGAMBAR2.Image = Global.UI.WIN.MAIN.My.Resources.Resources.gambarwajah
-        Me.picGAMBAR2.Location = New System.Drawing.Point(415, 722)
+        Me.picGAMBAR2.Location = New System.Drawing.Point(415, 482)
         Me.picGAMBAR2.Name = "picGAMBAR2"
         Me.picGAMBAR2.Size = New System.Drawing.Size(190, 166)
         Me.picGAMBAR2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -3089,7 +3089,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl68
         '
-        Me.LabelControl68.Location = New System.Drawing.Point(5, 790)
+        Me.LabelControl68.Location = New System.Drawing.Point(5, 550)
         Me.LabelControl68.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl68.Name = "LabelControl68"
         Me.LabelControl68.Size = New System.Drawing.Size(0, 13)
@@ -3098,7 +3098,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl67
         '
-        Me.LabelControl67.Location = New System.Drawing.Point(5, 773)
+        Me.LabelControl67.Location = New System.Drawing.Point(5, 533)
         Me.LabelControl67.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl67.Name = "LabelControl67"
         Me.LabelControl67.Size = New System.Drawing.Size(0, 13)
@@ -3107,7 +3107,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl66
         '
-        Me.LabelControl66.Location = New System.Drawing.Point(5, 858)
+        Me.LabelControl66.Location = New System.Drawing.Point(5, 618)
         Me.LabelControl66.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl66.Name = "LabelControl66"
         Me.LabelControl66.Size = New System.Drawing.Size(0, 13)
@@ -3116,7 +3116,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl65
         '
-        Me.LabelControl65.Location = New System.Drawing.Point(5, 841)
+        Me.LabelControl65.Location = New System.Drawing.Point(5, 601)
         Me.LabelControl65.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl65.Name = "LabelControl65"
         Me.LabelControl65.Size = New System.Drawing.Size(0, 13)
@@ -3125,7 +3125,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl64
         '
-        Me.LabelControl64.Location = New System.Drawing.Point(5, 722)
+        Me.LabelControl64.Location = New System.Drawing.Point(5, 482)
         Me.LabelControl64.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl64.Name = "LabelControl64"
         Me.LabelControl64.Size = New System.Drawing.Size(0, 13)
@@ -3134,7 +3134,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl62
         '
-        Me.LabelControl62.Location = New System.Drawing.Point(5, 389)
+        Me.LabelControl62.Location = New System.Drawing.Point(5, 149)
         Me.LabelControl62.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl62.Name = "LabelControl62"
         Me.LabelControl62.Size = New System.Drawing.Size(0, 13)
@@ -3143,7 +3143,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl33
         '
-        Me.LabelControl33.Location = New System.Drawing.Point(5, 406)
+        Me.LabelControl33.Location = New System.Drawing.Point(5, 166)
         Me.LabelControl33.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl33.Name = "LabelControl33"
         Me.LabelControl33.Size = New System.Drawing.Size(0, 13)
@@ -3152,7 +3152,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtDESKRIPSI
         '
-        Me.txtDESKRIPSI.Location = New System.Drawing.Point(9, 722)
+        Me.txtDESKRIPSI.Location = New System.Drawing.Point(9, 482)
         Me.txtDESKRIPSI.Name = "txtDESKRIPSI"
         Me.txtDESKRIPSI.Size = New System.Drawing.Size(402, 166)
         Me.txtDESKRIPSI.StyleController = Me.LayoutControl1
@@ -3160,7 +3160,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'SimpleButton2
         '
-        Me.SimpleButton2.Location = New System.Drawing.Point(415, 696)
+        Me.SimpleButton2.Location = New System.Drawing.Point(415, 456)
         Me.SimpleButton2.Name = "SimpleButton2"
         Me.SimpleButton2.Size = New System.Drawing.Size(190, 22)
         Me.SimpleButton2.StyleController = Me.LayoutControl1
@@ -3169,7 +3169,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtALAMATGAMBAR
         '
-        Me.txtALAMATGAMBAR.Location = New System.Drawing.Point(130, 696)
+        Me.txtALAMATGAMBAR.Location = New System.Drawing.Point(130, 456)
         Me.txtALAMATGAMBAR.Name = "txtALAMATGAMBAR"
         Me.txtALAMATGAMBAR.Size = New System.Drawing.Size(281, 20)
         Me.txtALAMATGAMBAR.StyleController = Me.LayoutControl1
@@ -3177,7 +3177,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl29
         '
-        Me.LabelControl29.Location = New System.Drawing.Point(5, 1149)
+        Me.LabelControl29.Location = New System.Drawing.Point(5, 909)
         Me.LabelControl29.Name = "LabelControl29"
         Me.LabelControl29.Size = New System.Drawing.Size(181, 13)
         Me.LabelControl29.StyleController = Me.LayoutControl1
@@ -3186,7 +3186,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl13
         '
-        Me.LabelControl13.Location = New System.Drawing.Point(319, 631)
+        Me.LabelControl13.Location = New System.Drawing.Point(319, 391)
         Me.LabelControl13.Name = "LabelControl13"
         Me.LabelControl13.Size = New System.Drawing.Size(12, 13)
         Me.LabelControl13.StyleController = Me.LayoutControl1
@@ -3195,7 +3195,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl32
         '
-        Me.LabelControl32.Location = New System.Drawing.Point(5, 372)
+        Me.LabelControl32.Location = New System.Drawing.Point(5, 132)
         Me.LabelControl32.Margin = New System.Windows.Forms.Padding(0)
         Me.LabelControl32.Name = "LabelControl32"
         Me.LabelControl32.Size = New System.Drawing.Size(0, 13)
@@ -3204,7 +3204,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl12
         '
-        Me.LabelControl12.Location = New System.Drawing.Point(319, 607)
+        Me.LabelControl12.Location = New System.Drawing.Point(319, 367)
         Me.LabelControl12.Name = "LabelControl12"
         Me.LabelControl12.Size = New System.Drawing.Size(12, 13)
         Me.LabelControl12.StyleController = Me.LayoutControl1
@@ -3215,7 +3215,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         Me.txtOBJEKTIF_BBDITURUNKAN.EditValue = ""
         Me.txtOBJEKTIF_BBDITURUNKAN.EnterMoveNextControl = True
-        Me.txtOBJEKTIF_BBDITURUNKAN.Location = New System.Drawing.Point(130, 631)
+        Me.txtOBJEKTIF_BBDITURUNKAN.Location = New System.Drawing.Point(130, 391)
         Me.txtOBJEKTIF_BBDITURUNKAN.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtOBJEKTIF_BBDITURUNKAN.Name = "txtOBJEKTIF_BBDITURUNKAN"
         Me.txtOBJEKTIF_BBDITURUNKAN.Properties.Appearance.Options.UseTextOptions = True
@@ -3228,7 +3228,7 @@ Partial Class frmMedrekRawatNew2JalanList
         'LabelControl10
         '
         Me.LabelControl10.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl10.Location = New System.Drawing.Point(5, 679)
+        Me.LabelControl10.Location = New System.Drawing.Point(5, 439)
         Me.LabelControl10.Name = "LabelControl10"
         Me.LabelControl10.Size = New System.Drawing.Size(600, 13)
         Me.LabelControl10.StyleController = Me.LayoutControl1
@@ -3237,7 +3237,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtOBJEKTIF_KESADARAN
         '
-        Me.txtOBJEKTIF_KESADARAN.Location = New System.Drawing.Point(471, 535)
+        Me.txtOBJEKTIF_KESADARAN.Location = New System.Drawing.Point(471, 295)
         Me.txtOBJEKTIF_KESADARAN.Name = "txtOBJEKTIF_KESADARAN"
         Me.txtOBJEKTIF_KESADARAN.Size = New System.Drawing.Size(134, 20)
         Me.txtOBJEKTIF_KESADARAN.StyleController = Me.LayoutControl1
@@ -3245,7 +3245,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl4
         '
-        Me.LabelControl4.Location = New System.Drawing.Point(592, 655)
+        Me.LabelControl4.Location = New System.Drawing.Point(592, 415)
         Me.LabelControl4.Name = "LabelControl4"
         Me.LabelControl4.Size = New System.Drawing.Size(13, 13)
         Me.LabelControl4.StyleController = Me.LayoutControl1
@@ -3254,7 +3254,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl7
         '
-        Me.LabelControl7.Location = New System.Drawing.Point(594, 631)
+        Me.LabelControl7.Location = New System.Drawing.Point(594, 391)
         Me.LabelControl7.Name = "LabelControl7"
         Me.LabelControl7.Size = New System.Drawing.Size(11, 13)
         Me.LabelControl7.StyleController = Me.LayoutControl1
@@ -3263,7 +3263,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtOBJEKTIF_SUHU
         '
-        Me.txtOBJEKTIF_SUHU.Location = New System.Drawing.Point(471, 655)
+        Me.txtOBJEKTIF_SUHU.Location = New System.Drawing.Point(471, 415)
         Me.txtOBJEKTIF_SUHU.Name = "txtOBJEKTIF_SUHU"
         Me.txtOBJEKTIF_SUHU.Size = New System.Drawing.Size(117, 20)
         Me.txtOBJEKTIF_SUHU.StyleController = Me.LayoutControl1
@@ -3271,7 +3271,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl6
         '
-        Me.LabelControl6.Location = New System.Drawing.Point(577, 583)
+        Me.LabelControl6.Location = New System.Drawing.Point(577, 343)
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(28, 13)
         Me.LabelControl6.StyleController = Me.LayoutControl1
@@ -3280,7 +3280,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl3
         '
-        Me.LabelControl3.Location = New System.Drawing.Point(577, 607)
+        Me.LabelControl3.Location = New System.Drawing.Point(577, 367)
         Me.LabelControl3.Name = "LabelControl3"
         Me.LabelControl3.Size = New System.Drawing.Size(28, 13)
         Me.LabelControl3.StyleController = Me.LayoutControl1
@@ -3289,7 +3289,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtOBJEKTIF_SATURASIOKSIGEN
         '
-        Me.txtOBJEKTIF_SATURASIOKSIGEN.Location = New System.Drawing.Point(471, 631)
+        Me.txtOBJEKTIF_SATURASIOKSIGEN.Location = New System.Drawing.Point(471, 391)
         Me.txtOBJEKTIF_SATURASIOKSIGEN.Name = "txtOBJEKTIF_SATURASIOKSIGEN"
         Me.txtOBJEKTIF_SATURASIOKSIGEN.Size = New System.Drawing.Size(119, 20)
         Me.txtOBJEKTIF_SATURASIOKSIGEN.StyleController = Me.LayoutControl1
@@ -3298,7 +3298,7 @@ Partial Class frmMedrekRawatNew2JalanList
         'txtOBJEKTIF_BBIDEAL
         '
         Me.txtOBJEKTIF_BBIDEAL.EnterMoveNextControl = True
-        Me.txtOBJEKTIF_BBIDEAL.Location = New System.Drawing.Point(130, 607)
+        Me.txtOBJEKTIF_BBIDEAL.Location = New System.Drawing.Point(130, 367)
         Me.txtOBJEKTIF_BBIDEAL.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtOBJEKTIF_BBIDEAL.Name = "txtOBJEKTIF_BBIDEAL"
         Me.txtOBJEKTIF_BBIDEAL.Properties.Appearance.Options.UseTextOptions = True
@@ -3309,7 +3309,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'btnGERDQ
         '
-        Me.btnGERDQ.Location = New System.Drawing.Point(548, 440)
+        Me.btnGERDQ.Location = New System.Drawing.Point(548, 200)
         Me.btnGERDQ.Name = "btnGERDQ"
         Me.btnGERDQ.Size = New System.Drawing.Size(57, 22)
         Me.btnGERDQ.StyleController = Me.LayoutControl1
@@ -3318,7 +3318,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl8
         '
-        Me.LabelControl8.Location = New System.Drawing.Point(575, 559)
+        Me.LabelControl8.Location = New System.Drawing.Point(575, 319)
         Me.LabelControl8.Name = "LabelControl8"
         Me.LabelControl8.Size = New System.Drawing.Size(30, 13)
         Me.LabelControl8.StyleController = Me.LayoutControl1
@@ -3327,7 +3327,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtOBJEKTIF_NADI
         '
-        Me.txtOBJEKTIF_NADI.Location = New System.Drawing.Point(471, 607)
+        Me.txtOBJEKTIF_NADI.Location = New System.Drawing.Point(471, 367)
         Me.txtOBJEKTIF_NADI.Name = "txtOBJEKTIF_NADI"
         Me.txtOBJEKTIF_NADI.Size = New System.Drawing.Size(102, 20)
         Me.txtOBJEKTIF_NADI.StyleController = Me.LayoutControl1
@@ -3339,7 +3339,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.LabelControl30.Appearance.Font = New System.Drawing.Font("Tahoma", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LabelControl30.Appearance.ForeColor = System.Drawing.Color.Black
         Me.LabelControl30.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl30.Location = New System.Drawing.Point(5, 208)
+        Me.LabelControl30.Location = New System.Drawing.Point(5, -32)
         Me.LabelControl30.Name = "LabelControl30"
         Me.LabelControl30.Size = New System.Drawing.Size(600, 18)
         Me.LabelControl30.StyleController = Me.LayoutControl1
@@ -3348,7 +3348,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl11
         '
-        Me.LabelControl11.Location = New System.Drawing.Point(320, 583)
+        Me.LabelControl11.Location = New System.Drawing.Point(320, 343)
         Me.LabelControl11.Name = "LabelControl11"
         Me.LabelControl11.Size = New System.Drawing.Size(11, 13)
         Me.LabelControl11.StyleController = Me.LayoutControl1
@@ -3357,7 +3357,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtOBJEKTIF_RESPIRASI
         '
-        Me.txtOBJEKTIF_RESPIRASI.Location = New System.Drawing.Point(471, 583)
+        Me.txtOBJEKTIF_RESPIRASI.Location = New System.Drawing.Point(471, 343)
         Me.txtOBJEKTIF_RESPIRASI.Name = "txtOBJEKTIF_RESPIRASI"
         Me.txtOBJEKTIF_RESPIRASI.Size = New System.Drawing.Size(102, 20)
         Me.txtOBJEKTIF_RESPIRASI.StyleController = Me.LayoutControl1
@@ -3365,7 +3365,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtALERGIOBAT
         '
-        Me.txtALERGIOBAT.Location = New System.Drawing.Point(44, 466)
+        Me.txtALERGIOBAT.Location = New System.Drawing.Point(44, 226)
         Me.txtALERGIOBAT.Name = "txtALERGIOBAT"
         Me.txtALERGIOBAT.Size = New System.Drawing.Size(561, 19)
         Me.txtALERGIOBAT.StyleController = Me.LayoutControl1
@@ -3374,7 +3374,7 @@ Partial Class frmMedrekRawatNew2JalanList
         'txtOBJEKTIF_IMT
         '
         Me.txtOBJEKTIF_IMT.EnterMoveNextControl = True
-        Me.txtOBJEKTIF_IMT.Location = New System.Drawing.Point(130, 583)
+        Me.txtOBJEKTIF_IMT.Location = New System.Drawing.Point(130, 343)
         Me.txtOBJEKTIF_IMT.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtOBJEKTIF_IMT.Name = "txtOBJEKTIF_IMT"
         Me.txtOBJEKTIF_IMT.Properties.Appearance.Options.UseTextOptions = True
@@ -3386,7 +3386,7 @@ Partial Class frmMedrekRawatNew2JalanList
         'LabelControl1
         '
         Me.LabelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl1.Location = New System.Drawing.Point(5, 423)
+        Me.LabelControl1.Location = New System.Drawing.Point(5, 183)
         Me.LabelControl1.Name = "LabelControl1"
         Me.LabelControl1.Size = New System.Drawing.Size(600, 13)
         Me.LabelControl1.StyleController = Me.LayoutControl1
@@ -3397,7 +3397,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         Me.txtOBJEKTIF_TINGGIBADAN.EditValue = ""
         Me.txtOBJEKTIF_TINGGIBADAN.EnterMoveNextControl = True
-        Me.txtOBJEKTIF_TINGGIBADAN.Location = New System.Drawing.Point(130, 559)
+        Me.txtOBJEKTIF_TINGGIBADAN.Location = New System.Drawing.Point(130, 319)
         Me.txtOBJEKTIF_TINGGIBADAN.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtOBJEKTIF_TINGGIBADAN.Name = "txtOBJEKTIF_TINGGIBADAN"
         Me.txtOBJEKTIF_TINGGIBADAN.Properties.Appearance.Options.UseTextOptions = True
@@ -3409,7 +3409,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtOBJEKTIF_TEKANANDARAH
         '
-        Me.txtOBJEKTIF_TEKANANDARAH.Location = New System.Drawing.Point(471, 559)
+        Me.txtOBJEKTIF_TEKANANDARAH.Location = New System.Drawing.Point(471, 319)
         Me.txtOBJEKTIF_TEKANANDARAH.Name = "txtOBJEKTIF_TEKANANDARAH"
         Me.txtOBJEKTIF_TEKANANDARAH.Size = New System.Drawing.Size(100, 20)
         Me.txtOBJEKTIF_TEKANANDARAH.StyleController = Me.LayoutControl1
@@ -3417,7 +3417,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'chkALERGI_TIDAK
         '
-        Me.chkALERGI_TIDAK.Location = New System.Drawing.Point(5, 466)
+        Me.chkALERGI_TIDAK.Location = New System.Drawing.Point(5, 226)
         Me.chkALERGI_TIDAK.Name = "chkALERGI_TIDAK"
         Me.chkALERGI_TIDAK.Properties.Caption = "Ya"
         Me.chkALERGI_TIDAK.Size = New System.Drawing.Size(35, 19)
@@ -3426,7 +3426,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtNOMORSEP
         '
-        Me.txtNOMORSEP.Location = New System.Drawing.Point(467, 326)
+        Me.txtNOMORSEP.Location = New System.Drawing.Point(467, 86)
         Me.txtNOMORSEP.Name = "txtNOMORSEP"
         Me.txtNOMORSEP.Properties.ReadOnly = True
         Me.txtNOMORSEP.Size = New System.Drawing.Size(138, 20)
@@ -3435,7 +3435,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'chkALERGI_YA
         '
-        Me.chkALERGI_YA.Location = New System.Drawing.Point(5, 440)
+        Me.chkALERGI_YA.Location = New System.Drawing.Point(5, 200)
         Me.chkALERGI_YA.Name = "chkALERGI_YA"
         Me.chkALERGI_YA.Properties.Caption = "Tidak"
         Me.chkALERGI_YA.Size = New System.Drawing.Size(539, 19)
@@ -3445,7 +3445,7 @@ Partial Class frmMedrekRawatNew2JalanList
         'txtOBJEKTIF_BERATBADAN
         '
         Me.txtOBJEKTIF_BERATBADAN.EnterMoveNextControl = True
-        Me.txtOBJEKTIF_BERATBADAN.Location = New System.Drawing.Point(130, 535)
+        Me.txtOBJEKTIF_BERATBADAN.Location = New System.Drawing.Point(130, 295)
         Me.txtOBJEKTIF_BERATBADAN.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.txtOBJEKTIF_BERATBADAN.Name = "txtOBJEKTIF_BERATBADAN"
         Me.txtOBJEKTIF_BERATBADAN.Properties.Appearance.Options.UseTextOptions = True
@@ -3456,7 +3456,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl5
         '
-        Me.LabelControl5.Location = New System.Drawing.Point(318, 559)
+        Me.LabelControl5.Location = New System.Drawing.Point(318, 319)
         Me.LabelControl5.Name = "LabelControl5"
         Me.LabelControl5.Size = New System.Drawing.Size(13, 13)
         Me.LabelControl5.StyleController = Me.LayoutControl1
@@ -3465,7 +3465,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtSUBJEKTIF
         '
-        Me.txtSUBJEKTIF.Location = New System.Drawing.Point(9, 372)
+        Me.txtSUBJEKTIF.Location = New System.Drawing.Point(9, 132)
         Me.txtSUBJEKTIF.Name = "txtSUBJEKTIF"
         Me.txtSUBJEKTIF.Size = New System.Drawing.Size(596, 47)
         Me.txtSUBJEKTIF.StyleController = Me.LayoutControl1
@@ -3475,7 +3475,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         Me.deDATETANGGALLAHIR.EditValue = Nothing
         Me.deDATETANGGALLAHIR.EnterMoveNextControl = True
-        Me.deDATETANGGALLAHIR.Location = New System.Drawing.Point(130, 326)
+        Me.deDATETANGGALLAHIR.Location = New System.Drawing.Point(130, 86)
         Me.deDATETANGGALLAHIR.Name = "deDATETANGGALLAHIR"
         Me.deDATETANGGALLAHIR.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.deDATETANGGALLAHIR.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
@@ -3488,7 +3488,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtNAMAPASIEN
         '
-        Me.txtNAMAPASIEN.Location = New System.Drawing.Point(130, 302)
+        Me.txtNAMAPASIEN.Location = New System.Drawing.Point(130, 62)
         Me.txtNAMAPASIEN.Name = "txtNAMAPASIEN"
         Me.txtNAMAPASIEN.Properties.ReadOnly = True
         Me.txtNAMAPASIEN.Size = New System.Drawing.Size(475, 20)
@@ -3497,7 +3497,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtKARTUBPJS
         '
-        Me.txtKARTUBPJS.Location = New System.Drawing.Point(467, 278)
+        Me.txtKARTUBPJS.Location = New System.Drawing.Point(467, 38)
         Me.txtKARTUBPJS.Name = "txtKARTUBPJS"
         Me.txtKARTUBPJS.Properties.ReadOnly = True
         Me.txtKARTUBPJS.Size = New System.Drawing.Size(138, 20)
@@ -3506,7 +3506,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtKODEBOOKING
         '
-        Me.txtKODEBOOKING.Location = New System.Drawing.Point(467, 254)
+        Me.txtKODEBOOKING.Location = New System.Drawing.Point(467, 14)
         Me.txtKODEBOOKING.Name = "txtKODEBOOKING"
         Me.txtKODEBOOKING.Properties.ReadOnly = True
         Me.txtKODEBOOKING.Size = New System.Drawing.Size(138, 20)
@@ -3517,7 +3517,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         Me.LabelControl23.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LabelControl23.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl23.Location = New System.Drawing.Point(14, 117)
+        Me.LabelControl23.Location = New System.Drawing.Point(14, -123)
         Me.LabelControl23.Name = "LabelControl23"
         Me.LabelControl23.Size = New System.Drawing.Size(10, 13)
         Me.LabelControl23.StyleController = Me.LayoutControl1
@@ -3526,7 +3526,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl9
         '
-        Me.LabelControl9.Location = New System.Drawing.Point(319, 535)
+        Me.LabelControl9.Location = New System.Drawing.Point(319, 295)
         Me.LabelControl9.Name = "LabelControl9"
         Me.LabelControl9.Size = New System.Drawing.Size(12, 13)
         Me.LabelControl9.StyleController = Me.LayoutControl1
@@ -3535,7 +3535,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl19
         '
-        Me.LabelControl19.Location = New System.Drawing.Point(14, 134)
+        Me.LabelControl19.Location = New System.Drawing.Point(14, -106)
         Me.LabelControl19.Name = "LabelControl19"
         Me.LabelControl19.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl19.StyleController = Me.LayoutControl1
@@ -3544,7 +3544,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtKDCUSTOMER
         '
-        Me.txtKDCUSTOMER.Location = New System.Drawing.Point(130, 278)
+        Me.txtKDCUSTOMER.Location = New System.Drawing.Point(130, 38)
         Me.txtKDCUSTOMER.Name = "txtKDCUSTOMER"
         Me.txtKDCUSTOMER.Properties.ReadOnly = True
         Me.txtKDCUSTOMER.Size = New System.Drawing.Size(208, 20)
@@ -3553,7 +3553,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtKDPENDAFTARAN
         '
-        Me.txtKDPENDAFTARAN.Location = New System.Drawing.Point(130, 254)
+        Me.txtKDPENDAFTARAN.Location = New System.Drawing.Point(130, 14)
         Me.txtKDPENDAFTARAN.Name = "txtKDPENDAFTARAN"
         Me.txtKDPENDAFTARAN.Properties.ReadOnly = True
         Me.txtKDPENDAFTARAN.Size = New System.Drawing.Size(208, 20)
@@ -3562,7 +3562,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtOBJEKTIF_JENISKELAMIN
         '
-        Me.txtOBJEKTIF_JENISKELAMIN.Location = New System.Drawing.Point(130, 511)
+        Me.txtOBJEKTIF_JENISKELAMIN.Location = New System.Drawing.Point(130, 271)
         Me.txtOBJEKTIF_JENISKELAMIN.Name = "txtOBJEKTIF_JENISKELAMIN"
         Me.txtOBJEKTIF_JENISKELAMIN.Size = New System.Drawing.Size(201, 20)
         Me.txtOBJEKTIF_JENISKELAMIN.StyleController = Me.LayoutControl1
@@ -3570,7 +3570,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtOBJEKTIF_UMUR
         '
-        Me.txtOBJEKTIF_UMUR.Location = New System.Drawing.Point(471, 511)
+        Me.txtOBJEKTIF_UMUR.Location = New System.Drawing.Point(471, 271)
         Me.txtOBJEKTIF_UMUR.Name = "txtOBJEKTIF_UMUR"
         Me.txtOBJEKTIF_UMUR.Size = New System.Drawing.Size(134, 20)
         Me.txtOBJEKTIF_UMUR.StyleController = Me.LayoutControl1
@@ -3578,7 +3578,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'txtPenjamin
         '
-        Me.txtPenjamin.Location = New System.Drawing.Point(130, 230)
+        Me.txtPenjamin.Location = New System.Drawing.Point(130, -10)
         Me.txtPenjamin.Name = "txtPenjamin"
         Me.txtPenjamin.Properties.ReadOnly = True
         Me.txtPenjamin.Size = New System.Drawing.Size(208, 20)
@@ -3587,7 +3587,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl18
         '
-        Me.LabelControl18.Location = New System.Drawing.Point(14, 100)
+        Me.LabelControl18.Location = New System.Drawing.Point(14, -140)
         Me.LabelControl18.Name = "LabelControl18"
         Me.LabelControl18.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl18.StyleController = Me.LayoutControl1
@@ -3596,7 +3596,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl17
         '
-        Me.LabelControl17.Location = New System.Drawing.Point(14, 83)
+        Me.LabelControl17.Location = New System.Drawing.Point(14, -157)
         Me.LabelControl17.Name = "LabelControl17"
         Me.LabelControl17.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl17.StyleController = Me.LayoutControl1
@@ -3607,7 +3607,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         Me.deTANGGALDATANG.EditValue = Nothing
         Me.deTANGGALDATANG.EnterMoveNextControl = True
-        Me.deTANGGALDATANG.Location = New System.Drawing.Point(467, 230)
+        Me.deTANGGALDATANG.Location = New System.Drawing.Point(467, -10)
         Me.deTANGGALDATANG.Name = "deTANGGALDATANG"
         Me.deTANGGALDATANG.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.deTANGGALDATANG.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
@@ -3619,7 +3619,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl16
         '
-        Me.LabelControl16.Location = New System.Drawing.Point(14, 66)
+        Me.LabelControl16.Location = New System.Drawing.Point(14, -174)
         Me.LabelControl16.Name = "LabelControl16"
         Me.LabelControl16.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl16.StyleController = Me.LayoutControl1
@@ -3628,7 +3628,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl15
         '
-        Me.LabelControl15.Location = New System.Drawing.Point(14, 49)
+        Me.LabelControl15.Location = New System.Drawing.Point(14, -191)
         Me.LabelControl15.Name = "LabelControl15"
         Me.LabelControl15.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl15.StyleController = Me.LayoutControl1
@@ -3637,7 +3637,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         'LabelControl14
         '
-        Me.LabelControl14.Location = New System.Drawing.Point(14, 32)
+        Me.LabelControl14.Location = New System.Drawing.Point(14, -208)
         Me.LabelControl14.Name = "LabelControl14"
         Me.LabelControl14.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl14.StyleController = Me.LayoutControl1
@@ -3657,7 +3657,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.PanelControl2.Controls.Add(Me.grdKDDEPARTMENT)
         Me.PanelControl2.Controls.Add(Me.deDATE)
         Me.PanelControl2.Controls.Add(Me.grdDPJP)
-        Me.PanelControl2.Location = New System.Drawing.Point(28, 32)
+        Me.PanelControl2.Location = New System.Drawing.Point(28, -208)
         Me.PanelControl2.Name = "PanelControl2"
         Me.PanelControl2.Size = New System.Drawing.Size(455, 115)
         Me.PanelControl2.TabIndex = 68
@@ -3806,7 +3806,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         Me.SimpleButton3.Appearance.Font = New System.Drawing.Font("Tahoma", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SimpleButton3.Appearance.Options.UseFont = True
-        Me.SimpleButton3.Location = New System.Drawing.Point(487, 97)
+        Me.SimpleButton3.Location = New System.Drawing.Point(487, -143)
         Me.SimpleButton3.Name = "SimpleButton3"
         Me.SimpleButton3.Size = New System.Drawing.Size(109, 23)
         Me.SimpleButton3.StyleController = Me.LayoutControl1
@@ -3821,7 +3821,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.grdListPasien.EmbeddedNavigator.Buttons.Edit.Visible = False
         Me.grdListPasien.EmbeddedNavigator.Buttons.EndEdit.Visible = False
         Me.grdListPasien.EmbeddedNavigator.Buttons.Remove.Visible = False
-        Me.grdListPasien.Location = New System.Drawing.Point(14, 151)
+        Me.grdListPasien.Location = New System.Drawing.Point(14, -89)
         Me.grdListPasien.MainView = Me.grvListPasien
         Me.grdListPasien.Name = "grdListPasien"
         Me.grdListPasien.Size = New System.Drawing.Size(582, 20)
@@ -3833,7 +3833,7 @@ Partial Class frmMedrekRawatNew2JalanList
         '
         Me.mnuStripAddAll.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddToolStripMenuItem, Me.PemeriksaanAwalToolStripMenuItem, Me.AsesmenMedisIGDToolStripMenuItem, Me.AsesmenAwalPerawatIGDToolStripMenuItem, Me.GERDQToolStripMenuItem, Me.LaporanOperasiToolStripMenuItem, Me.LaporanTindakanToolStripMenuItem, Me.LembarObservasiToolStripMenuItem, Me.FormulirMPPToolStripMenuItem, Me.MedicalCheckUpToolStripMenuItem})
         Me.mnuStripAddAll.Name = "mnuStripAddAll"
-        Me.mnuStripAddAll.Size = New System.Drawing.Size(219, 246)
+        Me.mnuStripAddAll.Size = New System.Drawing.Size(219, 224)
         '
         'AddToolStripMenuItem
         '
@@ -3913,7 +3913,7 @@ Partial Class frmMedrekRawatNew2JalanList
         'picRefreshListPasien
         '
         Me.picRefreshListPasien.EditValue = CType(resources.GetObject("picRefreshListPasien.EditValue"), Object)
-        Me.picRefreshListPasien.Location = New System.Drawing.Point(487, 32)
+        Me.picRefreshListPasien.Location = New System.Drawing.Point(487, -208)
         Me.picRefreshListPasien.Name = "picRefreshListPasien"
         Me.picRefreshListPasien.Properties.Appearance.BackColor = System.Drawing.Color.Transparent
         Me.picRefreshListPasien.Properties.Appearance.Options.UseBackColor = True
@@ -3928,7 +3928,7 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.LayoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
         Me.LayoutControlGroup1.GroupBordersVisible = False
         Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lGROUPLISTPASIEN, Me.lGROUPFORM, Me.LayoutControlItem71})
-        Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, -240)
         Me.LayoutControlGroup1.Name = "Root"
         Me.LayoutControlGroup1.Padding = New DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0)
         Me.LayoutControlGroup1.Size = New System.Drawing.Size(610, 2193)

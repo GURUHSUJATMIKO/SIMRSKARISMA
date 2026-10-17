@@ -29,6 +29,18 @@ Namespace Transaksi
             End If
             GetStructureHeader = New S_DIGITAL_RI_13
         End Function
+        Public Function GetStructureDetail() As S_DIGITAL_RI_13_RESEP
+            If Not oConnection.GetConnection() Then
+                GetStructureDetail = Nothing
+            End If
+            GetStructureDetail = New S_DIGITAL_RI_13_RESEP
+        End Function
+        Public Function GetStructureDetailList() As List(Of S_DIGITAL_RI_13_RESEP)
+            If Not oConnection.GetConnection() Then
+                GetStructureDetailList = Nothing
+            End If
+            GetStructureDetailList = New List(Of S_DIGITAL_RI_13_RESEP)
+        End Function
         Public Function GetStructureDetaiDiagnosalList() As List(Of S_DIGITAL_RI_13_DIAGNOSA)
             If Not oConnection.GetConnection() Then
                 GetStructureDetaiDiagnosalList = Nothing
@@ -69,7 +81,21 @@ Namespace Transaksi
             End If
             GetDataDetailDiagnosa = oConnection.db.S_DIGITAL_RI_13_DIAGNOSAs.Where(Function(x) x.KDREG = sKDREG).OrderBy(Function(x) x.SEQ).ToList()
         End Function
-        Public Function InsertData(ByVal entity As S_DIGITAL_RI_13, ByVal entityDetail As List(Of S_DIGITAL_RI_13_DIAGNOSA)) As Boolean
+        Public Function GetDataDetail(ByVal KDREG As String) As List(Of S_DIGITAL_RI_13_RESEP)
+            If Not oConnection.GetConnection() Then
+                GetDataDetail = Nothing
+                Exit Function
+            End If
+            GetDataDetail = oConnection.db.S_DIGITAL_RI_13_RESEPs.Where(Function(x) x.KDREG = KDREG).ToList()
+        End Function
+        Public Function GetDataObatBySeq(ByVal KDREG As String, ByVal sSEQ As Integer) As S_DIGITAL_RI_13_RESEP
+            If Not oConnection.GetConnection() Then
+                GetDataObatBySeq = Nothing
+                Exit Function
+            End If
+            GetDataObatBySeq = oConnection.db.S_DIGITAL_RI_13_RESEPs.FirstOrDefault(Function(x) x.KDREG = KDREG And x.SEQ = sSEQ)
+        End Function
+        Public Function InsertData(ByVal entity As S_DIGITAL_RI_13, ByVal entityDetail As List(Of S_DIGITAL_RI_13_DIAGNOSA), ByVal entityDetailResep As List(Of S_DIGITAL_RI_13_RESEP)) As Boolean
             Try
                 If Not oConnection.GetConnection() Then
                     InsertData = False
@@ -107,6 +133,7 @@ Namespace Transaksi
                 Try
                     oConnection.db.S_DIGITAL_RI_13s.InsertOnSubmit(entity)
                     oConnection.db.S_DIGITAL_RI_13_DIAGNOSAs.InsertAllOnSubmit(entityDetail)
+                    oConnection.db.S_DIGITAL_RI_13_RESEPs.InsertAllOnSubmit(entityDetailResep)
                 Catch ex As Exception
                     oError.InsertData(sMODUL, sSTATUS, ex.ToString, sREFERENCE)
                     Throw ex
@@ -125,7 +152,7 @@ Namespace Transaksi
                 Throw ex
             End Try
         End Function
-        Public Function UpdateData(ByVal entity As S_DIGITAL_RI_13, ByVal entityDetail As List(Of S_DIGITAL_RI_13_DIAGNOSA)) As Boolean
+        Public Function UpdateData(ByVal entity As S_DIGITAL_RI_13, ByVal entityDetail As List(Of S_DIGITAL_RI_13_DIAGNOSA), ByVal entityDetailResep As List(Of S_DIGITAL_RI_13_RESEP)) As Boolean
             Try
                 If Not oConnection.GetConnection() Then
                     UpdateData = False
@@ -137,18 +164,28 @@ Namespace Transaksi
 
                 Dim ds = oConnection.db.S_DIGITAL_RI_13s.FirstOrDefault(Function(x) x.KDREG = entity.KDREG)
                 Dim dsDetail = oConnection.db.S_DIGITAL_RI_13_DIAGNOSAs.Where(Function(x) x.KDREG = entity.KDREG)
+                Dim dsDetailResep = oConnection.db.S_DIGITAL_RI_13_RESEPs.Where(Function(x) x.KDREG = entity.KDREG)
 
                 Try
                     oConnection.db.S_DIGITAL_RI_13s.DeleteOnSubmit(ds)
                     oConnection.db.S_DIGITAL_RI_13s.InsertOnSubmit(entity)
 
-                    If dsDetail IsNot Nothing Then
+                    If dsDetail.Count > 0 Then
                         oConnection.db.S_DIGITAL_RI_13_DIAGNOSAs.DeleteAllOnSubmit(dsDetail)
                     End If
 
-                    If entityDetail IsNot Nothing Then
+                    If entityDetail.Count > 0 Then
                         oConnection.db.S_DIGITAL_RI_13_DIAGNOSAs.InsertAllOnSubmit(entityDetail)
                     End If
+
+                    If dsDetailResep.Count > 0 Then
+                        oConnection.db.S_DIGITAL_RI_13_RESEPs.DeleteAllOnSubmit(dsDetailResep)
+                    End If
+
+                    If entityDetailResep.Count > 0 Then
+                        oConnection.db.S_DIGITAL_RI_13_RESEPs.InsertAllOnSubmit(entityDetailResep)
+                    End If
+
                 Catch ex As Exception
                     oError.InsertData(sMODUL, sSTATUS, ex.ToString, sREFERENCE)
                     Throw ex

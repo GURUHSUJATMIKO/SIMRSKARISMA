@@ -22,6 +22,7 @@ Partial Class frmRawatInapList
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmRawatInapList))
         Dim SerializableAppearanceObject1 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject2 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Me.BarButtonItem1 = New DevExpress.XtraBars.BarButtonItem()
         Me.BarButtonItem2 = New DevExpress.XtraBars.BarButtonItem()
         Me.BarButtonItem3 = New DevExpress.XtraBars.BarButtonItem()
@@ -439,12 +440,52 @@ Partial Class frmRawatInapList
         Me.txtANAMNESIS_37 = New DevExpress.XtraEditors.MemoEdit()
         Me.GroupControl25 = New DevExpress.XtraEditors.GroupControl()
         Me.LayoutControl11 = New DevExpress.XtraLayout.LayoutControl()
+        Me.LabelControl219 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl212 = New DevExpress.XtraEditors.LabelControl()
+        Me.grdObatAsesmen = New DevExpress.XtraGrid.GridControl()
+        Me.mnuStripAsesmenResep = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.DeleteToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BindingSourceAsesmenResep = New System.Windows.Forms.BindingSource(Me.components)
+        Me.grvObatAsesmen = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.colKDITEMASESMEN = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.grdKDITEMASEMEN = New DevExpress.XtraEditors.Repository.RepositoryItemSearchLookUpEdit()
+        Me.GridView80 = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.GridColumn92 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn93 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn94 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn95 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.GridColumn96 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colKDUOMASESMEN = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.grdKDUOMASESMEN = New DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit()
+        Me.GridView82 = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.GridColumn98 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colDOSISASESMEN = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colQTYASESMEN = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colREMARKS_DOKTERASESMEN = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colKDSIGNAASESMEN = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.grdKDSIGNAASESMEN = New DevExpress.XtraEditors.Repository.RepositoryItemSearchLookUpEdit()
+        Me.GridView83 = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.GridColumn103 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colKDCARAPAKAIASESMEN = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.grdKDCARAPAKAIASESMEN = New DevExpress.XtraEditors.Repository.RepositoryItemSearchLookUpEdit()
+        Me.GridView84 = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.GridColumn105 = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colPRICEASESMEN = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colGRANDTOTALASESMEN = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.colSTATUSKIRIMRESEPASESMEN = New DevExpress.XtraGrid.Columns.GridColumn()
+        Me.cboSTATUSKIRIMRESEPASESMEN = New DevExpress.XtraEditors.Repository.RepositoryItemComboBox()
+        Me.RepositoryItemCheckEdit11 = New DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit()
+        Me.RepositoryItemMemoEdit11 = New DevExpress.XtraEditors.Repository.RepositoryItemMemoEdit()
+        Me.RepositoryItemButtonEdit2 = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.txtANAMNESIS_36 = New DevExpress.XtraEditors.MemoEdit()
         Me.LayoutControlGroup26 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlItem78 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem73 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.EmptySpaceItem11 = New DevExpress.XtraLayout.EmptySpaceItem()
+        Me.LayoutControlItem104 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem105 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem107 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.GroupControl24 = New DevExpress.XtraEditors.GroupControl()
         Me.PanelControl33 = New DevExpress.XtraEditors.PanelControl()
         Me.grdDiagnosaAsesmen = New DevExpress.XtraGrid.GridControl()
@@ -587,6 +628,7 @@ Partial Class frmRawatInapList
         Me.btnFinishResume = New DevExpress.XtraEditors.SimpleButton()
         Me.btnSimpanResume = New DevExpress.XtraEditors.SimpleButton()
         Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.Panel20 = New System.Windows.Forms.Panel()
         Me.PanelControl36 = New DevExpress.XtraEditors.PanelControl()
         Me.GroupControl5 = New DevExpress.XtraEditors.GroupControl()
         Me.GroupControl8 = New DevExpress.XtraEditors.GroupControl()
@@ -1679,11 +1721,30 @@ Partial Class frmRawatInapList
         Me.GroupControl25.SuspendLayout()
         CType(Me.LayoutControl11, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.LayoutControl11.SuspendLayout()
+        CType(Me.grdObatAsesmen, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.mnuStripAsesmenResep.SuspendLayout()
+        CType(Me.BindingSourceAsesmenResep, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grvObatAsesmen, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grdKDITEMASEMEN, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView80, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grdKDUOMASESMEN, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView82, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grdKDSIGNAASESMEN, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView83, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.grdKDCARAPAKAIASESMEN, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.GridView84, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.cboSTATUSKIRIMRESEPASESMEN, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RepositoryItemCheckEdit11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RepositoryItemMemoEdit11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.RepositoryItemButtonEdit2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtANAMNESIS_36.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlGroup26, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem78, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem73, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EmptySpaceItem11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem104, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem105, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem107, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GroupControl24, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupControl24.SuspendLayout()
         CType(Me.PanelControl33, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -6367,7 +6428,7 @@ Partial Class frmRawatInapList
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel4.Location = New System.Drawing.Point(0, 32)
         Me.Panel4.Name = "Panel4"
-        Me.Panel4.Size = New System.Drawing.Size(638, 481)
+        Me.Panel4.Size = New System.Drawing.Size(638, 476)
         Me.Panel4.TabIndex = 2
         '
         'PanelControl35
@@ -6376,9 +6437,9 @@ Partial Class frmRawatInapList
         Me.PanelControl35.Controls.Add(Me.LabelControl57)
         Me.PanelControl35.Controls.Add(Me.cboRencanaPerawatan)
         Me.PanelControl35.Dock = System.Windows.Forms.DockStyle.Top
-        Me.PanelControl35.Location = New System.Drawing.Point(0, 1734)
+        Me.PanelControl35.Location = New System.Drawing.Point(0, 1939)
         Me.PanelControl35.Name = "PanelControl35"
-        Me.PanelControl35.Size = New System.Drawing.Size(621, 65)
+        Me.PanelControl35.Size = New System.Drawing.Size(621, 62)
         Me.PanelControl35.TabIndex = 195
         '
         'LabelControl58
@@ -6416,7 +6477,7 @@ Partial Class frmRawatInapList
         '
         Me.GroupControl27.Controls.Add(Me.txtANAMNESIS_38)
         Me.GroupControl27.Dock = System.Windows.Forms.DockStyle.Top
-        Me.GroupControl27.Location = New System.Drawing.Point(0, 1634)
+        Me.GroupControl27.Location = New System.Drawing.Point(0, 1839)
         Me.GroupControl27.Name = "GroupControl27"
         Me.GroupControl27.Size = New System.Drawing.Size(621, 100)
         Me.GroupControl27.TabIndex = 194
@@ -6435,7 +6496,7 @@ Partial Class frmRawatInapList
         '
         Me.GroupControl26.Controls.Add(Me.txtANAMNESIS_37)
         Me.GroupControl26.Dock = System.Windows.Forms.DockStyle.Top
-        Me.GroupControl26.Location = New System.Drawing.Point(0, 1534)
+        Me.GroupControl26.Location = New System.Drawing.Point(0, 1739)
         Me.GroupControl26.Name = "GroupControl26"
         Me.GroupControl26.Size = New System.Drawing.Size(621, 100)
         Me.GroupControl26.TabIndex = 193
@@ -6456,12 +6517,15 @@ Partial Class frmRawatInapList
         Me.GroupControl25.Dock = System.Windows.Forms.DockStyle.Top
         Me.GroupControl25.Location = New System.Drawing.Point(0, 1384)
         Me.GroupControl25.Name = "GroupControl25"
-        Me.GroupControl25.Size = New System.Drawing.Size(621, 150)
+        Me.GroupControl25.Size = New System.Drawing.Size(621, 355)
         Me.GroupControl25.TabIndex = 192
         Me.GroupControl25.Text = "PENGOBATAN DAN TINDAKAN :"
         '
         'LayoutControl11
         '
+        Me.LayoutControl11.Controls.Add(Me.LabelControl219)
+        Me.LayoutControl11.Controls.Add(Me.LabelControl212)
+        Me.LayoutControl11.Controls.Add(Me.grdObatAsesmen)
         Me.LayoutControl11.Controls.Add(Me.SimpleButton1)
         Me.LayoutControl11.Controls.Add(Me.txtANAMNESIS_36)
         Me.LayoutControl11.Dock = System.Windows.Forms.DockStyle.Fill
@@ -6469,9 +6533,344 @@ Partial Class frmRawatInapList
         Me.LayoutControl11.Name = "LayoutControl11"
         Me.LayoutControl11.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(1323, 369, 250, 350)
         Me.LayoutControl11.Root = Me.LayoutControlGroup26
-        Me.LayoutControl11.Size = New System.Drawing.Size(617, 128)
+        Me.LayoutControl11.Size = New System.Drawing.Size(617, 333)
         Me.LayoutControl11.TabIndex = 234
         Me.LayoutControl11.Text = "LayoutControl11"
+        '
+        'LabelControl219
+        '
+        Me.LabelControl219.Location = New System.Drawing.Point(2, 217)
+        Me.LabelControl219.Name = "LabelControl219"
+        Me.LabelControl219.Size = New System.Drawing.Size(51, 13)
+        Me.LabelControl219.StyleController = Me.LayoutControl11
+        Me.LabelControl219.TabIndex = 171
+        Me.LabelControl219.Text = "TINDAKAN"
+        '
+        'LabelControl212
+        '
+        Me.LabelControl212.Location = New System.Drawing.Point(2, 28)
+        Me.LabelControl212.Name = "LabelControl212"
+        Me.LabelControl212.Size = New System.Drawing.Size(67, 13)
+        Me.LabelControl212.StyleController = Me.LayoutControl11
+        Me.LabelControl212.TabIndex = 170
+        Me.LabelControl212.Text = "PENGOBATAN"
+        '
+        'grdObatAsesmen
+        '
+        Me.grdObatAsesmen.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.grdObatAsesmen.ContextMenuStrip = Me.mnuStripAsesmenResep
+        Me.grdObatAsesmen.DataSource = Me.BindingSourceAsesmenResep
+        Me.grdObatAsesmen.Location = New System.Drawing.Point(2, 45)
+        Me.grdObatAsesmen.MainView = Me.grvObatAsesmen
+        Me.grdObatAsesmen.Name = "grdObatAsesmen"
+        Me.grdObatAsesmen.RepositoryItems.AddRange(New DevExpress.XtraEditors.Repository.RepositoryItem() {Me.grdKDCARAPAKAIASESMEN, Me.grdKDUOMASESMEN, Me.RepositoryItemCheckEdit11, Me.grdKDSIGNAASESMEN, Me.RepositoryItemMemoEdit11, Me.grdKDITEMASEMEN, Me.cboSTATUSKIRIMRESEPASESMEN, Me.RepositoryItemButtonEdit2})
+        Me.grdObatAsesmen.Size = New System.Drawing.Size(613, 168)
+        Me.grdObatAsesmen.TabIndex = 14
+        Me.grdObatAsesmen.ViewCollection.AddRange(New DevExpress.XtraGrid.Views.Base.BaseView() {Me.grvObatAsesmen})
+        '
+        'mnuStripAsesmenResep
+        '
+        Me.mnuStripAsesmenResep.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DeleteToolStripMenuItem1})
+        Me.mnuStripAsesmenResep.Name = "mnuStripAsesmenResep"
+        Me.mnuStripAsesmenResep.Size = New System.Drawing.Size(108, 26)
+        '
+        'DeleteToolStripMenuItem1
+        '
+        Me.DeleteToolStripMenuItem1.Name = "DeleteToolStripMenuItem1"
+        Me.DeleteToolStripMenuItem1.Size = New System.Drawing.Size(107, 22)
+        Me.DeleteToolStripMenuItem1.Text = "Delete"
+        '
+        'BindingSourceAsesmenResep
+        '
+        Me.BindingSourceAsesmenResep.DataSource = GetType(DataAccess.S_DIGITAL_RI_13_RESEP)
+        '
+        'grvObatAsesmen
+        '
+        Me.grvObatAsesmen.Appearance.Row.Options.UseFont = True
+        Me.grvObatAsesmen.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.colKDITEMASESMEN, Me.colKDUOMASESMEN, Me.colDOSISASESMEN, Me.colQTYASESMEN, Me.colREMARKS_DOKTERASESMEN, Me.colKDSIGNAASESMEN, Me.colKDCARAPAKAIASESMEN, Me.colPRICEASESMEN, Me.colGRANDTOTALASESMEN, Me.colSTATUSKIRIMRESEPASESMEN})
+        Me.grvObatAsesmen.GridControl = Me.grdObatAsesmen
+        Me.grvObatAsesmen.Name = "grvObatAsesmen"
+        Me.grvObatAsesmen.OptionsDetail.EnableMasterViewMode = False
+        Me.grvObatAsesmen.OptionsNavigation.AutoFocusNewRow = True
+        Me.grvObatAsesmen.OptionsNavigation.EnterMoveNextColumn = True
+        Me.grvObatAsesmen.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Bottom
+        Me.grvObatAsesmen.OptionsView.ShowFilterPanelMode = DevExpress.XtraGrid.Views.Base.ShowFilterPanelMode.Never
+        Me.grvObatAsesmen.OptionsView.ShowGroupPanel = False
+        '
+        'colKDITEMASESMEN
+        '
+        Me.colKDITEMASESMEN.Caption = "Obat"
+        Me.colKDITEMASESMEN.ColumnEdit = Me.grdKDITEMASEMEN
+        Me.colKDITEMASESMEN.FieldName = "KDITEM"
+        Me.colKDITEMASESMEN.Name = "colKDITEMASESMEN"
+        Me.colKDITEMASESMEN.Visible = True
+        Me.colKDITEMASESMEN.VisibleIndex = 0
+        Me.colKDITEMASESMEN.Width = 167
+        '
+        'grdKDITEMASEMEN
+        '
+        Me.grdKDITEMASEMEN.AutoHeight = False
+        Me.grdKDITEMASEMEN.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.grdKDITEMASEMEN.Name = "grdKDITEMASEMEN"
+        Me.grdKDITEMASEMEN.NullText = ""
+        Me.grdKDITEMASEMEN.PopupFormSize = New System.Drawing.Size(950, 500)
+        Me.grdKDITEMASEMEN.View = Me.GridView80
+        '
+        'GridView80
+        '
+        Me.GridView80.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn92, Me.GridColumn93, Me.GridColumn94, Me.GridColumn95, Me.GridColumn96})
+        Me.GridView80.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
+        Me.GridView80.Name = "GridView80"
+        Me.GridView80.OptionsSelection.EnableAppearanceFocusedCell = False
+        Me.GridView80.OptionsView.ShowGroupPanel = False
+        '
+        'GridColumn92
+        '
+        Me.GridColumn92.Caption = "Generik"
+        Me.GridColumn92.FieldName = "NMITEM1"
+        Me.GridColumn92.Name = "GridColumn92"
+        Me.GridColumn92.Visible = True
+        Me.GridColumn92.VisibleIndex = 0
+        Me.GridColumn92.Width = 249
+        '
+        'GridColumn93
+        '
+        Me.GridColumn93.Caption = "Dagang"
+        Me.GridColumn93.FieldName = "NMITEM2"
+        Me.GridColumn93.Name = "GridColumn93"
+        Me.GridColumn93.Visible = True
+        Me.GridColumn93.VisibleIndex = 1
+        Me.GridColumn93.Width = 359
+        '
+        'GridColumn94
+        '
+        Me.GridColumn94.Caption = "Satuan"
+        Me.GridColumn94.FieldName = "SATUAN"
+        Me.GridColumn94.Name = "GridColumn94"
+        Me.GridColumn94.Visible = True
+        Me.GridColumn94.VisibleIndex = 2
+        Me.GridColumn94.Width = 139
+        '
+        'GridColumn95
+        '
+        Me.GridColumn95.Caption = "Harga"
+        Me.GridColumn95.DisplayFormat.FormatString = "{0:n0}"
+        Me.GridColumn95.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
+        Me.GridColumn95.FieldName = "HARGA"
+        Me.GridColumn95.Name = "GridColumn95"
+        Me.GridColumn95.Visible = True
+        Me.GridColumn95.VisibleIndex = 3
+        '
+        'GridColumn96
+        '
+        Me.GridColumn96.Caption = "Stok"
+        Me.GridColumn96.DisplayFormat.FormatString = "{0:n0}"
+        Me.GridColumn96.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
+        Me.GridColumn96.FieldName = "STOK"
+        Me.GridColumn96.Name = "GridColumn96"
+        Me.GridColumn96.Visible = True
+        Me.GridColumn96.VisibleIndex = 4
+        '
+        'colKDUOMASESMEN
+        '
+        Me.colKDUOMASESMEN.Caption = "Satuan"
+        Me.colKDUOMASESMEN.ColumnEdit = Me.grdKDUOMASESMEN
+        Me.colKDUOMASESMEN.FieldName = "KDUOM"
+        Me.colKDUOMASESMEN.Name = "colKDUOMASESMEN"
+        Me.colKDUOMASESMEN.OptionsColumn.AllowEdit = False
+        Me.colKDUOMASESMEN.OptionsColumn.AllowFocus = False
+        Me.colKDUOMASESMEN.OptionsColumn.ReadOnly = True
+        Me.colKDUOMASESMEN.OptionsColumn.TabStop = False
+        Me.colKDUOMASESMEN.Visible = True
+        Me.colKDUOMASESMEN.VisibleIndex = 1
+        Me.colKDUOMASESMEN.Width = 70
+        '
+        'grdKDUOMASESMEN
+        '
+        Me.grdKDUOMASESMEN.AutoHeight = False
+        Me.grdKDUOMASESMEN.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.grdKDUOMASESMEN.Name = "grdKDUOMASESMEN"
+        Me.grdKDUOMASESMEN.NullText = ""
+        Me.grdKDUOMASESMEN.View = Me.GridView82
+        '
+        'GridView82
+        '
+        Me.GridView82.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn98})
+        Me.GridView82.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
+        Me.GridView82.Name = "GridView82"
+        Me.GridView82.OptionsSelection.EnableAppearanceFocusedCell = False
+        Me.GridView82.OptionsView.ShowGroupPanel = False
+        '
+        'GridColumn98
+        '
+        Me.GridColumn98.Caption = "Tampilan Nama"
+        Me.GridColumn98.FieldName = "DESCRIPTION"
+        Me.GridColumn98.Name = "GridColumn98"
+        Me.GridColumn98.Visible = True
+        Me.GridColumn98.VisibleIndex = 0
+        '
+        'colDOSISASESMEN
+        '
+        Me.colDOSISASESMEN.Caption = "Dosis"
+        Me.colDOSISASESMEN.FieldName = "DOSIS"
+        Me.colDOSISASESMEN.Name = "colDOSISASESMEN"
+        Me.colDOSISASESMEN.Visible = True
+        Me.colDOSISASESMEN.VisibleIndex = 2
+        '
+        'colQTYASESMEN
+        '
+        Me.colQTYASESMEN.Caption = "Jumlah"
+        Me.colQTYASESMEN.DisplayFormat.FormatString = "{0:n0}"
+        Me.colQTYASESMEN.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
+        Me.colQTYASESMEN.FieldName = "QTY"
+        Me.colQTYASESMEN.Name = "colQTYASESMEN"
+        Me.colQTYASESMEN.Visible = True
+        Me.colQTYASESMEN.VisibleIndex = 3
+        Me.colQTYASESMEN.Width = 70
+        '
+        'colREMARKS_DOKTERASESMEN
+        '
+        Me.colREMARKS_DOKTERASESMEN.Caption = "Cara Pakai"
+        Me.colREMARKS_DOKTERASESMEN.FieldName = "REMARKS_DOKTER"
+        Me.colREMARKS_DOKTERASESMEN.Name = "colREMARKS_DOKTERASESMEN"
+        Me.colREMARKS_DOKTERASESMEN.Visible = True
+        Me.colREMARKS_DOKTERASESMEN.VisibleIndex = 4
+        Me.colREMARKS_DOKTERASESMEN.Width = 70
+        '
+        'colKDSIGNAASESMEN
+        '
+        Me.colKDSIGNAASESMEN.Caption = "Keterangan 1"
+        Me.colKDSIGNAASESMEN.ColumnEdit = Me.grdKDSIGNAASESMEN
+        Me.colKDSIGNAASESMEN.FieldName = "KDSIGNA"
+        Me.colKDSIGNAASESMEN.Name = "colKDSIGNAASESMEN"
+        Me.colKDSIGNAASESMEN.OptionsColumn.TabStop = False
+        Me.colKDSIGNAASESMEN.Visible = True
+        Me.colKDSIGNAASESMEN.VisibleIndex = 5
+        Me.colKDSIGNAASESMEN.Width = 70
+        '
+        'grdKDSIGNAASESMEN
+        '
+        Me.grdKDSIGNAASESMEN.AutoHeight = False
+        Me.grdKDSIGNAASESMEN.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.grdKDSIGNAASESMEN.Name = "grdKDSIGNAASESMEN"
+        Me.grdKDSIGNAASESMEN.NullText = ""
+        Me.grdKDSIGNAASESMEN.View = Me.GridView83
+        '
+        'GridView83
+        '
+        Me.GridView83.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn103})
+        Me.GridView83.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
+        Me.GridView83.Name = "GridView83"
+        Me.GridView83.OptionsSelection.EnableAppearanceFocusedCell = False
+        Me.GridView83.OptionsView.ShowGroupPanel = False
+        '
+        'GridColumn103
+        '
+        Me.GridColumn103.Caption = "Tampilan Nama"
+        Me.GridColumn103.FieldName = "DESCRIPTION"
+        Me.GridColumn103.Name = "GridColumn103"
+        Me.GridColumn103.Visible = True
+        Me.GridColumn103.VisibleIndex = 0
+        '
+        'colKDCARAPAKAIASESMEN
+        '
+        Me.colKDCARAPAKAIASESMEN.Caption = "Keterangan 2"
+        Me.colKDCARAPAKAIASESMEN.ColumnEdit = Me.grdKDCARAPAKAIASESMEN
+        Me.colKDCARAPAKAIASESMEN.FieldName = "KDCARAPAKAI"
+        Me.colKDCARAPAKAIASESMEN.Name = "colKDCARAPAKAIASESMEN"
+        Me.colKDCARAPAKAIASESMEN.OptionsColumn.TabStop = False
+        Me.colKDCARAPAKAIASESMEN.Visible = True
+        Me.colKDCARAPAKAIASESMEN.VisibleIndex = 6
+        Me.colKDCARAPAKAIASESMEN.Width = 70
+        '
+        'grdKDCARAPAKAIASESMEN
+        '
+        Me.grdKDCARAPAKAIASESMEN.AutoHeight = False
+        Me.grdKDCARAPAKAIASESMEN.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.grdKDCARAPAKAIASESMEN.Name = "grdKDCARAPAKAIASESMEN"
+        Me.grdKDCARAPAKAIASESMEN.NullText = ""
+        Me.grdKDCARAPAKAIASESMEN.View = Me.GridView84
+        '
+        'GridView84
+        '
+        Me.GridView84.Columns.AddRange(New DevExpress.XtraGrid.Columns.GridColumn() {Me.GridColumn105})
+        Me.GridView84.FocusRectStyle = DevExpress.XtraGrid.Views.Grid.DrawFocusRectStyle.RowFocus
+        Me.GridView84.Name = "GridView84"
+        Me.GridView84.OptionsSelection.EnableAppearanceFocusedCell = False
+        Me.GridView84.OptionsView.ShowGroupPanel = False
+        '
+        'GridColumn105
+        '
+        Me.GridColumn105.Caption = "Keterangan"
+        Me.GridColumn105.FieldName = "DESCRIPTION"
+        Me.GridColumn105.Name = "GridColumn105"
+        Me.GridColumn105.Visible = True
+        Me.GridColumn105.VisibleIndex = 0
+        '
+        'colPRICEASESMEN
+        '
+        Me.colPRICEASESMEN.Caption = "Harga"
+        Me.colPRICEASESMEN.DisplayFormat.FormatString = "{0:n0}"
+        Me.colPRICEASESMEN.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
+        Me.colPRICEASESMEN.FieldName = "PRICE"
+        Me.colPRICEASESMEN.Name = "colPRICEASESMEN"
+        Me.colPRICEASESMEN.OptionsColumn.AllowEdit = False
+        Me.colPRICEASESMEN.OptionsColumn.AllowFocus = False
+        Me.colPRICEASESMEN.OptionsColumn.ReadOnly = True
+        Me.colPRICEASESMEN.OptionsColumn.TabStop = False
+        Me.colPRICEASESMEN.Visible = True
+        Me.colPRICEASESMEN.VisibleIndex = 7
+        Me.colPRICEASESMEN.Width = 70
+        '
+        'colGRANDTOTALASESMEN
+        '
+        Me.colGRANDTOTALASESMEN.Caption = "Sub Total"
+        Me.colGRANDTOTALASESMEN.DisplayFormat.FormatString = "{0:n0}"
+        Me.colGRANDTOTALASESMEN.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric
+        Me.colGRANDTOTALASESMEN.FieldName = "GRANDTOTAL"
+        Me.colGRANDTOTALASESMEN.Name = "colGRANDTOTALASESMEN"
+        Me.colGRANDTOTALASESMEN.OptionsColumn.AllowEdit = False
+        Me.colGRANDTOTALASESMEN.OptionsColumn.AllowFocus = False
+        Me.colGRANDTOTALASESMEN.OptionsColumn.ReadOnly = True
+        Me.colGRANDTOTALASESMEN.OptionsColumn.TabStop = False
+        Me.colGRANDTOTALASESMEN.Visible = True
+        Me.colGRANDTOTALASESMEN.VisibleIndex = 8
+        Me.colGRANDTOTALASESMEN.Width = 84
+        '
+        'colSTATUSKIRIMRESEPASESMEN
+        '
+        Me.colSTATUSKIRIMRESEPASESMEN.Caption = "Status"
+        Me.colSTATUSKIRIMRESEPASESMEN.ColumnEdit = Me.cboSTATUSKIRIMRESEPASESMEN
+        Me.colSTATUSKIRIMRESEPASESMEN.FieldName = "STATUSKIRIMRESEP"
+        Me.colSTATUSKIRIMRESEPASESMEN.Name = "colSTATUSKIRIMRESEPASESMEN"
+        Me.colSTATUSKIRIMRESEPASESMEN.Visible = True
+        Me.colSTATUSKIRIMRESEPASESMEN.VisibleIndex = 9
+        '
+        'cboSTATUSKIRIMRESEPASESMEN
+        '
+        Me.cboSTATUSKIRIMRESEPASESMEN.AutoHeight = False
+        Me.cboSTATUSKIRIMRESEPASESMEN.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.cboSTATUSKIRIMRESEPASESMEN.Items.AddRange(New Object() {"RESEP", "MASUK CPPT", "TIDAK MASUK CPPT"})
+        Me.cboSTATUSKIRIMRESEPASESMEN.Name = "cboSTATUSKIRIMRESEPASESMEN"
+        Me.cboSTATUSKIRIMRESEPASESMEN.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
+        '
+        'RepositoryItemCheckEdit11
+        '
+        Me.RepositoryItemCheckEdit11.AutoHeight = False
+        Me.RepositoryItemCheckEdit11.Name = "RepositoryItemCheckEdit11"
+        Me.RepositoryItemCheckEdit11.NullStyle = DevExpress.XtraEditors.Controls.StyleIndeterminate.Unchecked
+        '
+        'RepositoryItemMemoEdit11
+        '
+        Me.RepositoryItemMemoEdit11.Name = "RepositoryItemMemoEdit11"
+        '
+        'RepositoryItemButtonEdit2
+        '
+        Me.RepositoryItemButtonEdit2.AutoHeight = False
+        Me.RepositoryItemButtonEdit2.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, CType(resources.GetObject("RepositoryItemButtonEdit2.Buttons"), System.Drawing.Image), New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject2, "", Nothing, Nothing, True)})
+        Me.RepositoryItemButtonEdit2.Name = "RepositoryItemButtonEdit2"
+        Me.RepositoryItemButtonEdit2.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
         '
         'SimpleButton1
         '
@@ -6484,10 +6883,10 @@ Partial Class frmRawatInapList
         '
         'txtANAMNESIS_36
         '
-        Me.txtANAMNESIS_36.Location = New System.Drawing.Point(2, 28)
+        Me.txtANAMNESIS_36.Location = New System.Drawing.Point(2, 234)
         Me.txtANAMNESIS_36.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.txtANAMNESIS_36.Name = "txtANAMNESIS_36"
-        Me.txtANAMNESIS_36.Size = New System.Drawing.Size(613, 98)
+        Me.txtANAMNESIS_36.Size = New System.Drawing.Size(613, 97)
         Me.txtANAMNESIS_36.StyleController = Me.LayoutControl11
         Me.txtANAMNESIS_36.TabIndex = 168
         '
@@ -6495,19 +6894,19 @@ Partial Class frmRawatInapList
         '
         Me.LayoutControlGroup26.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
         Me.LayoutControlGroup26.GroupBordersVisible = False
-        Me.LayoutControlGroup26.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem78, Me.LayoutControlItem73, Me.EmptySpaceItem11})
+        Me.LayoutControlGroup26.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem78, Me.LayoutControlItem73, Me.EmptySpaceItem11, Me.LayoutControlItem104, Me.LayoutControlItem105, Me.LayoutControlItem107})
         Me.LayoutControlGroup26.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup26.Name = "Root"
         Me.LayoutControlGroup26.Padding = New DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0)
-        Me.LayoutControlGroup26.Size = New System.Drawing.Size(617, 128)
+        Me.LayoutControlGroup26.Size = New System.Drawing.Size(617, 333)
         Me.LayoutControlGroup26.TextVisible = False
         '
         'LayoutControlItem78
         '
         Me.LayoutControlItem78.Control = Me.txtANAMNESIS_36
-        Me.LayoutControlItem78.Location = New System.Drawing.Point(0, 26)
+        Me.LayoutControlItem78.Location = New System.Drawing.Point(0, 232)
         Me.LayoutControlItem78.Name = "LayoutControlItem78"
-        Me.LayoutControlItem78.Size = New System.Drawing.Size(617, 102)
+        Me.LayoutControlItem78.Size = New System.Drawing.Size(617, 101)
         Me.LayoutControlItem78.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem78.TextVisible = False
         '
@@ -6527,6 +6926,33 @@ Partial Class frmRawatInapList
         Me.EmptySpaceItem11.Name = "EmptySpaceItem11"
         Me.EmptySpaceItem11.Size = New System.Drawing.Size(530, 26)
         Me.EmptySpaceItem11.TextSize = New System.Drawing.Size(0, 0)
+        '
+        'LayoutControlItem104
+        '
+        Me.LayoutControlItem104.Control = Me.grdObatAsesmen
+        Me.LayoutControlItem104.Location = New System.Drawing.Point(0, 43)
+        Me.LayoutControlItem104.Name = "LayoutControlItem104"
+        Me.LayoutControlItem104.Size = New System.Drawing.Size(617, 172)
+        Me.LayoutControlItem104.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem104.TextVisible = False
+        '
+        'LayoutControlItem105
+        '
+        Me.LayoutControlItem105.Control = Me.LabelControl212
+        Me.LayoutControlItem105.Location = New System.Drawing.Point(0, 26)
+        Me.LayoutControlItem105.Name = "LayoutControlItem105"
+        Me.LayoutControlItem105.Size = New System.Drawing.Size(617, 17)
+        Me.LayoutControlItem105.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem105.TextVisible = False
+        '
+        'LayoutControlItem107
+        '
+        Me.LayoutControlItem107.Control = Me.LabelControl219
+        Me.LayoutControlItem107.Location = New System.Drawing.Point(0, 215)
+        Me.LayoutControlItem107.Name = "LayoutControlItem107"
+        Me.LayoutControlItem107.Size = New System.Drawing.Size(617, 17)
+        Me.LayoutControlItem107.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem107.TextVisible = False
         '
         'GroupControl24
         '
@@ -7784,9 +8210,9 @@ Partial Class frmRawatInapList
         Me.Panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.Panel3.Controls.Add(Me.Button14)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel3.Location = New System.Drawing.Point(0, 513)
+        Me.Panel3.Location = New System.Drawing.Point(0, 508)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(638, 35)
+        Me.Panel3.Size = New System.Drawing.Size(638, 40)
         Me.Panel3.TabIndex = 1
         '
         'Button14
@@ -7918,12 +8344,20 @@ Partial Class frmRawatInapList
         'Panel9
         '
         Me.Panel9.AutoScroll = True
+        Me.Panel9.Controls.Add(Me.Panel20)
         Me.Panel9.Controls.Add(Me.PanelControl36)
         Me.Panel9.Controls.Add(Me.PanelControl28)
         Me.Panel9.Location = New System.Drawing.Point(2, 2)
         Me.Panel9.Name = "Panel9"
         Me.Panel9.Size = New System.Drawing.Size(634, 517)
         Me.Panel9.TabIndex = 243
+        '
+        'Panel20
+        '
+        Me.Panel20.Location = New System.Drawing.Point(3, 2488)
+        Me.Panel20.Name = "Panel20"
+        Me.Panel20.Size = New System.Drawing.Size(605, 22)
+        Me.Panel20.TabIndex = 3
         '
         'PanelControl36
         '
@@ -7940,7 +8374,7 @@ Partial Class frmRawatInapList
         Me.PanelControl36.Dock = System.Windows.Forms.DockStyle.Top
         Me.PanelControl36.Location = New System.Drawing.Point(0, 126)
         Me.PanelControl36.Name = "PanelControl36"
-        Me.PanelControl36.Size = New System.Drawing.Size(617, 2330)
+        Me.PanelControl36.Size = New System.Drawing.Size(617, 2344)
         Me.PanelControl36.TabIndex = 2
         '
         'GroupControl5
@@ -7951,7 +8385,7 @@ Partial Class frmRawatInapList
         Me.GroupControl5.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupControl5.Location = New System.Drawing.Point(2, 1767)
         Me.GroupControl5.Name = "GroupControl5"
-        Me.GroupControl5.Size = New System.Drawing.Size(613, 561)
+        Me.GroupControl5.Size = New System.Drawing.Size(613, 575)
         Me.GroupControl5.TabIndex = 255
         Me.GroupControl5.Text = "INTRUKSI POST RAWAT"
         '
@@ -7967,7 +8401,7 @@ Partial Class frmRawatInapList
         Me.GroupControl8.Dock = System.Windows.Forms.DockStyle.Fill
         Me.GroupControl8.Location = New System.Drawing.Point(2, 345)
         Me.GroupControl8.Name = "GroupControl8"
-        Me.GroupControl8.Size = New System.Drawing.Size(609, 214)
+        Me.GroupControl8.Size = New System.Drawing.Size(609, 228)
         Me.GroupControl8.TabIndex = 2
         Me.GroupControl8.Text = "Edukasi dan Instruksi (Tindak Lanjut) :"
         '
@@ -17010,11 +17444,30 @@ Partial Class frmRawatInapList
         Me.GroupControl25.ResumeLayout(False)
         CType(Me.LayoutControl11, System.ComponentModel.ISupportInitialize).EndInit()
         Me.LayoutControl11.ResumeLayout(False)
+        CType(Me.grdObatAsesmen, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.mnuStripAsesmenResep.ResumeLayout(False)
+        CType(Me.BindingSourceAsesmenResep, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.grvObatAsesmen, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.grdKDITEMASEMEN, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView80, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.grdKDUOMASESMEN, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView82, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.grdKDSIGNAASESMEN, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView83, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.grdKDCARAPAKAIASESMEN, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.GridView84, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.cboSTATUSKIRIMRESEPASESMEN, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RepositoryItemCheckEdit11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RepositoryItemMemoEdit11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.RepositoryItemButtonEdit2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtANAMNESIS_36.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlGroup26, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem78, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem73, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EmptySpaceItem11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem104, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem105, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem107, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.GroupControl24, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupControl24.ResumeLayout(False)
         CType(Me.PanelControl33, System.ComponentModel.ISupportInitialize).EndInit()
@@ -19162,4 +19615,45 @@ Partial Class frmRawatInapList
     Friend WithEvents colSTATUSKIRIMRESEP As DevExpress.XtraGrid.Columns.GridColumn
     Friend WithEvents RepositoryItemComboBox11 As DevExpress.XtraEditors.Repository.RepositoryItemComboBox
     Friend WithEvents RepositoryItemButtonEdit1 As DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit
+    Friend WithEvents grdObatAsesmen As DevExpress.XtraGrid.GridControl
+    Friend WithEvents grvObatAsesmen As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WithEvents colKDITEMASESMEN As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents grdKDITEMASEMEN As DevExpress.XtraEditors.Repository.RepositoryItemSearchLookUpEdit
+    Friend WithEvents GridView80 As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WithEvents GridColumn92 As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents GridColumn93 As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents GridColumn94 As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents GridColumn95 As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents GridColumn96 As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colKDUOMASESMEN As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents grdKDUOMASESMEN As DevExpress.XtraEditors.Repository.RepositoryItemGridLookUpEdit
+    Friend WithEvents GridView82 As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WithEvents GridColumn98 As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colDOSISASESMEN As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colQTYASESMEN As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colREMARKS_DOKTERASESMEN As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colKDSIGNAASESMEN As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents grdKDSIGNAASESMEN As DevExpress.XtraEditors.Repository.RepositoryItemSearchLookUpEdit
+    Friend WithEvents GridView83 As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WithEvents GridColumn103 As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colKDCARAPAKAIASESMEN As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents grdKDCARAPAKAIASESMEN As DevExpress.XtraEditors.Repository.RepositoryItemSearchLookUpEdit
+    Friend WithEvents GridView84 As DevExpress.XtraGrid.Views.Grid.GridView
+    Friend WithEvents GridColumn105 As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colPRICEASESMEN As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colGRANDTOTALASESMEN As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents colSTATUSKIRIMRESEPASESMEN As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents cboSTATUSKIRIMRESEPASESMEN As DevExpress.XtraEditors.Repository.RepositoryItemComboBox
+    Friend WithEvents RepositoryItemCheckEdit11 As DevExpress.XtraEditors.Repository.RepositoryItemCheckEdit
+    Friend WithEvents RepositoryItemMemoEdit11 As DevExpress.XtraEditors.Repository.RepositoryItemMemoEdit
+    Friend WithEvents RepositoryItemButtonEdit2 As DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit
+    Friend WithEvents LayoutControlItem104 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents Panel20 As Panel
+    Friend WithEvents BindingSourceAsesmenResep As BindingSource
+    Friend WithEvents mnuStripAsesmenResep As ContextMenuStrip
+    Friend WithEvents DeleteToolStripMenuItem1 As ToolStripMenuItem
+    Friend WithEvents LabelControl219 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LabelControl212 As DevExpress.XtraEditors.LabelControl
+    Friend WithEvents LayoutControlItem105 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents LayoutControlItem107 As DevExpress.XtraLayout.LayoutControlItem
 End Class

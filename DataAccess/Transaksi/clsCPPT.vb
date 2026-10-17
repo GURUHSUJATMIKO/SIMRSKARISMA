@@ -269,6 +269,13 @@ Namespace Transaksi
             End If
             GetDataDetailDiagnosa = oConnection.db.S_REQ_CPPT_DIAGNOSAs.Where(Function(x) x.KDCPPT = sKDCPPT).OrderBy(Function(x) x.SEQ).ToList()
         End Function
+        Public Function GetDataDetailDiagnosaByRegisterByProfesi(ByVal sKDPENDAFTARAN As String) As List(Of S_REQ_CPPT_DIAGNOSA)
+            If Not oConnection.GetConnection() Then
+                GetDataDetailDiagnosaByRegisterByProfesi = Nothing
+                Exit Function
+            End If
+            GetDataDetailDiagnosaByRegisterByProfesi = oConnection.db.S_REQ_CPPT_DIAGNOSAs.Where(Function(x) x.S_REQ_CPPT.KDPENDAFTARAN = sKDPENDAFTARAN And x.S_REQ_CPPT.PROFESI = "DOKTER").OrderByDescending(Function(x) x.SEQ).ToList()
+        End Function
         Public Function GetDataDetailProsedur(ByVal sKDCPPT As String) As List(Of S_REQ_CPPT_PROSEDUR)
             If Not oConnection.GetConnection() Then
                 GetDataDetailProsedur = Nothing

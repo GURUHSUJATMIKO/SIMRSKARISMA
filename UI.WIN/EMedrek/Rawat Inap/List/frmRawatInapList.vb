@@ -5002,6 +5002,32 @@ Public Class frmRawatInapList
             grvDetailResep.SetFocusedRowCellValue(colGRANDTOTAL, sSubTotal)
         End If
     End Sub
+    Private Sub grvObatAsesmen_CellValueChanged(ByVal sender As Object, ByVal e As DevExpress.XtraGrid.Views.Base.CellValueChangedEventArgs) Handles grvObatAsesmen.CellValueChanged
+        If e.Column.Name = colKDITEMASESMEN.Name Then
+            Try
+                If grvObatAsesmen.GetFocusedRowCellValue(colKDITEMASESMEN) IsNot Nothing Then
+                    grvObatAsesmen.SetFocusedRowCellValue(colKDUOMASESMEN, frmReqRecipeRawatInap.fn_LoadUOMKDUOM(grvObatAsesmen.GetFocusedRowCellValue(colKDITEMASESMEN)))
+                    grvObatAsesmen.SetFocusedRowCellValue(colREMARKS_DOKTERASESMEN, "")
+                    grvObatAsesmen.SetFocusedRowCellValue(colQTYASESMEN, 1)
+                    grvObatAsesmen.SetFocusedRowCellValue(colSTATUSKIRIMRESEPASESMEN, "RESEP")
+                End If
+            Catch oErr As Exception
+                MsgBox("Load Detail : " & vbCrLf & oErr.Message, MsgBoxStyle.Critical, Me.Text)
+            End Try
+        ElseIf e.Column.Name = colREMARKS_DOKTERASESMEN.Name Then
+            'grvTindakan.Focus()
+            'grvTindakan.AddNewRow()
+            'grvTindakan.SetFocusedRowCellValue(colTERAPI, fn_LoadITEM(grvObatAsesmen.GetFocusedRowCellValue(colKDITEM)) & " " & fn_LoadSIGNA(grvObatAsesmen.GetFocusedRowCellValue(colKDSIGNA)))
+            'grvTindakan.SetFocusedRowCellValue(colTINDAKAN, "")
+            'grvTindakan.UpdateCurrentRow()
+        ElseIf e.Column.Name = colKDUOMASESMEN.Name Then
+            Dim hargajualawal As Decimal = frmReqRecipeRawatInap.fn_LoadUOMKDUOMHARGA(grvObatAsesmen.GetFocusedRowCellValue(colKDITEM), grvObatAsesmen.GetFocusedRowCellValue(colKDUOMASESMEN))
+            grvObatAsesmen.SetFocusedRowCellValue(colPRICEASESMEN, hargajualawal)
+        ElseIf e.Column.Name = colQTYASESMEN.Name Or e.Column.Name = colPRICEASESMEN.Name Then
+            Dim sSubTotal As Decimal = CDec(grvObatAsesmen.GetFocusedRowCellValue(colQTY)) * CDec(grvObatAsesmen.GetFocusedRowCellValue(colPRICEASESMEN))
+            grvObatAsesmen.SetFocusedRowCellValue(colGRANDTOTALASESMEN, sSubTotal)
+        End If
+    End Sub
 #End Region
 #Region "RINGKASAN KELUAR"
     Private Sub fn_ChangeFormStateRINGKASANKELUAR()
@@ -8488,6 +8514,9 @@ Public Class frmRawatInapList
             BindingSourceDiagnosa_Asesmen.DataSource = oDigital_DischargePlanning.GetDataDetailDiagnosa(lblRegister.Text).OrderBy(Function(x) x.SEQ).ToList()
             grdDiagnosaAsesmen.DataSource = BindingSourceDiagnosa_Asesmen
 
+            BindingSourceAsesmenResep.DataSource = oDigital_DischargePlanning.GetDataDetail(lblRegister.Text).OrderBy(Function(x) x.SEQ).ToList()
+            grdDetailResep.DataSource = BindingSourceAsesmenResep
+
         Catch oErr As Exception
             MsgBox("Load List Data : " & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)
         End Try
@@ -8648,19 +8677,54 @@ Public Class frmRawatInapList
                 listdiagnosa.Add(xloop.KDDIAGNOSA & " " & xloop.NAMADIAGNOSA)
             Next
 
+            ' ***** DETIL *****
+            Dim arrDetail = oDigital_DischargePlanning.GetStructureDetailList
+            For i As Integer = 0 To grvObatAsesmen.RowCount - 2
+                Dim dsDetail = oDigital_DischargePlanning.GetStructureDetail
+                With dsDetail
+                    .SEQ = i
+                    .KDREG = ds.KDREG
+                    .NAMAOBAT = frmReqRecipeRawatInap.fn_LoadITEM(grvObatAsesmen.GetRowCellValue(i, colKDITEMASESMEN))
+                    .SATUAN = frmReqRecipeRawatInap.fn_LoadUOMDESCRIPTION(grvObatAsesmen.GetRowCellValue(i, colKDUOMASESMEN))
+                    .SIGNA = IIf(String.IsNullOrEmpty(grvObatAsesmen.GetRowCellValue(i, colKDSIGNAASESMEN)), "", frmReqRecipeRawatInap.fn_LoadSIGNA(grvObatAsesmen.GetRowCellValue(i, colKDSIGNAASESMEN)))
+                    .CARAPAKAI = IIf(String.IsNullOrEmpty(grvObatAsesmen.GetRowCellValue(i, colKDCARAPAKAIASESMEN)), "", frmReqRecipeRawatInap.fn_LoadCARAPAKAI(grvObatAsesmen.GetRowCellValue(i, colKDCARAPAKAIASESMEN)))
+                    .QTY = CDec(grvObatAsesmen.GetRowCellValue(i, colQTYASESMEN))
+                    .PRICE = CDec(grvObatAsesmen.GetRowCellValue(i, colPRICEASESMEN))
+                    .GRANDTOTAL = CDec(grvObatAsesmen.GetRowCellValue(i, colGRANDTOTALASESMEN))
+                    .ROMAWI = frmReqRecipeRawatInap.IntegerToRoman(CInt(grvObatAsesmen.GetRowCellValue(i, colQTYASESMEN)))
+                    .REMARKS_DOKTER = IIf(String.IsNullOrEmpty(grvObatAsesmen.GetRowCellValue(i, colREMARKS_DOKTERASESMEN)), "", grvObatAsesmen.GetRowCellValue(i, colREMARKS_DOKTERASESMEN))
+                    .KDITEM = grvObatAsesmen.GetRowCellValue(i, colKDITEMASESMEN)
+                    .KDUOM = grvObatAsesmen.GetRowCellValue(i, colKDUOMASESMEN)
+                    .KDSIGNA = IIf(String.IsNullOrEmpty(grvObatAsesmen.GetRowCellValue(i, colKDSIGNAASESMEN)), "1286", grvObatAsesmen.GetRowCellValue(i, colKDSIGNAASESMEN))
+                    .KDCARAPAKAI = IIf(String.IsNullOrEmpty(grvObatAsesmen.GetRowCellValue(i, colKDCARAPAKAIASESMEN)), "10", grvObatAsesmen.GetRowCellValue(i, colKDCARAPAKAIASESMEN))
+                    .QTY_PERUBAHAN = grvObatAsesmen.GetRowCellValue(i, colQTYASESMEN)
+                    Try
+                        .REMARKS_FARMASI = oDigital_DischargePlanning.GetDataObatBySeq(ds.KDREG, i).REMARKS_FARMASI
+                    Catch ex As Exception
+                        .REMARKS_FARMASI = ""
+                    End Try
+                    .DOSIS = IIf(String.IsNullOrEmpty(grvObatAsesmen.GetRowCellValue(i, colDOSISASESMEN)), "", grvObatAsesmen.GetRowCellValue(i, colDOSISASESMEN))
+                    .STATUSKIRIMRESEP = IIf(String.IsNullOrEmpty(grvObatAsesmen.GetRowCellValue(i, colSTATUSKIRIMRESEPASESMEN)), "RESEP", grvObatAsesmen.GetRowCellValue(i, colSTATUSKIRIMRESEPASESMEN))
+                End With
+
+                If grvObatAsesmen.GetRowCellValue(i, colKDITEMASESMEN) IsNot Nothing Then
+                    arrDetail.Add(dsDetail)
+                End If
+            Next
+
             Dim dsSave = oDigital_DischargePlanning.GetData(lblRegister.Text)
 
             If dsSave Is Nothing Then
                 Try
                     ds.ANAMNESIS_35 = String.Join(vbCrLf, listdiagnosa.ToArray)
-                    fn_SaveDischargePlanning = oDigital_DischargePlanning.InsertData(ds, arrDetailDiagnosa)
+                    fn_SaveDischargePlanning = oDigital_DischargePlanning.InsertData(ds, arrDetailDiagnosa, arrDetail)
                 Catch ex As Exception
                     MsgBox("Simpan Data Discharge Planning: " & vbCrLf & ex.Message, MsgBoxStyle.Exclamation, Me.Text)
                 End Try
             Else
                 Try
                     ds.ANAMNESIS_35 = String.Join(vbCrLf, listdiagnosa.ToArray)
-                    fn_SaveDischargePlanning = oDigital_DischargePlanning.UpdateData(ds, arrDetailDiagnosa)
+                    fn_SaveDischargePlanning = oDigital_DischargePlanning.UpdateData(ds, arrDetailDiagnosa, arrDetail)
                 Catch ex As Exception
                     MsgBox("Simpan Data Discharge Planning: " & vbCrLf & ex.Message, MsgBoxStyle.Exclamation, Me.Text)
                 End Try
@@ -16406,6 +16470,28 @@ Public Class frmRawatInapList
                     txtANAMNESIS_36.Text = dscPPT.PLANNING
                 End If
             End If
+
+            Dim oS_DIGITAL_IGD_01LoadAsesmen As New Transaksi.clsDigital_IGD_01
+
+            For Each xloop In oS_DIGITAL_IGD_01LoadAsesmen.GetDataDetailResepRanapByRegister(sKDREGRAWATJALAN)
+                grvObatAsesmen.Focus()
+                grvObatAsesmen.AddNewRow()
+                grvObatAsesmen.SetFocusedRowCellValue(colKDITEMASESMEN, xloop.KDITEM)
+                grvObatAsesmen.SetFocusedRowCellValue(colKDSIGNAASESMEN, xloop.KDSIGNA)
+                grvObatAsesmen.SetFocusedRowCellValue(colKDCARAPAKAIASESMEN, xloop.KDCARAPAKAI)
+                grvObatAsesmen.SetFocusedRowCellValue(colQTYASESMEN, xloop.QTY)
+                grvObatAsesmen.SetFocusedRowCellValue(colREMARKS_DOKTERASESMEN, xloop.REMARKS_DOKTER)
+                grvObatAsesmen.SetFocusedRowCellValue(colDOSISASESMEN, xloop.DOSIS)
+                grvObatAsesmen.SetFocusedRowCellValue(colSTATUSKIRIMRESEPASESMEN, "MASUK CPPT")
+
+                'If .Rows(iLoop)("STATUSKIRIMRESEP") = "" Then
+                '    grvObatAsesmen.SetFocusedRowCellValue(colSTATUSKIRIMRESEP, "MASUK CPPT")
+                'Else
+                '    grvObatAsesmen.SetFocusedRowCellValue(colSTATUSKIRIMRESEP, .Rows(iLoop)("STATUSKIRIMRESEP"))
+                'End If
+                grvObatAsesmen.UpdateCurrentRow()
+            Next
+
         Catch oErr As Exception
             MsgBox(Statement.ErrorStatement & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)
         End Try
@@ -16685,10 +16771,18 @@ Public Class frmRawatInapList
                 If kode = "" Then
                     Dim frmReqRecipeRawatInap As New frmReqRecipeRawatInap
                     Try
+
                         Dim listdiagnosa As New List(Of String)
-                        For i As Integer = 0 To grvDIAGNOSA_CPPT.RowCount - 2
-                            listdiagnosa.Add(grvDIAGNOSA_CPPT.GetRowCellValue(i, colNAMADIAGNOSA_CPPT))
-                        Next
+                        If sISDOKTER = False Then
+                            For Each xloop In oCPPT.GetDataDetailDiagnosaByRegisterByProfesi(lblRegister.Text)
+                                listdiagnosa.Add(xloop.NAMADIAGNOSA)
+                            Next
+                        Else
+                            For i As Integer = 0 To grvDIAGNOSA_CPPT.RowCount - 2
+                                listdiagnosa.Add(grvDIAGNOSA_CPPT.GetRowCellValue(i, colNAMADIAGNOSA_CPPT))
+                            Next
+                        End If
+
 
                         Dim Diagnosalabel As String = String.Join(vbCrLf, listdiagnosa.ToArray)
 
@@ -18157,6 +18251,10 @@ Public Class frmRawatInapList
     End Sub
     Private Sub CheckEdit39_CheckedChanged(sender As Object, e As EventArgs) Handles CheckEdit39.CheckedChanged
         cboTINGKATKESADARAN.Properties.ReadOnly = CheckEdit39.Checked
+    End Sub
+
+    Private Sub DeleteToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles DeleteToolStripMenuItem1.Click
+        grvObatAsesmen.DeleteSelectedRows()
     End Sub
 #End Region
 End Class

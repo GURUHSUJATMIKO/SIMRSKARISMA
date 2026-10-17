@@ -125,6 +125,13 @@ Namespace Transaksi
             End If
             GetDataDetailTindakanPoli = oConnection.db.S_DIGITAL_IGD_01_TINDAKANPOLIs.Where(Function(x) x.KDPENDAFTARAN = sKDPENDAFTARAN).ToList()
         End Function
+        Public Function GetDataDetailResepRanapByRegister(ByVal sRegister As String) As List(Of S_REQ_RECIPE_D)
+            If Not oConnection.GetConnection() Then
+                GetDataDetailResepRanapByRegister = Nothing
+                Exit Function
+            End If
+            GetDataDetailResepRanapByRegister = oConnection.db.S_REQ_RECIPE_Ds.Where(Function(x) x.S_REQ_RECIPE_H.KDPENDAFTARAN = sRegister And x.REMARKS_FARMASI = "OBAT RANAP").ToList()
+        End Function
         Public Function GetDataDetailPenunjang(ByVal sKDPENDAFTARAN As String) As List(Of S_DIGITAL_IGD_01_PENUNJANG)
             If Not oConnection.GetConnection() Then
                 GetDataDetailPenunjang = Nothing

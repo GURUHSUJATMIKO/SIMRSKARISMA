@@ -72,6 +72,16 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrCheckBox3 = New DevExpress.XtraReports.UI.XRCheckBox()
         Me.XrCheckBox4 = New DevExpress.XtraReports.UI.XRCheckBox()
         Me.XrTableCell49 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableRow61 = New DevExpress.XtraReports.UI.XRTableRow()
+        Me.XrTableCell265 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell266 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell267 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell268 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell269 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell270 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell271 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell272 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell273 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableRow40 = New DevExpress.XtraReports.UI.XRTableRow()
         Me.XrTableCell146 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell147 = New DevExpress.XtraReports.UI.XRTableCell()
@@ -230,6 +240,15 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell65 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell66 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.GroupHeader1 = New DevExpress.XtraReports.UI.GroupHeaderBand()
+        Me.XrTable4 = New DevExpress.XtraReports.UI.XRTable()
+        Me.XrTableRow62 = New DevExpress.XtraReports.UI.XRTableRow()
+        Me.XrTableCell274 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.lblTANGGAL = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableRow63 = New DevExpress.XtraReports.UI.XRTableRow()
+        Me.XrTableCell275 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell276 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrPictureBox3 = New DevExpress.XtraReports.UI.XRPictureBox()
+        Me.XrPictureBox5 = New DevExpress.XtraReports.UI.XRPictureBox()
         Me.XrTable6 = New DevExpress.XtraReports.UI.XRTable()
         Me.XrTableRow48 = New DevExpress.XtraReports.UI.XRTableRow()
         Me.XrTableCell226 = New DevExpress.XtraReports.UI.XRTableCell()
@@ -483,32 +502,27 @@ Partial Public Class xtraMedicalCheckUp
         Me.sR = New DevExpress.XtraReports.UI.CalculatedField()
         Me.sTanggalLahir = New DevExpress.XtraReports.UI.CalculatedField()
         Me.bindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.XrTableRow61 = New DevExpress.XtraReports.UI.XRTableRow()
-        Me.XrTableCell265 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell266 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell267 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell268 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell269 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell270 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell271 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell272 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell273 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTable4 = New DevExpress.XtraReports.UI.XRTable()
-        Me.XrTableRow62 = New DevExpress.XtraReports.UI.XRTableRow()
-        Me.XrTableCell274 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.lblTANGGAL = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableRow63 = New DevExpress.XtraReports.UI.XRTableRow()
-        Me.XrTableCell275 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell276 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrPictureBox3 = New DevExpress.XtraReports.UI.XRPictureBox()
-        Me.XrPictureBox5 = New DevExpress.XtraReports.UI.XRPictureBox()
+        Me.XrTableRow64 = New DevExpress.XtraReports.UI.XRTableRow()
+        Me.XrTableCell277 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell278 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell279 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell282 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell281 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell280 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableRow65 = New DevExpress.XtraReports.UI.XRTableRow()
+        Me.XrTableCell286 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell287 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell288 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell289 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell290 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell291 = New DevExpress.XtraReports.UI.XRTableCell()
         CType(Me.XrTable1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.XrTable2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.XrTable4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.XrTable6, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.XrTable5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.XrTable3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.bindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.XrTable4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
         '
         'Detail
@@ -542,15 +556,15 @@ Partial Public Class xtraMedicalCheckUp
         'ReportHeader
         '
         Me.ReportHeader.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrLabel2, Me.XrTable1, Me.XrPictureBox1})
-        Me.ReportHeader.HeightF = 113.957!
+        Me.ReportHeader.HeightF = 132.2606!
         Me.ReportHeader.Name = "ReportHeader"
         '
         'XrLabel2
         '
         Me.XrLabel2.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
             Or DevExpress.XtraPrinting.BorderSide.Right), DevExpress.XtraPrinting.BorderSide)
-        Me.XrLabel2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.XrLabel2.LocationFloat = New DevExpress.Utils.PointFloat(0!, 91.51793!)
+        Me.XrLabel2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.XrLabel2.LocationFloat = New DevExpress.Utils.PointFloat(0!, 109.8215!)
         Me.XrLabel2.Name = "XrLabel2"
         Me.XrLabel2.Padding = New DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100.0!)
         Me.XrLabel2.SizeF = New System.Drawing.SizeF(788.0!, 22.43908!)
@@ -562,10 +576,12 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTable1
         '
-        Me.XrTable1.LocationFloat = New DevExpress.Utils.PointFloat(349.7449!, 0!)
+        Me.XrTable1.Font = New System.Drawing.Font("Arial", 10.0!)
+        Me.XrTable1.LocationFloat = New DevExpress.Utils.PointFloat(0!, 0!)
         Me.XrTable1.Name = "XrTable1"
-        Me.XrTable1.Rows.AddRange(New DevExpress.XtraReports.UI.XRTableRow() {Me.XrTableRow1, Me.XrTableRow2, Me.XrTableRow3, Me.XrTableRow4, Me.XrTableRow5})
-        Me.XrTable1.SizeF = New System.Drawing.SizeF(438.2551!, 91.51793!)
+        Me.XrTable1.Rows.AddRange(New DevExpress.XtraReports.UI.XRTableRow() {Me.XrTableRow1, Me.XrTableRow2, Me.XrTableRow3, Me.XrTableRow4, Me.XrTableRow5, Me.XrTableRow65})
+        Me.XrTable1.SizeF = New System.Drawing.SizeF(788.0!, 109.8215!)
+        Me.XrTable1.StylePriority.UseFont = False
         Me.XrTable1.StylePriority.UseTextAlignment = False
         Me.XrTable1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
         '
@@ -573,7 +589,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableRow1.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
             Or DevExpress.XtraPrinting.BorderSide.Right), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableRow1.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell1, Me.XrTableCell2, Me.XrTableCell3})
+        Me.XrTableRow1.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell286, Me.XrTableCell1, Me.XrTableCell2, Me.XrTableCell3})
         Me.XrTableRow1.Name = "XrTableRow1"
         Me.XrTableRow1.StylePriority.UseBorders = False
         Me.XrTableRow1.Weight = 1.0R
@@ -586,7 +602,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell1.StylePriority.UseBorders = False
         Me.XrTableCell1.StylePriority.UsePadding = False
         Me.XrTableCell1.Text = "Nama Pasien"
-        Me.XrTableCell1.Weight = 2.06038333248235R
+        Me.XrTableCell1.Weight = 2.3171157774187296R
         '
         'XrTableCell2
         '
@@ -596,7 +612,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell2.StylePriority.UseTextAlignment = False
         Me.XrTableCell2.Text = ":"
         Me.XrTableCell2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrTableCell2.Weight = 0.16929098347502R
+        Me.XrTableCell2.Weight = 0.057458834419369331R
         '
         'XrTableCell3
         '
@@ -604,11 +620,11 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell3.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "NAMAPASIEN")})
         Me.XrTableCell3.Name = "XrTableCell3"
         Me.XrTableCell3.StylePriority.UseBorders = False
-        Me.XrTableCell3.Weight = 4.12057488425262R
+        Me.XrTableCell3.Weight = 4.1205728391005438R
         '
         'XrTableRow2
         '
-        Me.XrTableRow2.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell4, Me.XrTableCell5, Me.XrTableCell6})
+        Me.XrTableRow2.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell287, Me.XrTableCell4, Me.XrTableCell5, Me.XrTableCell6})
         Me.XrTableRow2.Name = "XrTableRow2"
         Me.XrTableRow2.Weight = 1.0R
         '
@@ -620,7 +636,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell4.StylePriority.UseBorders = False
         Me.XrTableCell4.StylePriority.UsePadding = False
         Me.XrTableCell4.Text = "Nomor Rekam Medis"
-        Me.XrTableCell4.Weight = 2.06038333248235R
+        Me.XrTableCell4.Weight = 2.3171157774187296R
         '
         'XrTableCell5
         '
@@ -628,7 +644,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell5.StylePriority.UseTextAlignment = False
         Me.XrTableCell5.Text = ":"
         Me.XrTableCell5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrTableCell5.Weight = 0.16929098347502R
+        Me.XrTableCell5.Weight = 0.057458834419369331R
         '
         'XrTableCell6
         '
@@ -636,11 +652,11 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell6.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "KDCUSTOMER")})
         Me.XrTableCell6.Name = "XrTableCell6"
         Me.XrTableCell6.StylePriority.UseBorders = False
-        Me.XrTableCell6.Weight = 4.12057488425262R
+        Me.XrTableCell6.Weight = 4.1205728391005438R
         '
         'XrTableRow3
         '
-        Me.XrTableRow3.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell7, Me.XrTableCell8, Me.XrTableCell9})
+        Me.XrTableRow3.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell288, Me.XrTableCell7, Me.XrTableCell8, Me.XrTableCell9})
         Me.XrTableRow3.Name = "XrTableRow3"
         Me.XrTableRow3.Weight = 1.0R
         '
@@ -652,7 +668,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell7.StylePriority.UseBorders = False
         Me.XrTableCell7.StylePriority.UsePadding = False
         Me.XrTableCell7.Text = "Tanggal Lahir"
-        Me.XrTableCell7.Weight = 2.06038333248235R
+        Me.XrTableCell7.Weight = 2.3171157774187296R
         '
         'XrTableCell8
         '
@@ -660,7 +676,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell8.StylePriority.UseTextAlignment = False
         Me.XrTableCell8.Text = ":"
         Me.XrTableCell8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrTableCell8.Weight = 0.16929098347502R
+        Me.XrTableCell8.Weight = 0.057458834419369331R
         '
         'XrTableCell9
         '
@@ -668,11 +684,11 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell9.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sTanggalLahir")})
         Me.XrTableCell9.Name = "XrTableCell9"
         Me.XrTableCell9.StylePriority.UseBorders = False
-        Me.XrTableCell9.Weight = 4.12057488425262R
+        Me.XrTableCell9.Weight = 4.1205728391005438R
         '
         'XrTableRow4
         '
-        Me.XrTableRow4.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell10, Me.XrTableCell11, Me.XrTableCell12})
+        Me.XrTableRow4.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell289, Me.XrTableCell10, Me.XrTableCell11, Me.XrTableCell12})
         Me.XrTableRow4.Name = "XrTableRow4"
         Me.XrTableRow4.Weight = 1.0R
         '
@@ -684,7 +700,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell10.StylePriority.UseBorders = False
         Me.XrTableCell10.StylePriority.UsePadding = False
         Me.XrTableCell10.Text = "Jenis kelamin"
-        Me.XrTableCell10.Weight = 2.06038333248235R
+        Me.XrTableCell10.Weight = 2.3171157774187296R
         '
         'XrTableCell11
         '
@@ -692,7 +708,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell11.StylePriority.UseTextAlignment = False
         Me.XrTableCell11.Text = ":"
         Me.XrTableCell11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrTableCell11.Weight = 0.16929098347502R
+        Me.XrTableCell11.Weight = 0.057458834419369331R
         '
         'XrTableCell12
         '
@@ -700,11 +716,11 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell12.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "MemoEdit39")})
         Me.XrTableCell12.Name = "XrTableCell12"
         Me.XrTableCell12.StylePriority.UseBorders = False
-        Me.XrTableCell12.Weight = 4.12057488425262R
+        Me.XrTableCell12.Weight = 4.1205728391005438R
         '
         'XrTableRow5
         '
-        Me.XrTableRow5.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell13, Me.XrTableCell14, Me.XrTableCell15})
+        Me.XrTableRow5.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell290, Me.XrTableCell13, Me.XrTableCell14, Me.XrTableCell15})
         Me.XrTableRow5.Name = "XrTableRow5"
         Me.XrTableRow5.Weight = 1.0R
         '
@@ -716,7 +732,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell13.StylePriority.UseBorders = False
         Me.XrTableCell13.StylePriority.UsePadding = False
         Me.XrTableCell13.Text = "Tanggal Pemeriksaan"
-        Me.XrTableCell13.Weight = 2.06038333248235R
+        Me.XrTableCell13.Weight = 2.3171157774187296R
         '
         'XrTableCell14
         '
@@ -724,7 +740,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell14.StylePriority.UseTextAlignment = False
         Me.XrTableCell14.Text = ":"
         Me.XrTableCell14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrTableCell14.Weight = 0.16929098347502R
+        Me.XrTableCell14.Weight = 0.057458834419369331R
         '
         'XrTableCell15
         '
@@ -732,15 +748,15 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell15.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "DATE", "{0:dd/MM/yyyy}")})
         Me.XrTableCell15.Name = "XrTableCell15"
         Me.XrTableCell15.StylePriority.UseBorders = False
-        Me.XrTableCell15.Weight = 4.12057488425262R
+        Me.XrTableCell15.Weight = 4.1205728391005438R
         '
         'XrPictureBox1
         '
-        Me.XrPictureBox1.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top), DevExpress.XtraPrinting.BorderSide)
+        Me.XrPictureBox1.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrPictureBox1.Image = CType(resources.GetObject("XrPictureBox1.Image"), System.Drawing.Image)
-        Me.XrPictureBox1.LocationFloat = New DevExpress.Utils.PointFloat(0!, 0!)
+        Me.XrPictureBox1.LocationFloat = New DevExpress.Utils.PointFloat(3.203879!, 4.998546!)
         Me.XrPictureBox1.Name = "XrPictureBox1"
-        Me.XrPictureBox1.SizeF = New System.Drawing.SizeF(349.7448!, 91.51793!)
+        Me.XrPictureBox1.SizeF = New System.Drawing.SizeF(336.541!, 94.82299!)
         Me.XrPictureBox1.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage
         Me.XrPictureBox1.StylePriority.UseBorders = False
         '
@@ -749,8 +765,8 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTable2.Font = New System.Drawing.Font("Arial", 10.0!)
         Me.XrTable2.LocationFloat = New DevExpress.Utils.PointFloat(0!, 0!)
         Me.XrTable2.Name = "XrTable2"
-        Me.XrTable2.Rows.AddRange(New DevExpress.XtraReports.UI.XRTableRow() {Me.XrTableRow6, Me.XrTableRow7, Me.XrTableRow8, Me.XrTableRow9, Me.XrTableRow61, Me.XrTableRow40, Me.XrTableRow41, Me.XrTableRow42, Me.XrTableRow43, Me.XrTableRow44, Me.XrTableRow45, Me.XrTableRow10, Me.XrTableRow11, Me.XrTableRow12, Me.XrTableRow13, Me.XrTableRow14, Me.XrTableRow46, Me.XrTableRow15, Me.XrTableRow16, Me.XrTableRow17, Me.XrTableRow18})
-        Me.XrTable2.SizeF = New System.Drawing.SizeF(789.0!, 525.0!)
+        Me.XrTable2.Rows.AddRange(New DevExpress.XtraReports.UI.XRTableRow() {Me.XrTableRow6, Me.XrTableRow7, Me.XrTableRow8, Me.XrTableRow9, Me.XrTableRow61, Me.XrTableRow40, Me.XrTableRow41, Me.XrTableRow42, Me.XrTableRow43, Me.XrTableRow44, Me.XrTableRow45, Me.XrTableRow10, Me.XrTableRow11, Me.XrTableRow12, Me.XrTableRow13, Me.XrTableRow14, Me.XrTableRow64, Me.XrTableRow46, Me.XrTableRow15, Me.XrTableRow16, Me.XrTableRow17, Me.XrTableRow18})
+        Me.XrTable2.SizeF = New System.Drawing.SizeF(789.0!, 550.0!)
         Me.XrTable2.StylePriority.UseFont = False
         Me.XrTable2.StylePriority.UseTextAlignment = False
         Me.XrTable2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
@@ -766,7 +782,7 @@ Partial Public Class xtraMedicalCheckUp
         'XrTableCell16
         '
         Me.XrTableCell16.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableCell16.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell16.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell16.Name = "XrTableCell16"
         Me.XrTableCell16.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100.0!)
         Me.XrTableCell16.StylePriority.UseBorders = False
@@ -923,6 +939,91 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell49.StylePriority.UseBorders = False
         Me.XrTableCell49.Weight = 8.76707978898128R
         '
+        'XrTableRow61
+        '
+        Me.XrTableRow61.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell265, Me.XrTableCell266, Me.XrTableCell267, Me.XrTableCell268, Me.XrTableCell269, Me.XrTableCell270, Me.XrTableCell271, Me.XrTableCell272, Me.XrTableCell273})
+        Me.XrTableRow61.Name = "XrTableRow61"
+        Me.XrTableRow61.Weight = 1.0R
+        '
+        'XrTableCell265
+        '
+        Me.XrTableCell265.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top), DevExpress.XtraPrinting.BorderSide)
+        Me.XrTableCell265.Name = "XrTableCell265"
+        Me.XrTableCell265.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
+        Me.XrTableCell265.StylePriority.UseBorders = False
+        Me.XrTableCell265.StylePriority.UsePadding = False
+        Me.XrTableCell265.Weight = 3.50873601237913R
+        '
+        'XrTableCell266
+        '
+        Me.XrTableCell266.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.XrTableCell266.Name = "XrTableCell266"
+        Me.XrTableCell266.StylePriority.UseBorders = False
+        Me.XrTableCell266.StylePriority.UseTextAlignment = False
+        Me.XrTableCell266.Text = "Ya  /"
+        Me.XrTableCell266.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrTableCell266.Weight = 0.726721093332697R
+        '
+        'XrTableCell267
+        '
+        Me.XrTableCell267.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.XrTableCell267.Name = "XrTableCell267"
+        Me.XrTableCell267.StylePriority.UseBorders = False
+        Me.XrTableCell267.StylePriority.UseTextAlignment = False
+        Me.XrTableCell267.Text = "Tidak"
+        Me.XrTableCell267.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrTableCell267.Weight = 1.34806064692915R
+        '
+        'XrTableCell268
+        '
+        Me.XrTableCell268.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top), DevExpress.XtraPrinting.BorderSide)
+        Me.XrTableCell268.Name = "XrTableCell268"
+        Me.XrTableCell268.StylePriority.UseBorders = False
+        Me.XrTableCell268.Weight = 2.89195573045551R
+        '
+        'XrTableCell269
+        '
+        Me.XrTableCell269.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.XrTableCell269.Name = "XrTableCell269"
+        Me.XrTableCell269.StylePriority.UseBorders = False
+        Me.XrTableCell269.StylePriority.UseTextAlignment = False
+        Me.XrTableCell269.Text = "Ya  /"
+        Me.XrTableCell269.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrTableCell269.Weight = 1.23302055916017R
+        '
+        'XrTableCell270
+        '
+        Me.XrTableCell270.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.XrTableCell270.Name = "XrTableCell270"
+        Me.XrTableCell270.StylePriority.UseBorders = False
+        Me.XrTableCell270.StylePriority.UseTextAlignment = False
+        Me.XrTableCell270.Text = " Tidak"
+        Me.XrTableCell270.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
+        Me.XrTableCell270.Weight = 1.15411616885833R
+        '
+        'XrTableCell271
+        '
+        Me.XrTableCell271.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top), DevExpress.XtraPrinting.BorderSide)
+        Me.XrTableCell271.Name = "XrTableCell271"
+        Me.XrTableCell271.StylePriority.UseBorders = False
+        Me.XrTableCell271.Weight = 3.08723993519747R
+        '
+        'XrTableCell272
+        '
+        Me.XrTableCell272.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.XrTableCell272.Name = "XrTableCell272"
+        Me.XrTableCell272.StylePriority.UseBorders = False
+        Me.XrTableCell272.Text = "Ya  /"
+        Me.XrTableCell272.Weight = 0.943642827638123R
+        '
+        'XrTableCell273
+        '
+        Me.XrTableCell273.Borders = CType((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right), DevExpress.XtraPrinting.BorderSide)
+        Me.XrTableCell273.Name = "XrTableCell273"
+        Me.XrTableCell273.StylePriority.UseBorders = False
+        Me.XrTableCell273.Text = " Tidak"
+        Me.XrTableCell273.Weight = 2.12438376017036R
+        '
         'XrTableRow40
         '
         Me.XrTableRow40.Borders = DevExpress.XtraPrinting.BorderSide.Top
@@ -953,7 +1054,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell148.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox25, Me.XrCheckBox19})
         Me.XrTableCell148.Name = "XrTableCell148"
         Me.XrTableCell148.StylePriority.UseBorders = False
-        Me.XrTableCell148.Weight = 2.0747810847656769R
+        Me.XrTableCell148.Weight = 2.07478108476568R
         '
         'XrCheckBox25
         '
@@ -983,19 +1084,19 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell172.StylePriority.UseBorders = False
         Me.XrTableCell172.StylePriority.UsePadding = False
         Me.XrTableCell172.Text = "Hepatitis"
-        Me.XrTableCell172.Weight = 2.8919557304555092R
+        Me.XrTableCell172.Weight = 2.89195573045551R
         '
         'XrTableCell183
         '
         Me.XrTableCell183.Name = "XrTableCell183"
         Me.XrTableCell183.Text = ":"
-        Me.XrTableCell183.Weight = 0.51405647043928826R
+        Me.XrTableCell183.Weight = 0.514056470439288R
         '
         'XrTableCell210
         '
         Me.XrTableCell210.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox31, Me.XrCheckBox32})
         Me.XrTableCell210.Name = "XrTableCell210"
-        Me.XrTableCell210.Weight = 1.8730823968304784R
+        Me.XrTableCell210.Weight = 1.87308239683048R
         '
         'XrCheckBox31
         '
@@ -1023,7 +1124,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell201.StylePriority.UseBorders = False
         Me.XrTableCell201.StylePriority.UsePadding = False
         Me.XrTableCell201.Text = "Lepra"
-        Me.XrTableCell201.Weight = 2.8301183895526916R
+        Me.XrTableCell201.Weight = 2.83011838955269R
         '
         'XrTableCell192
         '
@@ -1113,19 +1214,19 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell173.StylePriority.UseBorders = False
         Me.XrTableCell173.StylePriority.UsePadding = False
         Me.XrTableCell173.Text = "HIV / AIDS"
-        Me.XrTableCell173.Weight = 2.891956388686665R
+        Me.XrTableCell173.Weight = 2.89195638868667R
         '
         'XrTableCell184
         '
         Me.XrTableCell184.Name = "XrTableCell184"
         Me.XrTableCell184.Text = ":"
-        Me.XrTableCell184.Weight = 0.5140561413237108R
+        Me.XrTableCell184.Weight = 0.514056141323711R
         '
         'XrTableCell211
         '
         Me.XrTableCell211.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox33, Me.XrCheckBox34})
         Me.XrTableCell211.Name = "XrTableCell211"
-        Me.XrTableCell211.Weight = 1.8730810803681648R
+        Me.XrTableCell211.Weight = 1.87308108036816R
         '
         'XrCheckBox33
         '
@@ -1153,7 +1254,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell202.StylePriority.UseBorders = False
         Me.XrTableCell202.StylePriority.UsePadding = False
         Me.XrTableCell202.Text = "Alergi"
-        Me.XrTableCell202.Weight = 2.8301197060150054R
+        Me.XrTableCell202.Weight = 2.83011970601501R
         '
         'XrTableCell193
         '
@@ -1243,19 +1344,19 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell174.StylePriority.UseBorders = False
         Me.XrTableCell174.StylePriority.UsePadding = False
         Me.XrTableCell174.Text = "Penyakit kelamin"
-        Me.XrTableCell174.Weight = 2.891956388686665R
+        Me.XrTableCell174.Weight = 2.89195638868667R
         '
         'XrTableCell185
         '
         Me.XrTableCell185.Name = "XrTableCell185"
         Me.XrTableCell185.Text = ":"
-        Me.XrTableCell185.Weight = 0.5140561413237108R
+        Me.XrTableCell185.Weight = 0.514056141323711R
         '
         'XrTableCell212
         '
         Me.XrTableCell212.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox35, Me.XrCheckBox36})
         Me.XrTableCell212.Name = "XrTableCell212"
-        Me.XrTableCell212.Weight = 1.8730810803681648R
+        Me.XrTableCell212.Weight = 1.87308108036816R
         '
         'XrCheckBox35
         '
@@ -1283,7 +1384,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell203.StylePriority.UseBorders = False
         Me.XrTableCell203.StylePriority.UsePadding = False
         Me.XrTableCell203.Text = "Penyakit Jiwa"
-        Me.XrTableCell203.Weight = 2.8301197060150054R
+        Me.XrTableCell203.Weight = 2.83011970601501R
         '
         'XrTableCell194
         '
@@ -1373,19 +1474,19 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell175.StylePriority.UseBorders = False
         Me.XrTableCell175.StylePriority.UsePadding = False
         Me.XrTableCell175.Text = "Malaria"
-        Me.XrTableCell175.Weight = 2.891956388686665R
+        Me.XrTableCell175.Weight = 2.89195638868667R
         '
         'XrTableCell186
         '
         Me.XrTableCell186.Name = "XrTableCell186"
         Me.XrTableCell186.Text = ":"
-        Me.XrTableCell186.Weight = 0.5140561413237108R
+        Me.XrTableCell186.Weight = 0.514056141323711R
         '
         'XrTableCell213
         '
         Me.XrTableCell213.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox37, Me.XrCheckBox38})
         Me.XrTableCell213.Name = "XrTableCell213"
-        Me.XrTableCell213.Weight = 1.8730810803681648R
+        Me.XrTableCell213.Weight = 1.87308108036816R
         '
         'XrCheckBox37
         '
@@ -1413,7 +1514,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell204.StylePriority.UseBorders = False
         Me.XrTableCell204.StylePriority.UsePadding = False
         Me.XrTableCell204.Text = "Operasi"
-        Me.XrTableCell204.Weight = 2.8301197060150054R
+        Me.XrTableCell204.Weight = 2.83011970601501R
         '
         'XrTableCell195
         '
@@ -1475,7 +1576,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell164.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox29, Me.XrCheckBox23})
         Me.XrTableCell164.Name = "XrTableCell164"
         Me.XrTableCell164.StylePriority.UseBorders = False
-        Me.XrTableCell164.Weight = 2.0747811135878127R
+        Me.XrTableCell164.Weight = 2.07478111358781R
         '
         'XrCheckBox29
         '
@@ -1503,19 +1604,19 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell176.StylePriority.UseBorders = False
         Me.XrTableCell176.StylePriority.UsePadding = False
         Me.XrTableCell176.Text = "Asthma Bronkhial"
-        Me.XrTableCell176.Weight = 2.8919543851710618R
+        Me.XrTableCell176.Weight = 2.89195438517106R
         '
         'XrTableCell187
         '
         Me.XrTableCell187.Name = "XrTableCell187"
         Me.XrTableCell187.Text = ":"
-        Me.XrTableCell187.Weight = 0.51405811601718077R
+        Me.XrTableCell187.Weight = 0.514058116017181R
         '
         'XrTableCell214
         '
         Me.XrTableCell214.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox39, Me.XrCheckBox40})
         Me.XrTableCell214.Name = "XrTableCell214"
-        Me.XrTableCell214.Weight = 1.8730817385993186R
+        Me.XrTableCell214.Weight = 1.87308173859932R
         '
         'XrCheckBox39
         '
@@ -1543,7 +1644,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell205.StylePriority.UseBorders = False
         Me.XrTableCell205.StylePriority.UsePadding = False
         Me.XrTableCell205.Text = "Lain-lain"
-        Me.XrTableCell205.Weight = 2.8301183895526916R
+        Me.XrTableCell205.Weight = 2.83011838955269R
         '
         'XrTableCell196
         '
@@ -1615,19 +1716,19 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell177.StylePriority.UseBorders = False
         Me.XrTableCell177.StylePriority.UsePadding = False
         Me.XrTableCell177.Text = "TB Paru"
-        Me.XrTableCell177.Weight = 2.891956388686665R
+        Me.XrTableCell177.Weight = 2.89195638868667R
         '
         'XrTableCell188
         '
         Me.XrTableCell188.Name = "XrTableCell188"
         Me.XrTableCell188.Text = ":"
-        Me.XrTableCell188.Weight = 0.5140561413237108R
+        Me.XrTableCell188.Weight = 0.514056141323711R
         '
         'XrTableCell215
         '
         Me.XrTableCell215.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox41, Me.XrCheckBox42})
         Me.XrTableCell215.Name = "XrTableCell215"
-        Me.XrTableCell215.Weight = 1.8730810803681648R
+        Me.XrTableCell215.Weight = 1.87308108036816R
         '
         'XrCheckBox41
         '
@@ -1655,7 +1756,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell206.StylePriority.UseBorders = False
         Me.XrTableCell206.StylePriority.UsePadding = False
         Me.XrTableCell206.Text = "Catatan"
-        Me.XrTableCell206.Weight = 2.8301197060150054R
+        Me.XrTableCell206.Weight = 2.83011970601501R
         '
         'XrTableCell197
         '
@@ -1700,7 +1801,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell30.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox5, Me.XrCheckBox6})
         Me.XrTableCell30.Name = "XrTableCell30"
         Me.XrTableCell30.Text = "XrTableCell30"
-        Me.XrTableCell30.Weight = 3.0323042597003154R
+        Me.XrTableCell30.Weight = 3.03230425970032R
         '
         'XrCheckBox5
         '
@@ -1728,7 +1829,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell50.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "MemoEdit4")})
         Me.XrTableCell50.Name = "XrTableCell50"
         Me.XrTableCell50.StylePriority.UseBorders = False
-        Me.XrTableCell50.Weight = 9.4657921441418047R
+        Me.XrTableCell50.Weight = 9.4657921441418R
         '
         'XrTableRow11
         '
@@ -1908,7 +2009,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell52.Borders = CType((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
             Or DevExpress.XtraPrinting.BorderSide.Right) _
             Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableCell52.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell52.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell52.Name = "XrTableCell52"
         Me.XrTableCell52.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100.0!)
         Me.XrTableCell52.StylePriority.UseBorders = False
@@ -2100,13 +2201,13 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableCell72.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sVital")})
         Me.XrTableCell72.Name = "XrTableCell72"
-        Me.XrTableCell72.Weight = 3.781785066309R
+        Me.XrTableCell72.Weight = 3.0937343448879839R
         '
         'XrTableCell84
         '
         Me.XrTableCell84.Name = "XrTableCell84"
         Me.XrTableCell84.Text = "N :"
-        Me.XrTableCell84.Weight = 0.853840177472915R
+        Me.XrTableCell84.Weight = 0.34780726918840066R
         '
         'XrTableCell96
         '
@@ -2114,7 +2215,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell96.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sN")})
         Me.XrTableCell96.Name = "XrTableCell96"
         Me.XrTableCell96.StylePriority.UseBorders = False
-        Me.XrTableCell96.Weight = 4.3119380786718R
+        Me.XrTableCell96.Weight = 5.5060217083773306R
         '
         'XrTableRow18
         '
@@ -2152,13 +2253,13 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableCell64.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sS")})
         Me.XrTableCell64.Name = "XrTableCell64"
-        Me.XrTableCell64.Weight = 3.78178770601161R
+        Me.XrTableCell64.Weight = 3.0937374645365212R
         '
         'XrTableCell65
         '
         Me.XrTableCell65.Name = "XrTableCell65"
         Me.XrTableCell65.Text = "R :"
-        Me.XrTableCell65.Weight = 0.853840117479674R
+        Me.XrTableCell65.Weight = 0.34780624930330473R
         '
         'XrTableCell66
         '
@@ -2166,18 +2267,80 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell66.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sR")})
         Me.XrTableCell66.Name = "XrTableCell66"
         Me.XrTableCell66.StylePriority.UseBorders = False
-        Me.XrTableCell66.Weight = 4.31193693880022R
+        Me.XrTableCell66.Weight = 5.5060210484516778R
         '
         'GroupHeader1
         '
         Me.GroupHeader1.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrTable4, Me.XrPictureBox3, Me.XrPictureBox5, Me.XrTable6, Me.XrTable5, Me.XrTable3, Me.XrTable2, Me.XrPictureBox2})
-        Me.GroupHeader1.HeightF = 1716.444!
+        Me.GroupHeader1.HeightF = 1741.444!
         Me.GroupHeader1.Name = "GroupHeader1"
+        '
+        'XrTable4
+        '
+        Me.XrTable4.Font = New System.Drawing.Font("Arial", 10.0!)
+        Me.XrTable4.LocationFloat = New DevExpress.Utils.PointFloat(0!, 1550.0!)
+        Me.XrTable4.Name = "XrTable4"
+        Me.XrTable4.Rows.AddRange(New DevExpress.XtraReports.UI.XRTableRow() {Me.XrTableRow62, Me.XrTableRow63})
+        Me.XrTable4.SizeF = New System.Drawing.SizeF(787.9999!, 36.51965!)
+        Me.XrTable4.StylePriority.UseFont = False
+        Me.XrTable4.StylePriority.UseTextAlignment = False
+        Me.XrTable4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        '
+        'XrTableRow62
+        '
+        Me.XrTableRow62.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell274, Me.lblTANGGAL})
+        Me.XrTableRow62.Name = "XrTableRow62"
+        Me.XrTableRow62.Weight = 1.0R
+        '
+        'XrTableCell274
+        '
+        Me.XrTableCell274.Name = "XrTableCell274"
+        Me.XrTableCell274.Weight = 1.38050033817671R
+        '
+        'lblTANGGAL
+        '
+        Me.lblTANGGAL.Name = "lblTANGGAL"
+        Me.lblTANGGAL.Weight = 1.50195919540433R
+        '
+        'XrTableRow63
+        '
+        Me.XrTableRow63.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell275, Me.XrTableCell276})
+        Me.XrTableRow63.Name = "XrTableRow63"
+        Me.XrTableRow63.Weight = 1.0R
+        '
+        'XrTableCell275
+        '
+        Me.XrTableCell275.Name = "XrTableCell275"
+        Me.XrTableCell275.Weight = 1.38050033817671R
+        '
+        'XrTableCell276
+        '
+        Me.XrTableCell276.Name = "XrTableCell276"
+        Me.XrTableCell276.Text = "Dokter Penanggung Jawab Pelayanan,"
+        Me.XrTableCell276.Weight = 1.50195919540433R
+        '
+        'XrPictureBox3
+        '
+        Me.XrPictureBox3.Borders = DevExpress.XtraPrinting.BorderSide.None
+        Me.XrPictureBox3.LocationFloat = New DevExpress.Utils.PointFloat(531.3949!, 1586.52!)
+        Me.XrPictureBox3.Name = "XrPictureBox3"
+        Me.XrPictureBox3.SizeF = New System.Drawing.SizeF(115.3621!, 90.4659!)
+        Me.XrPictureBox3.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage
+        Me.XrPictureBox3.StylePriority.UseBorders = False
+        '
+        'XrPictureBox5
+        '
+        Me.XrPictureBox5.Borders = DevExpress.XtraPrinting.BorderSide.None
+        Me.XrPictureBox5.LocationFloat = New DevExpress.Utils.PointFloat(377.3979!, 1676.986!)
+        Me.XrPictureBox5.Name = "XrPictureBox5"
+        Me.XrPictureBox5.SizeF = New System.Drawing.SizeF(410.6018!, 64.45825!)
+        Me.XrPictureBox5.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage
+        Me.XrPictureBox5.StylePriority.UseBorders = False
         '
         'XrTable6
         '
         Me.XrTable6.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.XrTable6.LocationFloat = New DevExpress.Utils.PointFloat(0!, 725.0!)
+        Me.XrTable6.LocationFloat = New DevExpress.Utils.PointFloat(0!, 749.9999!)
         Me.XrTable6.Name = "XrTable6"
         Me.XrTable6.Rows.AddRange(New DevExpress.XtraReports.UI.XRTableRow() {Me.XrTableRow48, Me.XrTableRow49, Me.XrTableRow50, Me.XrTableRow23, Me.XrTableRow24})
         Me.XrTable6.SizeF = New System.Drawing.SizeF(360.6754!, 125.0!)
@@ -2202,7 +2365,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell228
         '
-        Me.XrTableCell228.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell228.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell228.Name = "XrTableCell228"
         Me.XrTableCell228.StylePriority.UseFont = False
         Me.XrTableCell228.Text = "Telinga"
@@ -2224,19 +2387,21 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrCheckBox63.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox63.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit63")})
-        Me.XrCheckBox63.LocationFloat = New DevExpress.Utils.PointFloat(2.083374!, 1.000061!)
+        Me.XrCheckBox63.LocationFloat = New DevExpress.Utils.PointFloat(2.083389!, 1.000061!)
         Me.XrCheckBox63.Name = "XrCheckBox63"
-        Me.XrCheckBox63.SizeF = New System.Drawing.SizeF(20.60072!, 23.0!)
+        Me.XrCheckBox63.SizeF = New System.Drawing.SizeF(95.8333!, 23.0!)
         Me.XrCheckBox63.StylePriority.UseBorders = False
+        Me.XrCheckBox63.Text = "Normal"
         '
         'XrCheckBox64
         '
         Me.XrCheckBox64.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox64.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit64")})
-        Me.XrCheckBox64.LocationFloat = New DevExpress.Utils.PointFloat(45.8334!, 1.000061!)
+        Me.XrCheckBox64.LocationFloat = New DevExpress.Utils.PointFloat(97.91666!, 1.000061!)
         Me.XrCheckBox64.Name = "XrCheckBox64"
-        Me.XrCheckBox64.SizeF = New System.Drawing.SizeF(20.60066!, 23.0!)
+        Me.XrCheckBox64.SizeF = New System.Drawing.SizeF(111.2928!, 23.0!)
         Me.XrCheckBox64.StylePriority.UseBorders = False
+        Me.XrCheckBox64.Text = "Tidak Normal"
         '
         'XrTableRow49
         '
@@ -2255,7 +2420,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell237
         '
-        Me.XrTableCell237.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell237.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell237.Name = "XrTableCell237"
         Me.XrTableCell237.StylePriority.UseFont = False
         Me.XrTableCell237.Text = "Hidung"
@@ -2277,19 +2442,21 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrCheckBox65.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox65.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit65")})
-        Me.XrCheckBox65.LocationFloat = New DevExpress.Utils.PointFloat(2.083206!, 0!)
+        Me.XrCheckBox65.LocationFloat = New DevExpress.Utils.PointFloat(2.083237!, 0!)
         Me.XrCheckBox65.Name = "XrCheckBox65"
-        Me.XrCheckBox65.SizeF = New System.Drawing.SizeF(20.60072!, 23.0!)
+        Me.XrCheckBox65.SizeF = New System.Drawing.SizeF(95.83328!, 23.0!)
         Me.XrCheckBox65.StylePriority.UseBorders = False
+        Me.XrCheckBox65.Text = "Normal"
         '
         'XrCheckBox66
         '
         Me.XrCheckBox66.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox66.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit66")})
-        Me.XrCheckBox66.LocationFloat = New DevExpress.Utils.PointFloat(45.83324!, 0!)
+        Me.XrCheckBox66.LocationFloat = New DevExpress.Utils.PointFloat(97.91652!, 0!)
         Me.XrCheckBox66.Name = "XrCheckBox66"
-        Me.XrCheckBox66.SizeF = New System.Drawing.SizeF(20.60066!, 23.0!)
+        Me.XrCheckBox66.SizeF = New System.Drawing.SizeF(111.2927!, 23.0!)
         Me.XrCheckBox66.StylePriority.UseBorders = False
+        Me.XrCheckBox66.Text = "Tidak Normal"
         '
         'XrTableRow50
         '
@@ -2308,7 +2475,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell246
         '
-        Me.XrTableCell246.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell246.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell246.Name = "XrTableCell246"
         Me.XrTableCell246.StylePriority.UseFont = False
         Me.XrTableCell246.Text = "KGB"
@@ -2330,19 +2497,21 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrCheckBox67.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox67.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit93")})
-        Me.XrCheckBox67.LocationFloat = New DevExpress.Utils.PointFloat(2.083206!, 0!)
+        Me.XrCheckBox67.LocationFloat = New DevExpress.Utils.PointFloat(2.083237!, 0!)
         Me.XrCheckBox67.Name = "XrCheckBox67"
-        Me.XrCheckBox67.SizeF = New System.Drawing.SizeF(20.60072!, 23.00006!)
+        Me.XrCheckBox67.SizeF = New System.Drawing.SizeF(95.83328!, 23.00006!)
         Me.XrCheckBox67.StylePriority.UseBorders = False
+        Me.XrCheckBox67.Text = "Normal"
         '
         'XrCheckBox68
         '
         Me.XrCheckBox68.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox68.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit94")})
-        Me.XrCheckBox68.LocationFloat = New DevExpress.Utils.PointFloat(45.83324!, 0!)
+        Me.XrCheckBox68.LocationFloat = New DevExpress.Utils.PointFloat(97.91652!, 0!)
         Me.XrCheckBox68.Name = "XrCheckBox68"
-        Me.XrCheckBox68.SizeF = New System.Drawing.SizeF(20.60066!, 23.00006!)
+        Me.XrCheckBox68.SizeF = New System.Drawing.SizeF(111.2927!, 23.00006!)
         Me.XrCheckBox68.StylePriority.UseBorders = False
+        Me.XrCheckBox68.Text = "Tidak Normal"
         '
         'XrTableRow23
         '
@@ -2377,7 +2546,7 @@ Partial Public Class xtraMedicalCheckUp
         'XrTable5
         '
         Me.XrTable5.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.XrTable5.LocationFloat = New DevExpress.Utils.PointFloat(0!, 525.0!)
+        Me.XrTable5.LocationFloat = New DevExpress.Utils.PointFloat(0!, 550.0!)
         Me.XrTable5.Name = "XrTable5"
         Me.XrTable5.Rows.AddRange(New DevExpress.XtraReports.UI.XRTableRow() {Me.XrTableRow68, Me.XrTableRow69, Me.XrTableRow70, Me.XrTableRow22, Me.XrTableRow72, Me.XrTableRow73, Me.XrTableRow19, Me.XrTableRow20})
         Me.XrTable5.SizeF = New System.Drawing.SizeF(789.0001!, 200.0!)
@@ -2394,7 +2563,7 @@ Partial Public Class xtraMedicalCheckUp
         'XrTableCell316
         '
         Me.XrTableCell316.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Right), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableCell316.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell316.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell316.Name = "XrTableCell316"
         Me.XrTableCell316.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
         Me.XrTableCell316.StylePriority.UseBorders = False
@@ -2412,7 +2581,7 @@ Partial Public Class xtraMedicalCheckUp
         'XrTableCell317
         '
         Me.XrTableCell317.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Right), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableCell317.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell317.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell317.Name = "XrTableCell317"
         Me.XrTableCell317.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
         Me.XrTableCell317.StylePriority.UseBorders = False
@@ -2430,7 +2599,7 @@ Partial Public Class xtraMedicalCheckUp
         'XrTableCell318
         '
         Me.XrTableCell318.Borders = DevExpress.XtraPrinting.BorderSide.Left
-        Me.XrTableCell318.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell318.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell318.Name = "XrTableCell318"
         Me.XrTableCell318.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
         Me.XrTableCell318.StylePriority.UseBorders = False
@@ -2441,7 +2610,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell319
         '
-        Me.XrTableCell319.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell319.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell319.Name = "XrTableCell319"
         Me.XrTableCell319.StylePriority.UseFont = False
         Me.XrTableCell319.Text = "Kepala"
@@ -2478,7 +2647,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell218
         '
-        Me.XrTableCell218.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell218.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell218.Name = "XrTableCell218"
         Me.XrTableCell218.StylePriority.UseFont = False
         Me.XrTableCell218.Text = "Mata"
@@ -2492,13 +2661,14 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell220
         '
+        Me.XrTableCell220.Font = New System.Drawing.Font("Arial", 10.0!)
         Me.XrTableCell220.Name = "XrTableCell220"
-        Me.XrTableCell220.Text = "Ya  /  Tidak"
+        Me.XrTableCell220.StylePriority.UseFont = False
         Me.XrTableCell220.Weight = 4.14060654487973R
         '
         'XrTableCell222
         '
-        Me.XrTableCell222.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell222.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell222.Name = "XrTableCell222"
         Me.XrTableCell222.StylePriority.UseFont = False
         Me.XrTableCell222.Text = "Rongga Mulut"
@@ -2515,7 +2685,6 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell224.Borders = DevExpress.XtraPrinting.BorderSide.Right
         Me.XrTableCell224.Name = "XrTableCell224"
         Me.XrTableCell224.StylePriority.UseBorders = False
-        Me.XrTableCell224.Text = "Ya  /  Tidak"
         Me.XrTableCell224.Weight = 6.26690113104447R
         '
         'XrTableRow72
@@ -2561,19 +2730,21 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrCheckBox51.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox51.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit51")})
-        Me.XrCheckBox51.LocationFloat = New DevExpress.Utils.PointFloat(2.083374!, 1.0!)
+        Me.XrCheckBox51.LocationFloat = New DevExpress.Utils.PointFloat(2.083389!, 1.0!)
         Me.XrCheckBox51.Name = "XrCheckBox51"
-        Me.XrCheckBox51.SizeF = New System.Drawing.SizeF(20.60069!, 23.0!)
+        Me.XrCheckBox51.SizeF = New System.Drawing.SizeF(95.83336!, 23.0!)
         Me.XrCheckBox51.StylePriority.UseBorders = False
+        Me.XrCheckBox51.Text = "Normal"
         '
         'XrCheckBox52
         '
         Me.XrCheckBox52.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox52.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit54")})
-        Me.XrCheckBox52.LocationFloat = New DevExpress.Utils.PointFloat(45.8334!, 1.0!)
+        Me.XrCheckBox52.LocationFloat = New DevExpress.Utils.PointFloat(97.91672!, 1.0!)
         Me.XrCheckBox52.Name = "XrCheckBox52"
-        Me.XrCheckBox52.SizeF = New System.Drawing.SizeF(20.60071!, 23.0!)
+        Me.XrCheckBox52.SizeF = New System.Drawing.SizeF(112.2234!, 23.0!)
         Me.XrCheckBox52.StylePriority.UseBorders = False
+        Me.XrCheckBox52.Text = "Tidak Normal"
         '
         'XrTableCell179
         '
@@ -2607,17 +2778,19 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrCheckBox57.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit57")})
         Me.XrCheckBox57.LocationFloat = New DevExpress.Utils.PointFloat(4.972164!, 1.000038!)
         Me.XrCheckBox57.Name = "XrCheckBox57"
-        Me.XrCheckBox57.SizeF = New System.Drawing.SizeF(23.73758!, 23.0!)
+        Me.XrCheckBox57.SizeF = New System.Drawing.SizeF(95.83!, 23.0!)
         Me.XrCheckBox57.StylePriority.UseBorders = False
+        Me.XrCheckBox57.Text = "Normal"
         '
         'XrCheckBox58
         '
         Me.XrCheckBox58.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox58.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit60")})
-        Me.XrCheckBox58.LocationFloat = New DevExpress.Utils.PointFloat(43.87523!, 1.000038!)
+        Me.XrCheckBox58.LocationFloat = New DevExpress.Utils.PointFloat(123.9871!, 1.000061!)
         Me.XrCheckBox58.Name = "XrCheckBox58"
-        Me.XrCheckBox58.SizeF = New System.Drawing.SizeF(25.69574!, 23.0!)
+        Me.XrCheckBox58.SizeF = New System.Drawing.SizeF(165.5963!, 23.0!)
         Me.XrCheckBox58.StylePriority.UseBorders = False
+        Me.XrCheckBox58.Text = "Tidak Normal"
         '
         'XrTableRow73
         '
@@ -2662,19 +2835,21 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrCheckBox53.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox53.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit52")})
-        Me.XrCheckBox53.LocationFloat = New DevExpress.Utils.PointFloat(2.083328!, 0!)
+        Me.XrCheckBox53.LocationFloat = New DevExpress.Utils.PointFloat(2.083313!, 0!)
         Me.XrCheckBox53.Name = "XrCheckBox53"
-        Me.XrCheckBox53.SizeF = New System.Drawing.SizeF(20.60069!, 23.0!)
+        Me.XrCheckBox53.SizeF = New System.Drawing.SizeF(95.83334!, 23.0!)
         Me.XrCheckBox53.StylePriority.UseBorders = False
+        Me.XrCheckBox53.Text = "Normal"
         '
         'XrCheckBox54
         '
         Me.XrCheckBox54.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox54.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit55")})
-        Me.XrCheckBox54.LocationFloat = New DevExpress.Utils.PointFloat(45.83334!, 0!)
+        Me.XrCheckBox54.LocationFloat = New DevExpress.Utils.PointFloat(97.91666!, 0!)
         Me.XrCheckBox54.Name = "XrCheckBox54"
-        Me.XrCheckBox54.SizeF = New System.Drawing.SizeF(20.60069!, 23.0!)
+        Me.XrCheckBox54.SizeF = New System.Drawing.SizeF(111.6853!, 23.0!)
         Me.XrCheckBox54.StylePriority.UseBorders = False
+        Me.XrCheckBox54.Text = "Tidak Normal"
         '
         'XrTableCell180
         '
@@ -2706,19 +2881,21 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrCheckBox59.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox59.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit58")})
-        Me.XrCheckBox59.LocationFloat = New DevExpress.Utils.PointFloat(4.972382!, 0!)
+        Me.XrCheckBox59.LocationFloat = New DevExpress.Utils.PointFloat(4.972351!, 0!)
         Me.XrCheckBox59.Name = "XrCheckBox59"
-        Me.XrCheckBox59.SizeF = New System.Drawing.SizeF(23.73752!, 23.0!)
+        Me.XrCheckBox59.SizeF = New System.Drawing.SizeF(95.82993!, 23.0!)
         Me.XrCheckBox59.StylePriority.UseBorders = False
+        Me.XrCheckBox59.Text = "Normal"
         '
         'XrCheckBox60
         '
         Me.XrCheckBox60.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox60.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit61")})
-        Me.XrCheckBox60.LocationFloat = New DevExpress.Utils.PointFloat(43.8754!, 0!)
+        Me.XrCheckBox60.LocationFloat = New DevExpress.Utils.PointFloat(123.9872!, 0!)
         Me.XrCheckBox60.Name = "XrCheckBox60"
-        Me.XrCheckBox60.SizeF = New System.Drawing.SizeF(25.6958!, 23.0!)
+        Me.XrCheckBox60.SizeF = New System.Drawing.SizeF(165.5964!, 23.0!)
         Me.XrCheckBox60.StylePriority.UseBorders = False
+        Me.XrCheckBox60.Text = "Tidak Normal"
         '
         'XrTableRow19
         '
@@ -2763,19 +2940,21 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrCheckBox55.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox55.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit53")})
-        Me.XrCheckBox55.LocationFloat = New DevExpress.Utils.PointFloat(2.083328!, 0!)
+        Me.XrCheckBox55.LocationFloat = New DevExpress.Utils.PointFloat(2.083313!, 0!)
         Me.XrCheckBox55.Name = "XrCheckBox55"
-        Me.XrCheckBox55.SizeF = New System.Drawing.SizeF(20.60069!, 23.0!)
+        Me.XrCheckBox55.SizeF = New System.Drawing.SizeF(95.83334!, 23.0!)
         Me.XrCheckBox55.StylePriority.UseBorders = False
+        Me.XrCheckBox55.Text = "Normal"
         '
         'XrCheckBox56
         '
         Me.XrCheckBox56.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox56.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit56")})
-        Me.XrCheckBox56.LocationFloat = New DevExpress.Utils.PointFloat(45.83334!, 0!)
+        Me.XrCheckBox56.LocationFloat = New DevExpress.Utils.PointFloat(97.91666!, 0!)
         Me.XrCheckBox56.Name = "XrCheckBox56"
-        Me.XrCheckBox56.SizeF = New System.Drawing.SizeF(20.60069!, 23.0!)
+        Me.XrCheckBox56.SizeF = New System.Drawing.SizeF(111.2928!, 23.0!)
         Me.XrCheckBox56.StylePriority.UseBorders = False
+        Me.XrCheckBox56.Text = "Tidak Normal"
         '
         'XrTableCell181
         '
@@ -2868,27 +3047,29 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrCheckBox61.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox61.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit59")})
-        Me.XrCheckBox61.LocationFloat = New DevExpress.Utils.PointFloat(4.972382!, 0.00006103516!)
+        Me.XrCheckBox61.LocationFloat = New DevExpress.Utils.PointFloat(4.972351!, 0.00006103516!)
         Me.XrCheckBox61.Name = "XrCheckBox61"
-        Me.XrCheckBox61.SizeF = New System.Drawing.SizeF(23.73752!, 23.0!)
+        Me.XrCheckBox61.SizeF = New System.Drawing.SizeF(95.82993!, 23.0!)
         Me.XrCheckBox61.StylePriority.UseBorders = False
+        Me.XrCheckBox61.Text = "Normal"
         '
         'XrCheckBox62
         '
         Me.XrCheckBox62.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox62.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit62")})
-        Me.XrCheckBox62.LocationFloat = New DevExpress.Utils.PointFloat(43.87534!, 0.00006103516!)
+        Me.XrCheckBox62.LocationFloat = New DevExpress.Utils.PointFloat(123.9872!, 0.00006103516!)
         Me.XrCheckBox62.Name = "XrCheckBox62"
-        Me.XrCheckBox62.SizeF = New System.Drawing.SizeF(25.69574!, 23.0!)
+        Me.XrCheckBox62.SizeF = New System.Drawing.SizeF(165.5963!, 23.0!)
         Me.XrCheckBox62.StylePriority.UseBorders = False
+        Me.XrCheckBox62.Text = "Tidak Normal"
         '
         'XrTable3
         '
         Me.XrTable3.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.XrTable3.LocationFloat = New DevExpress.Utils.PointFloat(0!, 850.0!)
+        Me.XrTable3.LocationFloat = New DevExpress.Utils.PointFloat(0!, 874.9999!)
         Me.XrTable3.Name = "XrTable3"
         Me.XrTable3.Rows.AddRange(New DevExpress.XtraReports.UI.XRTableRow() {Me.XrTableRow21, Me.XrTableRow25, Me.XrTableRow26, Me.XrTableRow27, Me.XrTableRow28, Me.XrTableRow33, Me.XrTableRow47, Me.XrTableRow51, Me.XrTableRow52, Me.XrTableRow53, Me.XrTableRow29, Me.XrTableRow30, Me.XrTableRow31, Me.XrTableRow54, Me.XrTableRow32, Me.XrTableRow34, Me.XrTableRow35, Me.XrTableRow36, Me.XrTableRow38, Me.XrTableRow37, Me.XrTableRow39, Me.XrTableRow55, Me.XrTableRow57, Me.XrTableRow56, Me.XrTableRow58, Me.XrTableRow59, Me.XrTableRow60})
-        Me.XrTable3.SizeF = New System.Drawing.SizeF(787.9998!, 675.0!)
+        Me.XrTable3.SizeF = New System.Drawing.SizeF(789.0001!, 675.0!)
         Me.XrTable3.StylePriority.UseFont = False
         Me.XrTable3.StylePriority.UseTextAlignment = False
         Me.XrTable3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
@@ -2897,12 +3078,13 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableRow21.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell68, Me.XrTableCell69, Me.XrTableCell71, Me.XrTableCell102})
         Me.XrTableRow21.Name = "XrTableRow21"
+        Me.XrTableRow21.StylePriority.UseBorders = False
         Me.XrTableRow21.Weight = 1.0R
         '
         'XrTableCell68
         '
         Me.XrTableCell68.Borders = DevExpress.XtraPrinting.BorderSide.Left
-        Me.XrTableCell68.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell68.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell68.Name = "XrTableCell68"
         Me.XrTableCell68.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
         Me.XrTableCell68.StylePriority.UseBorders = False
@@ -2913,8 +3095,9 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell69
         '
-        Me.XrTableCell69.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell69.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell69.Name = "XrTableCell69"
+        Me.XrTableCell69.StylePriority.UseBorders = False
         Me.XrTableCell69.StylePriority.UseFont = False
         Me.XrTableCell69.Text = "Leher"
         Me.XrTableCell69.Weight = 0.933334121704106R
@@ -2922,8 +3105,9 @@ Partial Public Class xtraMedicalCheckUp
         'XrTableCell71
         '
         Me.XrTableCell71.Name = "XrTableCell71"
+        Me.XrTableCell71.StylePriority.UseBorders = False
         Me.XrTableCell71.Text = ":"
-        Me.XrTableCell71.Weight = 0.16097122192382804R
+        Me.XrTableCell71.Weight = 0.160971221923828R
         '
         'XrTableCell102
         '
@@ -2931,25 +3115,27 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell102.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox69, Me.XrCheckBox70})
         Me.XrTableCell102.Name = "XrTableCell102"
         Me.XrTableCell102.StylePriority.UseBorders = False
-        Me.XrTableCell102.Weight = 6.3746451568603542R
+        Me.XrTableCell102.Weight = 6.3846482086181622R
         '
         'XrCheckBox69
         '
         Me.XrCheckBox69.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox69.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit67")})
-        Me.XrCheckBox69.LocationFloat = New DevExpress.Utils.PointFloat(0.0001373291!, 0!)
+        Me.XrCheckBox69.LocationFloat = New DevExpress.Utils.PointFloat(0.0001678467!, 0!)
         Me.XrCheckBox69.Name = "XrCheckBox69"
-        Me.XrCheckBox69.SizeF = New System.Drawing.SizeF(22.68396!, 23.0!)
+        Me.XrCheckBox69.SizeF = New System.Drawing.SizeF(97.91638!, 23.0!)
         Me.XrCheckBox69.StylePriority.UseBorders = False
+        Me.XrCheckBox69.Text = "Normal"
         '
         'XrCheckBox70
         '
         Me.XrCheckBox70.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox70.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit68")})
-        Me.XrCheckBox70.LocationFloat = New DevExpress.Utils.PointFloat(43.75017!, 0!)
+        Me.XrCheckBox70.LocationFloat = New DevExpress.Utils.PointFloat(97.91652!, 0!)
         Me.XrCheckBox70.Name = "XrCheckBox70"
-        Me.XrCheckBox70.SizeF = New System.Drawing.SizeF(22.68376!, 23.0!)
+        Me.XrCheckBox70.SizeF = New System.Drawing.SizeF(111.2927!, 23.0!)
         Me.XrCheckBox70.StylePriority.UseBorders = False
+        Me.XrCheckBox70.Text = "Tidak Normal"
         '
         'XrTableRow25
         '
@@ -2960,7 +3146,7 @@ Partial Public Class xtraMedicalCheckUp
         'XrTableCell73
         '
         Me.XrTableCell73.Borders = DevExpress.XtraPrinting.BorderSide.Left
-        Me.XrTableCell73.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell73.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell73.Name = "XrTableCell73"
         Me.XrTableCell73.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
         Me.XrTableCell73.StylePriority.UseBorders = False
@@ -2971,7 +3157,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell74
         '
-        Me.XrTableCell74.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell74.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell74.Name = "XrTableCell74"
         Me.XrTableCell74.StylePriority.UseFont = False
         Me.XrTableCell74.Text = "Thorax"
@@ -2981,14 +3167,14 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableCell75.Name = "XrTableCell75"
         Me.XrTableCell75.Text = ":"
-        Me.XrTableCell75.Weight = 0.16097122192382804R
+        Me.XrTableCell75.Weight = 0.160971221923828R
         '
         'XrTableCell103
         '
         Me.XrTableCell103.Borders = DevExpress.XtraPrinting.BorderSide.Right
         Me.XrTableCell103.Name = "XrTableCell103"
         Me.XrTableCell103.StylePriority.UseBorders = False
-        Me.XrTableCell103.Weight = 6.3746451568603542R
+        Me.XrTableCell103.Weight = 6.3846482086181622R
         '
         'XrTableRow26
         '
@@ -3007,7 +3193,9 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell91
         '
+        Me.XrTableCell91.Font = New System.Drawing.Font("Arial", 10.0!)
         Me.XrTableCell91.Name = "XrTableCell91"
+        Me.XrTableCell91.StylePriority.UseFont = False
         Me.XrTableCell91.Text = "Cor"
         Me.XrTableCell91.Weight = 0.933334121704106R
         '
@@ -3015,7 +3203,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableCell92.Name = "XrTableCell92"
         Me.XrTableCell92.Text = ":"
-        Me.XrTableCell92.Weight = 0.16097122192382804R
+        Me.XrTableCell92.Weight = 0.160971221923828R
         '
         'XrTableCell104
         '
@@ -3023,25 +3211,27 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell104.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox71, Me.XrCheckBox72})
         Me.XrTableCell104.Name = "XrTableCell104"
         Me.XrTableCell104.StylePriority.UseBorders = False
-        Me.XrTableCell104.Weight = 6.3746451568603542R
+        Me.XrTableCell104.Weight = 6.3846482086181622R
         '
         'XrCheckBox71
         '
         Me.XrCheckBox71.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox71.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit69")})
-        Me.XrCheckBox71.LocationFloat = New DevExpress.Utils.PointFloat(0.0001373291!, 0.00006103516!)
+        Me.XrCheckBox71.LocationFloat = New DevExpress.Utils.PointFloat(0.0001678467!, 0.0001220703!)
         Me.XrCheckBox71.Name = "XrCheckBox71"
-        Me.XrCheckBox71.SizeF = New System.Drawing.SizeF(22.68396!, 22.99994!)
+        Me.XrCheckBox71.SizeF = New System.Drawing.SizeF(97.91638!, 22.99994!)
         Me.XrCheckBox71.StylePriority.UseBorders = False
+        Me.XrCheckBox71.Text = "Normal"
         '
         'XrCheckBox72
         '
         Me.XrCheckBox72.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox72.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit70")})
-        Me.XrCheckBox72.LocationFloat = New DevExpress.Utils.PointFloat(43.75017!, 0.00006103516!)
+        Me.XrCheckBox72.LocationFloat = New DevExpress.Utils.PointFloat(97.91652!, 0.0001220703!)
         Me.XrCheckBox72.Name = "XrCheckBox72"
-        Me.XrCheckBox72.SizeF = New System.Drawing.SizeF(22.68376!, 22.99994!)
+        Me.XrCheckBox72.SizeF = New System.Drawing.SizeF(111.2927!, 22.99994!)
         Me.XrCheckBox72.StylePriority.UseBorders = False
+        Me.XrCheckBox72.Text = "Tidak Normal"
         '
         'XrTableRow27
         '
@@ -3051,7 +3241,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell99
         '
-        Me.XrTableCell99.Borders = DevExpress.XtraPrinting.BorderSide.Left
+        Me.XrTableCell99.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
         Me.XrTableCell99.Name = "XrTableCell99"
         Me.XrTableCell99.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
         Me.XrTableCell99.StylePriority.UseBorders = False
@@ -3060,41 +3250,49 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell100
         '
+        Me.XrTableCell100.Borders = DevExpress.XtraPrinting.BorderSide.Bottom
+        Me.XrTableCell100.Font = New System.Drawing.Font("Arial", 10.0!)
         Me.XrTableCell100.Name = "XrTableCell100"
+        Me.XrTableCell100.StylePriority.UseBorders = False
+        Me.XrTableCell100.StylePriority.UseFont = False
         Me.XrTableCell100.Text = "Pulmo"
         Me.XrTableCell100.Weight = 0.933334121704106R
         '
         'XrTableCell101
         '
+        Me.XrTableCell101.Borders = DevExpress.XtraPrinting.BorderSide.Bottom
         Me.XrTableCell101.Name = "XrTableCell101"
+        Me.XrTableCell101.StylePriority.UseBorders = False
         Me.XrTableCell101.Text = ":"
-        Me.XrTableCell101.Weight = 0.16097122192382804R
+        Me.XrTableCell101.Weight = 0.160971221923828R
         '
         'XrTableCell105
         '
-        Me.XrTableCell105.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrTableCell105.Borders = CType((DevExpress.XtraPrinting.BorderSide.Right Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
         Me.XrTableCell105.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox73, Me.XrCheckBox74})
         Me.XrTableCell105.Name = "XrTableCell105"
         Me.XrTableCell105.StylePriority.UseBorders = False
-        Me.XrTableCell105.Weight = 6.3746451568603542R
+        Me.XrTableCell105.Weight = 6.3846482086181622R
         '
         'XrCheckBox73
         '
         Me.XrCheckBox73.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox73.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit71")})
-        Me.XrCheckBox73.LocationFloat = New DevExpress.Utils.PointFloat(0.0001373291!, 0!)
+        Me.XrCheckBox73.LocationFloat = New DevExpress.Utils.PointFloat(0.0001678467!, 0!)
         Me.XrCheckBox73.Name = "XrCheckBox73"
-        Me.XrCheckBox73.SizeF = New System.Drawing.SizeF(22.68396!, 23.0!)
+        Me.XrCheckBox73.SizeF = New System.Drawing.SizeF(97.91638!, 23.0!)
         Me.XrCheckBox73.StylePriority.UseBorders = False
+        Me.XrCheckBox73.Text = "Normal"
         '
         'XrCheckBox74
         '
         Me.XrCheckBox74.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox74.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit72")})
-        Me.XrCheckBox74.LocationFloat = New DevExpress.Utils.PointFloat(43.75017!, 0!)
+        Me.XrCheckBox74.LocationFloat = New DevExpress.Utils.PointFloat(97.91652!, 0!)
         Me.XrCheckBox74.Name = "XrCheckBox74"
-        Me.XrCheckBox74.SizeF = New System.Drawing.SizeF(22.68376!, 23.0!)
+        Me.XrCheckBox74.SizeF = New System.Drawing.SizeF(111.2927!, 23.0!)
         Me.XrCheckBox74.StylePriority.UseBorders = False
+        Me.XrCheckBox74.Text = "Tidak Normal"
         '
         'XrTableRow28
         '
@@ -3104,8 +3302,8 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell106
         '
-        Me.XrTableCell106.Borders = DevExpress.XtraPrinting.BorderSide.Left
-        Me.XrTableCell106.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell106.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top), DevExpress.XtraPrinting.BorderSide)
+        Me.XrTableCell106.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell106.Name = "XrTableCell106"
         Me.XrTableCell106.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
         Me.XrTableCell106.StylePriority.UseBorders = False
@@ -3116,24 +3314,28 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell107
         '
-        Me.XrTableCell107.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell107.Borders = DevExpress.XtraPrinting.BorderSide.Top
+        Me.XrTableCell107.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell107.Name = "XrTableCell107"
+        Me.XrTableCell107.StylePriority.UseBorders = False
         Me.XrTableCell107.StylePriority.UseFont = False
         Me.XrTableCell107.Text = "Abdomen"
         Me.XrTableCell107.Weight = 0.933334121704106R
         '
         'XrTableCell108
         '
+        Me.XrTableCell108.Borders = DevExpress.XtraPrinting.BorderSide.Top
         Me.XrTableCell108.Name = "XrTableCell108"
+        Me.XrTableCell108.StylePriority.UseBorders = False
         Me.XrTableCell108.Text = ":"
-        Me.XrTableCell108.Weight = 0.16097122192382804R
+        Me.XrTableCell108.Weight = 0.160971221923828R
         '
         'XrTableCell109
         '
-        Me.XrTableCell109.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrTableCell109.Borders = CType((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right), DevExpress.XtraPrinting.BorderSide)
         Me.XrTableCell109.Name = "XrTableCell109"
         Me.XrTableCell109.StylePriority.UseBorders = False
-        Me.XrTableCell109.Weight = 6.3746451568603542R
+        Me.XrTableCell109.Weight = 6.3846482086181622R
         '
         'XrTableRow33
         '
@@ -3154,7 +3356,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell221
         '
-        Me.XrTableCell221.Font = New System.Drawing.Font("Times New Roman", 9.75!)
+        Me.XrTableCell221.Font = New System.Drawing.Font("Arial", 10.0!)
         Me.XrTableCell221.Name = "XrTableCell221"
         Me.XrTableCell221.StylePriority.UseFont = False
         Me.XrTableCell221.Text = "- Liver"
@@ -3164,7 +3366,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableCell225.Name = "XrTableCell225"
         Me.XrTableCell225.Text = ":"
-        Me.XrTableCell225.Weight = 0.16097122192382804R
+        Me.XrTableCell225.Weight = 0.160971221923828R
         '
         'XrTableCell227
         '
@@ -3172,25 +3374,27 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell227.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox75, Me.XrCheckBox76})
         Me.XrTableCell227.Name = "XrTableCell227"
         Me.XrTableCell227.StylePriority.UseBorders = False
-        Me.XrTableCell227.Weight = 6.3746451568603542R
+        Me.XrTableCell227.Weight = 6.3846482086181622R
         '
         'XrCheckBox75
         '
         Me.XrCheckBox75.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox75.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit73")})
-        Me.XrCheckBox75.LocationFloat = New DevExpress.Utils.PointFloat(0.0001373291!, 0!)
+        Me.XrCheckBox75.LocationFloat = New DevExpress.Utils.PointFloat(0.0001678467!, 0!)
         Me.XrCheckBox75.Name = "XrCheckBox75"
-        Me.XrCheckBox75.SizeF = New System.Drawing.SizeF(22.68396!, 23.0!)
+        Me.XrCheckBox75.SizeF = New System.Drawing.SizeF(97.91638!, 23.0!)
         Me.XrCheckBox75.StylePriority.UseBorders = False
+        Me.XrCheckBox75.Text = "Normal"
         '
         'XrCheckBox76
         '
         Me.XrCheckBox76.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox76.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit74")})
-        Me.XrCheckBox76.LocationFloat = New DevExpress.Utils.PointFloat(43.75017!, 0!)
+        Me.XrCheckBox76.LocationFloat = New DevExpress.Utils.PointFloat(97.91652!, 0!)
         Me.XrCheckBox76.Name = "XrCheckBox76"
-        Me.XrCheckBox76.SizeF = New System.Drawing.SizeF(22.68376!, 23.0!)
+        Me.XrCheckBox76.SizeF = New System.Drawing.SizeF(111.2927!, 23.0!)
         Me.XrCheckBox76.StylePriority.UseBorders = False
+        Me.XrCheckBox76.Text = "Tidak Normal"
         '
         'XrTableRow47
         '
@@ -3211,7 +3415,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell232
         '
-        Me.XrTableCell232.Font = New System.Drawing.Font("Times New Roman", 9.75!)
+        Me.XrTableCell232.Font = New System.Drawing.Font("Arial", 10.0!)
         Me.XrTableCell232.Name = "XrTableCell232"
         Me.XrTableCell232.StylePriority.UseFont = False
         Me.XrTableCell232.Text = "- Spleen"
@@ -3221,7 +3425,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableCell233.Name = "XrTableCell233"
         Me.XrTableCell233.Text = ":"
-        Me.XrTableCell233.Weight = 0.16097122192382804R
+        Me.XrTableCell233.Weight = 0.160971221923828R
         '
         'XrTableCell234
         '
@@ -3229,25 +3433,27 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell234.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox77, Me.XrCheckBox78})
         Me.XrTableCell234.Name = "XrTableCell234"
         Me.XrTableCell234.StylePriority.UseBorders = False
-        Me.XrTableCell234.Weight = 6.3746451568603542R
+        Me.XrTableCell234.Weight = 6.3846482086181622R
         '
         'XrCheckBox77
         '
         Me.XrCheckBox77.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox77.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit75")})
-        Me.XrCheckBox77.LocationFloat = New DevExpress.Utils.PointFloat(0.0001373291!, 0!)
+        Me.XrCheckBox77.LocationFloat = New DevExpress.Utils.PointFloat(0.0001678467!, 0!)
         Me.XrCheckBox77.Name = "XrCheckBox77"
-        Me.XrCheckBox77.SizeF = New System.Drawing.SizeF(22.68396!, 22.99994!)
+        Me.XrCheckBox77.SizeF = New System.Drawing.SizeF(97.91638!, 23.0!)
         Me.XrCheckBox77.StylePriority.UseBorders = False
+        Me.XrCheckBox77.Text = "Normal"
         '
         'XrCheckBox78
         '
         Me.XrCheckBox78.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox78.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit76")})
-        Me.XrCheckBox78.LocationFloat = New DevExpress.Utils.PointFloat(43.75017!, 0!)
+        Me.XrCheckBox78.LocationFloat = New DevExpress.Utils.PointFloat(97.91652!, 0!)
         Me.XrCheckBox78.Name = "XrCheckBox78"
-        Me.XrCheckBox78.SizeF = New System.Drawing.SizeF(22.68376!, 22.99994!)
+        Me.XrCheckBox78.SizeF = New System.Drawing.SizeF(111.2927!, 23.0!)
         Me.XrCheckBox78.StylePriority.UseBorders = False
+        Me.XrCheckBox78.Text = "Tidak Normal"
         '
         'XrTableRow51
         '
@@ -3268,7 +3474,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell240
         '
-        Me.XrTableCell240.Font = New System.Drawing.Font("Times New Roman", 9.75!)
+        Me.XrTableCell240.Font = New System.Drawing.Font("Arial", 10.0!)
         Me.XrTableCell240.Name = "XrTableCell240"
         Me.XrTableCell240.StylePriority.UseFont = False
         Me.XrTableCell240.Text = "- Inguinal"
@@ -3278,7 +3484,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableCell241.Name = "XrTableCell241"
         Me.XrTableCell241.Text = ":"
-        Me.XrTableCell241.Weight = 0.16097122192382804R
+        Me.XrTableCell241.Weight = 0.160971221923828R
         '
         'XrTableCell242
         '
@@ -3286,25 +3492,27 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell242.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox79, Me.XrCheckBox80})
         Me.XrTableCell242.Name = "XrTableCell242"
         Me.XrTableCell242.StylePriority.UseBorders = False
-        Me.XrTableCell242.Weight = 6.3746451568603542R
+        Me.XrTableCell242.Weight = 6.3846482086181622R
         '
         'XrCheckBox79
         '
         Me.XrCheckBox79.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox79.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit77")})
-        Me.XrCheckBox79.LocationFloat = New DevExpress.Utils.PointFloat(0.0001373291!, 0!)
+        Me.XrCheckBox79.LocationFloat = New DevExpress.Utils.PointFloat(0.0001678467!, 0!)
         Me.XrCheckBox79.Name = "XrCheckBox79"
-        Me.XrCheckBox79.SizeF = New System.Drawing.SizeF(22.68396!, 23.0!)
+        Me.XrCheckBox79.SizeF = New System.Drawing.SizeF(97.91638!, 23.0!)
         Me.XrCheckBox79.StylePriority.UseBorders = False
+        Me.XrCheckBox79.Text = "Normal"
         '
         'XrCheckBox80
         '
         Me.XrCheckBox80.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox80.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit78")})
-        Me.XrCheckBox80.LocationFloat = New DevExpress.Utils.PointFloat(43.75017!, 0!)
+        Me.XrCheckBox80.LocationFloat = New DevExpress.Utils.PointFloat(97.91652!, 0!)
         Me.XrCheckBox80.Name = "XrCheckBox80"
-        Me.XrCheckBox80.SizeF = New System.Drawing.SizeF(22.68376!, 23.0!)
+        Me.XrCheckBox80.SizeF = New System.Drawing.SizeF(111.2927!, 23.0!)
         Me.XrCheckBox80.StylePriority.UseBorders = False
+        Me.XrCheckBox80.Text = "Tidak Normal"
         '
         'XrTableRow52
         '
@@ -3325,7 +3533,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell245
         '
-        Me.XrTableCell245.Font = New System.Drawing.Font("Times New Roman", 9.75!)
+        Me.XrTableCell245.Font = New System.Drawing.Font("Arial", 10.0!)
         Me.XrTableCell245.Name = "XrTableCell245"
         Me.XrTableCell245.StylePriority.UseFont = False
         Me.XrTableCell245.Text = "- Ginjal"
@@ -3335,7 +3543,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableCell249.Name = "XrTableCell249"
         Me.XrTableCell249.Text = ":"
-        Me.XrTableCell249.Weight = 0.16097122192382804R
+        Me.XrTableCell249.Weight = 0.160971221923828R
         '
         'XrTableCell250
         '
@@ -3343,25 +3551,27 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell250.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox81, Me.XrCheckBox82})
         Me.XrTableCell250.Name = "XrTableCell250"
         Me.XrTableCell250.StylePriority.UseBorders = False
-        Me.XrTableCell250.Weight = 6.3746451568603542R
+        Me.XrTableCell250.Weight = 6.3846482086181622R
         '
         'XrCheckBox81
         '
         Me.XrCheckBox81.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox81.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit79")})
-        Me.XrCheckBox81.LocationFloat = New DevExpress.Utils.PointFloat(0.0001373291!, 0!)
+        Me.XrCheckBox81.LocationFloat = New DevExpress.Utils.PointFloat(0.0001678467!, 0!)
         Me.XrCheckBox81.Name = "XrCheckBox81"
-        Me.XrCheckBox81.SizeF = New System.Drawing.SizeF(22.68396!, 23.0!)
+        Me.XrCheckBox81.SizeF = New System.Drawing.SizeF(97.91638!, 23.0!)
         Me.XrCheckBox81.StylePriority.UseBorders = False
+        Me.XrCheckBox81.Text = "Normal"
         '
         'XrCheckBox82
         '
         Me.XrCheckBox82.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox82.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit80")})
-        Me.XrCheckBox82.LocationFloat = New DevExpress.Utils.PointFloat(43.75017!, 0!)
+        Me.XrCheckBox82.LocationFloat = New DevExpress.Utils.PointFloat(97.91652!, 0!)
         Me.XrCheckBox82.Name = "XrCheckBox82"
-        Me.XrCheckBox82.SizeF = New System.Drawing.SizeF(22.68376!, 23.0!)
+        Me.XrCheckBox82.SizeF = New System.Drawing.SizeF(111.2927!, 23.0!)
         Me.XrCheckBox82.StylePriority.UseBorders = False
+        Me.XrCheckBox82.Text = "Tidak Normal"
         '
         'XrTableRow53
         '
@@ -3382,7 +3592,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell252
         '
-        Me.XrTableCell252.Font = New System.Drawing.Font("Times New Roman", 9.75!)
+        Me.XrTableCell252.Font = New System.Drawing.Font("Arial", 10.0!)
         Me.XrTableCell252.Name = "XrTableCell252"
         Me.XrTableCell252.StylePriority.UseFont = False
         Me.XrTableCell252.Text = "- Lain-lain"
@@ -3392,7 +3602,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableCell253.Name = "XrTableCell253"
         Me.XrTableCell253.Text = ":"
-        Me.XrTableCell253.Weight = 0.16097122192382804R
+        Me.XrTableCell253.Weight = 0.160971221923828R
         '
         'XrTableCell254
         '
@@ -3400,25 +3610,27 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell254.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox83, Me.XrCheckBox84})
         Me.XrTableCell254.Name = "XrTableCell254"
         Me.XrTableCell254.StylePriority.UseBorders = False
-        Me.XrTableCell254.Weight = 6.3746451568603542R
+        Me.XrTableCell254.Weight = 6.3846482086181622R
         '
         'XrCheckBox83
         '
         Me.XrCheckBox83.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox83.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit81")})
-        Me.XrCheckBox83.LocationFloat = New DevExpress.Utils.PointFloat(0.0001373291!, 0!)
+        Me.XrCheckBox83.LocationFloat = New DevExpress.Utils.PointFloat(0.0001678467!, 0!)
         Me.XrCheckBox83.Name = "XrCheckBox83"
-        Me.XrCheckBox83.SizeF = New System.Drawing.SizeF(22.68396!, 23.0!)
+        Me.XrCheckBox83.SizeF = New System.Drawing.SizeF(97.91638!, 23.0!)
         Me.XrCheckBox83.StylePriority.UseBorders = False
+        Me.XrCheckBox83.Text = "Normal"
         '
         'XrCheckBox84
         '
         Me.XrCheckBox84.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox84.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit82")})
-        Me.XrCheckBox84.LocationFloat = New DevExpress.Utils.PointFloat(43.75017!, 0!)
+        Me.XrCheckBox84.LocationFloat = New DevExpress.Utils.PointFloat(97.91652!, 0!)
         Me.XrCheckBox84.Name = "XrCheckBox84"
-        Me.XrCheckBox84.SizeF = New System.Drawing.SizeF(22.68376!, 23.0!)
+        Me.XrCheckBox84.SizeF = New System.Drawing.SizeF(111.2927!, 23.0!)
         Me.XrCheckBox84.StylePriority.UseBorders = False
+        Me.XrCheckBox84.Text = "Tidak Normal"
         '
         'XrTableRow29
         '
@@ -3429,7 +3641,7 @@ Partial Public Class xtraMedicalCheckUp
         'XrTableCell110
         '
         Me.XrTableCell110.Borders = DevExpress.XtraPrinting.BorderSide.Left
-        Me.XrTableCell110.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell110.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell110.Name = "XrTableCell110"
         Me.XrTableCell110.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
         Me.XrTableCell110.StylePriority.UseBorders = False
@@ -3440,7 +3652,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell111
         '
-        Me.XrTableCell111.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell111.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell111.Name = "XrTableCell111"
         Me.XrTableCell111.StylePriority.UseFont = False
         Me.XrTableCell111.Text = "Ekstremitas"
@@ -3450,7 +3662,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableCell112.Name = "XrTableCell112"
         Me.XrTableCell112.Text = ":"
-        Me.XrTableCell112.Weight = 0.16097122192382804R
+        Me.XrTableCell112.Weight = 0.160971221923828R
         '
         'XrTableCell113
         '
@@ -3458,25 +3670,27 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell113.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox85, Me.XrCheckBox86})
         Me.XrTableCell113.Name = "XrTableCell113"
         Me.XrTableCell113.StylePriority.UseBorders = False
-        Me.XrTableCell113.Weight = 6.3746451568603542R
+        Me.XrTableCell113.Weight = 6.3846482086181622R
         '
         'XrCheckBox85
         '
         Me.XrCheckBox85.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox85.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit83")})
-        Me.XrCheckBox85.LocationFloat = New DevExpress.Utils.PointFloat(0.0001373291!, 0!)
+        Me.XrCheckBox85.LocationFloat = New DevExpress.Utils.PointFloat(0.0001678467!, 0!)
         Me.XrCheckBox85.Name = "XrCheckBox85"
-        Me.XrCheckBox85.SizeF = New System.Drawing.SizeF(22.68396!, 23.0!)
+        Me.XrCheckBox85.SizeF = New System.Drawing.SizeF(97.91638!, 23.0!)
         Me.XrCheckBox85.StylePriority.UseBorders = False
+        Me.XrCheckBox85.Text = "Normal"
         '
         'XrCheckBox86
         '
         Me.XrCheckBox86.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox86.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit84")})
-        Me.XrCheckBox86.LocationFloat = New DevExpress.Utils.PointFloat(43.75017!, 0!)
+        Me.XrCheckBox86.LocationFloat = New DevExpress.Utils.PointFloat(97.91652!, 0!)
         Me.XrCheckBox86.Name = "XrCheckBox86"
-        Me.XrCheckBox86.SizeF = New System.Drawing.SizeF(22.68376!, 23.0!)
+        Me.XrCheckBox86.SizeF = New System.Drawing.SizeF(111.2927!, 23.0!)
         Me.XrCheckBox86.StylePriority.UseBorders = False
+        Me.XrCheckBox86.Text = "Tidak Normal"
         '
         'XrTableRow30
         '
@@ -3487,7 +3701,7 @@ Partial Public Class xtraMedicalCheckUp
         'XrTableCell114
         '
         Me.XrTableCell114.Borders = DevExpress.XtraPrinting.BorderSide.Left
-        Me.XrTableCell114.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell114.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell114.Name = "XrTableCell114"
         Me.XrTableCell114.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
         Me.XrTableCell114.StylePriority.UseBorders = False
@@ -3498,7 +3712,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell115
         '
-        Me.XrTableCell115.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell115.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell115.Name = "XrTableCell115"
         Me.XrTableCell115.StylePriority.UseFont = False
         Me.XrTableCell115.Text = "Kulit"
@@ -3508,7 +3722,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableCell116.Name = "XrTableCell116"
         Me.XrTableCell116.Text = ":"
-        Me.XrTableCell116.Weight = 0.16097122192382804R
+        Me.XrTableCell116.Weight = 0.160971221923828R
         '
         'XrTableCell117
         '
@@ -3516,25 +3730,27 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell117.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox87, Me.XrCheckBox88})
         Me.XrTableCell117.Name = "XrTableCell117"
         Me.XrTableCell117.StylePriority.UseBorders = False
-        Me.XrTableCell117.Weight = 6.3746451568603542R
+        Me.XrTableCell117.Weight = 6.3846482086181622R
         '
         'XrCheckBox87
         '
         Me.XrCheckBox87.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox87.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit85")})
-        Me.XrCheckBox87.LocationFloat = New DevExpress.Utils.PointFloat(0.0001373291!, 0!)
+        Me.XrCheckBox87.LocationFloat = New DevExpress.Utils.PointFloat(0.0001678467!, 0!)
         Me.XrCheckBox87.Name = "XrCheckBox87"
-        Me.XrCheckBox87.SizeF = New System.Drawing.SizeF(22.68396!, 23.0!)
+        Me.XrCheckBox87.SizeF = New System.Drawing.SizeF(97.91638!, 23.0!)
         Me.XrCheckBox87.StylePriority.UseBorders = False
+        Me.XrCheckBox87.Text = "Normal"
         '
         'XrCheckBox88
         '
         Me.XrCheckBox88.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox88.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit86")})
-        Me.XrCheckBox88.LocationFloat = New DevExpress.Utils.PointFloat(43.75017!, 0!)
+        Me.XrCheckBox88.LocationFloat = New DevExpress.Utils.PointFloat(97.91652!, 0!)
         Me.XrCheckBox88.Name = "XrCheckBox88"
-        Me.XrCheckBox88.SizeF = New System.Drawing.SizeF(22.68376!, 23.0!)
+        Me.XrCheckBox88.SizeF = New System.Drawing.SizeF(111.2927!, 23.0!)
         Me.XrCheckBox88.StylePriority.UseBorders = False
+        Me.XrCheckBox88.Text = "Tidak Normal"
         '
         'XrTableRow31
         '
@@ -3545,7 +3761,7 @@ Partial Public Class xtraMedicalCheckUp
         'XrTableCell118
         '
         Me.XrTableCell118.Borders = DevExpress.XtraPrinting.BorderSide.Left
-        Me.XrTableCell118.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell118.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell118.Name = "XrTableCell118"
         Me.XrTableCell118.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
         Me.XrTableCell118.StylePriority.UseBorders = False
@@ -3556,7 +3772,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell119
         '
-        Me.XrTableCell119.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell119.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell119.Name = "XrTableCell119"
         Me.XrTableCell119.StylePriority.UseFont = False
         Me.XrTableCell119.Text = "Flour Albus"
@@ -3566,7 +3782,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableCell120.Name = "XrTableCell120"
         Me.XrTableCell120.Text = ":"
-        Me.XrTableCell120.Weight = 0.16097122192382804R
+        Me.XrTableCell120.Weight = 0.160971221923828R
         '
         'XrTableCell121
         '
@@ -3574,25 +3790,27 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell121.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox89, Me.XrCheckBox90})
         Me.XrTableCell121.Name = "XrTableCell121"
         Me.XrTableCell121.StylePriority.UseBorders = False
-        Me.XrTableCell121.Weight = 6.3746451568603542R
+        Me.XrTableCell121.Weight = 6.3846482086181622R
         '
         'XrCheckBox89
         '
         Me.XrCheckBox89.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox89.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit87")})
-        Me.XrCheckBox89.LocationFloat = New DevExpress.Utils.PointFloat(0.0001373291!, 0!)
+        Me.XrCheckBox89.LocationFloat = New DevExpress.Utils.PointFloat(0.0001678467!, 0!)
         Me.XrCheckBox89.Name = "XrCheckBox89"
-        Me.XrCheckBox89.SizeF = New System.Drawing.SizeF(22.68396!, 23.0!)
+        Me.XrCheckBox89.SizeF = New System.Drawing.SizeF(97.91638!, 23.0!)
         Me.XrCheckBox89.StylePriority.UseBorders = False
+        Me.XrCheckBox89.Text = "Normal"
         '
         'XrCheckBox90
         '
         Me.XrCheckBox90.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox90.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit88")})
-        Me.XrCheckBox90.LocationFloat = New DevExpress.Utils.PointFloat(43.75012!, 0!)
+        Me.XrCheckBox90.LocationFloat = New DevExpress.Utils.PointFloat(97.91644!, 0!)
         Me.XrCheckBox90.Name = "XrCheckBox90"
-        Me.XrCheckBox90.SizeF = New System.Drawing.SizeF(22.68378!, 23.0!)
+        Me.XrCheckBox90.SizeF = New System.Drawing.SizeF(111.2927!, 23.0!)
         Me.XrCheckBox90.StylePriority.UseBorders = False
+        Me.XrCheckBox90.Text = "Tidak Normal"
         '
         'XrTableRow54
         '
@@ -3603,7 +3821,7 @@ Partial Public Class xtraMedicalCheckUp
         'XrTableCell255
         '
         Me.XrTableCell255.Borders = DevExpress.XtraPrinting.BorderSide.Left
-        Me.XrTableCell255.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell255.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell255.Name = "XrTableCell255"
         Me.XrTableCell255.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
         Me.XrTableCell255.StylePriority.UseBorders = False
@@ -3614,7 +3832,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell256
         '
-        Me.XrTableCell256.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell256.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell256.Name = "XrTableCell256"
         Me.XrTableCell256.StylePriority.UseFont = False
         Me.XrTableCell256.Text = "Neurologis"
@@ -3624,7 +3842,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableCell257.Name = "XrTableCell257"
         Me.XrTableCell257.Text = ":"
-        Me.XrTableCell257.Weight = 0.16097122192382804R
+        Me.XrTableCell257.Weight = 0.160971221923828R
         '
         'XrTableCell258
         '
@@ -3632,25 +3850,27 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell258.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox91, Me.XrCheckBox92})
         Me.XrTableCell258.Name = "XrTableCell258"
         Me.XrTableCell258.StylePriority.UseBorders = False
-        Me.XrTableCell258.Weight = 6.3746451568603542R
+        Me.XrTableCell258.Weight = 6.3846482086181622R
         '
         'XrCheckBox91
         '
         Me.XrCheckBox91.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox91.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit89")})
-        Me.XrCheckBox91.LocationFloat = New DevExpress.Utils.PointFloat(0.0001373291!, 0!)
+        Me.XrCheckBox91.LocationFloat = New DevExpress.Utils.PointFloat(0.0001678467!, 0!)
         Me.XrCheckBox91.Name = "XrCheckBox91"
-        Me.XrCheckBox91.SizeF = New System.Drawing.SizeF(22.68396!, 23.0!)
+        Me.XrCheckBox91.SizeF = New System.Drawing.SizeF(97.91638!, 23.0!)
         Me.XrCheckBox91.StylePriority.UseBorders = False
+        Me.XrCheckBox91.Text = "Normal"
         '
         'XrCheckBox92
         '
         Me.XrCheckBox92.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox92.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit90")})
-        Me.XrCheckBox92.LocationFloat = New DevExpress.Utils.PointFloat(43.75017!, 0!)
+        Me.XrCheckBox92.LocationFloat = New DevExpress.Utils.PointFloat(97.91652!, 0!)
         Me.XrCheckBox92.Name = "XrCheckBox92"
-        Me.XrCheckBox92.SizeF = New System.Drawing.SizeF(22.68376!, 23.0!)
+        Me.XrCheckBox92.SizeF = New System.Drawing.SizeF(111.2927!, 23.0!)
         Me.XrCheckBox92.StylePriority.UseBorders = False
+        Me.XrCheckBox92.Text = "Tidak Normal"
         '
         'XrTableRow32
         '
@@ -3661,7 +3881,7 @@ Partial Public Class xtraMedicalCheckUp
         'XrTableCell122
         '
         Me.XrTableCell122.Borders = DevExpress.XtraPrinting.BorderSide.Left
-        Me.XrTableCell122.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell122.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell122.Name = "XrTableCell122"
         Me.XrTableCell122.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
         Me.XrTableCell122.StylePriority.UseBorders = False
@@ -3672,7 +3892,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell123
         '
-        Me.XrTableCell123.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell123.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell123.Name = "XrTableCell123"
         Me.XrTableCell123.StylePriority.UseFont = False
         Me.XrTableCell123.Text = "Lain-lain"
@@ -3682,7 +3902,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableCell124.Name = "XrTableCell124"
         Me.XrTableCell124.Text = ":"
-        Me.XrTableCell124.Weight = 0.16097122192382804R
+        Me.XrTableCell124.Weight = 0.160971221923828R
         '
         'XrTableCell125
         '
@@ -3690,25 +3910,27 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell125.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox93, Me.XrCheckBox94})
         Me.XrTableCell125.Name = "XrTableCell125"
         Me.XrTableCell125.StylePriority.UseBorders = False
-        Me.XrTableCell125.Weight = 6.3746451568603542R
+        Me.XrTableCell125.Weight = 6.3846482086181622R
         '
         'XrCheckBox93
         '
         Me.XrCheckBox93.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox93.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit91")})
-        Me.XrCheckBox93.LocationFloat = New DevExpress.Utils.PointFloat(0.0001373291!, 0!)
+        Me.XrCheckBox93.LocationFloat = New DevExpress.Utils.PointFloat(0.0001678467!, 0!)
         Me.XrCheckBox93.Name = "XrCheckBox93"
-        Me.XrCheckBox93.SizeF = New System.Drawing.SizeF(22.68396!, 23.0!)
+        Me.XrCheckBox93.SizeF = New System.Drawing.SizeF(97.91638!, 23.0!)
         Me.XrCheckBox93.StylePriority.UseBorders = False
+        Me.XrCheckBox93.Text = "Normal"
         '
         'XrCheckBox94
         '
         Me.XrCheckBox94.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox94.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit92")})
-        Me.XrCheckBox94.LocationFloat = New DevExpress.Utils.PointFloat(43.75017!, 0!)
+        Me.XrCheckBox94.LocationFloat = New DevExpress.Utils.PointFloat(97.91652!, 0!)
         Me.XrCheckBox94.Name = "XrCheckBox94"
-        Me.XrCheckBox94.SizeF = New System.Drawing.SizeF(22.68376!, 23.0!)
+        Me.XrCheckBox94.SizeF = New System.Drawing.SizeF(111.2927!, 23.0!)
         Me.XrCheckBox94.StylePriority.UseBorders = False
+        Me.XrCheckBox94.Text = "Tidak Normal"
         '
         'XrTableRow34
         '
@@ -3721,14 +3943,14 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell54.Borders = CType((((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top) _
             Or DevExpress.XtraPrinting.BorderSide.Right) _
             Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableCell54.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell54.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell54.Name = "XrTableCell54"
         Me.XrTableCell54.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100.0!)
         Me.XrTableCell54.StylePriority.UseBorders = False
         Me.XrTableCell54.StylePriority.UseFont = False
         Me.XrTableCell54.StylePriority.UsePadding = False
         Me.XrTableCell54.Text = "III. Pemeriksaan Penunjang"
-        Me.XrTableCell54.Weight = 7.87999816894531R
+        Me.XrTableCell54.Weight = 7.8900012207031223R
         '
         'XrTableRow35
         '
@@ -3764,7 +3986,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell132.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "MemoEdit26")})
         Me.XrTableCell132.Name = "XrTableCell132"
         Me.XrTableCell132.StylePriority.UseBorders = False
-        Me.XrTableCell132.Weight = 6.53561714172363R
+        Me.XrTableCell132.Weight = 6.5456201934814429R
         '
         'XrTableRow36
         '
@@ -3800,7 +4022,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell133.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "MemoEdit27")})
         Me.XrTableCell133.Name = "XrTableCell133"
         Me.XrTableCell133.StylePriority.UseBorders = False
-        Me.XrTableCell133.Weight = 6.53561714172363R
+        Me.XrTableCell133.Weight = 6.5456201934814429R
         '
         'XrTableRow38
         '
@@ -3836,7 +4058,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell141.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "MemoEdit28")})
         Me.XrTableCell141.Name = "XrTableCell141"
         Me.XrTableCell141.StylePriority.UseBorders = False
-        Me.XrTableCell141.Weight = 6.53561714172363R
+        Me.XrTableCell141.Weight = 6.5456201934814429R
         '
         'XrTableRow37
         '
@@ -3872,7 +4094,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell137.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox18, Me.XrCheckBox17, Me.XrCheckBox16})
         Me.XrTableCell137.Name = "XrTableCell137"
         Me.XrTableCell137.StylePriority.UseBorders = False
-        Me.XrTableCell137.Weight = 6.53561714172363R
+        Me.XrTableCell137.Weight = 6.5456201934814429R
         '
         'XrCheckBox18
         '
@@ -3943,7 +4165,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell145.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "MemoEdit29")})
         Me.XrTableCell145.Name = "XrTableCell145"
         Me.XrTableCell145.StylePriority.UseBorders = False
-        Me.XrTableCell145.Weight = 6.53561714172363R
+        Me.XrTableCell145.Weight = 6.5456201934814429R
         '
         'XrTableRow55
         '
@@ -3954,14 +4176,14 @@ Partial Public Class xtraMedicalCheckUp
         'XrTableCell259
         '
         Me.XrTableCell259.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Right), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableCell259.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell259.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell259.Name = "XrTableCell259"
         Me.XrTableCell259.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100.0!)
         Me.XrTableCell259.StylePriority.UseBorders = False
         Me.XrTableCell259.StylePriority.UseFont = False
         Me.XrTableCell259.StylePriority.UsePadding = False
         Me.XrTableCell259.Text = "IV. KESIMPULAN HASIL PEMERIKSAAN INI"
-        Me.XrTableCell259.Weight = 7.87999816894531R
+        Me.XrTableCell259.Weight = 7.8900012207031223R
         '
         'XrTableRow57
         '
@@ -3980,13 +4202,13 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell260.StylePriority.UseBorders = False
         Me.XrTableCell260.StylePriority.UseFont = False
         Me.XrTableCell260.StylePriority.UsePadding = False
-        Me.XrTableCell260.Weight = 7.87999816894531R
+        Me.XrTableCell260.Weight = 7.8900012207031223R
         '
         'XrCheckBox97
         '
         Me.XrCheckBox97.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox97.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit95")})
-        Me.XrCheckBox97.Font = New System.Drawing.Font("Times New Roman", 9.75!)
+        Me.XrCheckBox97.Font = New System.Drawing.Font("Arial", 10.0!)
         Me.XrCheckBox97.LocationFloat = New DevExpress.Utils.PointFloat(336.4387!, 0!)
         Me.XrCheckBox97.Name = "XrCheckBox97"
         Me.XrCheckBox97.SizeF = New System.Drawing.SizeF(163.2193!, 23.0!)
@@ -3998,7 +4220,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrCheckBox96.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox96.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit94")})
-        Me.XrCheckBox96.Font = New System.Drawing.Font("Times New Roman", 9.75!)
+        Me.XrCheckBox96.Font = New System.Drawing.Font("Arial", 10.0!)
         Me.XrCheckBox96.LocationFloat = New DevExpress.Utils.PointFloat(173.2194!, 0!)
         Me.XrCheckBox96.Name = "XrCheckBox96"
         Me.XrCheckBox96.SizeF = New System.Drawing.SizeF(163.2193!, 23.0!)
@@ -4010,7 +4232,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrCheckBox95.Borders = DevExpress.XtraPrinting.BorderSide.None
         Me.XrCheckBox95.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("CheckState", Nothing, "CheckEdit93")})
-        Me.XrCheckBox95.Font = New System.Drawing.Font("Times New Roman", 9.75!)
+        Me.XrCheckBox95.Font = New System.Drawing.Font("Arial", 10.0!)
         Me.XrCheckBox95.LocationFloat = New DevExpress.Utils.PointFloat(10.00001!, 0!)
         Me.XrCheckBox95.Name = "XrCheckBox95"
         Me.XrCheckBox95.SizeF = New System.Drawing.SizeF(163.2193!, 23.0!)
@@ -4027,14 +4249,14 @@ Partial Public Class xtraMedicalCheckUp
         'XrTableCell261
         '
         Me.XrTableCell261.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Right), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableCell261.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell261.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell261.Name = "XrTableCell261"
         Me.XrTableCell261.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100.0!)
         Me.XrTableCell261.StylePriority.UseBorders = False
         Me.XrTableCell261.StylePriority.UseFont = False
         Me.XrTableCell261.StylePriority.UsePadding = False
         Me.XrTableCell261.Text = "V. CATATAN"
-        Me.XrTableCell261.Weight = 7.87999816894531R
+        Me.XrTableCell261.Weight = 7.8900012207031223R
         '
         'XrTableRow58
         '
@@ -4047,13 +4269,13 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell262.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Right) _
             Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
         Me.XrTableCell262.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "MemoEdit13")})
-        Me.XrTableCell262.Font = New System.Drawing.Font("Times New Roman", 9.75!)
+        Me.XrTableCell262.Font = New System.Drawing.Font("Arial", 10.0!)
         Me.XrTableCell262.Name = "XrTableCell262"
         Me.XrTableCell262.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
         Me.XrTableCell262.StylePriority.UseBorders = False
         Me.XrTableCell262.StylePriority.UseFont = False
         Me.XrTableCell262.StylePriority.UsePadding = False
-        Me.XrTableCell262.Weight = 7.87999816894531R
+        Me.XrTableCell262.Weight = 7.8900012207031223R
         '
         'XrTableRow59
         '
@@ -4064,14 +4286,14 @@ Partial Public Class xtraMedicalCheckUp
         'XrTableCell263
         '
         Me.XrTableCell263.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Right), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableCell263.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.XrTableCell263.Font = New System.Drawing.Font("Arial", 10.0!, System.Drawing.FontStyle.Bold)
         Me.XrTableCell263.Name = "XrTableCell263"
         Me.XrTableCell263.Padding = New DevExpress.XtraPrinting.PaddingInfo(5, 0, 0, 0, 100.0!)
         Me.XrTableCell263.StylePriority.UseBorders = False
         Me.XrTableCell263.StylePriority.UseFont = False
         Me.XrTableCell263.StylePriority.UsePadding = False
         Me.XrTableCell263.Text = "VI. SARAN"
-        Me.XrTableCell263.Weight = 7.87999816894531R
+        Me.XrTableCell263.Weight = 7.8900012207031223R
         '
         'XrTableRow60
         '
@@ -4084,18 +4306,18 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell264.Borders = CType(((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Right) _
             Or DevExpress.XtraPrinting.BorderSide.Bottom), DevExpress.XtraPrinting.BorderSide)
         Me.XrTableCell264.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "MemoEdit14")})
-        Me.XrTableCell264.Font = New System.Drawing.Font("Times New Roman", 9.75!)
+        Me.XrTableCell264.Font = New System.Drawing.Font("Arial", 10.0!)
         Me.XrTableCell264.Name = "XrTableCell264"
         Me.XrTableCell264.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
         Me.XrTableCell264.StylePriority.UseBorders = False
         Me.XrTableCell264.StylePriority.UseFont = False
         Me.XrTableCell264.StylePriority.UsePadding = False
-        Me.XrTableCell264.Weight = 7.87999816894531R
+        Me.XrTableCell264.Weight = 7.8900012207031223R
         '
         'XrPictureBox2
         '
         Me.XrPictureBox2.Borders = DevExpress.XtraPrinting.BorderSide.Right
-        Me.XrPictureBox2.LocationFloat = New DevExpress.Utils.PointFloat(360.6753!, 725.0001!)
+        Me.XrPictureBox2.LocationFloat = New DevExpress.Utils.PointFloat(360.6754!, 750.0!)
         Me.XrPictureBox2.Name = "XrPictureBox2"
         Me.XrPictureBox2.SizeF = New System.Drawing.SizeF(428.3248!, 124.9999!)
         Me.XrPictureBox2.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage
@@ -4123,7 +4345,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'sN
         '
-        Me.sN.Expression = "[CheckEdit10] + ' x/m'"
+        Me.sN.Expression = "[MemoEdit10] + ' x/m'             + 'Spo2 : ' + [MemoEdit15]"
         Me.sN.Name = "sN"
         '
         'sS
@@ -4133,7 +4355,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'sR
         '
-        Me.sR.Expression = "[CheckEdit12] + ' x/m'"
+        Me.sR.Expression = "[MemoEdit12] + ' x/m'"
         Me.sR.Name = "sR"
         '
         'sTanggalLahir
@@ -4145,152 +4367,131 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.bindingSource.DataSource = GetType(DataAccess.S_DIGITAL_MEDICALCHECKUP)
         '
-        'XrTableRow61
+        'XrTableRow64
         '
-        Me.XrTableRow61.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell265, Me.XrTableCell266, Me.XrTableCell267, Me.XrTableCell268, Me.XrTableCell269, Me.XrTableCell270, Me.XrTableCell271, Me.XrTableCell272, Me.XrTableCell273})
-        Me.XrTableRow61.Name = "XrTableRow61"
-        Me.XrTableRow61.Weight = 1.0R
+        Me.XrTableRow64.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell277, Me.XrTableCell278, Me.XrTableCell279})
+        Me.XrTableRow64.Name = "XrTableRow64"
+        Me.XrTableRow64.Weight = 1.0R
         '
-        'XrTableCell265
+        'XrTableCell277
         '
-        Me.XrTableCell265.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableCell265.Name = "XrTableCell265"
-        Me.XrTableCell265.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
-        Me.XrTableCell265.StylePriority.UseBorders = False
-        Me.XrTableCell265.StylePriority.UsePadding = False
-        Me.XrTableCell265.Weight = 3.5087360123791349R
+        Me.XrTableCell277.Borders = DevExpress.XtraPrinting.BorderSide.Left
+        Me.XrTableCell277.Name = "XrTableCell277"
+        Me.XrTableCell277.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
+        Me.XrTableCell277.StylePriority.UseBorders = False
+        Me.XrTableCell277.StylePriority.UsePadding = False
+        Me.XrTableCell277.Text = "Kesadaran"
+        Me.XrTableCell277.Weight = 3.07493903021653R
         '
-        'XrTableCell266
+        'XrTableCell278
         '
-        Me.XrTableCell266.Borders = DevExpress.XtraPrinting.BorderSide.Top
-        Me.XrTableCell266.Name = "XrTableCell266"
-        Me.XrTableCell266.StylePriority.UseBorders = False
-        Me.XrTableCell266.StylePriority.UseTextAlignment = False
-        Me.XrTableCell266.Text = "Ya  /"
-        Me.XrTableCell266.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrTableCell266.Weight = 0.7267210933326973R
+        Me.XrTableCell278.Name = "XrTableCell278"
+        Me.XrTableCell278.Text = ":"
+        Me.XrTableCell278.Weight = 0.199299718727616R
         '
-        'XrTableCell267
+        'XrTableCell279
         '
-        Me.XrTableCell267.Borders = DevExpress.XtraPrinting.BorderSide.Top
-        Me.XrTableCell267.Name = "XrTableCell267"
-        Me.XrTableCell267.StylePriority.UseBorders = False
-        Me.XrTableCell267.StylePriority.UseTextAlignment = False
-        Me.XrTableCell267.Text = "Tidak"
-        Me.XrTableCell267.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrTableCell267.Weight = 1.3480606469291478R
+        Me.XrTableCell279.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrTableCell279.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "MemoEdit16")})
+        Me.XrTableCell279.Name = "XrTableCell279"
+        Me.XrTableCell279.StylePriority.UseBorders = False
+        Me.XrTableCell279.Text = "XrTableCell279"
+        Me.XrTableCell279.Weight = 11.6396608571637R
         '
-        'XrTableCell268
+        'XrTableCell282
         '
-        Me.XrTableCell268.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableCell268.Name = "XrTableCell268"
-        Me.XrTableCell268.StylePriority.UseBorders = False
-        Me.XrTableCell268.Weight = 2.8919557304555092R
+        Me.XrTableCell282.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrTableCell282.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "NAMADOKTER")})
+        Me.XrTableCell282.Name = "XrTableCell282"
+        Me.XrTableCell282.StylePriority.UseBorders = False
+        Me.XrTableCell282.Text = "XrTableCell282"
+        Me.XrTableCell282.Weight = 4.1205728391005438R
         '
-        'XrTableCell269
+        'XrTableCell281
         '
-        Me.XrTableCell269.Borders = DevExpress.XtraPrinting.BorderSide.Top
-        Me.XrTableCell269.Name = "XrTableCell269"
-        Me.XrTableCell269.StylePriority.UseBorders = False
-        Me.XrTableCell269.StylePriority.UseTextAlignment = False
-        Me.XrTableCell269.Text = "Ya  /"
-        Me.XrTableCell269.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrTableCell269.Weight = 1.2330205591601733R
+        Me.XrTableCell281.Name = "XrTableCell281"
+        Me.XrTableCell281.StylePriority.UseTextAlignment = False
+        Me.XrTableCell281.Text = ":"
+        Me.XrTableCell281.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrTableCell281.Weight = 0.057458834419369331R
         '
-        'XrTableCell270
+        'XrTableCell280
         '
-        Me.XrTableCell270.Borders = DevExpress.XtraPrinting.BorderSide.Top
-        Me.XrTableCell270.Name = "XrTableCell270"
-        Me.XrTableCell270.StylePriority.UseBorders = False
-        Me.XrTableCell270.StylePriority.UseTextAlignment = False
-        Me.XrTableCell270.Text = " Tidak"
-        Me.XrTableCell270.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft
-        Me.XrTableCell270.Weight = 1.1541161688583341R
+        Me.XrTableCell280.Borders = DevExpress.XtraPrinting.BorderSide.None
+        Me.XrTableCell280.Name = "XrTableCell280"
+        Me.XrTableCell280.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
+        Me.XrTableCell280.StylePriority.UseBorders = False
+        Me.XrTableCell280.StylePriority.UsePadding = False
+        Me.XrTableCell280.Text = "Dokter"
+        Me.XrTableCell280.Weight = 2.3171157774187296R
         '
-        'XrTableCell271
+        'XrTableRow65
         '
-        Me.XrTableCell271.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableCell271.Name = "XrTableCell271"
-        Me.XrTableCell271.StylePriority.UseBorders = False
-        Me.XrTableCell271.Weight = 3.0872399351974735R
+        Me.XrTableRow65.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell291, Me.XrTableCell280, Me.XrTableCell281, Me.XrTableCell282})
+        Me.XrTableRow65.Name = "XrTableRow65"
+        Me.XrTableRow65.Weight = 1.0R
         '
-        'XrTableCell272
+        'XrTableCell286
         '
-        Me.XrTableCell272.Borders = DevExpress.XtraPrinting.BorderSide.Top
-        Me.XrTableCell272.Name = "XrTableCell272"
-        Me.XrTableCell272.StylePriority.UseBorders = False
-        Me.XrTableCell272.Text = "Ya  /"
-        Me.XrTableCell272.Weight = 0.94364282763812279R
+        Me.XrTableCell286.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top), DevExpress.XtraPrinting.BorderSide)
+        Me.XrTableCell286.BorderWidth = 1.0!
+        Me.XrTableCell286.Name = "XrTableCell286"
+        Me.XrTableCell286.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
+        Me.XrTableCell286.RowSpan = 6
+        Me.XrTableCell286.StylePriority.UseBorders = False
+        Me.XrTableCell286.StylePriority.UseBorderWidth = False
+        Me.XrTableCell286.StylePriority.UsePadding = False
+        Me.XrTableCell286.Weight = 4.9228521289639042R
         '
-        'XrTableCell273
+        'XrTableCell287
         '
-        Me.XrTableCell273.Borders = CType((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableCell273.Name = "XrTableCell273"
-        Me.XrTableCell273.StylePriority.UseBorders = False
-        Me.XrTableCell273.Text = " Tidak"
-        Me.XrTableCell273.Weight = 2.124383760170363R
+        Me.XrTableCell287.Borders = DevExpress.XtraPrinting.BorderSide.Left
+        Me.XrTableCell287.Name = "XrTableCell287"
+        Me.XrTableCell287.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
+        Me.XrTableCell287.StylePriority.UseBorders = False
+        Me.XrTableCell287.StylePriority.UsePadding = False
+        Me.XrTableCell287.Text = "XrTableCell287"
+        Me.XrTableCell287.Weight = 4.9228521289639042R
         '
-        'XrTable4
+        'XrTableCell288
         '
-        Me.XrTable4.Font = New System.Drawing.Font("Arial", 10.0!)
-        Me.XrTable4.LocationFloat = New DevExpress.Utils.PointFloat(24.0!, 1525.0!)
-        Me.XrTable4.Name = "XrTable4"
-        Me.XrTable4.Rows.AddRange(New DevExpress.XtraReports.UI.XRTableRow() {Me.XrTableRow62, Me.XrTableRow63})
-        Me.XrTable4.SizeF = New System.Drawing.SizeF(741.0!, 36.51961!)
-        Me.XrTable4.StylePriority.UseFont = False
-        Me.XrTable4.StylePriority.UseTextAlignment = False
-        Me.XrTable4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrTableCell288.Borders = DevExpress.XtraPrinting.BorderSide.Left
+        Me.XrTableCell288.Name = "XrTableCell288"
+        Me.XrTableCell288.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
+        Me.XrTableCell288.StylePriority.UseBorders = False
+        Me.XrTableCell288.StylePriority.UsePadding = False
+        Me.XrTableCell288.Text = "XrTableCell288"
+        Me.XrTableCell288.Weight = 4.9228521289639042R
         '
-        'XrTableRow62
+        'XrTableCell289
         '
-        Me.XrTableRow62.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell274, Me.lblTANGGAL})
-        Me.XrTableRow62.Name = "XrTableRow62"
-        Me.XrTableRow62.Weight = 1.0R
+        Me.XrTableCell289.Borders = DevExpress.XtraPrinting.BorderSide.Left
+        Me.XrTableCell289.Name = "XrTableCell289"
+        Me.XrTableCell289.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
+        Me.XrTableCell289.StylePriority.UseBorders = False
+        Me.XrTableCell289.StylePriority.UsePadding = False
+        Me.XrTableCell289.Text = "XrTableCell289"
+        Me.XrTableCell289.Weight = 4.9228521289639042R
         '
-        'XrTableCell274
+        'XrTableCell290
         '
-        Me.XrTableCell274.Name = "XrTableCell274"
-        Me.XrTableCell274.Weight = 1.38050033817671R
+        Me.XrTableCell290.Borders = DevExpress.XtraPrinting.BorderSide.Left
+        Me.XrTableCell290.Name = "XrTableCell290"
+        Me.XrTableCell290.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
+        Me.XrTableCell290.StylePriority.UseBorders = False
+        Me.XrTableCell290.StylePriority.UsePadding = False
+        Me.XrTableCell290.Text = "XrTableCell290"
+        Me.XrTableCell290.Weight = 4.9228521289639042R
         '
-        'lblTANGGAL
+        'XrTableCell291
         '
-        Me.lblTANGGAL.Name = "lblTANGGAL"
-        Me.lblTANGGAL.Weight = 1.50195919540433R
-        '
-        'XrTableRow63
-        '
-        Me.XrTableRow63.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell275, Me.XrTableCell276})
-        Me.XrTableRow63.Name = "XrTableRow63"
-        Me.XrTableRow63.Weight = 1.0R
-        '
-        'XrTableCell275
-        '
-        Me.XrTableCell275.Name = "XrTableCell275"
-        Me.XrTableCell275.Weight = 1.38050033817671R
-        '
-        'XrTableCell276
-        '
-        Me.XrTableCell276.Name = "XrTableCell276"
-        Me.XrTableCell276.Text = "Dokter Penanggung Jawab Pelayanan,"
-        Me.XrTableCell276.Weight = 1.50195919540433R
-        '
-        'XrPictureBox3
-        '
-        Me.XrPictureBox3.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrPictureBox3.LocationFloat = New DevExpress.Utils.PointFloat(490.7299!, 1561.52!)
-        Me.XrPictureBox3.Name = "XrPictureBox3"
-        Me.XrPictureBox3.SizeF = New System.Drawing.SizeF(115.3621!, 90.4659!)
-        Me.XrPictureBox3.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage
-        Me.XrPictureBox3.StylePriority.UseBorders = False
-        '
-        'XrPictureBox5
-        '
-        Me.XrPictureBox5.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrPictureBox5.LocationFloat = New DevExpress.Utils.PointFloat(386.6043!, 1651.985!)
-        Me.XrPictureBox5.Name = "XrPictureBox5"
-        Me.XrPictureBox5.SizeF = New System.Drawing.SizeF(319.958!, 64.45827!)
-        Me.XrPictureBox5.Sizing = DevExpress.XtraPrinting.ImageSizeMode.StretchImage
-        Me.XrPictureBox5.StylePriority.UseBorders = False
+        Me.XrTableCell291.Borders = DevExpress.XtraPrinting.BorderSide.Left
+        Me.XrTableCell291.Name = "XrTableCell291"
+        Me.XrTableCell291.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
+        Me.XrTableCell291.StylePriority.UseBorders = False
+        Me.XrTableCell291.StylePriority.UsePadding = False
+        Me.XrTableCell291.Text = "XrTableCell291"
+        Me.XrTableCell291.Weight = 4.9228521289639042R
         '
         'xtraMedicalCheckUp
         '
@@ -4306,11 +4507,11 @@ Partial Public Class xtraMedicalCheckUp
         Me.Version = "15.1"
         CType(Me.XrTable1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.XrTable2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.XrTable4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.XrTable6, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.XrTable5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.XrTable3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.bindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.XrTable4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
     End Sub
@@ -4795,4 +4996,18 @@ Partial Public Class xtraMedicalCheckUp
     Friend WithEvents XrTableCell276 As DevExpress.XtraReports.UI.XRTableCell
     Friend WithEvents XrPictureBox3 As DevExpress.XtraReports.UI.XRPictureBox
     Friend WithEvents XrPictureBox5 As DevExpress.XtraReports.UI.XRPictureBox
+    Friend WithEvents XrTableRow64 As DevExpress.XtraReports.UI.XRTableRow
+    Friend WithEvents XrTableCell277 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell278 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell279 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell286 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell287 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell288 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell289 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell290 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableRow65 As DevExpress.XtraReports.UI.XRTableRow
+    Friend WithEvents XrTableCell291 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell280 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell281 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents XrTableCell282 As DevExpress.XtraReports.UI.XRTableCell
 End Class

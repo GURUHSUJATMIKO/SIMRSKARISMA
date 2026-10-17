@@ -269,6 +269,8 @@ Public Class frmReqRecipeRawatInap
                 End Try
 
                 .ISPULANG = chkISPULANG.Checked
+
+
             End With
 
             ' ***** DETIL *****
@@ -298,6 +300,12 @@ Public Class frmReqRecipeRawatInap
                         .REMARKS_FARMASI = ""
                     End Try
                     .DOSIS = IIf(String.IsNullOrEmpty(grvDetailResep.GetRowCellValue(i, colDOSIS)), "", grvDetailResep.GetRowCellValue(i, colDOSIS))
+
+                    Try
+                        .STATUSKIRIMRESEP = oReqRecipeRawatInap.GetDataObatBySeq(ds.KDREQRECIPE_RI, i).STATUSKIRIMRESEP
+                    Catch ex As Exception
+                        .STATUSKIRIMRESEP = "RESEP"
+                    End Try
                 End With
 
                 If grvDetailResep.GetRowCellValue(i, colKDITEM) IsNot Nothing Then

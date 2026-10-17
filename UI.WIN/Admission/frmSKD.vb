@@ -58,12 +58,14 @@ Public Class frmSKD
     Public Sub fn_LoadLanguage()
         Try
             lDATE_KONTROL_2.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never
+            lKUOTA.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never
 
             If sKategori = 0 Then
                 Me.Text = "Rencana Kontrol Selanjutnya - Edit Form"
 
                 lKDDEPARTMENT.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always
                 lSEARCHTEXT.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Never
+                lKUOTA.Visibility = DevExpress.XtraLayout.Utils.LayoutVisibility.Always
 
                 lKDSKD.Text = SKD.KDSKD
                 lDATE.Text = SKD.TANGGAL
@@ -357,6 +359,8 @@ Public Class frmSKD
                 txtSEARCH.Text = .REQUEST
                 txtORDERPENUNJANG.Text = .ORDERPENUNJANG
                 deDATEKONTROL_2.DateTime = .DATEKONTROL_2
+
+                lblSisaKuota.Text = "SISA KUOTA " & fn_LoadKDDOCTORJADWALDOKTER(grdKDDOCTOR.EditValue, deDATEKONTROL.DateTime.ToString("yyyyMMdd")) & " DI TANGGAL " & deDATEKONTROL.DateTime.ToString("dd-MM-yyyy")
             End With
         Catch oErr As Exception
             MsgBox(Statement.ErrorStatement & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)
@@ -976,6 +980,56 @@ Public Class frmSKD
             MsgBox(Statement.ErrorStatement & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)
         End Try
     End Sub
+    Private Function fn_LoadKDDOCTORJADWALDOKTER(ByVal KDDOCTOR As String, ByVal TANGGAL As String) As Integer
+        Try
+            fn_LoadKDDOCTORJADWALDOKTER = 0
+
+            Dim oConn As New SqlConnection
+            Dim oComm As New SqlCommand
+            Dim da As SqlDataAdapter
+            Dim ds As New DataSet
+            Dim SQL As String
+            Dim sConn As String = Decrypt(My.Computer.Registry.GetValue("HKEY_CURRENT_USER\Software\SIMRS\SW\", "Database", "").ToString())
+
+            oConn = New SqlConnection(sConn)
+
+            If oConn.State = ConnectionState.Closed Then
+                oConn.Open()
+            End If
+
+            SQL = "SELECT "
+            SQL &= "TOTAL = COUNT(A.KDCOUNTER) "
+            SQL &= "FROM  "
+            SQL &= "BUDIJAYAGROUP_RSKC..Z_COUNTER_ANTRIAN_H A "
+            SQL &= "INNER JOIN BUDIJAYAGROUP_RSKC..Z_COUNTER_ANTRIAN_D B "
+            SQL &= "ON A.KDCOUNTER = B.KDCOUNTER "
+            SQL &= "WHERE "
+            SQL &= "B.ISCHEKED = 0 "
+            SQL &= "AND CONVERT(VARCHAR(8), A.DATE, 112) = '" & TANGGAL & "' "
+            SQL &= "AND A.KDDOCTOR = '" & KDDOCTOR & "' "
+
+            oComm.Connection = oConn
+            oComm.CommandText = SQL
+            oComm.CommandTimeout = 120
+            oComm.CommandType = CommandType.Text
+
+            da = New SqlDataAdapter(oComm)
+            da.Fill(ds, "Z_COUNTER_ANTRIAN_H")
+
+            If oConn.State = ConnectionState.Open Then
+                oConn.Close()
+            End If
+
+            For iLoop As Integer = 0 To ds.Tables("Z_COUNTER_ANTRIAN_H").Rows.Count - 1
+                With ds.Tables("Z_COUNTER_ANTRIAN_H")
+                    fn_LoadKDDOCTORJADWALDOKTER = .Rows(iLoop)("TOTAL")
+                End With
+            Next
+
+        Catch oErr As Exception
+            MsgBox("Load Kuota Dokter" & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)
+        End Try
+    End Function
     Private Sub txtDESCRIPTION_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtDESCRIPTION.KeyPress
         If Asc(e.KeyChar) = Keys.Tab Then
             btnSaveClose_Click()
@@ -998,6 +1052,11 @@ Public Class frmSKD
                     fn_LoadKDDOCTOR2(grdKDDEPARTMENT.EditValue)
                 End If
             End If
+        End If
+    End Sub
+    Private Sub grdKDDOCTOR_EditValueChanged(sender As Object, e As EventArgs) Handles grdKDDOCTOR.EditValueChanged
+        If isLoad = True Then
+            lblSisaKuota.Text = "SISA KUOTA " & fn_LoadKDDOCTORJADWALDOKTER(grdKDDOCTOR.EditValue, deDATEKONTROL.DateTime.ToString("yyyyMMdd")) & " DI TANGGAL " & deDATEKONTROL.DateTime.ToString("dd-MM-yyyy")
         End If
     End Sub
 #End Region

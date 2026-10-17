@@ -21,7 +21,7 @@ Partial Class frmMedicalCheckUP
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.layoutControl = New DevExpress.XtraLayout.LayoutControl()
-        Me.txtTANGGALMASUK = New DevExpress.XtraEditors.TextEdit()
+        Me.MemoEdit16 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.barManager = New DevExpress.XtraBars.BarManager(Me.components)
         Me.barTop = New DevExpress.XtraBars.Bar()
         Me.btnSaveNew = New DevExpress.XtraBars.BarButtonItem()
@@ -33,6 +33,8 @@ Partial Class frmMedicalCheckUP
         Me.barDockControlRight = New DevExpress.XtraBars.BarDockControl()
         Me.progressBarSave = New DevExpress.XtraEditors.Repository.RepositoryItemMarqueeProgressBar()
         Me.progressSave = New DevExpress.XtraEditors.Repository.RepositoryItemMarqueeProgressBar()
+        Me.MemoEdit15 = New DevExpress.XtraEditors.MemoEdit()
+        Me.txtTANGGALMASUK = New DevExpress.XtraEditors.TextEdit()
         Me.txtJENISKELAMIN = New DevExpress.XtraEditors.TextEdit()
         Me.txtUMUR = New DevExpress.XtraEditors.TextEdit()
         Me.txtTANGGALLAHIR = New DevExpress.XtraEditors.TextEdit()
@@ -179,7 +181,6 @@ Partial Class frmMedicalCheckUP
         Me.MemoEdit10 = New DevExpress.XtraEditors.MemoEdit()
         Me.MemoEdit9 = New DevExpress.XtraEditors.MemoEdit()
         Me.LabelControl9 = New DevExpress.XtraEditors.LabelControl()
-        Me.LabelControl8 = New DevExpress.XtraEditors.LabelControl()
         Me.MemoEdit8 = New DevExpress.XtraEditors.MemoEdit()
         Me.MemoEdit7 = New DevExpress.XtraEditors.MemoEdit()
         Me.LabelControl7 = New DevExpress.XtraEditors.LabelControl()
@@ -240,14 +241,11 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem28 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem29 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem30 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem31 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem32 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem33 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem34 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem35 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem36 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem37 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem38 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem45 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem47 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem48 = New DevExpress.XtraLayout.LayoutControlItem()
@@ -395,12 +393,23 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem87 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem88 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem89 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.EmptySpaceItem7 = New DevExpress.XtraLayout.EmptySpaceItem()
+        Me.LayoutControlItem38 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem90 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem37 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.EmptySpaceItem8 = New DevExpress.XtraLayout.EmptySpaceItem()
+        Me.LayoutControlItem91 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.MemoEdit17 = New DevExpress.XtraEditors.TextEdit()
+        Me.LayoutControlItem178 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.EmptySpaceItem9 = New DevExpress.XtraLayout.EmptySpaceItem()
         CType(Me.layoutControl, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.layoutControl.SuspendLayout()
-        CType(Me.txtTANGGALMASUK.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MemoEdit16.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.barManager, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.progressBarSave, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.progressSave, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MemoEdit15.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.txtTANGGALMASUK.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtJENISKELAMIN.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtUMUR.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.txtTANGGALLAHIR.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -561,14 +570,11 @@ Partial Class frmMedicalCheckUP
         CType(Me.LayoutControlItem28, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem29, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem30, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem31, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem32, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem33, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem34, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem35, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem36, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem37, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem38, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem45, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem47, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem48, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -716,10 +722,22 @@ Partial Class frmMedicalCheckUP
         CType(Me.LayoutControlItem87, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem88, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem89, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EmptySpaceItem7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem38, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem90, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem37, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EmptySpaceItem8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem91, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MemoEdit17.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem178, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EmptySpaceItem9, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'layoutControl
         '
+        Me.layoutControl.Controls.Add(Me.MemoEdit17)
+        Me.layoutControl.Controls.Add(Me.MemoEdit16)
+        Me.layoutControl.Controls.Add(Me.MemoEdit15)
         Me.layoutControl.Controls.Add(Me.txtTANGGALMASUK)
         Me.layoutControl.Controls.Add(Me.txtJENISKELAMIN)
         Me.layoutControl.Controls.Add(Me.txtUMUR)
@@ -864,7 +882,6 @@ Partial Class frmMedicalCheckUP
         Me.layoutControl.Controls.Add(Me.MemoEdit10)
         Me.layoutControl.Controls.Add(Me.MemoEdit9)
         Me.layoutControl.Controls.Add(Me.LabelControl9)
-        Me.layoutControl.Controls.Add(Me.LabelControl8)
         Me.layoutControl.Controls.Add(Me.MemoEdit8)
         Me.layoutControl.Controls.Add(Me.MemoEdit7)
         Me.layoutControl.Controls.Add(Me.LabelControl7)
@@ -899,21 +916,23 @@ Partial Class frmMedicalCheckUP
         Me.layoutControl.Dock = System.Windows.Forms.DockStyle.Fill
         Me.layoutControl.Location = New System.Drawing.Point(0, 0)
         Me.layoutControl.Name = "layoutControl"
-        Me.layoutControl.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(1133, 250, 250, 350)
+        Me.layoutControl.OptionsCustomizationForm.DesignTimeCustomizationFormPositionAndSize = New System.Drawing.Rectangle(1056, 242, 250, 350)
         Me.layoutControl.Root = Me.LayoutControlGroup1
-        Me.layoutControl.Size = New System.Drawing.Size(787, 523)
+        Me.layoutControl.Size = New System.Drawing.Size(864, 523)
         Me.layoutControl.TabIndex = 0
         Me.layoutControl.Text = "LayoutControl1"
         '
-        'txtTANGGALMASUK
+        'MemoEdit16
         '
-        Me.txtTANGGALMASUK.Location = New System.Drawing.Point(513, -404)
-        Me.txtTANGGALMASUK.MenuManager = Me.barManager
-        Me.txtTANGGALMASUK.Name = "txtTANGGALMASUK"
-        Me.txtTANGGALMASUK.Properties.ReadOnly = True
-        Me.txtTANGGALMASUK.Size = New System.Drawing.Size(235, 20)
-        Me.txtTANGGALMASUK.StyleController = Me.layoutControl
-        Me.txtTANGGALMASUK.TabIndex = 19
+        Me.MemoEdit16.Location = New System.Drawing.Point(117, 217)
+        Me.MemoEdit16.MenuManager = Me.barManager
+        Me.MemoEdit16.Name = "MemoEdit16"
+        Me.MemoEdit16.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
+        Me.MemoEdit16.Properties.Items.AddRange(New Object() {"Compos Mentis", "Somnolen", "Sopor", "Koma"})
+        Me.MemoEdit16.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
+        Me.MemoEdit16.Size = New System.Drawing.Size(294, 20)
+        Me.MemoEdit16.StyleController = Me.layoutControl
+        Me.MemoEdit16.TabIndex = 28
         '
         'barManager
         '
@@ -964,14 +983,14 @@ Partial Class frmMedicalCheckUP
         Me.barDockControlTop.CausesValidation = False
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlTop.Size = New System.Drawing.Size(787, 0)
+        Me.barDockControlTop.Size = New System.Drawing.Size(864, 0)
         '
         'barDockControlBottom
         '
         Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.barDockControlBottom.Location = New System.Drawing.Point(0, 523)
-        Me.barDockControlBottom.Size = New System.Drawing.Size(787, 22)
+        Me.barDockControlBottom.Size = New System.Drawing.Size(864, 22)
         '
         'barDockControlLeft
         '
@@ -984,7 +1003,7 @@ Partial Class frmMedicalCheckUP
         '
         Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
-        Me.barDockControlRight.Location = New System.Drawing.Point(787, 0)
+        Me.barDockControlRight.Location = New System.Drawing.Point(864, 0)
         Me.barDockControlRight.Size = New System.Drawing.Size(0, 523)
         '
         'progressBarSave
@@ -997,59 +1016,78 @@ Partial Class frmMedicalCheckUP
         Me.progressSave.Name = "progressSave"
         Me.progressSave.Paused = True
         '
+        'MemoEdit15
+        '
+        Me.MemoEdit15.Location = New System.Drawing.Point(520, 337)
+        Me.MemoEdit15.MenuManager = Me.barManager
+        Me.MemoEdit15.Name = "MemoEdit15"
+        Me.MemoEdit15.Size = New System.Drawing.Size(77, 20)
+        Me.MemoEdit15.StyleController = Me.layoutControl
+        Me.MemoEdit15.TabIndex = 50
+        '
+        'txtTANGGALMASUK
+        '
+        Me.txtTANGGALMASUK.Location = New System.Drawing.Point(541, -270)
+        Me.txtTANGGALMASUK.MenuManager = Me.barManager
+        Me.txtTANGGALMASUK.Name = "txtTANGGALMASUK"
+        Me.txtTANGGALMASUK.Properties.ReadOnly = True
+        Me.txtTANGGALMASUK.Size = New System.Drawing.Size(282, 20)
+        Me.txtTANGGALMASUK.StyleController = Me.layoutControl
+        Me.txtTANGGALMASUK.TabIndex = 19
+        '
         'txtJENISKELAMIN
         '
-        Me.txtJENISKELAMIN.Location = New System.Drawing.Point(149, -404)
+        Me.txtJENISKELAMIN.Location = New System.Drawing.Point(149, -270)
         Me.txtJENISKELAMIN.MenuManager = Me.barManager
         Me.txtJENISKELAMIN.Name = "txtJENISKELAMIN"
         Me.txtJENISKELAMIN.Properties.ReadOnly = True
-        Me.txtJENISKELAMIN.Size = New System.Drawing.Size(235, 20)
+        Me.txtJENISKELAMIN.Size = New System.Drawing.Size(263, 20)
         Me.txtJENISKELAMIN.StyleController = Me.layoutControl
         Me.txtJENISKELAMIN.TabIndex = 19
         '
         'txtUMUR
         '
-        Me.txtUMUR.Location = New System.Drawing.Point(513, -428)
+        Me.txtUMUR.Location = New System.Drawing.Point(541, -294)
         Me.txtUMUR.MenuManager = Me.barManager
         Me.txtUMUR.Name = "txtUMUR"
         Me.txtUMUR.Properties.ReadOnly = True
-        Me.txtUMUR.Size = New System.Drawing.Size(235, 20)
+        Me.txtUMUR.Size = New System.Drawing.Size(282, 20)
         Me.txtUMUR.StyleController = Me.layoutControl
         Me.txtUMUR.TabIndex = 19
         '
         'txtTANGGALLAHIR
         '
-        Me.txtTANGGALLAHIR.Location = New System.Drawing.Point(513, -452)
+        Me.txtTANGGALLAHIR.Location = New System.Drawing.Point(541, -318)
         Me.txtTANGGALLAHIR.MenuManager = Me.barManager
         Me.txtTANGGALLAHIR.Name = "txtTANGGALLAHIR"
         Me.txtTANGGALLAHIR.Properties.ReadOnly = True
-        Me.txtTANGGALLAHIR.Size = New System.Drawing.Size(235, 20)
+        Me.txtTANGGALLAHIR.Size = New System.Drawing.Size(282, 20)
         Me.txtTANGGALLAHIR.StyleController = Me.layoutControl
         Me.txtTANGGALLAHIR.TabIndex = 19
         '
         'txtNAMA
         '
-        Me.txtNAMA.Location = New System.Drawing.Point(149, -428)
+        Me.txtNAMA.Location = New System.Drawing.Point(149, -294)
         Me.txtNAMA.MenuManager = Me.barManager
         Me.txtNAMA.Name = "txtNAMA"
         Me.txtNAMA.Properties.ReadOnly = True
-        Me.txtNAMA.Size = New System.Drawing.Size(235, 20)
+        Me.txtNAMA.Size = New System.Drawing.Size(263, 20)
         Me.txtNAMA.StyleController = Me.layoutControl
         Me.txtNAMA.TabIndex = 19
         '
         'txtRM
         '
-        Me.txtRM.Location = New System.Drawing.Point(149, -452)
+        Me.txtRM.Location = New System.Drawing.Point(149, -318)
         Me.txtRM.MenuManager = Me.barManager
         Me.txtRM.Name = "txtRM"
         Me.txtRM.Properties.ReadOnly = True
-        Me.txtRM.Size = New System.Drawing.Size(235, 20)
+        Me.txtRM.Size = New System.Drawing.Size(263, 20)
         Me.txtRM.StyleController = Me.layoutControl
         Me.txtRM.TabIndex = 18
         '
         'LabelControl29
         '
-        Me.LabelControl29.Location = New System.Drawing.Point(757, 1201)
+        Me.LabelControl29.Location = New System.Drawing.Point(832, 1359)
         Me.LabelControl29.Name = "LabelControl29"
         Me.LabelControl29.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl29.StyleController = Me.layoutControl
@@ -1058,7 +1096,7 @@ Partial Class frmMedicalCheckUP
         '
         'LabelControl28
         '
-        Me.LabelControl28.Location = New System.Drawing.Point(757, 1184)
+        Me.LabelControl28.Location = New System.Drawing.Point(832, 1342)
         Me.LabelControl28.Name = "LabelControl28"
         Me.LabelControl28.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl28.StyleController = Me.layoutControl
@@ -1067,7 +1105,7 @@ Partial Class frmMedicalCheckUP
         '
         'LabelControl27
         '
-        Me.LabelControl27.Location = New System.Drawing.Point(757, 1150)
+        Me.LabelControl27.Location = New System.Drawing.Point(832, 1308)
         Me.LabelControl27.Name = "LabelControl27"
         Me.LabelControl27.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl27.StyleController = Me.layoutControl
@@ -1076,7 +1114,7 @@ Partial Class frmMedicalCheckUP
         '
         'LabelControl26
         '
-        Me.LabelControl26.Location = New System.Drawing.Point(757, 1133)
+        Me.LabelControl26.Location = New System.Drawing.Point(832, 1291)
         Me.LabelControl26.Name = "LabelControl26"
         Me.LabelControl26.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl26.StyleController = Me.layoutControl
@@ -1085,19 +1123,19 @@ Partial Class frmMedicalCheckUP
         '
         'MemoEdit14
         '
-        Me.MemoEdit14.Location = New System.Drawing.Point(12, 1184)
+        Me.MemoEdit14.Location = New System.Drawing.Point(12, 1342)
         Me.MemoEdit14.MenuManager = Me.barManager
         Me.MemoEdit14.Name = "MemoEdit14"
-        Me.MemoEdit14.Size = New System.Drawing.Size(741, 30)
+        Me.MemoEdit14.Size = New System.Drawing.Size(816, 30)
         Me.MemoEdit14.StyleController = Me.layoutControl
         Me.MemoEdit14.TabIndex = 188
         '
         'MemoEdit13
         '
-        Me.MemoEdit13.Location = New System.Drawing.Point(12, 1133)
+        Me.MemoEdit13.Location = New System.Drawing.Point(12, 1291)
         Me.MemoEdit13.MenuManager = Me.barManager
         Me.MemoEdit13.Name = "MemoEdit13"
-        Me.MemoEdit13.Size = New System.Drawing.Size(741, 30)
+        Me.MemoEdit13.Size = New System.Drawing.Size(816, 30)
         Me.MemoEdit13.StyleController = Me.layoutControl
         Me.MemoEdit13.TabIndex = 187
         '
@@ -1106,9 +1144,9 @@ Partial Class frmMedicalCheckUP
         Me.LabelControl25.Appearance.BackColor = System.Drawing.Color.Blue
         Me.LabelControl25.Appearance.ForeColor = System.Drawing.Color.White
         Me.LabelControl25.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl25.Location = New System.Drawing.Point(12, 1167)
+        Me.LabelControl25.Location = New System.Drawing.Point(12, 1325)
         Me.LabelControl25.Name = "LabelControl25"
-        Me.LabelControl25.Size = New System.Drawing.Size(748, 13)
+        Me.LabelControl25.Size = New System.Drawing.Size(823, 13)
         Me.LabelControl25.StyleController = Me.layoutControl
         Me.LabelControl25.TabIndex = 25
         Me.LabelControl25.Text = "VI. SARAN"
@@ -1118,60 +1156,60 @@ Partial Class frmMedicalCheckUP
         Me.LabelControl20.Appearance.BackColor = System.Drawing.Color.Blue
         Me.LabelControl20.Appearance.ForeColor = System.Drawing.Color.White
         Me.LabelControl20.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl20.Location = New System.Drawing.Point(12, 1116)
+        Me.LabelControl20.Location = New System.Drawing.Point(12, 1274)
         Me.LabelControl20.Name = "LabelControl20"
-        Me.LabelControl20.Size = New System.Drawing.Size(748, 13)
+        Me.LabelControl20.Size = New System.Drawing.Size(823, 13)
         Me.LabelControl20.StyleController = Me.layoutControl
         Me.LabelControl20.TabIndex = 24
         Me.LabelControl20.Text = "V. CATATAN"
         '
         'CheckEdit97
         '
-        Me.CheckEdit97.Location = New System.Drawing.Point(185, 1093)
+        Me.CheckEdit97.Location = New System.Drawing.Point(198, 1251)
         Me.CheckEdit97.MenuManager = Me.barManager
         Me.CheckEdit97.Name = "CheckEdit97"
         Me.CheckEdit97.Properties.Caption = "Fit With Note"
-        Me.CheckEdit97.Size = New System.Drawing.Size(575, 19)
+        Me.CheckEdit97.Size = New System.Drawing.Size(637, 19)
         Me.CheckEdit97.StyleController = Me.layoutControl
         Me.CheckEdit97.TabIndex = 186
         '
         'CheckEdit96
         '
-        Me.CheckEdit96.Location = New System.Drawing.Point(93, 1093)
+        Me.CheckEdit96.Location = New System.Drawing.Point(99, 1251)
         Me.CheckEdit96.MenuManager = Me.barManager
         Me.CheckEdit96.Name = "CheckEdit96"
         Me.CheckEdit96.Properties.Caption = "Unfit To Work"
-        Me.CheckEdit96.Size = New System.Drawing.Size(88, 19)
+        Me.CheckEdit96.Size = New System.Drawing.Size(95, 19)
         Me.CheckEdit96.StyleController = Me.layoutControl
         Me.CheckEdit96.TabIndex = 185
         '
         'CheckEdit95
         '
-        Me.CheckEdit95.Location = New System.Drawing.Point(12, 1093)
+        Me.CheckEdit95.Location = New System.Drawing.Point(12, 1251)
         Me.CheckEdit95.MenuManager = Me.barManager
         Me.CheckEdit95.Name = "CheckEdit95"
         Me.CheckEdit95.Properties.Caption = "Fit To Work"
-        Me.CheckEdit95.Size = New System.Drawing.Size(77, 19)
+        Me.CheckEdit95.Size = New System.Drawing.Size(83, 19)
         Me.CheckEdit95.StyleController = Me.layoutControl
         Me.CheckEdit95.TabIndex = 184
         '
         'CheckEdit94
         '
-        Me.CheckEdit94.Location = New System.Drawing.Point(164, 566)
+        Me.CheckEdit94.Location = New System.Drawing.Point(194, 724)
         Me.CheckEdit94.MenuManager = Me.barManager
         Me.CheckEdit94.Name = "CheckEdit94"
-        Me.CheckEdit94.Properties.Caption = "Tidak"
-        Me.CheckEdit94.Size = New System.Drawing.Size(596, 19)
+        Me.CheckEdit94.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit94.Size = New System.Drawing.Size(641, 19)
         Me.CheckEdit94.StyleController = Me.layoutControl
         Me.CheckEdit94.TabIndex = 183
         '
         'CheckEdit93
         '
-        Me.CheckEdit93.Location = New System.Drawing.Point(126, 566)
+        Me.CheckEdit93.Location = New System.Drawing.Point(135, 724)
         Me.CheckEdit93.MenuManager = Me.barManager
         Me.CheckEdit93.Name = "CheckEdit93"
-        Me.CheckEdit93.Properties.Caption = "Ya"
-        Me.CheckEdit93.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit93.Properties.Caption = "Normal"
+        Me.CheckEdit93.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit93.StyleController = Me.layoutControl
         Me.CheckEdit93.TabIndex = 182
         '
@@ -1179,110 +1217,110 @@ Partial Class frmMedicalCheckUP
         '
         Me.LabelControl52.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl52.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl52.Location = New System.Drawing.Point(12, 566)
+        Me.LabelControl52.Location = New System.Drawing.Point(12, 724)
         Me.LabelControl52.Name = "LabelControl52"
-        Me.LabelControl52.Size = New System.Drawing.Size(110, 13)
+        Me.LabelControl52.Size = New System.Drawing.Size(119, 13)
         Me.LabelControl52.StyleController = Me.layoutControl
         Me.LabelControl52.TabIndex = 57
         Me.LabelControl52.Text = "     KGB :"
         '
         'CheckEdit92
         '
-        Me.CheckEdit92.Location = New System.Drawing.Point(159, 906)
+        Me.CheckEdit92.Location = New System.Drawing.Point(189, 1064)
         Me.CheckEdit92.MenuManager = Me.barManager
         Me.CheckEdit92.Name = "CheckEdit92"
-        Me.CheckEdit92.Properties.Caption = "Tidak"
-        Me.CheckEdit92.Size = New System.Drawing.Size(601, 19)
+        Me.CheckEdit92.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit92.Size = New System.Drawing.Size(646, 19)
         Me.CheckEdit92.StyleController = Me.layoutControl
         Me.CheckEdit92.TabIndex = 181
         '
         'CheckEdit91
         '
-        Me.CheckEdit91.Location = New System.Drawing.Point(121, 906)
+        Me.CheckEdit91.Location = New System.Drawing.Point(130, 1064)
         Me.CheckEdit91.MenuManager = Me.barManager
         Me.CheckEdit91.Name = "CheckEdit91"
-        Me.CheckEdit91.Properties.Caption = "Ya"
-        Me.CheckEdit91.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit91.Properties.Caption = "Normal"
+        Me.CheckEdit91.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit91.StyleController = Me.layoutControl
         Me.CheckEdit91.TabIndex = 180
         '
         'CheckEdit90
         '
-        Me.CheckEdit90.Location = New System.Drawing.Point(159, 883)
+        Me.CheckEdit90.Location = New System.Drawing.Point(189, 1041)
         Me.CheckEdit90.MenuManager = Me.barManager
         Me.CheckEdit90.Name = "CheckEdit90"
-        Me.CheckEdit90.Properties.Caption = "Tidak"
-        Me.CheckEdit90.Size = New System.Drawing.Size(601, 19)
+        Me.CheckEdit90.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit90.Size = New System.Drawing.Size(646, 19)
         Me.CheckEdit90.StyleController = Me.layoutControl
         Me.CheckEdit90.TabIndex = 179
         '
         'CheckEdit89
         '
-        Me.CheckEdit89.Location = New System.Drawing.Point(121, 883)
+        Me.CheckEdit89.Location = New System.Drawing.Point(130, 1041)
         Me.CheckEdit89.MenuManager = Me.barManager
         Me.CheckEdit89.Name = "CheckEdit89"
-        Me.CheckEdit89.Properties.Caption = "Ya"
-        Me.CheckEdit89.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit89.Properties.Caption = "Normal"
+        Me.CheckEdit89.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit89.StyleController = Me.layoutControl
         Me.CheckEdit89.TabIndex = 178
         '
         'CheckEdit88
         '
-        Me.CheckEdit88.Location = New System.Drawing.Point(159, 860)
+        Me.CheckEdit88.Location = New System.Drawing.Point(189, 1018)
         Me.CheckEdit88.MenuManager = Me.barManager
         Me.CheckEdit88.Name = "CheckEdit88"
-        Me.CheckEdit88.Properties.Caption = "Tidak"
-        Me.CheckEdit88.Size = New System.Drawing.Size(601, 19)
+        Me.CheckEdit88.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit88.Size = New System.Drawing.Size(646, 19)
         Me.CheckEdit88.StyleController = Me.layoutControl
         Me.CheckEdit88.TabIndex = 177
         '
         'CheckEdit87
         '
-        Me.CheckEdit87.Location = New System.Drawing.Point(121, 860)
+        Me.CheckEdit87.Location = New System.Drawing.Point(130, 1018)
         Me.CheckEdit87.MenuManager = Me.barManager
         Me.CheckEdit87.Name = "CheckEdit87"
-        Me.CheckEdit87.Properties.Caption = "Ya"
-        Me.CheckEdit87.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit87.Properties.Caption = "Normal"
+        Me.CheckEdit87.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit87.StyleController = Me.layoutControl
         Me.CheckEdit87.TabIndex = 176
         '
         'CheckEdit86
         '
-        Me.CheckEdit86.Location = New System.Drawing.Point(159, 837)
+        Me.CheckEdit86.Location = New System.Drawing.Point(189, 995)
         Me.CheckEdit86.MenuManager = Me.barManager
         Me.CheckEdit86.Name = "CheckEdit86"
-        Me.CheckEdit86.Properties.Caption = "Tidak"
-        Me.CheckEdit86.Size = New System.Drawing.Size(601, 19)
+        Me.CheckEdit86.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit86.Size = New System.Drawing.Size(646, 19)
         Me.CheckEdit86.StyleController = Me.layoutControl
         Me.CheckEdit86.TabIndex = 175
         '
         'CheckEdit85
         '
-        Me.CheckEdit85.Location = New System.Drawing.Point(121, 837)
+        Me.CheckEdit85.Location = New System.Drawing.Point(130, 995)
         Me.CheckEdit85.MenuManager = Me.barManager
         Me.CheckEdit85.Name = "CheckEdit85"
-        Me.CheckEdit85.Properties.Caption = "Ya"
-        Me.CheckEdit85.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit85.Properties.Caption = "Normal"
+        Me.CheckEdit85.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit85.StyleController = Me.layoutControl
         Me.CheckEdit85.TabIndex = 174
         '
         'CheckEdit84
         '
-        Me.CheckEdit84.Location = New System.Drawing.Point(159, 814)
+        Me.CheckEdit84.Location = New System.Drawing.Point(189, 972)
         Me.CheckEdit84.MenuManager = Me.barManager
         Me.CheckEdit84.Name = "CheckEdit84"
-        Me.CheckEdit84.Properties.Caption = "Tidak"
-        Me.CheckEdit84.Size = New System.Drawing.Size(601, 19)
+        Me.CheckEdit84.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit84.Size = New System.Drawing.Size(646, 19)
         Me.CheckEdit84.StyleController = Me.layoutControl
         Me.CheckEdit84.TabIndex = 173
         '
         'CheckEdit83
         '
-        Me.CheckEdit83.Location = New System.Drawing.Point(121, 814)
+        Me.CheckEdit83.Location = New System.Drawing.Point(130, 972)
         Me.CheckEdit83.MenuManager = Me.barManager
         Me.CheckEdit83.Name = "CheckEdit83"
-        Me.CheckEdit83.Properties.Caption = "Ya"
-        Me.CheckEdit83.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit83.Properties.Caption = "Normal"
+        Me.CheckEdit83.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit83.StyleController = Me.layoutControl
         Me.CheckEdit83.TabIndex = 172
         '
@@ -1290,9 +1328,9 @@ Partial Class frmMedicalCheckUP
         '
         Me.LabelControl51.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl51.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl51.Location = New System.Drawing.Point(12, 906)
+        Me.LabelControl51.Location = New System.Drawing.Point(12, 1064)
         Me.LabelControl51.Name = "LabelControl51"
-        Me.LabelControl51.Size = New System.Drawing.Size(105, 13)
+        Me.LabelControl51.Size = New System.Drawing.Size(114, 13)
         Me.LabelControl51.StyleController = Me.layoutControl
         Me.LabelControl51.TabIndex = 59
         Me.LabelControl51.Text = "i. Lain-lain :"
@@ -1301,9 +1339,9 @@ Partial Class frmMedicalCheckUP
         '
         Me.LabelControl50.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl50.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl50.Location = New System.Drawing.Point(12, 883)
+        Me.LabelControl50.Location = New System.Drawing.Point(12, 1041)
         Me.LabelControl50.Name = "LabelControl50"
-        Me.LabelControl50.Size = New System.Drawing.Size(105, 13)
+        Me.LabelControl50.Size = New System.Drawing.Size(114, 13)
         Me.LabelControl50.StyleController = Me.layoutControl
         Me.LabelControl50.TabIndex = 59
         Me.LabelControl50.Text = "h. Neurologis :"
@@ -1312,9 +1350,9 @@ Partial Class frmMedicalCheckUP
         '
         Me.LabelControl49.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl49.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl49.Location = New System.Drawing.Point(12, 860)
+        Me.LabelControl49.Location = New System.Drawing.Point(12, 1018)
         Me.LabelControl49.Name = "LabelControl49"
-        Me.LabelControl49.Size = New System.Drawing.Size(105, 13)
+        Me.LabelControl49.Size = New System.Drawing.Size(114, 13)
         Me.LabelControl49.StyleController = Me.layoutControl
         Me.LabelControl49.TabIndex = 59
         Me.LabelControl49.Text = "g. Flour Albus :"
@@ -1323,9 +1361,9 @@ Partial Class frmMedicalCheckUP
         '
         Me.LabelControl48.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl48.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl48.Location = New System.Drawing.Point(12, 837)
+        Me.LabelControl48.Location = New System.Drawing.Point(12, 995)
         Me.LabelControl48.Name = "LabelControl48"
-        Me.LabelControl48.Size = New System.Drawing.Size(105, 13)
+        Me.LabelControl48.Size = New System.Drawing.Size(114, 13)
         Me.LabelControl48.StyleController = Me.layoutControl
         Me.LabelControl48.TabIndex = 59
         Me.LabelControl48.Text = "f. Kulit :"
@@ -1334,150 +1372,150 @@ Partial Class frmMedicalCheckUP
         '
         Me.LabelControl47.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl47.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl47.Location = New System.Drawing.Point(12, 814)
+        Me.LabelControl47.Location = New System.Drawing.Point(12, 972)
         Me.LabelControl47.Name = "LabelControl47"
-        Me.LabelControl47.Size = New System.Drawing.Size(105, 13)
+        Me.LabelControl47.Size = New System.Drawing.Size(114, 13)
         Me.LabelControl47.StyleController = Me.layoutControl
         Me.LabelControl47.TabIndex = 58
         Me.LabelControl47.Text = "e. Ekstremitas :"
         '
         'CheckEdit82
         '
-        Me.CheckEdit82.Location = New System.Drawing.Point(155, 790)
+        Me.CheckEdit82.Location = New System.Drawing.Point(176, 948)
         Me.CheckEdit82.MenuManager = Me.barManager
         Me.CheckEdit82.Name = "CheckEdit82"
-        Me.CheckEdit82.Properties.Caption = "Tidak"
-        Me.CheckEdit82.Size = New System.Drawing.Size(605, 19)
+        Me.CheckEdit82.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit82.Size = New System.Drawing.Size(659, 19)
         Me.CheckEdit82.StyleController = Me.layoutControl
         Me.CheckEdit82.TabIndex = 171
         '
         'CheckEdit81
         '
-        Me.CheckEdit81.Location = New System.Drawing.Point(117, 790)
+        Me.CheckEdit81.Location = New System.Drawing.Point(117, 948)
         Me.CheckEdit81.MenuManager = Me.barManager
         Me.CheckEdit81.Name = "CheckEdit81"
-        Me.CheckEdit81.Properties.Caption = "Ya"
-        Me.CheckEdit81.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit81.Properties.Caption = "Normal"
+        Me.CheckEdit81.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit81.StyleController = Me.layoutControl
         Me.CheckEdit81.TabIndex = 170
         '
         'CheckEdit80
         '
-        Me.CheckEdit80.Location = New System.Drawing.Point(155, 766)
+        Me.CheckEdit80.Location = New System.Drawing.Point(176, 924)
         Me.CheckEdit80.MenuManager = Me.barManager
         Me.CheckEdit80.Name = "CheckEdit80"
-        Me.CheckEdit80.Properties.Caption = "Tidak"
-        Me.CheckEdit80.Size = New System.Drawing.Size(605, 19)
+        Me.CheckEdit80.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit80.Size = New System.Drawing.Size(659, 19)
         Me.CheckEdit80.StyleController = Me.layoutControl
         Me.CheckEdit80.TabIndex = 169
         '
         'CheckEdit79
         '
-        Me.CheckEdit79.Location = New System.Drawing.Point(117, 766)
+        Me.CheckEdit79.Location = New System.Drawing.Point(117, 924)
         Me.CheckEdit79.MenuManager = Me.barManager
         Me.CheckEdit79.Name = "CheckEdit79"
-        Me.CheckEdit79.Properties.Caption = "Ya"
-        Me.CheckEdit79.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit79.Properties.Caption = "Normal"
+        Me.CheckEdit79.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit79.StyleController = Me.layoutControl
         Me.CheckEdit79.TabIndex = 168
         '
         'CheckEdit78
         '
-        Me.CheckEdit78.Location = New System.Drawing.Point(155, 742)
+        Me.CheckEdit78.Location = New System.Drawing.Point(176, 900)
         Me.CheckEdit78.MenuManager = Me.barManager
         Me.CheckEdit78.Name = "CheckEdit78"
-        Me.CheckEdit78.Properties.Caption = "Tidak"
-        Me.CheckEdit78.Size = New System.Drawing.Size(605, 19)
+        Me.CheckEdit78.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit78.Size = New System.Drawing.Size(659, 19)
         Me.CheckEdit78.StyleController = Me.layoutControl
         Me.CheckEdit78.TabIndex = 167
         '
         'CheckEdit77
         '
-        Me.CheckEdit77.Location = New System.Drawing.Point(117, 742)
+        Me.CheckEdit77.Location = New System.Drawing.Point(117, 900)
         Me.CheckEdit77.MenuManager = Me.barManager
         Me.CheckEdit77.Name = "CheckEdit77"
-        Me.CheckEdit77.Properties.Caption = "Ya"
-        Me.CheckEdit77.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit77.Properties.Caption = "Normal"
+        Me.CheckEdit77.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit77.StyleController = Me.layoutControl
         Me.CheckEdit77.TabIndex = 166
         '
         'CheckEdit76
         '
-        Me.CheckEdit76.Location = New System.Drawing.Point(155, 718)
+        Me.CheckEdit76.Location = New System.Drawing.Point(176, 876)
         Me.CheckEdit76.MenuManager = Me.barManager
         Me.CheckEdit76.Name = "CheckEdit76"
-        Me.CheckEdit76.Properties.Caption = "Tidak"
-        Me.CheckEdit76.Size = New System.Drawing.Size(605, 19)
+        Me.CheckEdit76.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit76.Size = New System.Drawing.Size(659, 19)
         Me.CheckEdit76.StyleController = Me.layoutControl
         Me.CheckEdit76.TabIndex = 165
         '
         'CheckEdit75
         '
-        Me.CheckEdit75.Location = New System.Drawing.Point(117, 718)
+        Me.CheckEdit75.Location = New System.Drawing.Point(117, 876)
         Me.CheckEdit75.MenuManager = Me.barManager
         Me.CheckEdit75.Name = "CheckEdit75"
-        Me.CheckEdit75.Properties.Caption = "Ya"
-        Me.CheckEdit75.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit75.Properties.Caption = "Normal"
+        Me.CheckEdit75.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit75.StyleController = Me.layoutControl
         Me.CheckEdit75.TabIndex = 164
         '
         'CheckEdit74
         '
-        Me.CheckEdit74.Location = New System.Drawing.Point(155, 694)
+        Me.CheckEdit74.Location = New System.Drawing.Point(176, 852)
         Me.CheckEdit74.MenuManager = Me.barManager
         Me.CheckEdit74.Name = "CheckEdit74"
-        Me.CheckEdit74.Properties.Caption = "Tidak"
-        Me.CheckEdit74.Size = New System.Drawing.Size(605, 19)
+        Me.CheckEdit74.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit74.Size = New System.Drawing.Size(659, 19)
         Me.CheckEdit74.StyleController = Me.layoutControl
         Me.CheckEdit74.TabIndex = 163
         '
         'CheckEdit73
         '
-        Me.CheckEdit73.Location = New System.Drawing.Point(117, 694)
+        Me.CheckEdit73.Location = New System.Drawing.Point(117, 852)
         Me.CheckEdit73.MenuManager = Me.barManager
         Me.CheckEdit73.Name = "CheckEdit73"
-        Me.CheckEdit73.Properties.Caption = "Ya"
-        Me.CheckEdit73.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit73.Properties.Caption = "Normal"
+        Me.CheckEdit73.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit73.StyleController = Me.layoutControl
         Me.CheckEdit73.TabIndex = 162
         '
         'CheckEdit72
         '
-        Me.CheckEdit72.Location = New System.Drawing.Point(155, 653)
+        Me.CheckEdit72.Location = New System.Drawing.Point(176, 811)
         Me.CheckEdit72.MenuManager = Me.barManager
         Me.CheckEdit72.Name = "CheckEdit72"
-        Me.CheckEdit72.Properties.Caption = "Tidak"
-        Me.CheckEdit72.Size = New System.Drawing.Size(605, 19)
+        Me.CheckEdit72.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit72.Size = New System.Drawing.Size(659, 19)
         Me.CheckEdit72.StyleController = Me.layoutControl
         Me.CheckEdit72.TabIndex = 161
         '
         'CheckEdit71
         '
-        Me.CheckEdit71.Location = New System.Drawing.Point(117, 653)
+        Me.CheckEdit71.Location = New System.Drawing.Point(117, 811)
         Me.CheckEdit71.MenuManager = Me.barManager
         Me.CheckEdit71.Name = "CheckEdit71"
-        Me.CheckEdit71.Properties.Caption = "Ya"
-        Me.CheckEdit71.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit71.Properties.Caption = "Normal"
+        Me.CheckEdit71.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit71.StyleController = Me.layoutControl
         Me.CheckEdit71.TabIndex = 160
         '
         'CheckEdit70
         '
-        Me.CheckEdit70.Location = New System.Drawing.Point(155, 629)
+        Me.CheckEdit70.Location = New System.Drawing.Point(176, 787)
         Me.CheckEdit70.MenuManager = Me.barManager
         Me.CheckEdit70.Name = "CheckEdit70"
-        Me.CheckEdit70.Properties.Caption = "Tidak"
-        Me.CheckEdit70.Size = New System.Drawing.Size(605, 19)
+        Me.CheckEdit70.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit70.Size = New System.Drawing.Size(659, 19)
         Me.CheckEdit70.StyleController = Me.layoutControl
         Me.CheckEdit70.TabIndex = 159
         '
         'CheckEdit69
         '
-        Me.CheckEdit69.Location = New System.Drawing.Point(117, 629)
+        Me.CheckEdit69.Location = New System.Drawing.Point(117, 787)
         Me.CheckEdit69.MenuManager = Me.barManager
         Me.CheckEdit69.Name = "CheckEdit69"
-        Me.CheckEdit69.Properties.Caption = "Ya"
-        Me.CheckEdit69.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit69.Properties.Caption = "Normal"
+        Me.CheckEdit69.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit69.StyleController = Me.layoutControl
         Me.CheckEdit69.TabIndex = 158
         '
@@ -1485,9 +1523,9 @@ Partial Class frmMedicalCheckUP
         '
         Me.LabelControl46.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl46.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl46.Location = New System.Drawing.Point(12, 677)
+        Me.LabelControl46.Location = New System.Drawing.Point(12, 835)
         Me.LabelControl46.Name = "LabelControl46"
-        Me.LabelControl46.Size = New System.Drawing.Size(748, 13)
+        Me.LabelControl46.Size = New System.Drawing.Size(823, 13)
         Me.LabelControl46.StyleController = Me.layoutControl
         Me.LabelControl46.TabIndex = 57
         Me.LabelControl46.Text = "d. Abdomen :"
@@ -1496,70 +1534,70 @@ Partial Class frmMedicalCheckUP
         '
         Me.LabelControl45.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl45.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl45.Location = New System.Drawing.Point(12, 612)
+        Me.LabelControl45.Location = New System.Drawing.Point(12, 770)
         Me.LabelControl45.Name = "LabelControl45"
-        Me.LabelControl45.Size = New System.Drawing.Size(748, 13)
+        Me.LabelControl45.Size = New System.Drawing.Size(823, 13)
         Me.LabelControl45.StyleController = Me.layoutControl
         Me.LabelControl45.TabIndex = 57
         Me.LabelControl45.Text = "c. Thorax :"
         '
         'CheckEdit68
         '
-        Me.CheckEdit68.Location = New System.Drawing.Point(154, 589)
+        Me.CheckEdit68.Location = New System.Drawing.Point(183, 747)
         Me.CheckEdit68.MenuManager = Me.barManager
         Me.CheckEdit68.Name = "CheckEdit68"
-        Me.CheckEdit68.Properties.Caption = "Tidak"
-        Me.CheckEdit68.Size = New System.Drawing.Size(606, 19)
+        Me.CheckEdit68.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit68.Size = New System.Drawing.Size(652, 19)
         Me.CheckEdit68.StyleController = Me.layoutControl
         Me.CheckEdit68.TabIndex = 157
         '
         'CheckEdit67
         '
-        Me.CheckEdit67.Location = New System.Drawing.Point(116, 589)
+        Me.CheckEdit67.Location = New System.Drawing.Point(124, 747)
         Me.CheckEdit67.MenuManager = Me.barManager
         Me.CheckEdit67.Name = "CheckEdit67"
-        Me.CheckEdit67.Properties.Caption = "Ya"
-        Me.CheckEdit67.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit67.Properties.Caption = "Normal"
+        Me.CheckEdit67.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit67.StyleController = Me.layoutControl
         Me.CheckEdit67.TabIndex = 156
         '
         'CheckEdit66
         '
-        Me.CheckEdit66.Location = New System.Drawing.Point(164, 543)
+        Me.CheckEdit66.Location = New System.Drawing.Point(194, 701)
         Me.CheckEdit66.MenuManager = Me.barManager
         Me.CheckEdit66.Name = "CheckEdit66"
-        Me.CheckEdit66.Properties.Caption = "Tidak"
-        Me.CheckEdit66.Size = New System.Drawing.Size(596, 19)
+        Me.CheckEdit66.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit66.Size = New System.Drawing.Size(641, 19)
         Me.CheckEdit66.StyleController = Me.layoutControl
         Me.CheckEdit66.TabIndex = 155
         '
         'CheckEdit65
         '
-        Me.CheckEdit65.Location = New System.Drawing.Point(126, 543)
+        Me.CheckEdit65.Location = New System.Drawing.Point(135, 701)
         Me.CheckEdit65.MenuManager = Me.barManager
         Me.CheckEdit65.Name = "CheckEdit65"
-        Me.CheckEdit65.Properties.Caption = "Ya"
-        Me.CheckEdit65.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit65.Properties.Caption = "Normal"
+        Me.CheckEdit65.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit65.StyleController = Me.layoutControl
         Me.CheckEdit65.TabIndex = 154
         '
         'CheckEdit64
         '
-        Me.CheckEdit64.Location = New System.Drawing.Point(164, 520)
+        Me.CheckEdit64.Location = New System.Drawing.Point(194, 678)
         Me.CheckEdit64.MenuManager = Me.barManager
         Me.CheckEdit64.Name = "CheckEdit64"
-        Me.CheckEdit64.Properties.Caption = "Tidak"
-        Me.CheckEdit64.Size = New System.Drawing.Size(596, 19)
+        Me.CheckEdit64.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit64.Size = New System.Drawing.Size(641, 19)
         Me.CheckEdit64.StyleController = Me.layoutControl
         Me.CheckEdit64.TabIndex = 153
         '
         'CheckEdit63
         '
-        Me.CheckEdit63.Location = New System.Drawing.Point(126, 520)
+        Me.CheckEdit63.Location = New System.Drawing.Point(135, 678)
         Me.CheckEdit63.MenuManager = Me.barManager
         Me.CheckEdit63.Name = "CheckEdit63"
-        Me.CheckEdit63.Properties.Caption = "Ya"
-        Me.CheckEdit63.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit63.Properties.Caption = "Normal"
+        Me.CheckEdit63.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit63.StyleController = Me.layoutControl
         Me.CheckEdit63.TabIndex = 152
         '
@@ -1567,9 +1605,9 @@ Partial Class frmMedicalCheckUP
         '
         Me.LabelControl44.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl44.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl44.Location = New System.Drawing.Point(12, 537)
+        Me.LabelControl44.Location = New System.Drawing.Point(12, 695)
         Me.LabelControl44.Name = "LabelControl44"
-        Me.LabelControl44.Size = New System.Drawing.Size(100, 13)
+        Me.LabelControl44.Size = New System.Drawing.Size(108, 13)
         Me.LabelControl44.StyleController = Me.layoutControl
         Me.LabelControl44.TabIndex = 56
         Me.LabelControl44.Text = "     Hidung :"
@@ -1578,9 +1616,9 @@ Partial Class frmMedicalCheckUP
         '
         Me.LabelControl43.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl43.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl43.Location = New System.Drawing.Point(12, 520)
+        Me.LabelControl43.Location = New System.Drawing.Point(12, 678)
         Me.LabelControl43.Name = "LabelControl43"
-        Me.LabelControl43.Size = New System.Drawing.Size(100, 13)
+        Me.LabelControl43.Size = New System.Drawing.Size(108, 13)
         Me.LabelControl43.StyleController = Me.layoutControl
         Me.LabelControl43.TabIndex = 56
         Me.LabelControl43.Text = "     Telinga :"
@@ -1589,9 +1627,9 @@ Partial Class frmMedicalCheckUP
         '
         Me.LabelControl13.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl13.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl13.Location = New System.Drawing.Point(12, 589)
+        Me.LabelControl13.Location = New System.Drawing.Point(12, 747)
         Me.LabelControl13.Name = "LabelControl13"
-        Me.LabelControl13.Size = New System.Drawing.Size(100, 13)
+        Me.LabelControl13.Size = New System.Drawing.Size(108, 13)
         Me.LabelControl13.StyleController = Me.layoutControl
         Me.LabelControl13.TabIndex = 56
         Me.LabelControl13.Text = "b. Leher :"
@@ -1599,7 +1637,7 @@ Partial Class frmMedicalCheckUP
         'LabelControl42
         '
         Me.LabelControl42.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.LabelControl42.Location = New System.Drawing.Point(12, 237)
+        Me.LabelControl42.Location = New System.Drawing.Point(12, 395)
         Me.LabelControl42.Name = "LabelControl42"
         Me.LabelControl42.Size = New System.Drawing.Size(51, 13)
         Me.LabelControl42.StyleController = Me.layoutControl
@@ -1608,7 +1646,7 @@ Partial Class frmMedicalCheckUP
         '
         'LabelControl41
         '
-        Me.LabelControl41.Location = New System.Drawing.Point(757, 452)
+        Me.LabelControl41.Location = New System.Drawing.Point(832, 610)
         Me.LabelControl41.Name = "LabelControl41"
         Me.LabelControl41.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl41.StyleController = Me.layoutControl
@@ -1617,7 +1655,7 @@ Partial Class frmMedicalCheckUP
         '
         'LabelControl40
         '
-        Me.LabelControl40.Location = New System.Drawing.Point(757, 469)
+        Me.LabelControl40.Location = New System.Drawing.Point(832, 627)
         Me.LabelControl40.Name = "LabelControl40"
         Me.LabelControl40.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl40.StyleController = Me.layoutControl
@@ -1626,7 +1664,7 @@ Partial Class frmMedicalCheckUP
         '
         'LabelControl39
         '
-        Me.LabelControl39.Location = New System.Drawing.Point(757, 486)
+        Me.LabelControl39.Location = New System.Drawing.Point(832, 644)
         Me.LabelControl39.Name = "LabelControl39"
         Me.LabelControl39.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl39.StyleController = Me.layoutControl
@@ -1635,130 +1673,130 @@ Partial Class frmMedicalCheckUP
         '
         'CheckEdit62
         '
-        Me.CheckEdit62.Location = New System.Drawing.Point(576, 343)
+        Me.CheckEdit62.Location = New System.Drawing.Point(629, 501)
         Me.CheckEdit62.MenuManager = Me.barManager
         Me.CheckEdit62.Name = "CheckEdit62"
-        Me.CheckEdit62.Properties.Caption = "Tidak"
-        Me.CheckEdit62.Size = New System.Drawing.Size(184, 19)
+        Me.CheckEdit62.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit62.Size = New System.Drawing.Size(206, 19)
         Me.CheckEdit62.StyleController = Me.layoutControl
         Me.CheckEdit62.TabIndex = 148
         '
         'CheckEdit61
         '
-        Me.CheckEdit61.Location = New System.Drawing.Point(576, 295)
+        Me.CheckEdit61.Location = New System.Drawing.Point(629, 453)
         Me.CheckEdit61.MenuManager = Me.barManager
         Me.CheckEdit61.Name = "CheckEdit61"
-        Me.CheckEdit61.Properties.Caption = "Tidak"
-        Me.CheckEdit61.Size = New System.Drawing.Size(184, 19)
+        Me.CheckEdit61.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit61.Size = New System.Drawing.Size(206, 19)
         Me.CheckEdit61.StyleController = Me.layoutControl
         Me.CheckEdit61.TabIndex = 147
         '
         'CheckEdit60
         '
-        Me.CheckEdit60.Location = New System.Drawing.Point(576, 271)
+        Me.CheckEdit60.Location = New System.Drawing.Point(629, 429)
         Me.CheckEdit60.MenuManager = Me.barManager
         Me.CheckEdit60.Name = "CheckEdit60"
-        Me.CheckEdit60.Properties.Caption = "Tidak"
-        Me.CheckEdit60.Size = New System.Drawing.Size(184, 19)
+        Me.CheckEdit60.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit60.Size = New System.Drawing.Size(206, 19)
         Me.CheckEdit60.StyleController = Me.layoutControl
         Me.CheckEdit60.TabIndex = 146
         '
         'CheckEdit59
         '
-        Me.CheckEdit59.Location = New System.Drawing.Point(538, 343)
+        Me.CheckEdit59.Location = New System.Drawing.Point(570, 501)
         Me.CheckEdit59.MenuManager = Me.barManager
         Me.CheckEdit59.Name = "CheckEdit59"
-        Me.CheckEdit59.Properties.Caption = "Ya"
-        Me.CheckEdit59.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit59.Properties.Caption = "Normal"
+        Me.CheckEdit59.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit59.StyleController = Me.layoutControl
         Me.CheckEdit59.TabIndex = 145
         '
         'CheckEdit58
         '
-        Me.CheckEdit58.Location = New System.Drawing.Point(538, 295)
+        Me.CheckEdit58.Location = New System.Drawing.Point(570, 453)
         Me.CheckEdit58.MenuManager = Me.barManager
         Me.CheckEdit58.Name = "CheckEdit58"
-        Me.CheckEdit58.Properties.Caption = "Ya"
-        Me.CheckEdit58.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit58.Properties.Caption = "Normal"
+        Me.CheckEdit58.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit58.StyleController = Me.layoutControl
         Me.CheckEdit58.TabIndex = 144
         '
         'CheckEdit57
         '
-        Me.CheckEdit57.Location = New System.Drawing.Point(538, 271)
+        Me.CheckEdit57.Location = New System.Drawing.Point(570, 429)
         Me.CheckEdit57.MenuManager = Me.barManager
         Me.CheckEdit57.Name = "CheckEdit57"
-        Me.CheckEdit57.Properties.Caption = "Ya"
-        Me.CheckEdit57.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit57.Properties.Caption = "Normal"
+        Me.CheckEdit57.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit57.StyleController = Me.layoutControl
         Me.CheckEdit57.TabIndex = 143
         '
         'TextEdit4
         '
-        Me.TextEdit4.Location = New System.Drawing.Point(117, 343)
+        Me.TextEdit4.Location = New System.Drawing.Point(117, 501)
         Me.TextEdit4.MenuManager = Me.barManager
         Me.TextEdit4.Name = "TextEdit4"
-        Me.TextEdit4.Size = New System.Drawing.Size(301, 20)
+        Me.TextEdit4.Size = New System.Drawing.Size(332, 20)
         Me.TextEdit4.StyleController = Me.layoutControl
         Me.TextEdit4.TabIndex = 142
         '
         'CheckEdit56
         '
-        Me.CheckEdit56.Location = New System.Drawing.Point(155, 319)
+        Me.CheckEdit56.Location = New System.Drawing.Point(176, 477)
         Me.CheckEdit56.MenuManager = Me.barManager
         Me.CheckEdit56.Name = "CheckEdit56"
-        Me.CheckEdit56.Properties.Caption = "Tidak"
-        Me.CheckEdit56.Size = New System.Drawing.Size(263, 19)
+        Me.CheckEdit56.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit56.Size = New System.Drawing.Size(273, 19)
         Me.CheckEdit56.StyleController = Me.layoutControl
         Me.CheckEdit56.TabIndex = 141
         '
         'CheckEdit55
         '
-        Me.CheckEdit55.Location = New System.Drawing.Point(155, 295)
+        Me.CheckEdit55.Location = New System.Drawing.Point(176, 453)
         Me.CheckEdit55.MenuManager = Me.barManager
         Me.CheckEdit55.Name = "CheckEdit55"
-        Me.CheckEdit55.Properties.Caption = "Tidak"
-        Me.CheckEdit55.Size = New System.Drawing.Size(263, 19)
+        Me.CheckEdit55.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit55.Size = New System.Drawing.Size(273, 19)
         Me.CheckEdit55.StyleController = Me.layoutControl
         Me.CheckEdit55.TabIndex = 140
         '
         'CheckEdit54
         '
-        Me.CheckEdit54.Location = New System.Drawing.Point(155, 271)
+        Me.CheckEdit54.Location = New System.Drawing.Point(176, 429)
         Me.CheckEdit54.MenuManager = Me.barManager
         Me.CheckEdit54.Name = "CheckEdit54"
-        Me.CheckEdit54.Properties.Caption = "Tidak"
-        Me.CheckEdit54.Size = New System.Drawing.Size(263, 19)
+        Me.CheckEdit54.Properties.Caption = "Tidak Normal"
+        Me.CheckEdit54.Size = New System.Drawing.Size(273, 19)
         Me.CheckEdit54.StyleController = Me.layoutControl
         Me.CheckEdit54.TabIndex = 139
         '
         'CheckEdit53
         '
-        Me.CheckEdit53.Location = New System.Drawing.Point(117, 319)
+        Me.CheckEdit53.Location = New System.Drawing.Point(117, 477)
         Me.CheckEdit53.MenuManager = Me.barManager
         Me.CheckEdit53.Name = "CheckEdit53"
-        Me.CheckEdit53.Properties.Caption = "Ya"
-        Me.CheckEdit53.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit53.Properties.Caption = "Normal"
+        Me.CheckEdit53.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit53.StyleController = Me.layoutControl
         Me.CheckEdit53.TabIndex = 138
         '
         'CheckEdit52
         '
-        Me.CheckEdit52.Location = New System.Drawing.Point(117, 295)
+        Me.CheckEdit52.Location = New System.Drawing.Point(117, 453)
         Me.CheckEdit52.MenuManager = Me.barManager
         Me.CheckEdit52.Name = "CheckEdit52"
-        Me.CheckEdit52.Properties.Caption = "Ya"
-        Me.CheckEdit52.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit52.Properties.Caption = "Normal"
+        Me.CheckEdit52.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit52.StyleController = Me.layoutControl
         Me.CheckEdit52.TabIndex = 137
         '
         'CheckEdit51
         '
-        Me.CheckEdit51.Location = New System.Drawing.Point(117, 271)
+        Me.CheckEdit51.Location = New System.Drawing.Point(117, 429)
         Me.CheckEdit51.MenuManager = Me.barManager
         Me.CheckEdit51.Name = "CheckEdit51"
-        Me.CheckEdit51.Properties.Caption = "Ya"
-        Me.CheckEdit51.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit51.Properties.Caption = "Normal"
+        Me.CheckEdit51.Size = New System.Drawing.Size(55, 19)
         Me.CheckEdit51.StyleController = Me.layoutControl
         Me.CheckEdit51.TabIndex = 136
         '
@@ -1766,9 +1804,9 @@ Partial Class frmMedicalCheckUP
         '
         Me.LabelControl38.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl38.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl38.Location = New System.Drawing.Point(433, 254)
+        Me.LabelControl38.Location = New System.Drawing.Point(465, 412)
         Me.LabelControl38.Name = "LabelControl38"
-        Me.LabelControl38.Size = New System.Drawing.Size(327, 13)
+        Me.LabelControl38.Size = New System.Drawing.Size(370, 13)
         Me.LabelControl38.StyleController = Me.layoutControl
         Me.LabelControl38.TabIndex = 55
         Me.LabelControl38.Text = "Rongga Mulut :"
@@ -1777,9 +1815,9 @@ Partial Class frmMedicalCheckUP
         '
         Me.LabelControl37.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
         Me.LabelControl37.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl37.Location = New System.Drawing.Point(12, 254)
+        Me.LabelControl37.Location = New System.Drawing.Point(12, 412)
         Me.LabelControl37.Name = "LabelControl37"
-        Me.LabelControl37.Size = New System.Drawing.Size(406, 13)
+        Me.LabelControl37.Size = New System.Drawing.Size(437, 13)
         Me.LabelControl37.StyleController = Me.layoutControl
         Me.LabelControl37.TabIndex = 55
         Me.LabelControl37.Text = "     Mata :"
@@ -1787,7 +1825,7 @@ Partial Class frmMedicalCheckUP
         'LabelControl36
         '
         Me.LabelControl36.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.LabelControl36.Location = New System.Drawing.Point(12, 220)
+        Me.LabelControl36.Location = New System.Drawing.Point(12, 378)
         Me.LabelControl36.Name = "LabelControl36"
         Me.LabelControl36.Size = New System.Drawing.Size(48, 13)
         Me.LabelControl36.StyleController = Me.layoutControl
@@ -1796,294 +1834,294 @@ Partial Class frmMedicalCheckUP
         '
         'TextEdit3
         '
-        Me.TextEdit3.Location = New System.Drawing.Point(117, 83)
+        Me.TextEdit3.Location = New System.Drawing.Point(117, 241)
         Me.TextEdit3.MenuManager = Me.barManager
         Me.TextEdit3.Name = "TextEdit3"
-        Me.TextEdit3.Size = New System.Drawing.Size(643, 20)
+        Me.TextEdit3.Size = New System.Drawing.Size(294, 20)
         Me.TextEdit3.StyleController = Me.layoutControl
         Me.TextEdit3.TabIndex = 135
         '
         'TextEdit2
         '
-        Me.TextEdit2.Location = New System.Drawing.Point(675, -54)
+        Me.TextEdit2.Location = New System.Drawing.Point(716, 80)
         Me.TextEdit2.MenuManager = Me.barManager
         Me.TextEdit2.Name = "TextEdit2"
-        Me.TextEdit2.Size = New System.Drawing.Size(85, 20)
+        Me.TextEdit2.Size = New System.Drawing.Size(119, 20)
         Me.TextEdit2.StyleController = Me.layoutControl
         Me.TextEdit2.TabIndex = 134
         '
         'TextEdit1
         '
-        Me.TextEdit1.Location = New System.Drawing.Point(675, -78)
+        Me.TextEdit1.Location = New System.Drawing.Point(716, 56)
         Me.TextEdit1.MenuManager = Me.barManager
         Me.TextEdit1.Name = "TextEdit1"
-        Me.TextEdit1.Size = New System.Drawing.Size(85, 20)
+        Me.TextEdit1.Size = New System.Drawing.Size(119, 20)
         Me.TextEdit1.StyleController = Me.layoutControl
         Me.TextEdit1.TabIndex = 133
         '
         'CheckEdit50
         '
-        Me.CheckEdit50.Location = New System.Drawing.Point(713, -102)
+        Me.CheckEdit50.Location = New System.Drawing.Point(765, 32)
         Me.CheckEdit50.MenuManager = Me.barManager
         Me.CheckEdit50.Name = "CheckEdit50"
         Me.CheckEdit50.Properties.Caption = "Tidak"
-        Me.CheckEdit50.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit50.Size = New System.Drawing.Size(70, 19)
         Me.CheckEdit50.StyleController = Me.layoutControl
         Me.CheckEdit50.TabIndex = 132
         '
         'CheckEdit49
         '
-        Me.CheckEdit49.Location = New System.Drawing.Point(713, -126)
+        Me.CheckEdit49.Location = New System.Drawing.Point(765, 8)
         Me.CheckEdit49.MenuManager = Me.barManager
         Me.CheckEdit49.Name = "CheckEdit49"
         Me.CheckEdit49.Properties.Caption = "Tidak"
-        Me.CheckEdit49.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit49.Size = New System.Drawing.Size(70, 19)
         Me.CheckEdit49.StyleController = Me.layoutControl
         Me.CheckEdit49.TabIndex = 131
         '
         'CheckEdit48
         '
-        Me.CheckEdit48.Location = New System.Drawing.Point(713, -150)
+        Me.CheckEdit48.Location = New System.Drawing.Point(765, -16)
         Me.CheckEdit48.MenuManager = Me.barManager
         Me.CheckEdit48.Name = "CheckEdit48"
         Me.CheckEdit48.Properties.Caption = "Tidak"
-        Me.CheckEdit48.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit48.Size = New System.Drawing.Size(70, 19)
         Me.CheckEdit48.StyleController = Me.layoutControl
         Me.CheckEdit48.TabIndex = 130
         '
         'CheckEdit47
         '
-        Me.CheckEdit47.Location = New System.Drawing.Point(713, -174)
+        Me.CheckEdit47.Location = New System.Drawing.Point(765, -40)
         Me.CheckEdit47.MenuManager = Me.barManager
         Me.CheckEdit47.Name = "CheckEdit47"
         Me.CheckEdit47.Properties.Caption = "Tidak"
-        Me.CheckEdit47.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit47.Size = New System.Drawing.Size(70, 19)
         Me.CheckEdit47.StyleController = Me.layoutControl
         Me.CheckEdit47.TabIndex = 129
         '
         'CheckEdit46
         '
-        Me.CheckEdit46.Location = New System.Drawing.Point(675, -102)
+        Me.CheckEdit46.Location = New System.Drawing.Point(716, 32)
         Me.CheckEdit46.MenuManager = Me.barManager
         Me.CheckEdit46.Name = "CheckEdit46"
         Me.CheckEdit46.Properties.Caption = "Ya"
-        Me.CheckEdit46.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit46.Size = New System.Drawing.Size(45, 19)
         Me.CheckEdit46.StyleController = Me.layoutControl
         Me.CheckEdit46.TabIndex = 128
         '
         'CheckEdit45
         '
-        Me.CheckEdit45.Location = New System.Drawing.Point(675, -126)
+        Me.CheckEdit45.Location = New System.Drawing.Point(716, 8)
         Me.CheckEdit45.MenuManager = Me.barManager
         Me.CheckEdit45.Name = "CheckEdit45"
         Me.CheckEdit45.Properties.Caption = "Ya"
-        Me.CheckEdit45.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit45.Size = New System.Drawing.Size(45, 19)
         Me.CheckEdit45.StyleController = Me.layoutControl
         Me.CheckEdit45.TabIndex = 127
         '
         'CheckEdit44
         '
-        Me.CheckEdit44.Location = New System.Drawing.Point(675, -150)
+        Me.CheckEdit44.Location = New System.Drawing.Point(716, -16)
         Me.CheckEdit44.MenuManager = Me.barManager
         Me.CheckEdit44.Name = "CheckEdit44"
         Me.CheckEdit44.Properties.Caption = "Ya"
-        Me.CheckEdit44.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit44.Size = New System.Drawing.Size(45, 19)
         Me.CheckEdit44.StyleController = Me.layoutControl
         Me.CheckEdit44.TabIndex = 126
         '
         'CheckEdit43
         '
-        Me.CheckEdit43.Location = New System.Drawing.Point(675, -174)
+        Me.CheckEdit43.Location = New System.Drawing.Point(716, -40)
         Me.CheckEdit43.MenuManager = Me.barManager
         Me.CheckEdit43.Name = "CheckEdit43"
         Me.CheckEdit43.Properties.Caption = "Ya"
-        Me.CheckEdit43.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit43.Size = New System.Drawing.Size(45, 19)
         Me.CheckEdit43.StyleController = Me.layoutControl
         Me.CheckEdit43.TabIndex = 125
         '
         'CheckEdit42
         '
-        Me.CheckEdit42.Location = New System.Drawing.Point(459, -59)
+        Me.CheckEdit42.Location = New System.Drawing.Point(496, 75)
         Me.CheckEdit42.MenuManager = Me.barManager
         Me.CheckEdit42.Name = "CheckEdit42"
         Me.CheckEdit42.Properties.Caption = "Tidak"
-        Me.CheckEdit42.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit42.Size = New System.Drawing.Size(50, 19)
         Me.CheckEdit42.StyleController = Me.layoutControl
         Me.CheckEdit42.TabIndex = 124
         '
         'CheckEdit41
         '
-        Me.CheckEdit41.Location = New System.Drawing.Point(459, -82)
+        Me.CheckEdit41.Location = New System.Drawing.Point(496, 52)
         Me.CheckEdit41.MenuManager = Me.barManager
         Me.CheckEdit41.Name = "CheckEdit41"
         Me.CheckEdit41.Properties.Caption = "Tidak"
-        Me.CheckEdit41.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit41.Size = New System.Drawing.Size(50, 19)
         Me.CheckEdit41.StyleController = Me.layoutControl
         Me.CheckEdit41.TabIndex = 123
         '
         'CheckEdit40
         '
-        Me.CheckEdit40.Location = New System.Drawing.Point(459, -105)
+        Me.CheckEdit40.Location = New System.Drawing.Point(496, 29)
         Me.CheckEdit40.MenuManager = Me.barManager
         Me.CheckEdit40.Name = "CheckEdit40"
         Me.CheckEdit40.Properties.Caption = "Tidak"
-        Me.CheckEdit40.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit40.Size = New System.Drawing.Size(50, 19)
         Me.CheckEdit40.StyleController = Me.layoutControl
         Me.CheckEdit40.TabIndex = 122
         '
         'CheckEdit39
         '
-        Me.CheckEdit39.Location = New System.Drawing.Point(459, -128)
+        Me.CheckEdit39.Location = New System.Drawing.Point(496, 6)
         Me.CheckEdit39.MenuManager = Me.barManager
         Me.CheckEdit39.Name = "CheckEdit39"
         Me.CheckEdit39.Properties.Caption = "Tidak"
-        Me.CheckEdit39.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit39.Size = New System.Drawing.Size(50, 19)
         Me.CheckEdit39.StyleController = Me.layoutControl
         Me.CheckEdit39.TabIndex = 121
         '
         'CheckEdit38
         '
-        Me.CheckEdit38.Location = New System.Drawing.Point(459, -151)
+        Me.CheckEdit38.Location = New System.Drawing.Point(496, -17)
         Me.CheckEdit38.MenuManager = Me.barManager
         Me.CheckEdit38.Name = "CheckEdit38"
         Me.CheckEdit38.Properties.Caption = "Tidak"
-        Me.CheckEdit38.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit38.Size = New System.Drawing.Size(50, 19)
         Me.CheckEdit38.StyleController = Me.layoutControl
         Me.CheckEdit38.TabIndex = 120
         '
         'CheckEdit37
         '
-        Me.CheckEdit37.Location = New System.Drawing.Point(459, -174)
+        Me.CheckEdit37.Location = New System.Drawing.Point(496, -40)
         Me.CheckEdit37.MenuManager = Me.barManager
         Me.CheckEdit37.Name = "CheckEdit37"
         Me.CheckEdit37.Properties.Caption = "Tidak"
-        Me.CheckEdit37.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit37.Size = New System.Drawing.Size(50, 19)
         Me.CheckEdit37.StyleController = Me.layoutControl
         Me.CheckEdit37.TabIndex = 119
         '
         'CheckEdit36
         '
-        Me.CheckEdit36.Location = New System.Drawing.Point(421, -54)
+        Me.CheckEdit36.Location = New System.Drawing.Point(445, 80)
         Me.CheckEdit36.MenuManager = Me.barManager
         Me.CheckEdit36.Name = "CheckEdit36"
         Me.CheckEdit36.Properties.Caption = "Ya"
-        Me.CheckEdit36.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit36.Size = New System.Drawing.Size(47, 19)
         Me.CheckEdit36.StyleController = Me.layoutControl
         Me.CheckEdit36.TabIndex = 118
         '
         'CheckEdit35
         '
-        Me.CheckEdit35.Location = New System.Drawing.Point(421, -78)
+        Me.CheckEdit35.Location = New System.Drawing.Point(445, 56)
         Me.CheckEdit35.MenuManager = Me.barManager
         Me.CheckEdit35.Name = "CheckEdit35"
         Me.CheckEdit35.Properties.Caption = "Ya"
-        Me.CheckEdit35.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit35.Size = New System.Drawing.Size(47, 19)
         Me.CheckEdit35.StyleController = Me.layoutControl
         Me.CheckEdit35.TabIndex = 117
         '
         'CheckEdit34
         '
-        Me.CheckEdit34.Location = New System.Drawing.Point(421, -102)
+        Me.CheckEdit34.Location = New System.Drawing.Point(445, 32)
         Me.CheckEdit34.MenuManager = Me.barManager
         Me.CheckEdit34.Name = "CheckEdit34"
         Me.CheckEdit34.Properties.Caption = "Ya"
-        Me.CheckEdit34.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit34.Size = New System.Drawing.Size(47, 19)
         Me.CheckEdit34.StyleController = Me.layoutControl
         Me.CheckEdit34.TabIndex = 116
         '
         'CheckEdit33
         '
-        Me.CheckEdit33.Location = New System.Drawing.Point(421, -126)
+        Me.CheckEdit33.Location = New System.Drawing.Point(445, 8)
         Me.CheckEdit33.MenuManager = Me.barManager
         Me.CheckEdit33.Name = "CheckEdit33"
         Me.CheckEdit33.Properties.Caption = "Ya"
-        Me.CheckEdit33.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit33.Size = New System.Drawing.Size(47, 19)
         Me.CheckEdit33.StyleController = Me.layoutControl
         Me.CheckEdit33.TabIndex = 115
         '
         'CheckEdit32
         '
-        Me.CheckEdit32.Location = New System.Drawing.Point(421, -150)
+        Me.CheckEdit32.Location = New System.Drawing.Point(445, -16)
         Me.CheckEdit32.MenuManager = Me.barManager
         Me.CheckEdit32.Name = "CheckEdit32"
         Me.CheckEdit32.Properties.Caption = "Ya"
-        Me.CheckEdit32.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit32.Size = New System.Drawing.Size(47, 19)
         Me.CheckEdit32.StyleController = Me.layoutControl
         Me.CheckEdit32.TabIndex = 114
         '
         'CheckEdit31
         '
-        Me.CheckEdit31.Location = New System.Drawing.Point(421, -174)
+        Me.CheckEdit31.Location = New System.Drawing.Point(445, -40)
         Me.CheckEdit31.MenuManager = Me.barManager
         Me.CheckEdit31.Name = "CheckEdit31"
         Me.CheckEdit31.Properties.Caption = "Ya"
-        Me.CheckEdit31.Size = New System.Drawing.Size(34, 19)
+        Me.CheckEdit31.Size = New System.Drawing.Size(47, 19)
         Me.CheckEdit31.StyleController = Me.layoutControl
         Me.CheckEdit31.TabIndex = 113
         '
         'CheckEdit30
         '
-        Me.CheckEdit30.Location = New System.Drawing.Point(205, -59)
+        Me.CheckEdit30.Location = New System.Drawing.Point(225, 75)
         Me.CheckEdit30.MenuManager = Me.barManager
         Me.CheckEdit30.Name = "CheckEdit30"
         Me.CheckEdit30.Properties.Caption = "Tidak"
-        Me.CheckEdit30.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit30.Size = New System.Drawing.Size(50, 19)
         Me.CheckEdit30.StyleController = Me.layoutControl
         Me.CheckEdit30.TabIndex = 112
         '
         'CheckEdit29
         '
-        Me.CheckEdit29.Location = New System.Drawing.Point(205, -82)
+        Me.CheckEdit29.Location = New System.Drawing.Point(225, 52)
         Me.CheckEdit29.MenuManager = Me.barManager
         Me.CheckEdit29.Name = "CheckEdit29"
         Me.CheckEdit29.Properties.Caption = "Tidak"
-        Me.CheckEdit29.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit29.Size = New System.Drawing.Size(50, 19)
         Me.CheckEdit29.StyleController = Me.layoutControl
         Me.CheckEdit29.TabIndex = 111
         '
         'CheckEdit28
         '
-        Me.CheckEdit28.Location = New System.Drawing.Point(205, -105)
+        Me.CheckEdit28.Location = New System.Drawing.Point(225, 29)
         Me.CheckEdit28.MenuManager = Me.barManager
         Me.CheckEdit28.Name = "CheckEdit28"
         Me.CheckEdit28.Properties.Caption = "Tidak"
-        Me.CheckEdit28.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit28.Size = New System.Drawing.Size(50, 19)
         Me.CheckEdit28.StyleController = Me.layoutControl
         Me.CheckEdit28.TabIndex = 110
         '
         'CheckEdit27
         '
-        Me.CheckEdit27.Location = New System.Drawing.Point(205, -128)
+        Me.CheckEdit27.Location = New System.Drawing.Point(225, 6)
         Me.CheckEdit27.MenuManager = Me.barManager
         Me.CheckEdit27.Name = "CheckEdit27"
         Me.CheckEdit27.Properties.Caption = "Tidak"
-        Me.CheckEdit27.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit27.Size = New System.Drawing.Size(50, 19)
         Me.CheckEdit27.StyleController = Me.layoutControl
         Me.CheckEdit27.TabIndex = 109
         '
         'CheckEdit26
         '
-        Me.CheckEdit26.Location = New System.Drawing.Point(205, -151)
+        Me.CheckEdit26.Location = New System.Drawing.Point(225, -17)
         Me.CheckEdit26.MenuManager = Me.barManager
         Me.CheckEdit26.Name = "CheckEdit26"
         Me.CheckEdit26.Properties.Caption = "Tidak"
-        Me.CheckEdit26.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit26.Size = New System.Drawing.Size(50, 19)
         Me.CheckEdit26.StyleController = Me.layoutControl
         Me.CheckEdit26.TabIndex = 108
         '
         'CheckEdit25
         '
-        Me.CheckEdit25.Location = New System.Drawing.Point(205, -174)
+        Me.CheckEdit25.Location = New System.Drawing.Point(225, -40)
         Me.CheckEdit25.MenuManager = Me.barManager
         Me.CheckEdit25.Name = "CheckEdit25"
         Me.CheckEdit25.Properties.Caption = "Tidak"
-        Me.CheckEdit25.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit25.Size = New System.Drawing.Size(50, 19)
         Me.CheckEdit25.StyleController = Me.layoutControl
         Me.CheckEdit25.TabIndex = 107
         '
         'CheckEdit24
         '
-        Me.CheckEdit24.Location = New System.Drawing.Point(167, -54)
+        Me.CheckEdit24.Location = New System.Drawing.Point(187, 80)
         Me.CheckEdit24.MenuManager = Me.barManager
         Me.CheckEdit24.Name = "CheckEdit24"
         Me.CheckEdit24.Properties.Caption = "Ya"
@@ -2093,7 +2131,7 @@ Partial Class frmMedicalCheckUP
         '
         'CheckEdit23
         '
-        Me.CheckEdit23.Location = New System.Drawing.Point(167, -78)
+        Me.CheckEdit23.Location = New System.Drawing.Point(187, 56)
         Me.CheckEdit23.MenuManager = Me.barManager
         Me.CheckEdit23.Name = "CheckEdit23"
         Me.CheckEdit23.Properties.Caption = "Ya"
@@ -2103,7 +2141,7 @@ Partial Class frmMedicalCheckUP
         '
         'CheckEdit22
         '
-        Me.CheckEdit22.Location = New System.Drawing.Point(167, -102)
+        Me.CheckEdit22.Location = New System.Drawing.Point(187, 32)
         Me.CheckEdit22.MenuManager = Me.barManager
         Me.CheckEdit22.Name = "CheckEdit22"
         Me.CheckEdit22.Properties.Caption = "Ya"
@@ -2113,7 +2151,7 @@ Partial Class frmMedicalCheckUP
         '
         'CheckEdit21
         '
-        Me.CheckEdit21.Location = New System.Drawing.Point(167, -126)
+        Me.CheckEdit21.Location = New System.Drawing.Point(187, 8)
         Me.CheckEdit21.MenuManager = Me.barManager
         Me.CheckEdit21.Name = "CheckEdit21"
         Me.CheckEdit21.Properties.Caption = "Ya"
@@ -2123,7 +2161,7 @@ Partial Class frmMedicalCheckUP
         '
         'CheckEdit20
         '
-        Me.CheckEdit20.Location = New System.Drawing.Point(167, -150)
+        Me.CheckEdit20.Location = New System.Drawing.Point(187, -16)
         Me.CheckEdit20.MenuManager = Me.barManager
         Me.CheckEdit20.Name = "CheckEdit20"
         Me.CheckEdit20.Properties.Caption = "Ya"
@@ -2133,7 +2171,7 @@ Partial Class frmMedicalCheckUP
         '
         'CheckEdit19
         '
-        Me.CheckEdit19.Location = New System.Drawing.Point(167, -174)
+        Me.CheckEdit19.Location = New System.Drawing.Point(187, -40)
         Me.CheckEdit19.MenuManager = Me.barManager
         Me.CheckEdit19.Name = "CheckEdit19"
         Me.CheckEdit19.Properties.Caption = "Ya"
@@ -2147,13 +2185,13 @@ Partial Class frmMedicalCheckUP
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.deDATE.EditValue = Nothing
         Me.deDATE.EnterMoveNextControl = True
-        Me.deDATE.Location = New System.Drawing.Point(117, -344)
+        Me.deDATE.Location = New System.Drawing.Point(117, -210)
         Me.deDATE.Name = "deDATE"
         Me.deDATE.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.deDATE.Properties.CalendarTimeProperties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton()})
         Me.deDATE.Properties.Mask.EditMask = "dd/MM/yyyy"
         Me.deDATE.Properties.Mask.UseMaskAsDisplayFormat = True
-        Me.deDATE.Size = New System.Drawing.Size(643, 20)
+        Me.deDATE.Size = New System.Drawing.Size(718, 20)
         Me.deDATE.StyleController = Me.layoutControl
         Me.deDATE.TabIndex = 22
         '
@@ -2161,12 +2199,12 @@ Partial Class frmMedicalCheckUP
         '
         Me.grdDPJP.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.grdDPJP.Location = New System.Drawing.Point(117, -320)
+        Me.grdDPJP.Location = New System.Drawing.Point(117, -186)
         Me.grdDPJP.Name = "grdDPJP"
         Me.grdDPJP.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.grdDPJP.Properties.NullText = ""
         Me.grdDPJP.Properties.View = Me.grvDPJP
-        Me.grdDPJP.Size = New System.Drawing.Size(643, 20)
+        Me.grdDPJP.Size = New System.Drawing.Size(718, 20)
         Me.grdDPJP.StyleController = Me.layoutControl
         Me.grdDPJP.TabIndex = 54
         '
@@ -2194,9 +2232,9 @@ Partial Class frmMedicalCheckUP
         Me.LabelControl24.Appearance.ForeColor = System.Drawing.Color.White
         Me.LabelControl24.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
         Me.LabelControl24.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl24.Location = New System.Drawing.Point(12, -296)
+        Me.LabelControl24.Location = New System.Drawing.Point(12, -162)
         Me.LabelControl24.Name = "LabelControl24"
-        Me.LabelControl24.Size = New System.Drawing.Size(748, 19)
+        Me.LabelControl24.Size = New System.Drawing.Size(823, 19)
         Me.LabelControl24.StyleController = Me.layoutControl
         Me.LabelControl24.TabIndex = 23
         Me.LabelControl24.Text = "MEDICAL CHECK UP"
@@ -2206,46 +2244,46 @@ Partial Class frmMedicalCheckUP
         Me.LabelControl23.Appearance.BackColor = System.Drawing.Color.Blue
         Me.LabelControl23.Appearance.ForeColor = System.Drawing.Color.White
         Me.LabelControl23.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl23.Location = New System.Drawing.Point(12, 1076)
+        Me.LabelControl23.Location = New System.Drawing.Point(12, 1234)
         Me.LabelControl23.Name = "LabelControl23"
-        Me.LabelControl23.Size = New System.Drawing.Size(748, 13)
+        Me.LabelControl23.Size = New System.Drawing.Size(823, 13)
         Me.LabelControl23.StyleController = Me.layoutControl
         Me.LabelControl23.TabIndex = 23
         Me.LabelControl23.Text = "IV. KESIMPULAN HASIL PEMERIKSAAN INI"
         '
         'CheckEdit18
         '
-        Me.CheckEdit18.Location = New System.Drawing.Point(444, 1028)
+        Me.CheckEdit18.Location = New System.Drawing.Point(475, 1186)
         Me.CheckEdit18.MenuManager = Me.barManager
         Me.CheckEdit18.Name = "CheckEdit18"
         Me.CheckEdit18.Properties.Caption = "/ Buta Warna Parsial"
-        Me.CheckEdit18.Size = New System.Drawing.Size(316, 19)
+        Me.CheckEdit18.Size = New System.Drawing.Size(360, 19)
         Me.CheckEdit18.StyleController = Me.layoutControl
         Me.CheckEdit18.TabIndex = 85
         '
         'CheckEdit17
         '
-        Me.CheckEdit17.Location = New System.Drawing.Point(293, 1028)
+        Me.CheckEdit17.Location = New System.Drawing.Point(313, 1186)
         Me.CheckEdit17.MenuManager = Me.barManager
         Me.CheckEdit17.Name = "CheckEdit17"
         Me.CheckEdit17.Properties.Caption = "/ Buta Warna Total"
-        Me.CheckEdit17.Size = New System.Drawing.Size(147, 19)
+        Me.CheckEdit17.Size = New System.Drawing.Size(158, 19)
         Me.CheckEdit17.StyleController = Me.layoutControl
         Me.CheckEdit17.TabIndex = 84
         '
         'CheckEdit16
         '
-        Me.CheckEdit16.Location = New System.Drawing.Point(117, 1028)
+        Me.CheckEdit16.Location = New System.Drawing.Point(117, 1186)
         Me.CheckEdit16.MenuManager = Me.barManager
         Me.CheckEdit16.Name = "CheckEdit16"
         Me.CheckEdit16.Properties.Caption = "Tidak Buta Warna"
-        Me.CheckEdit16.Size = New System.Drawing.Size(172, 19)
+        Me.CheckEdit16.Size = New System.Drawing.Size(192, 19)
         Me.CheckEdit16.StyleController = Me.layoutControl
         Me.CheckEdit16.TabIndex = 83
         '
         'LabelControl22
         '
-        Me.LabelControl22.Location = New System.Drawing.Point(757, 963)
+        Me.LabelControl22.Location = New System.Drawing.Point(832, 1121)
         Me.LabelControl22.Name = "LabelControl22"
         Me.LabelControl22.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl22.StyleController = Me.layoutControl
@@ -2254,7 +2292,7 @@ Partial Class frmMedicalCheckUP
         '
         'LabelControl21
         '
-        Me.LabelControl21.Location = New System.Drawing.Point(757, 946)
+        Me.LabelControl21.Location = New System.Drawing.Point(832, 1104)
         Me.LabelControl21.Name = "LabelControl21"
         Me.LabelControl21.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl21.StyleController = Me.layoutControl
@@ -2263,37 +2301,37 @@ Partial Class frmMedicalCheckUP
         '
         'MemoEdit29
         '
-        Me.MemoEdit29.Location = New System.Drawing.Point(117, 1052)
+        Me.MemoEdit29.Location = New System.Drawing.Point(117, 1210)
         Me.MemoEdit29.MenuManager = Me.barManager
         Me.MemoEdit29.Name = "MemoEdit29"
-        Me.MemoEdit29.Size = New System.Drawing.Size(643, 20)
+        Me.MemoEdit29.Size = New System.Drawing.Size(718, 20)
         Me.MemoEdit29.StyleController = Me.layoutControl
         Me.MemoEdit29.TabIndex = 79
         '
         'MemoEdit28
         '
-        Me.MemoEdit28.Location = New System.Drawing.Point(117, 1004)
+        Me.MemoEdit28.Location = New System.Drawing.Point(117, 1162)
         Me.MemoEdit28.MenuManager = Me.barManager
         Me.MemoEdit28.Name = "MemoEdit28"
-        Me.MemoEdit28.Size = New System.Drawing.Size(643, 20)
+        Me.MemoEdit28.Size = New System.Drawing.Size(718, 20)
         Me.MemoEdit28.StyleController = Me.layoutControl
         Me.MemoEdit28.TabIndex = 78
         '
         'MemoEdit27
         '
-        Me.MemoEdit27.Location = New System.Drawing.Point(117, 980)
+        Me.MemoEdit27.Location = New System.Drawing.Point(117, 1138)
         Me.MemoEdit27.MenuManager = Me.barManager
         Me.MemoEdit27.Name = "MemoEdit27"
-        Me.MemoEdit27.Size = New System.Drawing.Size(643, 20)
+        Me.MemoEdit27.Size = New System.Drawing.Size(718, 20)
         Me.MemoEdit27.StyleController = Me.layoutControl
         Me.MemoEdit27.TabIndex = 77
         '
         'MemoEdit26
         '
-        Me.MemoEdit26.Location = New System.Drawing.Point(117, 946)
+        Me.MemoEdit26.Location = New System.Drawing.Point(117, 1104)
         Me.MemoEdit26.MenuManager = Me.barManager
         Me.MemoEdit26.Name = "MemoEdit26"
-        Me.MemoEdit26.Size = New System.Drawing.Size(636, 30)
+        Me.MemoEdit26.Size = New System.Drawing.Size(711, 30)
         Me.MemoEdit26.StyleController = Me.layoutControl
         Me.MemoEdit26.TabIndex = 76
         '
@@ -2302,9 +2340,9 @@ Partial Class frmMedicalCheckUP
         Me.LabelControl19.Appearance.BackColor = System.Drawing.Color.Blue
         Me.LabelControl19.Appearance.ForeColor = System.Drawing.Color.White
         Me.LabelControl19.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl19.Location = New System.Drawing.Point(12, 929)
+        Me.LabelControl19.Location = New System.Drawing.Point(12, 1087)
         Me.LabelControl19.Name = "LabelControl19"
-        Me.LabelControl19.Size = New System.Drawing.Size(748, 13)
+        Me.LabelControl19.Size = New System.Drawing.Size(823, 13)
         Me.LabelControl19.StyleController = Me.layoutControl
         Me.LabelControl19.TabIndex = 21
         Me.LabelControl19.Text = "III. PEMERIKSAAN PENUNJANG"
@@ -2312,9 +2350,9 @@ Partial Class frmMedicalCheckUP
         'picGAMBAR2
         '
         Me.picGAMBAR2.Image = Global.UI.WIN.MAIN.My.Resources.Resources.medicalckeup
-        Me.picGAMBAR2.Location = New System.Drawing.Point(160, 367)
+        Me.picGAMBAR2.Location = New System.Drawing.Point(171, 525)
         Me.picGAMBAR2.Name = "picGAMBAR2"
-        Me.picGAMBAR2.Size = New System.Drawing.Size(593, 149)
+        Me.picGAMBAR2.Size = New System.Drawing.Size(657, 149)
         Me.picGAMBAR2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picGAMBAR2.TabIndex = 58
         Me.picGAMBAR2.TabStop = False
@@ -2322,15 +2360,15 @@ Partial Class frmMedicalCheckUP
         'Panel1
         '
         Me.Panel1.Controls.Add(Me.SimpleButton1)
-        Me.Panel1.Location = New System.Drawing.Point(12, 367)
+        Me.Panel1.Location = New System.Drawing.Point(12, 525)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(144, 149)
+        Me.Panel1.Size = New System.Drawing.Size(155, 149)
         Me.Panel1.TabIndex = 67
         '
         'SimpleButton1
         '
         Me.SimpleButton1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.SimpleButton1.Location = New System.Drawing.Point(41, 7)
+        Me.SimpleButton1.Location = New System.Drawing.Point(52, 7)
         Me.SimpleButton1.Name = "SimpleButton1"
         Me.SimpleButton1.Size = New System.Drawing.Size(85, 23)
         Me.SimpleButton1.TabIndex = 0
@@ -2338,7 +2376,7 @@ Partial Class frmMedicalCheckUP
         '
         'LabelControl18
         '
-        Me.LabelControl18.Location = New System.Drawing.Point(757, 418)
+        Me.LabelControl18.Location = New System.Drawing.Point(832, 576)
         Me.LabelControl18.Name = "LabelControl18"
         Me.LabelControl18.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl18.StyleController = Me.layoutControl
@@ -2347,7 +2385,7 @@ Partial Class frmMedicalCheckUP
         '
         'LabelControl17
         '
-        Me.LabelControl17.Location = New System.Drawing.Point(757, 384)
+        Me.LabelControl17.Location = New System.Drawing.Point(832, 542)
         Me.LabelControl17.Name = "LabelControl17"
         Me.LabelControl17.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl17.StyleController = Me.layoutControl
@@ -2356,7 +2394,7 @@ Partial Class frmMedicalCheckUP
         '
         'LabelControl16
         '
-        Me.LabelControl16.Location = New System.Drawing.Point(757, 401)
+        Me.LabelControl16.Location = New System.Drawing.Point(832, 559)
         Me.LabelControl16.Name = "LabelControl16"
         Me.LabelControl16.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl16.StyleController = Me.layoutControl
@@ -2365,7 +2403,7 @@ Partial Class frmMedicalCheckUP
         '
         'LabelControl15
         '
-        Me.LabelControl15.Location = New System.Drawing.Point(757, 503)
+        Me.LabelControl15.Location = New System.Drawing.Point(832, 661)
         Me.LabelControl15.Name = "LabelControl15"
         Me.LabelControl15.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl15.StyleController = Me.layoutControl
@@ -2374,7 +2412,7 @@ Partial Class frmMedicalCheckUP
         '
         'LabelControl14
         '
-        Me.LabelControl14.Location = New System.Drawing.Point(757, 435)
+        Me.LabelControl14.Location = New System.Drawing.Point(832, 593)
         Me.LabelControl14.Name = "LabelControl14"
         Me.LabelControl14.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl14.StyleController = Me.layoutControl
@@ -2383,7 +2421,7 @@ Partial Class frmMedicalCheckUP
         '
         'LabelControl12
         '
-        Me.LabelControl12.Location = New System.Drawing.Point(757, 367)
+        Me.LabelControl12.Location = New System.Drawing.Point(832, 525)
         Me.LabelControl12.Name = "LabelControl12"
         Me.LabelControl12.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl12.StyleController = Me.layoutControl
@@ -2393,7 +2431,7 @@ Partial Class frmMedicalCheckUP
         'LabelControl11
         '
         Me.LabelControl11.Appearance.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.LabelControl11.Location = New System.Drawing.Point(12, 203)
+        Me.LabelControl11.Location = New System.Drawing.Point(12, 361)
         Me.LabelControl11.Name = "LabelControl11"
         Me.LabelControl11.Size = New System.Drawing.Size(145, 13)
         Me.LabelControl11.StyleController = Me.layoutControl
@@ -2402,89 +2440,81 @@ Partial Class frmMedicalCheckUP
         '
         'LabelControl10
         '
-        Me.LabelControl10.Location = New System.Drawing.Point(742, 179)
+        Me.LabelControl10.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl10.Location = New System.Drawing.Point(601, 337)
         Me.LabelControl10.Name = "LabelControl10"
-        Me.LabelControl10.Size = New System.Drawing.Size(18, 13)
+        Me.LabelControl10.Size = New System.Drawing.Size(38, 13)
         Me.LabelControl10.StyleController = Me.layoutControl
         Me.LabelControl10.TabIndex = 52
-        Me.LabelControl10.Text = "x/m"
+        Me.LabelControl10.Text = "%"
         '
         'MemoEdit12
         '
-        Me.MemoEdit12.Location = New System.Drawing.Point(635, 179)
+        Me.MemoEdit12.Location = New System.Drawing.Point(324, 337)
         Me.MemoEdit12.MenuManager = Me.barManager
         Me.MemoEdit12.Name = "MemoEdit12"
-        Me.MemoEdit12.Size = New System.Drawing.Size(103, 20)
+        Me.MemoEdit12.Size = New System.Drawing.Size(87, 20)
         Me.MemoEdit12.StyleController = Me.layoutControl
         Me.MemoEdit12.TabIndex = 51
         '
         'MemoEdit11
         '
-        Me.MemoEdit11.Location = New System.Drawing.Point(117, 179)
+        Me.MemoEdit11.Location = New System.Drawing.Point(117, 337)
         Me.MemoEdit11.MenuManager = Me.barManager
         Me.MemoEdit11.Name = "MemoEdit11"
-        Me.MemoEdit11.Size = New System.Drawing.Size(409, 20)
+        Me.MemoEdit11.Size = New System.Drawing.Size(98, 20)
         Me.MemoEdit11.StyleController = Me.layoutControl
         Me.MemoEdit11.TabIndex = 50
         '
         'MemoEdit10
         '
-        Me.MemoEdit10.Location = New System.Drawing.Point(635, 155)
+        Me.MemoEdit10.Location = New System.Drawing.Point(520, 313)
         Me.MemoEdit10.MenuManager = Me.barManager
         Me.MemoEdit10.Name = "MemoEdit10"
-        Me.MemoEdit10.Size = New System.Drawing.Size(103, 20)
+        Me.MemoEdit10.Size = New System.Drawing.Size(77, 20)
         Me.MemoEdit10.StyleController = Me.layoutControl
         Me.MemoEdit10.TabIndex = 49
         '
         'MemoEdit9
         '
-        Me.MemoEdit9.Location = New System.Drawing.Point(444, 155)
+        Me.MemoEdit9.Location = New System.Drawing.Point(324, 313)
         Me.MemoEdit9.MenuManager = Me.barManager
         Me.MemoEdit9.Name = "MemoEdit9"
-        Me.MemoEdit9.Size = New System.Drawing.Size(82, 20)
+        Me.MemoEdit9.Size = New System.Drawing.Size(87, 20)
         Me.MemoEdit9.StyleController = Me.layoutControl
         Me.MemoEdit9.TabIndex = 48
         '
         'LabelControl9
         '
-        Me.LabelControl9.Location = New System.Drawing.Point(742, 155)
+        Me.LabelControl9.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.LabelControl9.Location = New System.Drawing.Point(601, 313)
         Me.LabelControl9.Name = "LabelControl9"
-        Me.LabelControl9.Size = New System.Drawing.Size(18, 13)
+        Me.LabelControl9.Size = New System.Drawing.Size(38, 13)
         Me.LabelControl9.StyleController = Me.layoutControl
         Me.LabelControl9.TabIndex = 47
         Me.LabelControl9.Text = "x/m"
         '
-        'LabelControl8
-        '
-        Me.LabelControl8.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl8.Location = New System.Drawing.Point(339, 131)
-        Me.LabelControl8.Name = "LabelControl8"
-        Me.LabelControl8.Size = New System.Drawing.Size(421, 13)
-        Me.LabelControl8.StyleController = Me.layoutControl
-        Me.LabelControl8.TabIndex = 46
-        Me.LabelControl8.Text = "Cm"
-        '
         'MemoEdit8
         '
-        Me.MemoEdit8.Location = New System.Drawing.Point(117, 155)
+        Me.MemoEdit8.Location = New System.Drawing.Point(117, 313)
         Me.MemoEdit8.MenuManager = Me.barManager
         Me.MemoEdit8.Name = "MemoEdit8"
-        Me.MemoEdit8.Size = New System.Drawing.Size(218, 20)
+        Me.MemoEdit8.Size = New System.Drawing.Size(98, 20)
         Me.MemoEdit8.StyleController = Me.layoutControl
         Me.MemoEdit8.TabIndex = 45
         '
         'MemoEdit7
         '
-        Me.MemoEdit7.Location = New System.Drawing.Point(117, 131)
+        Me.MemoEdit7.Location = New System.Drawing.Point(117, 289)
         Me.MemoEdit7.MenuManager = Me.barManager
         Me.MemoEdit7.Name = "MemoEdit7"
-        Me.MemoEdit7.Size = New System.Drawing.Size(218, 20)
+        Me.MemoEdit7.Size = New System.Drawing.Size(98, 20)
         Me.MemoEdit7.StyleController = Me.layoutControl
         Me.MemoEdit7.TabIndex = 44
         '
         'LabelControl7
         '
-        Me.LabelControl7.Location = New System.Drawing.Point(757, -239)
+        Me.LabelControl7.Location = New System.Drawing.Point(832, -105)
         Me.LabelControl7.Name = "LabelControl7"
         Me.LabelControl7.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl7.StyleController = Me.layoutControl
@@ -2493,7 +2523,7 @@ Partial Class frmMedicalCheckUP
         '
         'LabelControl6
         '
-        Me.LabelControl6.Location = New System.Drawing.Point(757, -256)
+        Me.LabelControl6.Location = New System.Drawing.Point(832, -122)
         Me.LabelControl6.Name = "LabelControl6"
         Me.LabelControl6.Size = New System.Drawing.Size(3, 13)
         Me.LabelControl6.StyleController = Me.layoutControl
@@ -2502,60 +2532,60 @@ Partial Class frmMedicalCheckUP
         '
         'CheckEdit15
         '
-        Me.CheckEdit15.Location = New System.Drawing.Point(677, 107)
+        Me.CheckEdit15.Location = New System.Drawing.Point(726, 265)
         Me.CheckEdit15.MenuManager = Me.barManager
         Me.CheckEdit15.Name = "CheckEdit15"
         Me.CheckEdit15.Properties.Caption = "Over Weight"
-        Me.CheckEdit15.Size = New System.Drawing.Size(83, 19)
+        Me.CheckEdit15.Size = New System.Drawing.Size(109, 19)
         Me.CheckEdit15.StyleController = Me.layoutControl
         Me.CheckEdit15.TabIndex = 41
         '
         'CheckEdit14
         '
-        Me.CheckEdit14.Location = New System.Drawing.Point(618, 107)
+        Me.CheckEdit14.Location = New System.Drawing.Point(663, 265)
         Me.CheckEdit14.MenuManager = Me.barManager
         Me.CheckEdit14.Name = "CheckEdit14"
         Me.CheckEdit14.Properties.Caption = "Normal"
-        Me.CheckEdit14.Size = New System.Drawing.Size(55, 19)
+        Me.CheckEdit14.Size = New System.Drawing.Size(59, 19)
         Me.CheckEdit14.StyleController = Me.layoutControl
         Me.CheckEdit14.TabIndex = 40
         '
         'CheckEdit13
         '
-        Me.CheckEdit13.Location = New System.Drawing.Point(526, 107)
+        Me.CheckEdit13.Location = New System.Drawing.Point(470, 265)
         Me.CheckEdit13.MenuManager = Me.barManager
         Me.CheckEdit13.Name = "CheckEdit13"
         Me.CheckEdit13.Properties.Caption = "Under Weight"
-        Me.CheckEdit13.Size = New System.Drawing.Size(88, 19)
+        Me.CheckEdit13.Size = New System.Drawing.Size(189, 19)
         Me.CheckEdit13.StyleController = Me.layoutControl
         Me.CheckEdit13.TabIndex = 39
         '
         'MemoEdit6
         '
-        Me.MemoEdit6.Location = New System.Drawing.Point(444, 107)
+        Me.MemoEdit6.Location = New System.Drawing.Point(324, 265)
         Me.MemoEdit6.MenuManager = Me.barManager
         Me.MemoEdit6.Name = "MemoEdit6"
-        Me.MemoEdit6.Size = New System.Drawing.Size(23, 20)
+        Me.MemoEdit6.Size = New System.Drawing.Size(87, 20)
         Me.MemoEdit6.StyleController = Me.layoutControl
         Me.MemoEdit6.TabIndex = 38
         '
         'CheckEdit12
         '
-        Me.CheckEdit12.Location = New System.Drawing.Point(571, 42)
+        Me.CheckEdit12.Location = New System.Drawing.Point(613, 176)
         Me.CheckEdit12.MenuManager = Me.barManager
         Me.CheckEdit12.Name = "CheckEdit12"
         Me.CheckEdit12.Properties.Caption = "Tidak"
-        Me.CheckEdit12.Size = New System.Drawing.Size(189, 19)
+        Me.CheckEdit12.Size = New System.Drawing.Size(222, 19)
         Me.CheckEdit12.StyleController = Me.layoutControl
         Me.CheckEdit12.TabIndex = 37
         '
         'CheckEdit11
         '
-        Me.CheckEdit11.Location = New System.Drawing.Point(514, 42)
+        Me.CheckEdit11.Location = New System.Drawing.Point(544, 176)
         Me.CheckEdit11.MenuManager = Me.barManager
         Me.CheckEdit11.Name = "CheckEdit11"
         Me.CheckEdit11.Properties.Caption = "Ya"
-        Me.CheckEdit11.Size = New System.Drawing.Size(53, 19)
+        Me.CheckEdit11.Size = New System.Drawing.Size(65, 19)
         Me.CheckEdit11.StyleController = Me.layoutControl
         Me.CheckEdit11.TabIndex = 36
         '
@@ -2563,40 +2593,40 @@ Partial Class frmMedicalCheckUP
         '
         Me.LabelControl5.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LabelControl5.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl5.Location = New System.Drawing.Point(12, 42)
+        Me.LabelControl5.Location = New System.Drawing.Point(12, 176)
         Me.LabelControl5.Name = "LabelControl5"
-        Me.LabelControl5.Size = New System.Drawing.Size(393, 13)
+        Me.LabelControl5.Size = New System.Drawing.Size(423, 13)
         Me.LabelControl5.StyleController = Me.layoutControl
         Me.LabelControl5.TabIndex = 33
         Me.LabelControl5.Text = " "
         '
         'CheckEdit10
         '
-        Me.CheckEdit10.Location = New System.Drawing.Point(571, 18)
+        Me.CheckEdit10.Location = New System.Drawing.Point(613, 152)
         Me.CheckEdit10.MenuManager = Me.barManager
         Me.CheckEdit10.Name = "CheckEdit10"
         Me.CheckEdit10.Properties.Caption = "Tidak"
-        Me.CheckEdit10.Size = New System.Drawing.Size(189, 19)
+        Me.CheckEdit10.Size = New System.Drawing.Size(222, 19)
         Me.CheckEdit10.StyleController = Me.layoutControl
         Me.CheckEdit10.TabIndex = 35
         '
         'CheckEdit9
         '
-        Me.CheckEdit9.Location = New System.Drawing.Point(514, 18)
+        Me.CheckEdit9.Location = New System.Drawing.Point(544, 152)
         Me.CheckEdit9.MenuManager = Me.barManager
         Me.CheckEdit9.Name = "CheckEdit9"
         Me.CheckEdit9.Properties.Caption = "Ya"
-        Me.CheckEdit9.Size = New System.Drawing.Size(53, 19)
+        Me.CheckEdit9.Size = New System.Drawing.Size(65, 19)
         Me.CheckEdit9.StyleController = Me.layoutControl
         Me.CheckEdit9.TabIndex = 34
         '
         'CheckEdit8
         '
-        Me.CheckEdit8.Location = New System.Drawing.Point(571, -6)
+        Me.CheckEdit8.Location = New System.Drawing.Point(613, 128)
         Me.CheckEdit8.MenuManager = Me.barManager
         Me.CheckEdit8.Name = "CheckEdit8"
         Me.CheckEdit8.Properties.Caption = "Tidak"
-        Me.CheckEdit8.Size = New System.Drawing.Size(189, 19)
+        Me.CheckEdit8.Size = New System.Drawing.Size(222, 19)
         Me.CheckEdit8.StyleController = Me.layoutControl
         Me.CheckEdit8.TabIndex = 33
         '
@@ -2604,9 +2634,9 @@ Partial Class frmMedicalCheckUP
         '
         Me.LabelControl4.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LabelControl4.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl4.Location = New System.Drawing.Point(12, 18)
+        Me.LabelControl4.Location = New System.Drawing.Point(12, 152)
         Me.LabelControl4.Name = "LabelControl4"
-        Me.LabelControl4.Size = New System.Drawing.Size(393, 13)
+        Me.LabelControl4.Size = New System.Drawing.Size(423, 13)
         Me.LabelControl4.StyleController = Me.layoutControl
         Me.LabelControl4.TabIndex = 32
         Me.LabelControl4.Text = " "
@@ -2615,19 +2645,19 @@ Partial Class frmMedicalCheckUP
         '
         Me.LabelControl3.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LabelControl3.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl3.Location = New System.Drawing.Point(12, -6)
+        Me.LabelControl3.Location = New System.Drawing.Point(12, 128)
         Me.LabelControl3.Name = "LabelControl3"
-        Me.LabelControl3.Size = New System.Drawing.Size(393, 13)
+        Me.LabelControl3.Size = New System.Drawing.Size(423, 13)
         Me.LabelControl3.StyleController = Me.layoutControl
         Me.LabelControl3.TabIndex = 31
         Me.LabelControl3.Text = "Kebiasaan sehari-hari :"
         '
         'MemoEdit5
         '
-        Me.MemoEdit5.Location = New System.Drawing.Point(117, 107)
+        Me.MemoEdit5.Location = New System.Drawing.Point(117, 265)
         Me.MemoEdit5.MenuManager = Me.barManager
         Me.MemoEdit5.Name = "MemoEdit5"
-        Me.MemoEdit5.Size = New System.Drawing.Size(218, 20)
+        Me.MemoEdit5.Size = New System.Drawing.Size(98, 20)
         Me.MemoEdit5.StyleController = Me.layoutControl
         Me.MemoEdit5.TabIndex = 30
         '
@@ -2636,36 +2666,36 @@ Partial Class frmMedicalCheckUP
         Me.LabelControl2.Appearance.BackColor = System.Drawing.Color.Blue
         Me.LabelControl2.Appearance.ForeColor = System.Drawing.Color.White
         Me.LabelControl2.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl2.Location = New System.Drawing.Point(12, 66)
+        Me.LabelControl2.Location = New System.Drawing.Point(12, 200)
         Me.LabelControl2.Name = "LabelControl2"
-        Me.LabelControl2.Size = New System.Drawing.Size(748, 13)
+        Me.LabelControl2.Size = New System.Drawing.Size(823, 13)
         Me.LabelControl2.StyleController = Me.layoutControl
         Me.LabelControl2.TabIndex = 20
         Me.LabelControl2.Text = "II. PEMERIKSAAN FISIK"
         '
         'CheckEdit7
         '
-        Me.CheckEdit7.Location = New System.Drawing.Point(514, -6)
+        Me.CheckEdit7.Location = New System.Drawing.Point(544, 128)
         Me.CheckEdit7.MenuManager = Me.barManager
         Me.CheckEdit7.Name = "CheckEdit7"
         Me.CheckEdit7.Properties.Caption = "Ya"
-        Me.CheckEdit7.Size = New System.Drawing.Size(53, 19)
+        Me.CheckEdit7.Size = New System.Drawing.Size(65, 19)
         Me.CheckEdit7.StyleController = Me.layoutControl
         Me.CheckEdit7.TabIndex = 29
         '
         'CheckEdit6
         '
-        Me.CheckEdit6.Location = New System.Drawing.Point(268, -30)
+        Me.CheckEdit6.Location = New System.Drawing.Point(288, 104)
         Me.CheckEdit6.MenuManager = Me.barManager
         Me.CheckEdit6.Name = "CheckEdit6"
         Me.CheckEdit6.Properties.Caption = "Ada"
-        Me.CheckEdit6.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit6.Size = New System.Drawing.Size(50, 19)
         Me.CheckEdit6.StyleController = Me.layoutControl
         Me.CheckEdit6.TabIndex = 28
         '
         'CheckEdit5
         '
-        Me.CheckEdit5.Location = New System.Drawing.Point(167, -30)
+        Me.CheckEdit5.Location = New System.Drawing.Point(187, 104)
         Me.CheckEdit5.MenuManager = Me.barManager
         Me.CheckEdit5.Name = "CheckEdit5"
         Me.CheckEdit5.Properties.Caption = "Tidak ada"
@@ -2675,44 +2705,44 @@ Partial Class frmMedicalCheckUP
         '
         'CheckEdit4
         '
-        Me.CheckEdit4.Location = New System.Drawing.Point(268, -199)
+        Me.CheckEdit4.Location = New System.Drawing.Point(288, -65)
         Me.CheckEdit4.MenuManager = Me.barManager
         Me.CheckEdit4.Name = "CheckEdit4"
         Me.CheckEdit4.Properties.Caption = "Ada"
-        Me.CheckEdit4.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit4.Size = New System.Drawing.Size(50, 19)
         Me.CheckEdit4.StyleController = Me.layoutControl
         Me.CheckEdit4.TabIndex = 26
         '
         'MemoEdit4
         '
-        Me.MemoEdit4.Location = New System.Drawing.Point(319, -30)
+        Me.MemoEdit4.Location = New System.Drawing.Point(342, 104)
         Me.MemoEdit4.MenuManager = Me.barManager
         Me.MemoEdit4.Name = "MemoEdit4"
-        Me.MemoEdit4.Size = New System.Drawing.Size(441, 20)
+        Me.MemoEdit4.Size = New System.Drawing.Size(493, 20)
         Me.MemoEdit4.StyleController = Me.layoutControl
         Me.MemoEdit4.TabIndex = 25
         '
         'MemoEdit3
         '
-        Me.MemoEdit3.Location = New System.Drawing.Point(330, -202)
+        Me.MemoEdit3.Location = New System.Drawing.Point(354, -68)
         Me.MemoEdit3.MenuManager = Me.barManager
         Me.MemoEdit3.Name = "MemoEdit3"
-        Me.MemoEdit3.Size = New System.Drawing.Size(430, 24)
+        Me.MemoEdit3.Size = New System.Drawing.Size(481, 24)
         Me.MemoEdit3.StyleController = Me.layoutControl
         Me.MemoEdit3.TabIndex = 24
         '
         'MemoEdit2
         '
-        Me.MemoEdit2.Location = New System.Drawing.Point(330, -222)
+        Me.MemoEdit2.Location = New System.Drawing.Point(354, -88)
         Me.MemoEdit2.MenuManager = Me.barManager
         Me.MemoEdit2.Name = "MemoEdit2"
-        Me.MemoEdit2.Size = New System.Drawing.Size(430, 16)
+        Me.MemoEdit2.Size = New System.Drawing.Size(481, 16)
         Me.MemoEdit2.StyleController = Me.layoutControl
         Me.MemoEdit2.TabIndex = 23
         '
         'CheckEdit3
         '
-        Me.CheckEdit3.Location = New System.Drawing.Point(167, -198)
+        Me.CheckEdit3.Location = New System.Drawing.Point(187, -64)
         Me.CheckEdit3.MenuManager = Me.barManager
         Me.CheckEdit3.Name = "CheckEdit3"
         Me.CheckEdit3.Properties.Caption = "Tidak ada"
@@ -2722,17 +2752,17 @@ Partial Class frmMedicalCheckUP
         '
         'CheckEdit2
         '
-        Me.CheckEdit2.Location = New System.Drawing.Point(268, -222)
+        Me.CheckEdit2.Location = New System.Drawing.Point(288, -88)
         Me.CheckEdit2.MenuManager = Me.barManager
         Me.CheckEdit2.Name = "CheckEdit2"
         Me.CheckEdit2.Properties.Caption = "Ada"
-        Me.CheckEdit2.Size = New System.Drawing.Size(47, 19)
+        Me.CheckEdit2.Size = New System.Drawing.Size(50, 19)
         Me.CheckEdit2.StyleController = Me.layoutControl
         Me.CheckEdit2.TabIndex = 21
         '
         'CheckEdit1
         '
-        Me.CheckEdit1.Location = New System.Drawing.Point(167, -222)
+        Me.CheckEdit1.Location = New System.Drawing.Point(187, -88)
         Me.CheckEdit1.MenuManager = Me.barManager
         Me.CheckEdit1.Name = "CheckEdit1"
         Me.CheckEdit1.Properties.Caption = "Tidak ada"
@@ -2745,28 +2775,28 @@ Partial Class frmMedicalCheckUP
         Me.LabelControl1.Appearance.BackColor = System.Drawing.Color.Blue
         Me.LabelControl1.Appearance.ForeColor = System.Drawing.Color.White
         Me.LabelControl1.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.LabelControl1.Location = New System.Drawing.Point(12, -273)
+        Me.LabelControl1.Location = New System.Drawing.Point(12, -139)
         Me.LabelControl1.Name = "LabelControl1"
-        Me.LabelControl1.Size = New System.Drawing.Size(748, 13)
+        Me.LabelControl1.Size = New System.Drawing.Size(823, 13)
         Me.LabelControl1.StyleController = Me.layoutControl
         Me.LabelControl1.TabIndex = 19
         Me.LabelControl1.Text = "I. ANAMNESIS"
         '
         'MemoEdit1
         '
-        Me.MemoEdit1.Location = New System.Drawing.Point(167, -256)
+        Me.MemoEdit1.Location = New System.Drawing.Point(187, -122)
         Me.MemoEdit1.MenuManager = Me.barManager
         Me.MemoEdit1.Name = "MemoEdit1"
-        Me.MemoEdit1.Size = New System.Drawing.Size(586, 30)
+        Me.MemoEdit1.Size = New System.Drawing.Size(641, 30)
         Me.MemoEdit1.StyleController = Me.layoutControl
         Me.MemoEdit1.TabIndex = 18
         '
         'txtCODE
         '
-        Me.txtCODE.Location = New System.Drawing.Point(117, -368)
+        Me.txtCODE.Location = New System.Drawing.Point(117, -234)
         Me.txtCODE.MenuManager = Me.barManager
         Me.txtCODE.Name = "txtCODE"
-        Me.txtCODE.Size = New System.Drawing.Size(643, 20)
+        Me.txtCODE.Size = New System.Drawing.Size(718, 20)
         Me.txtCODE.StyleController = Me.layoutControl
         Me.txtCODE.TabIndex = 17
         '
@@ -2775,10 +2805,10 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlGroup1.CustomizationFormText = "LayoutControlGroup1"
         Me.LayoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
         Me.LayoutControlGroup1.GroupBordersVisible = False
-        Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lCODE, Me.LayoutControlItem1, Me.LayoutControlItem2, Me.LayoutControlItem3, Me.LayoutControlItem6, Me.LayoutControlItem7, Me.LayoutControlItem13, Me.LayoutControlItem14, Me.LayoutControlItem15, Me.LayoutControlItem16, Me.LayoutControlItem12, Me.LayoutControlItem9, Me.LayoutControlItem4, Me.LayoutControlItem5, Me.LayoutControlItem17, Me.LayoutControlItem18, Me.LayoutControlItem19, Me.LayoutControlItem20, Me.LayoutControlItem21, Me.LayoutControlItem22, Me.LayoutControlItem23, Me.LayoutControlItem24, Me.LayoutControlItem25, Me.LayoutControlItem26, Me.LayoutControlItem27, Me.LayoutControlItem28, Me.LayoutControlItem29, Me.LayoutControlItem30, Me.LayoutControlItem31, Me.LayoutControlItem32, Me.LayoutControlItem33, Me.LayoutControlItem34, Me.LayoutControlItem35, Me.LayoutControlItem36, Me.LayoutControlItem37, Me.LayoutControlItem38, Me.LayoutControlItem45, Me.LayoutControlItem47, Me.LayoutControlItem48, Me.LayoutControlItem49, Me.LayoutControlItem50, Me.LayoutControlItem51, Me.LayoutControlItem52, Me.LayoutControlItem43, Me.LayoutControlItem61, Me.LayoutControlItem62, Me.LayoutControlItem63, Me.LayoutControlItem64, Me.LayoutControlItem65, Me.LayoutControlItem67, Me.LayoutControlItem68, Me.LayoutControlItem66, Me.LayoutControlItem69, Me.LayoutControlItem70, Me.LayoutControlItem76, Me.LayoutControlItem77, Me.LayoutControlItem92, Me.LayoutControlItem93, Me.LayoutControlItem94, Me.LayoutControlItem95, Me.LayoutControlItem96, Me.LayoutControlItem97, Me.LayoutControlItem98, Me.LayoutControlItem99, Me.LayoutControlItem100, Me.LayoutControlItem101, Me.LayoutControlItem102, Me.LayoutControlItem103, Me.LayoutControlItem104, Me.LayoutControlItem105, Me.LayoutControlItem108, Me.LayoutControlItem109, Me.LayoutControlItem110, Me.LayoutControlItem111, Me.LayoutControlItem106, Me.LayoutControlItem107, Me.LayoutControlItem112, Me.LayoutControlItem113, Me.LayoutControlItem114, Me.LayoutControlItem115, Me.LayoutControlItem116, Me.LayoutControlItem117, Me.LayoutControlItem118, Me.LayoutControlItem119, Me.LayoutControlItem120, Me.LayoutControlItem121, Me.LayoutControlItem122, Me.LayoutControlItem123, Me.LayoutControlItem124, Me.LayoutControlItem125, Me.LayoutControlItem126, Me.LayoutControlItem127, Me.EmptySpaceItem1, Me.EmptySpaceItem2, Me.EmptySpaceItem3, Me.LayoutControlItem10, Me.LayoutControlItem11, Me.LayoutControlItem8, Me.LayoutControlItem128, Me.LayoutControlItem129, Me.LayoutControlItem130, Me.LayoutControlItem132, Me.LayoutControlItem133, Me.LayoutControlItem134, Me.LayoutControlItem135, Me.LayoutControlItem136, Me.LayoutControlItem137, Me.LayoutControlItem138, Me.EmptySpaceItem4, Me.EmptySpaceItem5, Me.LayoutControlItem131, Me.LayoutControlItem139, Me.LayoutControlItem142, Me.LayoutControlItem140, Me.LayoutControlItem143, Me.LayoutControlItem141, Me.LayoutControlItem144, Me.LayoutControlItem39, Me.LayoutControlItem40, Me.LayoutControlItem41, Me.LayoutControlItem42, Me.LayoutControlItem46, Me.LayoutControlItem53, Me.LayoutControlItem54, Me.LayoutControlItem55, Me.LayoutControlItem56, Me.LayoutControlItem57, Me.EmptySpaceItem6, Me.LayoutControlItem44, Me.LayoutControlItem58, Me.LayoutControlItem59, Me.LayoutControlItem60, Me.LayoutControlItem145, Me.LayoutControlItem146, Me.LayoutControlItem147, Me.LayoutControlItem148, Me.LayoutControlItem149, Me.LayoutControlItem150, Me.LayoutControlItem151, Me.LayoutControlItem152, Me.LayoutControlItem153, Me.LayoutControlItem154, Me.LayoutControlItem155, Me.LayoutControlItem156, Me.LayoutControlItem157, Me.LayoutControlItem158, Me.LayoutControlItem159, Me.LayoutControlItem165, Me.LayoutControlItem166, Me.LayoutControlItem167, Me.LayoutControlItem168, Me.LayoutControlItem169, Me.LayoutControlItem170, Me.LayoutControlItem171, Me.LayoutControlItem172, Me.LayoutControlItem173, Me.LayoutControlItem174, Me.LayoutControlItem160, Me.LayoutControlItem161, Me.LayoutControlItem162, Me.LayoutControlItem163, Me.LayoutControlItem164, Me.LayoutControlItem175, Me.LayoutControlItem176, Me.LayoutControlItem177, Me.LayoutControlItem71, Me.LayoutControlItem72, Me.LayoutControlItem73, Me.LayoutControlItem74, Me.LayoutControlItem75, Me.LayoutControlItem78, Me.LayoutControlItem79, Me.LayoutControlItem80, Me.LayoutControlItem81, Me.LayoutControlItem82, Me.LayoutControlItem83, Me.LayoutControlGroup2})
-        Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, -494)
+        Me.LayoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lCODE, Me.LayoutControlItem1, Me.LayoutControlItem2, Me.LayoutControlItem3, Me.LayoutControlItem6, Me.LayoutControlItem7, Me.LayoutControlItem13, Me.LayoutControlItem14, Me.LayoutControlItem15, Me.LayoutControlItem16, Me.LayoutControlItem12, Me.LayoutControlItem9, Me.LayoutControlItem4, Me.LayoutControlItem5, Me.LayoutControlItem17, Me.LayoutControlItem18, Me.LayoutControlItem19, Me.LayoutControlItem20, Me.LayoutControlItem21, Me.LayoutControlItem22, Me.LayoutControlItem23, Me.LayoutControlItem24, Me.LayoutControlItem25, Me.LayoutControlItem26, Me.LayoutControlItem27, Me.LayoutControlItem28, Me.LayoutControlItem29, Me.LayoutControlItem30, Me.LayoutControlItem32, Me.LayoutControlItem33, Me.LayoutControlItem34, Me.LayoutControlItem35, Me.LayoutControlItem36, Me.LayoutControlItem45, Me.LayoutControlItem47, Me.LayoutControlItem48, Me.LayoutControlItem49, Me.LayoutControlItem50, Me.LayoutControlItem51, Me.LayoutControlItem52, Me.LayoutControlItem43, Me.LayoutControlItem61, Me.LayoutControlItem62, Me.LayoutControlItem63, Me.LayoutControlItem64, Me.LayoutControlItem65, Me.LayoutControlItem67, Me.LayoutControlItem68, Me.LayoutControlItem66, Me.LayoutControlItem69, Me.LayoutControlItem70, Me.LayoutControlItem76, Me.LayoutControlItem77, Me.LayoutControlItem92, Me.LayoutControlItem93, Me.LayoutControlItem94, Me.LayoutControlItem95, Me.LayoutControlItem96, Me.LayoutControlItem97, Me.LayoutControlItem98, Me.LayoutControlItem99, Me.LayoutControlItem100, Me.LayoutControlItem101, Me.LayoutControlItem102, Me.LayoutControlItem103, Me.LayoutControlItem104, Me.LayoutControlItem105, Me.LayoutControlItem108, Me.LayoutControlItem109, Me.LayoutControlItem110, Me.LayoutControlItem111, Me.LayoutControlItem106, Me.LayoutControlItem107, Me.LayoutControlItem112, Me.LayoutControlItem113, Me.LayoutControlItem114, Me.LayoutControlItem115, Me.LayoutControlItem116, Me.LayoutControlItem117, Me.LayoutControlItem118, Me.LayoutControlItem119, Me.LayoutControlItem120, Me.LayoutControlItem121, Me.LayoutControlItem122, Me.LayoutControlItem123, Me.LayoutControlItem124, Me.LayoutControlItem125, Me.LayoutControlItem126, Me.LayoutControlItem127, Me.EmptySpaceItem1, Me.EmptySpaceItem2, Me.EmptySpaceItem3, Me.LayoutControlItem10, Me.LayoutControlItem11, Me.LayoutControlItem8, Me.LayoutControlItem128, Me.LayoutControlItem129, Me.LayoutControlItem130, Me.LayoutControlItem132, Me.LayoutControlItem133, Me.LayoutControlItem134, Me.LayoutControlItem135, Me.LayoutControlItem136, Me.LayoutControlItem137, Me.LayoutControlItem138, Me.EmptySpaceItem4, Me.EmptySpaceItem5, Me.LayoutControlItem131, Me.LayoutControlItem139, Me.LayoutControlItem142, Me.LayoutControlItem140, Me.LayoutControlItem143, Me.LayoutControlItem141, Me.LayoutControlItem144, Me.LayoutControlItem39, Me.LayoutControlItem40, Me.LayoutControlItem41, Me.LayoutControlItem42, Me.LayoutControlItem46, Me.LayoutControlItem53, Me.LayoutControlItem54, Me.LayoutControlItem55, Me.LayoutControlItem56, Me.LayoutControlItem57, Me.EmptySpaceItem6, Me.LayoutControlItem44, Me.LayoutControlItem58, Me.LayoutControlItem59, Me.LayoutControlItem60, Me.LayoutControlItem145, Me.LayoutControlItem146, Me.LayoutControlItem147, Me.LayoutControlItem148, Me.LayoutControlItem149, Me.LayoutControlItem150, Me.LayoutControlItem151, Me.LayoutControlItem152, Me.LayoutControlItem153, Me.LayoutControlItem154, Me.LayoutControlItem155, Me.LayoutControlItem156, Me.LayoutControlItem157, Me.LayoutControlItem158, Me.LayoutControlItem159, Me.LayoutControlItem165, Me.LayoutControlItem166, Me.LayoutControlItem167, Me.LayoutControlItem168, Me.LayoutControlItem169, Me.LayoutControlItem170, Me.LayoutControlItem171, Me.LayoutControlItem172, Me.LayoutControlItem173, Me.LayoutControlItem174, Me.LayoutControlItem160, Me.LayoutControlItem161, Me.LayoutControlItem162, Me.LayoutControlItem163, Me.LayoutControlItem164, Me.LayoutControlItem175, Me.LayoutControlItem176, Me.LayoutControlItem177, Me.LayoutControlItem71, Me.LayoutControlItem72, Me.LayoutControlItem73, Me.LayoutControlItem74, Me.LayoutControlItem75, Me.LayoutControlItem78, Me.LayoutControlItem79, Me.LayoutControlItem80, Me.LayoutControlItem81, Me.LayoutControlItem82, Me.LayoutControlItem83, Me.LayoutControlGroup2, Me.EmptySpaceItem7, Me.LayoutControlItem38, Me.LayoutControlItem90, Me.LayoutControlItem37, Me.EmptySpaceItem8, Me.LayoutControlItem91, Me.LayoutControlItem178, Me.EmptySpaceItem9})
+        Me.LayoutControlGroup1.Location = New System.Drawing.Point(0, -360)
         Me.LayoutControlGroup1.Name = "Root"
-        Me.LayoutControlGroup1.Size = New System.Drawing.Size(772, 1720)
+        Me.LayoutControlGroup1.Size = New System.Drawing.Size(847, 1744)
         Me.LayoutControlGroup1.TextVisible = False
         '
         'lCODE
@@ -2788,7 +2818,7 @@ Partial Class frmMedicalCheckUP
         Me.lCODE.Control = Me.txtCODE
         Me.lCODE.Location = New System.Drawing.Point(0, 114)
         Me.lCODE.Name = "lCODE"
-        Me.lCODE.Size = New System.Drawing.Size(752, 24)
+        Me.lCODE.Size = New System.Drawing.Size(827, 24)
         Me.lCODE.Text = "Kode :"
         Me.lCODE.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lCODE.TextSize = New System.Drawing.Size(100, 20)
@@ -2801,10 +2831,10 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem1.Control = Me.MemoEdit1
         Me.LayoutControlItem1.Location = New System.Drawing.Point(0, 226)
         Me.LayoutControlItem1.Name = "LayoutControlItem1"
-        Me.LayoutControlItem1.Size = New System.Drawing.Size(745, 34)
+        Me.LayoutControlItem1.Size = New System.Drawing.Size(820, 34)
         Me.LayoutControlItem1.Text = "Keluhan :"
         Me.LayoutControlItem1.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
-        Me.LayoutControlItem1.TextSize = New System.Drawing.Size(150, 20)
+        Me.LayoutControlItem1.TextSize = New System.Drawing.Size(170, 20)
         Me.LayoutControlItem1.TextToControlDistance = 5
         '
         'LayoutControlItem2
@@ -2812,7 +2842,7 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem2.Control = Me.LabelControl1
         Me.LayoutControlItem2.Location = New System.Drawing.Point(0, 209)
         Me.LayoutControlItem2.Name = "LayoutControlItem2"
-        Me.LayoutControlItem2.Size = New System.Drawing.Size(752, 17)
+        Me.LayoutControlItem2.Size = New System.Drawing.Size(827, 17)
         Me.LayoutControlItem2.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem2.TextVisible = False
         '
@@ -2823,27 +2853,27 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem3.Control = Me.CheckEdit1
         Me.LayoutControlItem3.Location = New System.Drawing.Point(0, 260)
         Me.LayoutControlItem3.Name = "LayoutControlItem3"
-        Me.LayoutControlItem3.Size = New System.Drawing.Size(256, 24)
+        Me.LayoutControlItem3.Size = New System.Drawing.Size(276, 24)
         Me.LayoutControlItem3.Text = "Riwayat Penyakit Sekarang :"
         Me.LayoutControlItem3.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
-        Me.LayoutControlItem3.TextSize = New System.Drawing.Size(150, 20)
+        Me.LayoutControlItem3.TextSize = New System.Drawing.Size(170, 20)
         Me.LayoutControlItem3.TextToControlDistance = 5
         '
         'LayoutControlItem6
         '
         Me.LayoutControlItem6.Control = Me.MemoEdit2
-        Me.LayoutControlItem6.Location = New System.Drawing.Point(318, 260)
+        Me.LayoutControlItem6.Location = New System.Drawing.Point(342, 260)
         Me.LayoutControlItem6.Name = "LayoutControlItem6"
-        Me.LayoutControlItem6.Size = New System.Drawing.Size(434, 20)
+        Me.LayoutControlItem6.Size = New System.Drawing.Size(485, 20)
         Me.LayoutControlItem6.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem6.TextVisible = False
         '
         'LayoutControlItem7
         '
         Me.LayoutControlItem7.Control = Me.MemoEdit3
-        Me.LayoutControlItem7.Location = New System.Drawing.Point(318, 280)
+        Me.LayoutControlItem7.Location = New System.Drawing.Point(342, 280)
         Me.LayoutControlItem7.Name = "LayoutControlItem7"
-        Me.LayoutControlItem7.Size = New System.Drawing.Size(434, 28)
+        Me.LayoutControlItem7.Size = New System.Drawing.Size(485, 28)
         Me.LayoutControlItem7.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem7.TextVisible = False
         '
@@ -2852,7 +2882,7 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem13.Control = Me.LabelControl2
         Me.LayoutControlItem13.Location = New System.Drawing.Point(0, 548)
         Me.LayoutControlItem13.Name = "LayoutControlItem13"
-        Me.LayoutControlItem13.Size = New System.Drawing.Size(752, 17)
+        Me.LayoutControlItem13.Size = New System.Drawing.Size(827, 17)
         Me.LayoutControlItem13.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem13.TextVisible = False
         '
@@ -2861,9 +2891,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem14.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem14.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem14.Control = Me.MemoEdit5
-        Me.LayoutControlItem14.Location = New System.Drawing.Point(0, 589)
+        Me.LayoutControlItem14.Location = New System.Drawing.Point(0, 613)
         Me.LayoutControlItem14.Name = "LayoutControlItem14"
-        Me.LayoutControlItem14.Size = New System.Drawing.Size(327, 24)
+        Me.LayoutControlItem14.Size = New System.Drawing.Size(207, 24)
         Me.LayoutControlItem14.Text = "BB :"
         Me.LayoutControlItem14.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem14.TextSize = New System.Drawing.Size(100, 20)
@@ -2874,7 +2904,7 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem15.Control = Me.LabelControl3
         Me.LayoutControlItem15.Location = New System.Drawing.Point(0, 476)
         Me.LayoutControlItem15.Name = "LayoutControlItem15"
-        Me.LayoutControlItem15.Size = New System.Drawing.Size(397, 24)
+        Me.LayoutControlItem15.Size = New System.Drawing.Size(427, 24)
         Me.LayoutControlItem15.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem15.TextVisible = False
         '
@@ -2883,7 +2913,7 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem16.Control = Me.LabelControl4
         Me.LayoutControlItem16.Location = New System.Drawing.Point(0, 500)
         Me.LayoutControlItem16.Name = "LayoutControlItem16"
-        Me.LayoutControlItem16.Size = New System.Drawing.Size(397, 24)
+        Me.LayoutControlItem16.Size = New System.Drawing.Size(427, 24)
         Me.LayoutControlItem16.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem16.TextVisible = False
         '
@@ -2892,9 +2922,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem12.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem12.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem12.Control = Me.CheckEdit7
-        Me.LayoutControlItem12.Location = New System.Drawing.Point(397, 476)
+        Me.LayoutControlItem12.Location = New System.Drawing.Point(427, 476)
         Me.LayoutControlItem12.Name = "LayoutControlItem12"
-        Me.LayoutControlItem12.Size = New System.Drawing.Size(162, 24)
+        Me.LayoutControlItem12.Size = New System.Drawing.Size(174, 24)
         Me.LayoutControlItem12.Text = "Olahraga"
         Me.LayoutControlItem12.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem12.TextSize = New System.Drawing.Size(100, 20)
@@ -2905,9 +2935,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem9.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem9.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem9.Control = Me.CheckEdit4
-        Me.LayoutControlItem9.Location = New System.Drawing.Point(256, 283)
+        Me.LayoutControlItem9.Location = New System.Drawing.Point(276, 283)
         Me.LayoutControlItem9.Name = "LayoutControlItem9"
-        Me.LayoutControlItem9.Size = New System.Drawing.Size(51, 25)
+        Me.LayoutControlItem9.Size = New System.Drawing.Size(54, 25)
         Me.LayoutControlItem9.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem9.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem9.TextToControlDistance = 0
@@ -2918,9 +2948,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem4.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem4.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem4.Control = Me.CheckEdit2
-        Me.LayoutControlItem4.Location = New System.Drawing.Point(256, 260)
+        Me.LayoutControlItem4.Location = New System.Drawing.Point(276, 260)
         Me.LayoutControlItem4.Name = "LayoutControlItem4"
-        Me.LayoutControlItem4.Size = New System.Drawing.Size(51, 23)
+        Me.LayoutControlItem4.Size = New System.Drawing.Size(54, 23)
         Me.LayoutControlItem4.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem4.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem4.TextToControlDistance = 0
@@ -2933,10 +2963,10 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem5.Control = Me.CheckEdit3
         Me.LayoutControlItem5.Location = New System.Drawing.Point(0, 284)
         Me.LayoutControlItem5.Name = "LayoutControlItem5"
-        Me.LayoutControlItem5.Size = New System.Drawing.Size(256, 24)
+        Me.LayoutControlItem5.Size = New System.Drawing.Size(276, 24)
         Me.LayoutControlItem5.Text = "Riwayat Penyakit Dahulu :"
         Me.LayoutControlItem5.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
-        Me.LayoutControlItem5.TextSize = New System.Drawing.Size(150, 20)
+        Me.LayoutControlItem5.TextSize = New System.Drawing.Size(170, 20)
         Me.LayoutControlItem5.TextToControlDistance = 5
         '
         'LayoutControlItem17
@@ -2944,9 +2974,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem17.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem17.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem17.Control = Me.CheckEdit8
-        Me.LayoutControlItem17.Location = New System.Drawing.Point(559, 476)
+        Me.LayoutControlItem17.Location = New System.Drawing.Point(601, 476)
         Me.LayoutControlItem17.Name = "LayoutControlItem17"
-        Me.LayoutControlItem17.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem17.Size = New System.Drawing.Size(226, 24)
         Me.LayoutControlItem17.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem17.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem17.TextToControlDistance = 0
@@ -2957,9 +2987,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem18.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem18.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem18.Control = Me.CheckEdit9
-        Me.LayoutControlItem18.Location = New System.Drawing.Point(397, 500)
+        Me.LayoutControlItem18.Location = New System.Drawing.Point(427, 500)
         Me.LayoutControlItem18.Name = "LayoutControlItem18"
-        Me.LayoutControlItem18.Size = New System.Drawing.Size(162, 24)
+        Me.LayoutControlItem18.Size = New System.Drawing.Size(174, 24)
         Me.LayoutControlItem18.Text = "Merokok"
         Me.LayoutControlItem18.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem18.TextSize = New System.Drawing.Size(100, 20)
@@ -2968,9 +2998,9 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem19
         '
         Me.LayoutControlItem19.Control = Me.CheckEdit10
-        Me.LayoutControlItem19.Location = New System.Drawing.Point(559, 500)
+        Me.LayoutControlItem19.Location = New System.Drawing.Point(601, 500)
         Me.LayoutControlItem19.Name = "LayoutControlItem19"
-        Me.LayoutControlItem19.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem19.Size = New System.Drawing.Size(226, 24)
         Me.LayoutControlItem19.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem19.TextVisible = False
         '
@@ -2979,7 +3009,7 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem20.Control = Me.LabelControl5
         Me.LayoutControlItem20.Location = New System.Drawing.Point(0, 524)
         Me.LayoutControlItem20.Name = "LayoutControlItem20"
-        Me.LayoutControlItem20.Size = New System.Drawing.Size(397, 24)
+        Me.LayoutControlItem20.Size = New System.Drawing.Size(427, 24)
         Me.LayoutControlItem20.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem20.TextVisible = False
         '
@@ -2988,9 +3018,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem21.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem21.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem21.Control = Me.CheckEdit11
-        Me.LayoutControlItem21.Location = New System.Drawing.Point(397, 524)
+        Me.LayoutControlItem21.Location = New System.Drawing.Point(427, 524)
         Me.LayoutControlItem21.Name = "LayoutControlItem21"
-        Me.LayoutControlItem21.Size = New System.Drawing.Size(162, 24)
+        Me.LayoutControlItem21.Size = New System.Drawing.Size(174, 24)
         Me.LayoutControlItem21.Text = "Minum alkohol"
         Me.LayoutControlItem21.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem21.TextSize = New System.Drawing.Size(100, 20)
@@ -2999,21 +3029,21 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem22
         '
         Me.LayoutControlItem22.Control = Me.CheckEdit12
-        Me.LayoutControlItem22.Location = New System.Drawing.Point(559, 524)
+        Me.LayoutControlItem22.Location = New System.Drawing.Point(601, 524)
         Me.LayoutControlItem22.Name = "LayoutControlItem22"
-        Me.LayoutControlItem22.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem22.Size = New System.Drawing.Size(226, 24)
         Me.LayoutControlItem22.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem22.TextVisible = False
         '
         'LayoutControlItem23
         '
         Me.LayoutControlItem23.AppearanceItemCaption.Options.UseTextOptions = True
-        Me.LayoutControlItem23.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.LayoutControlItem23.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem23.Control = Me.MemoEdit6
         Me.LayoutControlItem23.CustomizationFormText = "Kg BMI :"
-        Me.LayoutControlItem23.Location = New System.Drawing.Point(327, 589)
+        Me.LayoutControlItem23.Location = New System.Drawing.Point(207, 613)
         Me.LayoutControlItem23.Name = "LayoutControlItem23"
-        Me.LayoutControlItem23.Size = New System.Drawing.Size(132, 24)
+        Me.LayoutControlItem23.Size = New System.Drawing.Size(196, 24)
         Me.LayoutControlItem23.Text = "Kg    BMI :"
         Me.LayoutControlItem23.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem23.TextSize = New System.Drawing.Size(100, 20)
@@ -3024,9 +3054,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem24.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem24.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem24.Control = Me.CheckEdit13
-        Me.LayoutControlItem24.Location = New System.Drawing.Point(459, 589)
+        Me.LayoutControlItem24.Location = New System.Drawing.Point(403, 613)
         Me.LayoutControlItem24.Name = "LayoutControlItem24"
-        Me.LayoutControlItem24.Size = New System.Drawing.Size(147, 24)
+        Me.LayoutControlItem24.Size = New System.Drawing.Size(248, 24)
         Me.LayoutControlItem24.Text = "Kg/m2"
         Me.LayoutControlItem24.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem24.TextSize = New System.Drawing.Size(50, 20)
@@ -3035,25 +3065,25 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem25
         '
         Me.LayoutControlItem25.Control = Me.CheckEdit14
-        Me.LayoutControlItem25.Location = New System.Drawing.Point(606, 589)
+        Me.LayoutControlItem25.Location = New System.Drawing.Point(651, 613)
         Me.LayoutControlItem25.Name = "LayoutControlItem25"
-        Me.LayoutControlItem25.Size = New System.Drawing.Size(59, 24)
+        Me.LayoutControlItem25.Size = New System.Drawing.Size(63, 24)
         Me.LayoutControlItem25.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem25.TextVisible = False
         '
         'LayoutControlItem26
         '
         Me.LayoutControlItem26.Control = Me.CheckEdit15
-        Me.LayoutControlItem26.Location = New System.Drawing.Point(665, 589)
+        Me.LayoutControlItem26.Location = New System.Drawing.Point(714, 613)
         Me.LayoutControlItem26.Name = "LayoutControlItem26"
-        Me.LayoutControlItem26.Size = New System.Drawing.Size(87, 24)
+        Me.LayoutControlItem26.Size = New System.Drawing.Size(113, 24)
         Me.LayoutControlItem26.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem26.TextVisible = False
         '
         'LayoutControlItem27
         '
         Me.LayoutControlItem27.Control = Me.LabelControl6
-        Me.LayoutControlItem27.Location = New System.Drawing.Point(745, 226)
+        Me.LayoutControlItem27.Location = New System.Drawing.Point(820, 226)
         Me.LayoutControlItem27.Name = "LayoutControlItem27"
         Me.LayoutControlItem27.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem27.TextSize = New System.Drawing.Size(0, 0)
@@ -3062,7 +3092,7 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem28
         '
         Me.LayoutControlItem28.Control = Me.LabelControl7
-        Me.LayoutControlItem28.Location = New System.Drawing.Point(745, 243)
+        Me.LayoutControlItem28.Location = New System.Drawing.Point(820, 243)
         Me.LayoutControlItem28.Name = "LayoutControlItem28"
         Me.LayoutControlItem28.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem28.TextSize = New System.Drawing.Size(0, 0)
@@ -3073,9 +3103,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem29.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem29.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem29.Control = Me.MemoEdit7
-        Me.LayoutControlItem29.Location = New System.Drawing.Point(0, 613)
+        Me.LayoutControlItem29.Location = New System.Drawing.Point(0, 637)
         Me.LayoutControlItem29.Name = "LayoutControlItem29"
-        Me.LayoutControlItem29.Size = New System.Drawing.Size(327, 24)
+        Me.LayoutControlItem29.Size = New System.Drawing.Size(207, 24)
         Me.LayoutControlItem29.Text = "TB :"
         Me.LayoutControlItem29.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem29.TextSize = New System.Drawing.Size(100, 20)
@@ -3086,29 +3116,20 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem30.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem30.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem30.Control = Me.MemoEdit8
-        Me.LayoutControlItem30.Location = New System.Drawing.Point(0, 637)
+        Me.LayoutControlItem30.Location = New System.Drawing.Point(0, 661)
         Me.LayoutControlItem30.Name = "LayoutControlItem30"
-        Me.LayoutControlItem30.Size = New System.Drawing.Size(327, 24)
+        Me.LayoutControlItem30.Size = New System.Drawing.Size(207, 24)
         Me.LayoutControlItem30.Text = "Vital Sign" & Global.Microsoft.VisualBasic.ChrW(9) & ": TD :"
         Me.LayoutControlItem30.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem30.TextSize = New System.Drawing.Size(100, 20)
         Me.LayoutControlItem30.TextToControlDistance = 5
         '
-        'LayoutControlItem31
-        '
-        Me.LayoutControlItem31.Control = Me.LabelControl8
-        Me.LayoutControlItem31.Location = New System.Drawing.Point(327, 613)
-        Me.LayoutControlItem31.Name = "LayoutControlItem31"
-        Me.LayoutControlItem31.Size = New System.Drawing.Size(425, 24)
-        Me.LayoutControlItem31.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem31.TextVisible = False
-        '
         'LayoutControlItem32
         '
         Me.LayoutControlItem32.Control = Me.LabelControl9
-        Me.LayoutControlItem32.Location = New System.Drawing.Point(730, 637)
+        Me.LayoutControlItem32.Location = New System.Drawing.Point(589, 661)
         Me.LayoutControlItem32.Name = "LayoutControlItem32"
-        Me.LayoutControlItem32.Size = New System.Drawing.Size(22, 24)
+        Me.LayoutControlItem32.Size = New System.Drawing.Size(42, 24)
         Me.LayoutControlItem32.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem32.TextVisible = False
         '
@@ -3117,9 +3138,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem33.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem33.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem33.Control = Me.MemoEdit9
-        Me.LayoutControlItem33.Location = New System.Drawing.Point(327, 637)
+        Me.LayoutControlItem33.Location = New System.Drawing.Point(207, 661)
         Me.LayoutControlItem33.Name = "LayoutControlItem33"
-        Me.LayoutControlItem33.Size = New System.Drawing.Size(191, 24)
+        Me.LayoutControlItem33.Size = New System.Drawing.Size(196, 24)
         Me.LayoutControlItem33.Text = "/"
         Me.LayoutControlItem33.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem33.TextSize = New System.Drawing.Size(100, 20)
@@ -3130,9 +3151,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem34.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem34.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem34.Control = Me.MemoEdit10
-        Me.LayoutControlItem34.Location = New System.Drawing.Point(518, 637)
+        Me.LayoutControlItem34.Location = New System.Drawing.Point(403, 661)
         Me.LayoutControlItem34.Name = "LayoutControlItem34"
-        Me.LayoutControlItem34.Size = New System.Drawing.Size(212, 24)
+        Me.LayoutControlItem34.Size = New System.Drawing.Size(186, 24)
         Me.LayoutControlItem34.Text = "mmHg N :"
         Me.LayoutControlItem34.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem34.TextSize = New System.Drawing.Size(100, 20)
@@ -3143,9 +3164,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem35.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem35.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem35.Control = Me.MemoEdit11
-        Me.LayoutControlItem35.Location = New System.Drawing.Point(0, 661)
+        Me.LayoutControlItem35.Location = New System.Drawing.Point(0, 685)
         Me.LayoutControlItem35.Name = "LayoutControlItem35"
-        Me.LayoutControlItem35.Size = New System.Drawing.Size(518, 24)
+        Me.LayoutControlItem35.Size = New System.Drawing.Size(207, 24)
         Me.LayoutControlItem35.Text = "S :"
         Me.LayoutControlItem35.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem35.TextSize = New System.Drawing.Size(100, 20)
@@ -3156,36 +3177,18 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem36.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem36.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem36.Control = Me.MemoEdit12
-        Me.LayoutControlItem36.Location = New System.Drawing.Point(518, 661)
+        Me.LayoutControlItem36.Location = New System.Drawing.Point(207, 685)
         Me.LayoutControlItem36.Name = "LayoutControlItem36"
-        Me.LayoutControlItem36.Size = New System.Drawing.Size(212, 24)
+        Me.LayoutControlItem36.Size = New System.Drawing.Size(196, 24)
         Me.LayoutControlItem36.Text = "°C  R :"
         Me.LayoutControlItem36.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem36.TextSize = New System.Drawing.Size(100, 20)
         Me.LayoutControlItem36.TextToControlDistance = 5
         '
-        'LayoutControlItem37
-        '
-        Me.LayoutControlItem37.Control = Me.LabelControl10
-        Me.LayoutControlItem37.Location = New System.Drawing.Point(730, 661)
-        Me.LayoutControlItem37.Name = "LayoutControlItem37"
-        Me.LayoutControlItem37.Size = New System.Drawing.Size(22, 24)
-        Me.LayoutControlItem37.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem37.TextVisible = False
-        '
-        'LayoutControlItem38
-        '
-        Me.LayoutControlItem38.Control = Me.LabelControl11
-        Me.LayoutControlItem38.Location = New System.Drawing.Point(0, 685)
-        Me.LayoutControlItem38.Name = "LayoutControlItem38"
-        Me.LayoutControlItem38.Size = New System.Drawing.Size(752, 17)
-        Me.LayoutControlItem38.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem38.TextVisible = False
-        '
         'LayoutControlItem45
         '
         Me.LayoutControlItem45.Control = Me.LabelControl12
-        Me.LayoutControlItem45.Location = New System.Drawing.Point(745, 849)
+        Me.LayoutControlItem45.Location = New System.Drawing.Point(820, 873)
         Me.LayoutControlItem45.Name = "LayoutControlItem45"
         Me.LayoutControlItem45.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem45.TextSize = New System.Drawing.Size(0, 0)
@@ -3194,7 +3197,7 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem47
         '
         Me.LayoutControlItem47.Control = Me.LabelControl14
-        Me.LayoutControlItem47.Location = New System.Drawing.Point(745, 917)
+        Me.LayoutControlItem47.Location = New System.Drawing.Point(820, 941)
         Me.LayoutControlItem47.Name = "LayoutControlItem47"
         Me.LayoutControlItem47.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem47.TextSize = New System.Drawing.Size(0, 0)
@@ -3203,7 +3206,7 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem48
         '
         Me.LayoutControlItem48.Control = Me.LabelControl15
-        Me.LayoutControlItem48.Location = New System.Drawing.Point(745, 985)
+        Me.LayoutControlItem48.Location = New System.Drawing.Point(820, 1009)
         Me.LayoutControlItem48.Name = "LayoutControlItem48"
         Me.LayoutControlItem48.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem48.TextSize = New System.Drawing.Size(0, 0)
@@ -3212,7 +3215,7 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem49
         '
         Me.LayoutControlItem49.Control = Me.LabelControl16
-        Me.LayoutControlItem49.Location = New System.Drawing.Point(745, 883)
+        Me.LayoutControlItem49.Location = New System.Drawing.Point(820, 907)
         Me.LayoutControlItem49.Name = "LayoutControlItem49"
         Me.LayoutControlItem49.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem49.TextSize = New System.Drawing.Size(0, 0)
@@ -3221,7 +3224,7 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem50
         '
         Me.LayoutControlItem50.Control = Me.LabelControl17
-        Me.LayoutControlItem50.Location = New System.Drawing.Point(745, 866)
+        Me.LayoutControlItem50.Location = New System.Drawing.Point(820, 890)
         Me.LayoutControlItem50.Name = "LayoutControlItem50"
         Me.LayoutControlItem50.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem50.TextSize = New System.Drawing.Size(0, 0)
@@ -3230,7 +3233,7 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem51
         '
         Me.LayoutControlItem51.Control = Me.LabelControl18
-        Me.LayoutControlItem51.Location = New System.Drawing.Point(745, 900)
+        Me.LayoutControlItem51.Location = New System.Drawing.Point(820, 924)
         Me.LayoutControlItem51.Name = "LayoutControlItem51"
         Me.LayoutControlItem51.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem51.TextSize = New System.Drawing.Size(0, 0)
@@ -3239,27 +3242,27 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem52
         '
         Me.LayoutControlItem52.Control = Me.Panel1
-        Me.LayoutControlItem52.Location = New System.Drawing.Point(0, 849)
+        Me.LayoutControlItem52.Location = New System.Drawing.Point(0, 873)
         Me.LayoutControlItem52.Name = "LayoutControlItem52"
-        Me.LayoutControlItem52.Size = New System.Drawing.Size(148, 153)
+        Me.LayoutControlItem52.Size = New System.Drawing.Size(159, 153)
         Me.LayoutControlItem52.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem52.TextVisible = False
         '
         'LayoutControlItem43
         '
         Me.LayoutControlItem43.Control = Me.picGAMBAR2
-        Me.LayoutControlItem43.Location = New System.Drawing.Point(148, 849)
+        Me.LayoutControlItem43.Location = New System.Drawing.Point(159, 873)
         Me.LayoutControlItem43.Name = "LayoutControlItem43"
-        Me.LayoutControlItem43.Size = New System.Drawing.Size(597, 153)
+        Me.LayoutControlItem43.Size = New System.Drawing.Size(661, 153)
         Me.LayoutControlItem43.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem43.TextVisible = False
         '
         'LayoutControlItem61
         '
         Me.LayoutControlItem61.Control = Me.LabelControl19
-        Me.LayoutControlItem61.Location = New System.Drawing.Point(0, 1411)
+        Me.LayoutControlItem61.Location = New System.Drawing.Point(0, 1435)
         Me.LayoutControlItem61.Name = "LayoutControlItem61"
-        Me.LayoutControlItem61.Size = New System.Drawing.Size(752, 17)
+        Me.LayoutControlItem61.Size = New System.Drawing.Size(827, 17)
         Me.LayoutControlItem61.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem61.TextVisible = False
         '
@@ -3268,9 +3271,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem62.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem62.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem62.Control = Me.MemoEdit26
-        Me.LayoutControlItem62.Location = New System.Drawing.Point(0, 1428)
+        Me.LayoutControlItem62.Location = New System.Drawing.Point(0, 1452)
         Me.LayoutControlItem62.Name = "LayoutControlItem62"
-        Me.LayoutControlItem62.Size = New System.Drawing.Size(745, 34)
+        Me.LayoutControlItem62.Size = New System.Drawing.Size(820, 34)
         Me.LayoutControlItem62.Text = "a. Laboratorium :"
         Me.LayoutControlItem62.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem62.TextSize = New System.Drawing.Size(100, 20)
@@ -3281,9 +3284,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem63.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem63.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem63.Control = Me.MemoEdit27
-        Me.LayoutControlItem63.Location = New System.Drawing.Point(0, 1462)
+        Me.LayoutControlItem63.Location = New System.Drawing.Point(0, 1486)
         Me.LayoutControlItem63.Name = "LayoutControlItem63"
-        Me.LayoutControlItem63.Size = New System.Drawing.Size(752, 24)
+        Me.LayoutControlItem63.Size = New System.Drawing.Size(827, 24)
         Me.LayoutControlItem63.Text = "b. Radiologi :"
         Me.LayoutControlItem63.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem63.TextSize = New System.Drawing.Size(100, 20)
@@ -3294,9 +3297,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem64.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem64.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem64.Control = Me.MemoEdit28
-        Me.LayoutControlItem64.Location = New System.Drawing.Point(0, 1486)
+        Me.LayoutControlItem64.Location = New System.Drawing.Point(0, 1510)
         Me.LayoutControlItem64.Name = "LayoutControlItem64"
-        Me.LayoutControlItem64.Size = New System.Drawing.Size(752, 24)
+        Me.LayoutControlItem64.Size = New System.Drawing.Size(827, 24)
         Me.LayoutControlItem64.Text = "c. EKG :"
         Me.LayoutControlItem64.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem64.TextSize = New System.Drawing.Size(100, 20)
@@ -3307,9 +3310,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem65.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem65.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem65.Control = Me.MemoEdit29
-        Me.LayoutControlItem65.Location = New System.Drawing.Point(0, 1534)
+        Me.LayoutControlItem65.Location = New System.Drawing.Point(0, 1558)
         Me.LayoutControlItem65.Name = "LayoutControlItem65"
-        Me.LayoutControlItem65.Size = New System.Drawing.Size(752, 24)
+        Me.LayoutControlItem65.Size = New System.Drawing.Size(827, 24)
         Me.LayoutControlItem65.Text = "e. Lain-lain :"
         Me.LayoutControlItem65.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem65.TextSize = New System.Drawing.Size(100, 20)
@@ -3318,7 +3321,7 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem67
         '
         Me.LayoutControlItem67.Control = Me.LabelControl21
-        Me.LayoutControlItem67.Location = New System.Drawing.Point(745, 1428)
+        Me.LayoutControlItem67.Location = New System.Drawing.Point(820, 1452)
         Me.LayoutControlItem67.Name = "LayoutControlItem67"
         Me.LayoutControlItem67.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem67.TextSize = New System.Drawing.Size(0, 0)
@@ -3327,7 +3330,7 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem68
         '
         Me.LayoutControlItem68.Control = Me.LabelControl22
-        Me.LayoutControlItem68.Location = New System.Drawing.Point(745, 1445)
+        Me.LayoutControlItem68.Location = New System.Drawing.Point(820, 1469)
         Me.LayoutControlItem68.Name = "LayoutControlItem68"
         Me.LayoutControlItem68.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem68.TextSize = New System.Drawing.Size(0, 0)
@@ -3338,9 +3341,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem66.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem66.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem66.Control = Me.CheckEdit16
-        Me.LayoutControlItem66.Location = New System.Drawing.Point(0, 1510)
+        Me.LayoutControlItem66.Location = New System.Drawing.Point(0, 1534)
         Me.LayoutControlItem66.Name = "LayoutControlItem66"
-        Me.LayoutControlItem66.Size = New System.Drawing.Size(281, 24)
+        Me.LayoutControlItem66.Size = New System.Drawing.Size(301, 24)
         Me.LayoutControlItem66.Text = "d. Buta warna :"
         Me.LayoutControlItem66.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem66.TextSize = New System.Drawing.Size(100, 20)
@@ -3349,27 +3352,27 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem69
         '
         Me.LayoutControlItem69.Control = Me.CheckEdit17
-        Me.LayoutControlItem69.Location = New System.Drawing.Point(281, 1510)
+        Me.LayoutControlItem69.Location = New System.Drawing.Point(301, 1534)
         Me.LayoutControlItem69.Name = "LayoutControlItem69"
-        Me.LayoutControlItem69.Size = New System.Drawing.Size(151, 24)
+        Me.LayoutControlItem69.Size = New System.Drawing.Size(162, 24)
         Me.LayoutControlItem69.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem69.TextVisible = False
         '
         'LayoutControlItem70
         '
         Me.LayoutControlItem70.Control = Me.CheckEdit18
-        Me.LayoutControlItem70.Location = New System.Drawing.Point(432, 1510)
+        Me.LayoutControlItem70.Location = New System.Drawing.Point(463, 1534)
         Me.LayoutControlItem70.Name = "LayoutControlItem70"
-        Me.LayoutControlItem70.Size = New System.Drawing.Size(320, 24)
+        Me.LayoutControlItem70.Size = New System.Drawing.Size(364, 24)
         Me.LayoutControlItem70.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem70.TextVisible = False
         '
         'LayoutControlItem76
         '
         Me.LayoutControlItem76.Control = Me.LabelControl23
-        Me.LayoutControlItem76.Location = New System.Drawing.Point(0, 1558)
+        Me.LayoutControlItem76.Location = New System.Drawing.Point(0, 1582)
         Me.LayoutControlItem76.Name = "LayoutControlItem76"
-        Me.LayoutControlItem76.Size = New System.Drawing.Size(752, 17)
+        Me.LayoutControlItem76.Size = New System.Drawing.Size(827, 17)
         Me.LayoutControlItem76.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem76.TextVisible = False
         '
@@ -3378,7 +3381,7 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem77.Control = Me.LabelControl24
         Me.LayoutControlItem77.Location = New System.Drawing.Point(0, 186)
         Me.LayoutControlItem77.Name = "LayoutControlItem77"
-        Me.LayoutControlItem77.Size = New System.Drawing.Size(752, 23)
+        Me.LayoutControlItem77.Size = New System.Drawing.Size(827, 23)
         Me.LayoutControlItem77.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem77.TextVisible = False
         '
@@ -3389,7 +3392,7 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem92.Control = Me.grdDPJP
         Me.LayoutControlItem92.Location = New System.Drawing.Point(0, 162)
         Me.LayoutControlItem92.Name = "LayoutControlItem92"
-        Me.LayoutControlItem92.Size = New System.Drawing.Size(752, 24)
+        Me.LayoutControlItem92.Size = New System.Drawing.Size(827, 24)
         Me.LayoutControlItem92.Text = "Dokter * :"
         Me.LayoutControlItem92.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem92.TextSize = New System.Drawing.Size(100, 20)
@@ -3402,7 +3405,7 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem93.Control = Me.deDATE
         Me.LayoutControlItem93.Location = New System.Drawing.Point(0, 138)
         Me.LayoutControlItem93.Name = "LayoutControlItem93"
-        Me.LayoutControlItem93.Size = New System.Drawing.Size(752, 24)
+        Me.LayoutControlItem93.Size = New System.Drawing.Size(827, 24)
         Me.LayoutControlItem93.Text = "Tanggal :"
         Me.LayoutControlItem93.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem93.TextSize = New System.Drawing.Size(100, 20)
@@ -3415,10 +3418,10 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem94.Control = Me.CheckEdit19
         Me.LayoutControlItem94.Location = New System.Drawing.Point(0, 308)
         Me.LayoutControlItem94.Name = "LayoutControlItem94"
-        Me.LayoutControlItem94.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem94.Size = New System.Drawing.Size(213, 24)
         Me.LayoutControlItem94.Text = "Hipertensi :"
         Me.LayoutControlItem94.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
-        Me.LayoutControlItem94.TextSize = New System.Drawing.Size(150, 20)
+        Me.LayoutControlItem94.TextSize = New System.Drawing.Size(170, 20)
         Me.LayoutControlItem94.TextToControlDistance = 5
         '
         'LayoutControlItem95
@@ -3428,10 +3431,10 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem95.Control = Me.CheckEdit20
         Me.LayoutControlItem95.Location = New System.Drawing.Point(0, 332)
         Me.LayoutControlItem95.Name = "LayoutControlItem95"
-        Me.LayoutControlItem95.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem95.Size = New System.Drawing.Size(213, 24)
         Me.LayoutControlItem95.Text = "Diabetes Melitus :"
         Me.LayoutControlItem95.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
-        Me.LayoutControlItem95.TextSize = New System.Drawing.Size(150, 20)
+        Me.LayoutControlItem95.TextSize = New System.Drawing.Size(170, 20)
         Me.LayoutControlItem95.TextToControlDistance = 5
         '
         'LayoutControlItem96
@@ -3441,10 +3444,10 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem96.Control = Me.CheckEdit21
         Me.LayoutControlItem96.Location = New System.Drawing.Point(0, 356)
         Me.LayoutControlItem96.Name = "LayoutControlItem96"
-        Me.LayoutControlItem96.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem96.Size = New System.Drawing.Size(213, 24)
         Me.LayoutControlItem96.Text = "Penyakit Jantung :"
         Me.LayoutControlItem96.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
-        Me.LayoutControlItem96.TextSize = New System.Drawing.Size(150, 20)
+        Me.LayoutControlItem96.TextSize = New System.Drawing.Size(170, 20)
         Me.LayoutControlItem96.TextToControlDistance = 5
         '
         'LayoutControlItem97
@@ -3454,10 +3457,10 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem97.Control = Me.CheckEdit22
         Me.LayoutControlItem97.Location = New System.Drawing.Point(0, 380)
         Me.LayoutControlItem97.Name = "LayoutControlItem97"
-        Me.LayoutControlItem97.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem97.Size = New System.Drawing.Size(213, 24)
         Me.LayoutControlItem97.Text = "Kanker :"
         Me.LayoutControlItem97.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
-        Me.LayoutControlItem97.TextSize = New System.Drawing.Size(150, 20)
+        Me.LayoutControlItem97.TextSize = New System.Drawing.Size(170, 20)
         Me.LayoutControlItem97.TextToControlDistance = 5
         '
         'LayoutControlItem98
@@ -3467,10 +3470,10 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem98.Control = Me.CheckEdit23
         Me.LayoutControlItem98.Location = New System.Drawing.Point(0, 404)
         Me.LayoutControlItem98.Name = "LayoutControlItem98"
-        Me.LayoutControlItem98.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem98.Size = New System.Drawing.Size(213, 24)
         Me.LayoutControlItem98.Text = "Penyakit Lambung :"
         Me.LayoutControlItem98.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
-        Me.LayoutControlItem98.TextSize = New System.Drawing.Size(150, 20)
+        Me.LayoutControlItem98.TextSize = New System.Drawing.Size(170, 20)
         Me.LayoutControlItem98.TextToControlDistance = 5
         '
         'LayoutControlItem99
@@ -3480,54 +3483,54 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem99.Control = Me.CheckEdit24
         Me.LayoutControlItem99.Location = New System.Drawing.Point(0, 428)
         Me.LayoutControlItem99.Name = "LayoutControlItem99"
-        Me.LayoutControlItem99.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem99.Size = New System.Drawing.Size(213, 24)
         Me.LayoutControlItem99.Text = "Penyakit Ginjal :"
         Me.LayoutControlItem99.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
-        Me.LayoutControlItem99.TextSize = New System.Drawing.Size(150, 20)
+        Me.LayoutControlItem99.TextSize = New System.Drawing.Size(170, 20)
         Me.LayoutControlItem99.TextToControlDistance = 5
         '
         'LayoutControlItem100
         '
         Me.LayoutControlItem100.Control = Me.CheckEdit25
-        Me.LayoutControlItem100.Location = New System.Drawing.Point(193, 308)
+        Me.LayoutControlItem100.Location = New System.Drawing.Point(213, 308)
         Me.LayoutControlItem100.Name = "LayoutControlItem100"
-        Me.LayoutControlItem100.Size = New System.Drawing.Size(51, 23)
+        Me.LayoutControlItem100.Size = New System.Drawing.Size(54, 23)
         Me.LayoutControlItem100.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem100.TextVisible = False
         '
         'LayoutControlItem101
         '
         Me.LayoutControlItem101.Control = Me.CheckEdit26
-        Me.LayoutControlItem101.Location = New System.Drawing.Point(193, 331)
+        Me.LayoutControlItem101.Location = New System.Drawing.Point(213, 331)
         Me.LayoutControlItem101.Name = "LayoutControlItem101"
-        Me.LayoutControlItem101.Size = New System.Drawing.Size(51, 23)
+        Me.LayoutControlItem101.Size = New System.Drawing.Size(54, 23)
         Me.LayoutControlItem101.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem101.TextVisible = False
         '
         'LayoutControlItem102
         '
         Me.LayoutControlItem102.Control = Me.CheckEdit27
-        Me.LayoutControlItem102.Location = New System.Drawing.Point(193, 354)
+        Me.LayoutControlItem102.Location = New System.Drawing.Point(213, 354)
         Me.LayoutControlItem102.Name = "LayoutControlItem102"
-        Me.LayoutControlItem102.Size = New System.Drawing.Size(51, 23)
+        Me.LayoutControlItem102.Size = New System.Drawing.Size(54, 23)
         Me.LayoutControlItem102.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem102.TextVisible = False
         '
         'LayoutControlItem103
         '
         Me.LayoutControlItem103.Control = Me.CheckEdit28
-        Me.LayoutControlItem103.Location = New System.Drawing.Point(193, 377)
+        Me.LayoutControlItem103.Location = New System.Drawing.Point(213, 377)
         Me.LayoutControlItem103.Name = "LayoutControlItem103"
-        Me.LayoutControlItem103.Size = New System.Drawing.Size(51, 23)
+        Me.LayoutControlItem103.Size = New System.Drawing.Size(54, 23)
         Me.LayoutControlItem103.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem103.TextVisible = False
         '
         'LayoutControlItem104
         '
         Me.LayoutControlItem104.Control = Me.CheckEdit29
-        Me.LayoutControlItem104.Location = New System.Drawing.Point(193, 400)
+        Me.LayoutControlItem104.Location = New System.Drawing.Point(213, 400)
         Me.LayoutControlItem104.Name = "LayoutControlItem104"
-        Me.LayoutControlItem104.Size = New System.Drawing.Size(51, 23)
+        Me.LayoutControlItem104.Size = New System.Drawing.Size(54, 23)
         Me.LayoutControlItem104.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem104.TextVisible = False
         '
@@ -3536,9 +3539,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem105.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem105.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem105.Control = Me.CheckEdit30
-        Me.LayoutControlItem105.Location = New System.Drawing.Point(193, 423)
+        Me.LayoutControlItem105.Location = New System.Drawing.Point(213, 423)
         Me.LayoutControlItem105.Name = "LayoutControlItem105"
-        Me.LayoutControlItem105.Size = New System.Drawing.Size(51, 29)
+        Me.LayoutControlItem105.Size = New System.Drawing.Size(54, 29)
         Me.LayoutControlItem105.Text = "Hepatitis :"
         Me.LayoutControlItem105.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem105.TextSize = New System.Drawing.Size(0, 0)
@@ -3550,9 +3553,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem108.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem108.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem108.Control = Me.CheckEdit33
-        Me.LayoutControlItem108.Location = New System.Drawing.Point(254, 356)
+        Me.LayoutControlItem108.Location = New System.Drawing.Point(278, 356)
         Me.LayoutControlItem108.Name = "LayoutControlItem108"
-        Me.LayoutControlItem108.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem108.Size = New System.Drawing.Size(206, 24)
         Me.LayoutControlItem108.Text = "Penyakit kelamin :"
         Me.LayoutControlItem108.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem108.TextSize = New System.Drawing.Size(150, 20)
@@ -3563,9 +3566,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem109.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem109.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem109.Control = Me.CheckEdit34
-        Me.LayoutControlItem109.Location = New System.Drawing.Point(254, 380)
+        Me.LayoutControlItem109.Location = New System.Drawing.Point(278, 380)
         Me.LayoutControlItem109.Name = "LayoutControlItem109"
-        Me.LayoutControlItem109.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem109.Size = New System.Drawing.Size(206, 24)
         Me.LayoutControlItem109.Text = "Malaria :"
         Me.LayoutControlItem109.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem109.TextSize = New System.Drawing.Size(150, 20)
@@ -3576,9 +3579,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem110.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem110.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem110.Control = Me.CheckEdit35
-        Me.LayoutControlItem110.Location = New System.Drawing.Point(254, 404)
+        Me.LayoutControlItem110.Location = New System.Drawing.Point(278, 404)
         Me.LayoutControlItem110.Name = "LayoutControlItem110"
-        Me.LayoutControlItem110.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem110.Size = New System.Drawing.Size(206, 24)
         Me.LayoutControlItem110.Text = "Asthma Bronkhial :"
         Me.LayoutControlItem110.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem110.TextSize = New System.Drawing.Size(150, 20)
@@ -3589,9 +3592,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem111.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem111.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem111.Control = Me.CheckEdit36
-        Me.LayoutControlItem111.Location = New System.Drawing.Point(254, 428)
+        Me.LayoutControlItem111.Location = New System.Drawing.Point(278, 428)
         Me.LayoutControlItem111.Name = "LayoutControlItem111"
-        Me.LayoutControlItem111.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem111.Size = New System.Drawing.Size(206, 24)
         Me.LayoutControlItem111.Text = "TB Paru :"
         Me.LayoutControlItem111.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem111.TextSize = New System.Drawing.Size(150, 20)
@@ -3602,9 +3605,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem106.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem106.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem106.Control = Me.CheckEdit31
-        Me.LayoutControlItem106.Location = New System.Drawing.Point(254, 308)
+        Me.LayoutControlItem106.Location = New System.Drawing.Point(278, 308)
         Me.LayoutControlItem106.Name = "LayoutControlItem106"
-        Me.LayoutControlItem106.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem106.Size = New System.Drawing.Size(206, 24)
         Me.LayoutControlItem106.Text = "Hepatitis :"
         Me.LayoutControlItem106.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem106.TextSize = New System.Drawing.Size(150, 20)
@@ -3615,9 +3618,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem107.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem107.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem107.Control = Me.CheckEdit32
-        Me.LayoutControlItem107.Location = New System.Drawing.Point(254, 332)
+        Me.LayoutControlItem107.Location = New System.Drawing.Point(278, 332)
         Me.LayoutControlItem107.Name = "LayoutControlItem107"
-        Me.LayoutControlItem107.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem107.Size = New System.Drawing.Size(206, 24)
         Me.LayoutControlItem107.Text = "HIV / AIDS :"
         Me.LayoutControlItem107.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem107.TextSize = New System.Drawing.Size(150, 20)
@@ -3626,54 +3629,54 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem112
         '
         Me.LayoutControlItem112.Control = Me.CheckEdit37
-        Me.LayoutControlItem112.Location = New System.Drawing.Point(447, 308)
+        Me.LayoutControlItem112.Location = New System.Drawing.Point(484, 308)
         Me.LayoutControlItem112.Name = "LayoutControlItem112"
-        Me.LayoutControlItem112.Size = New System.Drawing.Size(51, 23)
+        Me.LayoutControlItem112.Size = New System.Drawing.Size(54, 23)
         Me.LayoutControlItem112.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem112.TextVisible = False
         '
         'LayoutControlItem113
         '
         Me.LayoutControlItem113.Control = Me.CheckEdit38
-        Me.LayoutControlItem113.Location = New System.Drawing.Point(447, 331)
+        Me.LayoutControlItem113.Location = New System.Drawing.Point(484, 331)
         Me.LayoutControlItem113.Name = "LayoutControlItem113"
-        Me.LayoutControlItem113.Size = New System.Drawing.Size(51, 23)
+        Me.LayoutControlItem113.Size = New System.Drawing.Size(54, 23)
         Me.LayoutControlItem113.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem113.TextVisible = False
         '
         'LayoutControlItem114
         '
         Me.LayoutControlItem114.Control = Me.CheckEdit39
-        Me.LayoutControlItem114.Location = New System.Drawing.Point(447, 354)
+        Me.LayoutControlItem114.Location = New System.Drawing.Point(484, 354)
         Me.LayoutControlItem114.Name = "LayoutControlItem114"
-        Me.LayoutControlItem114.Size = New System.Drawing.Size(51, 23)
+        Me.LayoutControlItem114.Size = New System.Drawing.Size(54, 23)
         Me.LayoutControlItem114.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem114.TextVisible = False
         '
         'LayoutControlItem115
         '
         Me.LayoutControlItem115.Control = Me.CheckEdit40
-        Me.LayoutControlItem115.Location = New System.Drawing.Point(447, 377)
+        Me.LayoutControlItem115.Location = New System.Drawing.Point(484, 377)
         Me.LayoutControlItem115.Name = "LayoutControlItem115"
-        Me.LayoutControlItem115.Size = New System.Drawing.Size(51, 23)
+        Me.LayoutControlItem115.Size = New System.Drawing.Size(54, 23)
         Me.LayoutControlItem115.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem115.TextVisible = False
         '
         'LayoutControlItem116
         '
         Me.LayoutControlItem116.Control = Me.CheckEdit41
-        Me.LayoutControlItem116.Location = New System.Drawing.Point(447, 400)
+        Me.LayoutControlItem116.Location = New System.Drawing.Point(484, 400)
         Me.LayoutControlItem116.Name = "LayoutControlItem116"
-        Me.LayoutControlItem116.Size = New System.Drawing.Size(51, 23)
+        Me.LayoutControlItem116.Size = New System.Drawing.Size(54, 23)
         Me.LayoutControlItem116.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem116.TextVisible = False
         '
         'LayoutControlItem117
         '
         Me.LayoutControlItem117.Control = Me.CheckEdit42
-        Me.LayoutControlItem117.Location = New System.Drawing.Point(447, 423)
+        Me.LayoutControlItem117.Location = New System.Drawing.Point(484, 423)
         Me.LayoutControlItem117.Name = "LayoutControlItem117"
-        Me.LayoutControlItem117.Size = New System.Drawing.Size(51, 29)
+        Me.LayoutControlItem117.Size = New System.Drawing.Size(54, 29)
         Me.LayoutControlItem117.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem117.TextVisible = False
         '
@@ -3682,9 +3685,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem118.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem118.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem118.Control = Me.CheckEdit43
-        Me.LayoutControlItem118.Location = New System.Drawing.Point(508, 308)
+        Me.LayoutControlItem118.Location = New System.Drawing.Point(549, 308)
         Me.LayoutControlItem118.Name = "LayoutControlItem118"
-        Me.LayoutControlItem118.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem118.Size = New System.Drawing.Size(204, 24)
         Me.LayoutControlItem118.Text = "Lepra :"
         Me.LayoutControlItem118.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem118.TextSize = New System.Drawing.Size(150, 20)
@@ -3695,9 +3698,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem119.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem119.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem119.Control = Me.CheckEdit44
-        Me.LayoutControlItem119.Location = New System.Drawing.Point(508, 332)
+        Me.LayoutControlItem119.Location = New System.Drawing.Point(549, 332)
         Me.LayoutControlItem119.Name = "LayoutControlItem119"
-        Me.LayoutControlItem119.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem119.Size = New System.Drawing.Size(204, 24)
         Me.LayoutControlItem119.Text = "Alergi :"
         Me.LayoutControlItem119.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem119.TextSize = New System.Drawing.Size(150, 20)
@@ -3708,9 +3711,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem120.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem120.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem120.Control = Me.CheckEdit45
-        Me.LayoutControlItem120.Location = New System.Drawing.Point(508, 356)
+        Me.LayoutControlItem120.Location = New System.Drawing.Point(549, 356)
         Me.LayoutControlItem120.Name = "LayoutControlItem120"
-        Me.LayoutControlItem120.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem120.Size = New System.Drawing.Size(204, 24)
         Me.LayoutControlItem120.Text = "Penyakit Jiwa :"
         Me.LayoutControlItem120.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem120.TextSize = New System.Drawing.Size(150, 20)
@@ -3721,9 +3724,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem121.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem121.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem121.Control = Me.CheckEdit46
-        Me.LayoutControlItem121.Location = New System.Drawing.Point(508, 380)
+        Me.LayoutControlItem121.Location = New System.Drawing.Point(549, 380)
         Me.LayoutControlItem121.Name = "LayoutControlItem121"
-        Me.LayoutControlItem121.Size = New System.Drawing.Size(193, 24)
+        Me.LayoutControlItem121.Size = New System.Drawing.Size(204, 24)
         Me.LayoutControlItem121.Text = "Operasi :"
         Me.LayoutControlItem121.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem121.TextSize = New System.Drawing.Size(150, 20)
@@ -3734,9 +3737,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem122.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem122.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem122.Control = Me.CheckEdit47
-        Me.LayoutControlItem122.Location = New System.Drawing.Point(701, 308)
+        Me.LayoutControlItem122.Location = New System.Drawing.Point(753, 308)
         Me.LayoutControlItem122.Name = "LayoutControlItem122"
-        Me.LayoutControlItem122.Size = New System.Drawing.Size(51, 24)
+        Me.LayoutControlItem122.Size = New System.Drawing.Size(74, 24)
         Me.LayoutControlItem122.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem122.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem122.TextToControlDistance = 0
@@ -3747,9 +3750,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem123.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem123.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem123.Control = Me.CheckEdit48
-        Me.LayoutControlItem123.Location = New System.Drawing.Point(701, 332)
+        Me.LayoutControlItem123.Location = New System.Drawing.Point(753, 332)
         Me.LayoutControlItem123.Name = "LayoutControlItem123"
-        Me.LayoutControlItem123.Size = New System.Drawing.Size(51, 24)
+        Me.LayoutControlItem123.Size = New System.Drawing.Size(74, 24)
         Me.LayoutControlItem123.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem123.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem123.TextToControlDistance = 0
@@ -3758,18 +3761,18 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem124
         '
         Me.LayoutControlItem124.Control = Me.CheckEdit49
-        Me.LayoutControlItem124.Location = New System.Drawing.Point(701, 356)
+        Me.LayoutControlItem124.Location = New System.Drawing.Point(753, 356)
         Me.LayoutControlItem124.Name = "LayoutControlItem124"
-        Me.LayoutControlItem124.Size = New System.Drawing.Size(51, 24)
+        Me.LayoutControlItem124.Size = New System.Drawing.Size(74, 24)
         Me.LayoutControlItem124.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem124.TextVisible = False
         '
         'LayoutControlItem125
         '
         Me.LayoutControlItem125.Control = Me.CheckEdit50
-        Me.LayoutControlItem125.Location = New System.Drawing.Point(701, 380)
+        Me.LayoutControlItem125.Location = New System.Drawing.Point(753, 380)
         Me.LayoutControlItem125.Name = "LayoutControlItem125"
-        Me.LayoutControlItem125.Size = New System.Drawing.Size(51, 24)
+        Me.LayoutControlItem125.Size = New System.Drawing.Size(74, 24)
         Me.LayoutControlItem125.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem125.TextVisible = False
         '
@@ -3778,9 +3781,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem126.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem126.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem126.Control = Me.TextEdit1
-        Me.LayoutControlItem126.Location = New System.Drawing.Point(508, 404)
+        Me.LayoutControlItem126.Location = New System.Drawing.Point(549, 404)
         Me.LayoutControlItem126.Name = "LayoutControlItem126"
-        Me.LayoutControlItem126.Size = New System.Drawing.Size(244, 24)
+        Me.LayoutControlItem126.Size = New System.Drawing.Size(278, 24)
         Me.LayoutControlItem126.Text = "Lain-lain :"
         Me.LayoutControlItem126.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem126.TextSize = New System.Drawing.Size(150, 20)
@@ -3791,9 +3794,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem127.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem127.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem127.Control = Me.TextEdit2
-        Me.LayoutControlItem127.Location = New System.Drawing.Point(508, 428)
+        Me.LayoutControlItem127.Location = New System.Drawing.Point(549, 428)
         Me.LayoutControlItem127.Name = "LayoutControlItem127"
-        Me.LayoutControlItem127.Size = New System.Drawing.Size(244, 24)
+        Me.LayoutControlItem127.Size = New System.Drawing.Size(278, 24)
         Me.LayoutControlItem127.Text = "Catatan :"
         Me.LayoutControlItem127.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem127.TextSize = New System.Drawing.Size(150, 20)
@@ -3802,25 +3805,25 @@ Partial Class frmMedicalCheckUP
         'EmptySpaceItem1
         '
         Me.EmptySpaceItem1.AllowHotTrack = False
-        Me.EmptySpaceItem1.Location = New System.Drawing.Point(244, 308)
+        Me.EmptySpaceItem1.Location = New System.Drawing.Point(267, 308)
         Me.EmptySpaceItem1.Name = "EmptySpaceItem1"
-        Me.EmptySpaceItem1.Size = New System.Drawing.Size(10, 144)
+        Me.EmptySpaceItem1.Size = New System.Drawing.Size(11, 144)
         Me.EmptySpaceItem1.TextSize = New System.Drawing.Size(0, 0)
         '
         'EmptySpaceItem2
         '
         Me.EmptySpaceItem2.AllowHotTrack = False
-        Me.EmptySpaceItem2.Location = New System.Drawing.Point(498, 308)
+        Me.EmptySpaceItem2.Location = New System.Drawing.Point(538, 308)
         Me.EmptySpaceItem2.Name = "EmptySpaceItem2"
-        Me.EmptySpaceItem2.Size = New System.Drawing.Size(10, 144)
+        Me.EmptySpaceItem2.Size = New System.Drawing.Size(11, 144)
         Me.EmptySpaceItem2.TextSize = New System.Drawing.Size(0, 0)
         '
         'EmptySpaceItem3
         '
         Me.EmptySpaceItem3.AllowHotTrack = False
-        Me.EmptySpaceItem3.Location = New System.Drawing.Point(307, 260)
+        Me.EmptySpaceItem3.Location = New System.Drawing.Point(330, 260)
         Me.EmptySpaceItem3.Name = "EmptySpaceItem3"
-        Me.EmptySpaceItem3.Size = New System.Drawing.Size(11, 48)
+        Me.EmptySpaceItem3.Size = New System.Drawing.Size(12, 48)
         Me.EmptySpaceItem3.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlItem10
@@ -3830,10 +3833,10 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem10.Control = Me.CheckEdit5
         Me.LayoutControlItem10.Location = New System.Drawing.Point(0, 452)
         Me.LayoutControlItem10.Name = "LayoutControlItem10"
-        Me.LayoutControlItem10.Size = New System.Drawing.Size(256, 24)
+        Me.LayoutControlItem10.Size = New System.Drawing.Size(276, 24)
         Me.LayoutControlItem10.Text = "Riwayat Penyakit Keluarga :"
         Me.LayoutControlItem10.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
-        Me.LayoutControlItem10.TextSize = New System.Drawing.Size(150, 20)
+        Me.LayoutControlItem10.TextSize = New System.Drawing.Size(170, 20)
         Me.LayoutControlItem10.TextToControlDistance = 5
         '
         'LayoutControlItem11
@@ -3841,9 +3844,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem11.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem11.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem11.Control = Me.CheckEdit6
-        Me.LayoutControlItem11.Location = New System.Drawing.Point(256, 452)
+        Me.LayoutControlItem11.Location = New System.Drawing.Point(276, 452)
         Me.LayoutControlItem11.Name = "LayoutControlItem11"
-        Me.LayoutControlItem11.Size = New System.Drawing.Size(51, 24)
+        Me.LayoutControlItem11.Size = New System.Drawing.Size(54, 24)
         Me.LayoutControlItem11.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem11.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem11.TextToControlDistance = 0
@@ -3852,9 +3855,9 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem8
         '
         Me.LayoutControlItem8.Control = Me.MemoEdit4
-        Me.LayoutControlItem8.Location = New System.Drawing.Point(307, 452)
+        Me.LayoutControlItem8.Location = New System.Drawing.Point(330, 452)
         Me.LayoutControlItem8.Name = "LayoutControlItem8"
-        Me.LayoutControlItem8.Size = New System.Drawing.Size(445, 24)
+        Me.LayoutControlItem8.Size = New System.Drawing.Size(497, 24)
         Me.LayoutControlItem8.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem8.TextVisible = False
         '
@@ -3863,9 +3866,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem128.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem128.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem128.Control = Me.TextEdit3
-        Me.LayoutControlItem128.Location = New System.Drawing.Point(0, 565)
+        Me.LayoutControlItem128.Location = New System.Drawing.Point(0, 589)
         Me.LayoutControlItem128.Name = "LayoutControlItem128"
-        Me.LayoutControlItem128.Size = New System.Drawing.Size(752, 24)
+        Me.LayoutControlItem128.Size = New System.Drawing.Size(403, 24)
         Me.LayoutControlItem128.Text = "Keadaan Umum :"
         Me.LayoutControlItem128.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem128.TextSize = New System.Drawing.Size(100, 20)
@@ -3874,18 +3877,18 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem129
         '
         Me.LayoutControlItem129.Control = Me.LabelControl36
-        Me.LayoutControlItem129.Location = New System.Drawing.Point(0, 702)
+        Me.LayoutControlItem129.Location = New System.Drawing.Point(0, 726)
         Me.LayoutControlItem129.Name = "LayoutControlItem129"
-        Me.LayoutControlItem129.Size = New System.Drawing.Size(752, 17)
+        Me.LayoutControlItem129.Size = New System.Drawing.Size(827, 17)
         Me.LayoutControlItem129.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem129.TextVisible = False
         '
         'LayoutControlItem130
         '
         Me.LayoutControlItem130.Control = Me.LabelControl37
-        Me.LayoutControlItem130.Location = New System.Drawing.Point(0, 736)
+        Me.LayoutControlItem130.Location = New System.Drawing.Point(0, 760)
         Me.LayoutControlItem130.Name = "LayoutControlItem130"
-        Me.LayoutControlItem130.Size = New System.Drawing.Size(410, 17)
+        Me.LayoutControlItem130.Size = New System.Drawing.Size(441, 17)
         Me.LayoutControlItem130.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem130.TextVisible = False
         '
@@ -3894,9 +3897,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem132.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem132.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem132.Control = Me.CheckEdit51
-        Me.LayoutControlItem132.Location = New System.Drawing.Point(0, 753)
+        Me.LayoutControlItem132.Location = New System.Drawing.Point(0, 777)
         Me.LayoutControlItem132.Name = "LayoutControlItem132"
-        Me.LayoutControlItem132.Size = New System.Drawing.Size(143, 24)
+        Me.LayoutControlItem132.Size = New System.Drawing.Size(164, 24)
         Me.LayoutControlItem132.Text = "Pterygium :"
         Me.LayoutControlItem132.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem132.TextSize = New System.Drawing.Size(100, 20)
@@ -3907,9 +3910,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem133.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem133.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem133.Control = Me.CheckEdit52
-        Me.LayoutControlItem133.Location = New System.Drawing.Point(0, 777)
+        Me.LayoutControlItem133.Location = New System.Drawing.Point(0, 801)
         Me.LayoutControlItem133.Name = "LayoutControlItem133"
-        Me.LayoutControlItem133.Size = New System.Drawing.Size(143, 24)
+        Me.LayoutControlItem133.Size = New System.Drawing.Size(164, 24)
         Me.LayoutControlItem133.Text = "Strabismus :"
         Me.LayoutControlItem133.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem133.TextSize = New System.Drawing.Size(100, 20)
@@ -3920,9 +3923,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem134.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem134.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem134.Control = Me.CheckEdit53
-        Me.LayoutControlItem134.Location = New System.Drawing.Point(0, 801)
+        Me.LayoutControlItem134.Location = New System.Drawing.Point(0, 825)
         Me.LayoutControlItem134.Name = "LayoutControlItem134"
-        Me.LayoutControlItem134.Size = New System.Drawing.Size(143, 24)
+        Me.LayoutControlItem134.Size = New System.Drawing.Size(164, 24)
         Me.LayoutControlItem134.Text = "Kacamata :"
         Me.LayoutControlItem134.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem134.TextSize = New System.Drawing.Size(100, 20)
@@ -3931,27 +3934,27 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem135
         '
         Me.LayoutControlItem135.Control = Me.CheckEdit54
-        Me.LayoutControlItem135.Location = New System.Drawing.Point(143, 753)
+        Me.LayoutControlItem135.Location = New System.Drawing.Point(164, 777)
         Me.LayoutControlItem135.Name = "LayoutControlItem135"
-        Me.LayoutControlItem135.Size = New System.Drawing.Size(267, 24)
+        Me.LayoutControlItem135.Size = New System.Drawing.Size(277, 24)
         Me.LayoutControlItem135.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem135.TextVisible = False
         '
         'LayoutControlItem136
         '
         Me.LayoutControlItem136.Control = Me.CheckEdit55
-        Me.LayoutControlItem136.Location = New System.Drawing.Point(143, 777)
+        Me.LayoutControlItem136.Location = New System.Drawing.Point(164, 801)
         Me.LayoutControlItem136.Name = "LayoutControlItem136"
-        Me.LayoutControlItem136.Size = New System.Drawing.Size(267, 24)
+        Me.LayoutControlItem136.Size = New System.Drawing.Size(277, 24)
         Me.LayoutControlItem136.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem136.TextVisible = False
         '
         'LayoutControlItem137
         '
         Me.LayoutControlItem137.Control = Me.CheckEdit56
-        Me.LayoutControlItem137.Location = New System.Drawing.Point(143, 801)
+        Me.LayoutControlItem137.Location = New System.Drawing.Point(164, 825)
         Me.LayoutControlItem137.Name = "LayoutControlItem137"
-        Me.LayoutControlItem137.Size = New System.Drawing.Size(267, 24)
+        Me.LayoutControlItem137.Size = New System.Drawing.Size(277, 24)
         Me.LayoutControlItem137.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem137.TextVisible = False
         '
@@ -3960,9 +3963,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem138.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem138.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem138.Control = Me.TextEdit4
-        Me.LayoutControlItem138.Location = New System.Drawing.Point(0, 825)
+        Me.LayoutControlItem138.Location = New System.Drawing.Point(0, 849)
         Me.LayoutControlItem138.Name = "LayoutControlItem138"
-        Me.LayoutControlItem138.Size = New System.Drawing.Size(410, 24)
+        Me.LayoutControlItem138.Size = New System.Drawing.Size(441, 24)
         Me.LayoutControlItem138.Text = "Visus :"
         Me.LayoutControlItem138.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem138.TextSize = New System.Drawing.Size(100, 20)
@@ -3971,25 +3974,25 @@ Partial Class frmMedicalCheckUP
         'EmptySpaceItem4
         '
         Me.EmptySpaceItem4.AllowHotTrack = False
-        Me.EmptySpaceItem4.Location = New System.Drawing.Point(410, 736)
+        Me.EmptySpaceItem4.Location = New System.Drawing.Point(441, 760)
         Me.EmptySpaceItem4.Name = "EmptySpaceItem4"
-        Me.EmptySpaceItem4.Size = New System.Drawing.Size(11, 113)
+        Me.EmptySpaceItem4.Size = New System.Drawing.Size(12, 113)
         Me.EmptySpaceItem4.TextSize = New System.Drawing.Size(0, 0)
         '
         'EmptySpaceItem5
         '
         Me.EmptySpaceItem5.AllowHotTrack = False
-        Me.EmptySpaceItem5.Location = New System.Drawing.Point(421, 801)
+        Me.EmptySpaceItem5.Location = New System.Drawing.Point(453, 825)
         Me.EmptySpaceItem5.Name = "EmptySpaceItem5"
-        Me.EmptySpaceItem5.Size = New System.Drawing.Size(331, 24)
+        Me.EmptySpaceItem5.Size = New System.Drawing.Size(374, 24)
         Me.EmptySpaceItem5.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlItem131
         '
         Me.LayoutControlItem131.Control = Me.LabelControl38
-        Me.LayoutControlItem131.Location = New System.Drawing.Point(421, 736)
+        Me.LayoutControlItem131.Location = New System.Drawing.Point(453, 760)
         Me.LayoutControlItem131.Name = "LayoutControlItem131"
-        Me.LayoutControlItem131.Size = New System.Drawing.Size(331, 17)
+        Me.LayoutControlItem131.Size = New System.Drawing.Size(374, 17)
         Me.LayoutControlItem131.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem131.TextVisible = False
         '
@@ -3998,9 +4001,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem139.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem139.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem139.Control = Me.CheckEdit57
-        Me.LayoutControlItem139.Location = New System.Drawing.Point(421, 753)
+        Me.LayoutControlItem139.Location = New System.Drawing.Point(453, 777)
         Me.LayoutControlItem139.Name = "LayoutControlItem139"
-        Me.LayoutControlItem139.Size = New System.Drawing.Size(143, 24)
+        Me.LayoutControlItem139.Size = New System.Drawing.Size(164, 24)
         Me.LayoutControlItem139.Text = "Pharynx :"
         Me.LayoutControlItem139.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem139.TextSize = New System.Drawing.Size(100, 20)
@@ -4009,9 +4012,9 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem142
         '
         Me.LayoutControlItem142.Control = Me.CheckEdit60
-        Me.LayoutControlItem142.Location = New System.Drawing.Point(564, 753)
+        Me.LayoutControlItem142.Location = New System.Drawing.Point(617, 777)
         Me.LayoutControlItem142.Name = "LayoutControlItem142"
-        Me.LayoutControlItem142.Size = New System.Drawing.Size(188, 24)
+        Me.LayoutControlItem142.Size = New System.Drawing.Size(210, 24)
         Me.LayoutControlItem142.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem142.TextVisible = False
         '
@@ -4020,9 +4023,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem140.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem140.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem140.Control = Me.CheckEdit58
-        Me.LayoutControlItem140.Location = New System.Drawing.Point(421, 777)
+        Me.LayoutControlItem140.Location = New System.Drawing.Point(453, 801)
         Me.LayoutControlItem140.Name = "LayoutControlItem140"
-        Me.LayoutControlItem140.Size = New System.Drawing.Size(143, 24)
+        Me.LayoutControlItem140.Size = New System.Drawing.Size(164, 24)
         Me.LayoutControlItem140.Text = "Tonsil :"
         Me.LayoutControlItem140.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem140.TextSize = New System.Drawing.Size(100, 20)
@@ -4031,9 +4034,9 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem143
         '
         Me.LayoutControlItem143.Control = Me.CheckEdit61
-        Me.LayoutControlItem143.Location = New System.Drawing.Point(564, 777)
+        Me.LayoutControlItem143.Location = New System.Drawing.Point(617, 801)
         Me.LayoutControlItem143.Name = "LayoutControlItem143"
-        Me.LayoutControlItem143.Size = New System.Drawing.Size(188, 24)
+        Me.LayoutControlItem143.Size = New System.Drawing.Size(210, 24)
         Me.LayoutControlItem143.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem143.TextVisible = False
         '
@@ -4042,9 +4045,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem141.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem141.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem141.Control = Me.CheckEdit59
-        Me.LayoutControlItem141.Location = New System.Drawing.Point(421, 825)
+        Me.LayoutControlItem141.Location = New System.Drawing.Point(453, 849)
         Me.LayoutControlItem141.Name = "LayoutControlItem141"
-        Me.LayoutControlItem141.Size = New System.Drawing.Size(143, 24)
+        Me.LayoutControlItem141.Size = New System.Drawing.Size(164, 24)
         Me.LayoutControlItem141.Text = "Gigi :"
         Me.LayoutControlItem141.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem141.TextSize = New System.Drawing.Size(100, 20)
@@ -4053,16 +4056,16 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem144
         '
         Me.LayoutControlItem144.Control = Me.CheckEdit62
-        Me.LayoutControlItem144.Location = New System.Drawing.Point(564, 825)
+        Me.LayoutControlItem144.Location = New System.Drawing.Point(617, 849)
         Me.LayoutControlItem144.Name = "LayoutControlItem144"
-        Me.LayoutControlItem144.Size = New System.Drawing.Size(188, 24)
+        Me.LayoutControlItem144.Size = New System.Drawing.Size(210, 24)
         Me.LayoutControlItem144.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem144.TextVisible = False
         '
         'LayoutControlItem39
         '
         Me.LayoutControlItem39.Control = Me.LabelControl39
-        Me.LayoutControlItem39.Location = New System.Drawing.Point(745, 968)
+        Me.LayoutControlItem39.Location = New System.Drawing.Point(820, 992)
         Me.LayoutControlItem39.Name = "LayoutControlItem39"
         Me.LayoutControlItem39.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem39.TextSize = New System.Drawing.Size(0, 0)
@@ -4071,7 +4074,7 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem40
         '
         Me.LayoutControlItem40.Control = Me.LabelControl40
-        Me.LayoutControlItem40.Location = New System.Drawing.Point(745, 951)
+        Me.LayoutControlItem40.Location = New System.Drawing.Point(820, 975)
         Me.LayoutControlItem40.Name = "LayoutControlItem40"
         Me.LayoutControlItem40.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem40.TextSize = New System.Drawing.Size(0, 0)
@@ -4080,7 +4083,7 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem41
         '
         Me.LayoutControlItem41.Control = Me.LabelControl41
-        Me.LayoutControlItem41.Location = New System.Drawing.Point(745, 934)
+        Me.LayoutControlItem41.Location = New System.Drawing.Point(820, 958)
         Me.LayoutControlItem41.Name = "LayoutControlItem41"
         Me.LayoutControlItem41.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem41.TextSize = New System.Drawing.Size(0, 0)
@@ -4089,116 +4092,116 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem42
         '
         Me.LayoutControlItem42.Control = Me.LabelControl42
-        Me.LayoutControlItem42.Location = New System.Drawing.Point(0, 719)
+        Me.LayoutControlItem42.Location = New System.Drawing.Point(0, 743)
         Me.LayoutControlItem42.Name = "LayoutControlItem42"
-        Me.LayoutControlItem42.Size = New System.Drawing.Size(752, 17)
+        Me.LayoutControlItem42.Size = New System.Drawing.Size(827, 17)
         Me.LayoutControlItem42.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem42.TextVisible = False
         '
         'LayoutControlItem46
         '
         Me.LayoutControlItem46.Control = Me.LabelControl43
-        Me.LayoutControlItem46.Location = New System.Drawing.Point(0, 1002)
+        Me.LayoutControlItem46.Location = New System.Drawing.Point(0, 1026)
         Me.LayoutControlItem46.Name = "LayoutControlItem46"
-        Me.LayoutControlItem46.Size = New System.Drawing.Size(104, 17)
+        Me.LayoutControlItem46.Size = New System.Drawing.Size(112, 17)
         Me.LayoutControlItem46.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem46.TextVisible = False
         '
         'LayoutControlItem53
         '
         Me.LayoutControlItem53.Control = Me.LabelControl44
-        Me.LayoutControlItem53.Location = New System.Drawing.Point(0, 1019)
+        Me.LayoutControlItem53.Location = New System.Drawing.Point(0, 1043)
         Me.LayoutControlItem53.Name = "LayoutControlItem53"
-        Me.LayoutControlItem53.Size = New System.Drawing.Size(104, 29)
+        Me.LayoutControlItem53.Size = New System.Drawing.Size(112, 29)
         Me.LayoutControlItem53.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem53.TextVisible = False
         '
         'LayoutControlItem54
         '
         Me.LayoutControlItem54.Control = Me.CheckEdit63
-        Me.LayoutControlItem54.Location = New System.Drawing.Point(114, 1002)
+        Me.LayoutControlItem54.Location = New System.Drawing.Point(123, 1026)
         Me.LayoutControlItem54.Name = "LayoutControlItem54"
-        Me.LayoutControlItem54.Size = New System.Drawing.Size(38, 23)
+        Me.LayoutControlItem54.Size = New System.Drawing.Size(59, 23)
         Me.LayoutControlItem54.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem54.TextVisible = False
         '
         'LayoutControlItem55
         '
         Me.LayoutControlItem55.Control = Me.CheckEdit64
-        Me.LayoutControlItem55.Location = New System.Drawing.Point(152, 1002)
+        Me.LayoutControlItem55.Location = New System.Drawing.Point(182, 1026)
         Me.LayoutControlItem55.Name = "LayoutControlItem55"
-        Me.LayoutControlItem55.Size = New System.Drawing.Size(600, 23)
+        Me.LayoutControlItem55.Size = New System.Drawing.Size(645, 23)
         Me.LayoutControlItem55.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem55.TextVisible = False
         '
         'LayoutControlItem56
         '
         Me.LayoutControlItem56.Control = Me.CheckEdit65
-        Me.LayoutControlItem56.Location = New System.Drawing.Point(114, 1025)
+        Me.LayoutControlItem56.Location = New System.Drawing.Point(123, 1049)
         Me.LayoutControlItem56.Name = "LayoutControlItem56"
-        Me.LayoutControlItem56.Size = New System.Drawing.Size(38, 23)
+        Me.LayoutControlItem56.Size = New System.Drawing.Size(59, 23)
         Me.LayoutControlItem56.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem56.TextVisible = False
         '
         'LayoutControlItem57
         '
         Me.LayoutControlItem57.Control = Me.CheckEdit66
-        Me.LayoutControlItem57.Location = New System.Drawing.Point(152, 1025)
+        Me.LayoutControlItem57.Location = New System.Drawing.Point(182, 1049)
         Me.LayoutControlItem57.Name = "LayoutControlItem57"
-        Me.LayoutControlItem57.Size = New System.Drawing.Size(600, 23)
+        Me.LayoutControlItem57.Size = New System.Drawing.Size(645, 23)
         Me.LayoutControlItem57.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem57.TextVisible = False
         '
         'EmptySpaceItem6
         '
         Me.EmptySpaceItem6.AllowHotTrack = False
-        Me.EmptySpaceItem6.Location = New System.Drawing.Point(104, 1002)
+        Me.EmptySpaceItem6.Location = New System.Drawing.Point(112, 1026)
         Me.EmptySpaceItem6.Name = "EmptySpaceItem6"
-        Me.EmptySpaceItem6.Size = New System.Drawing.Size(10, 46)
+        Me.EmptySpaceItem6.Size = New System.Drawing.Size(11, 46)
         Me.EmptySpaceItem6.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControlItem44
         '
         Me.LayoutControlItem44.Control = Me.LabelControl13
-        Me.LayoutControlItem44.Location = New System.Drawing.Point(0, 1071)
+        Me.LayoutControlItem44.Location = New System.Drawing.Point(0, 1095)
         Me.LayoutControlItem44.Name = "LayoutControlItem44"
-        Me.LayoutControlItem44.Size = New System.Drawing.Size(104, 23)
+        Me.LayoutControlItem44.Size = New System.Drawing.Size(112, 23)
         Me.LayoutControlItem44.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem44.TextVisible = False
         '
         'LayoutControlItem58
         '
         Me.LayoutControlItem58.Control = Me.CheckEdit67
-        Me.LayoutControlItem58.Location = New System.Drawing.Point(104, 1071)
+        Me.LayoutControlItem58.Location = New System.Drawing.Point(112, 1095)
         Me.LayoutControlItem58.Name = "LayoutControlItem58"
-        Me.LayoutControlItem58.Size = New System.Drawing.Size(38, 23)
+        Me.LayoutControlItem58.Size = New System.Drawing.Size(59, 23)
         Me.LayoutControlItem58.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem58.TextVisible = False
         '
         'LayoutControlItem59
         '
         Me.LayoutControlItem59.Control = Me.CheckEdit68
-        Me.LayoutControlItem59.Location = New System.Drawing.Point(142, 1071)
+        Me.LayoutControlItem59.Location = New System.Drawing.Point(171, 1095)
         Me.LayoutControlItem59.Name = "LayoutControlItem59"
-        Me.LayoutControlItem59.Size = New System.Drawing.Size(610, 23)
+        Me.LayoutControlItem59.Size = New System.Drawing.Size(656, 23)
         Me.LayoutControlItem59.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem59.TextVisible = False
         '
         'LayoutControlItem60
         '
         Me.LayoutControlItem60.Control = Me.LabelControl45
-        Me.LayoutControlItem60.Location = New System.Drawing.Point(0, 1094)
+        Me.LayoutControlItem60.Location = New System.Drawing.Point(0, 1118)
         Me.LayoutControlItem60.Name = "LayoutControlItem60"
-        Me.LayoutControlItem60.Size = New System.Drawing.Size(752, 17)
+        Me.LayoutControlItem60.Size = New System.Drawing.Size(827, 17)
         Me.LayoutControlItem60.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem60.TextVisible = False
         '
         'LayoutControlItem145
         '
         Me.LayoutControlItem145.Control = Me.LabelControl46
-        Me.LayoutControlItem145.Location = New System.Drawing.Point(0, 1159)
+        Me.LayoutControlItem145.Location = New System.Drawing.Point(0, 1183)
         Me.LayoutControlItem145.Name = "LayoutControlItem145"
-        Me.LayoutControlItem145.Size = New System.Drawing.Size(752, 17)
+        Me.LayoutControlItem145.Size = New System.Drawing.Size(827, 17)
         Me.LayoutControlItem145.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem145.TextVisible = False
         '
@@ -4207,9 +4210,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem146.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem146.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem146.Control = Me.CheckEdit69
-        Me.LayoutControlItem146.Location = New System.Drawing.Point(0, 1111)
+        Me.LayoutControlItem146.Location = New System.Drawing.Point(0, 1135)
         Me.LayoutControlItem146.Name = "LayoutControlItem146"
-        Me.LayoutControlItem146.Size = New System.Drawing.Size(143, 24)
+        Me.LayoutControlItem146.Size = New System.Drawing.Size(164, 24)
         Me.LayoutControlItem146.Text = "Cor :"
         Me.LayoutControlItem146.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem146.TextSize = New System.Drawing.Size(100, 20)
@@ -4220,9 +4223,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem147.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem147.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem147.Control = Me.CheckEdit70
-        Me.LayoutControlItem147.Location = New System.Drawing.Point(143, 1111)
+        Me.LayoutControlItem147.Location = New System.Drawing.Point(164, 1135)
         Me.LayoutControlItem147.Name = "LayoutControlItem147"
-        Me.LayoutControlItem147.Size = New System.Drawing.Size(609, 24)
+        Me.LayoutControlItem147.Size = New System.Drawing.Size(663, 24)
         Me.LayoutControlItem147.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem147.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem147.TextToControlDistance = 0
@@ -4233,9 +4236,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem148.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem148.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem148.Control = Me.CheckEdit71
-        Me.LayoutControlItem148.Location = New System.Drawing.Point(0, 1135)
+        Me.LayoutControlItem148.Location = New System.Drawing.Point(0, 1159)
         Me.LayoutControlItem148.Name = "LayoutControlItem148"
-        Me.LayoutControlItem148.Size = New System.Drawing.Size(143, 24)
+        Me.LayoutControlItem148.Size = New System.Drawing.Size(164, 24)
         Me.LayoutControlItem148.Text = "Pulmo :"
         Me.LayoutControlItem148.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem148.TextSize = New System.Drawing.Size(100, 20)
@@ -4244,9 +4247,9 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem149
         '
         Me.LayoutControlItem149.Control = Me.CheckEdit72
-        Me.LayoutControlItem149.Location = New System.Drawing.Point(143, 1135)
+        Me.LayoutControlItem149.Location = New System.Drawing.Point(164, 1159)
         Me.LayoutControlItem149.Name = "LayoutControlItem149"
-        Me.LayoutControlItem149.Size = New System.Drawing.Size(609, 24)
+        Me.LayoutControlItem149.Size = New System.Drawing.Size(663, 24)
         Me.LayoutControlItem149.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem149.TextVisible = False
         '
@@ -4255,9 +4258,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem150.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem150.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem150.Control = Me.CheckEdit73
-        Me.LayoutControlItem150.Location = New System.Drawing.Point(0, 1176)
+        Me.LayoutControlItem150.Location = New System.Drawing.Point(0, 1200)
         Me.LayoutControlItem150.Name = "LayoutControlItem150"
-        Me.LayoutControlItem150.Size = New System.Drawing.Size(143, 24)
+        Me.LayoutControlItem150.Size = New System.Drawing.Size(164, 24)
         Me.LayoutControlItem150.Text = "Liver :"
         Me.LayoutControlItem150.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem150.TextSize = New System.Drawing.Size(100, 20)
@@ -4266,9 +4269,9 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem151
         '
         Me.LayoutControlItem151.Control = Me.CheckEdit74
-        Me.LayoutControlItem151.Location = New System.Drawing.Point(143, 1176)
+        Me.LayoutControlItem151.Location = New System.Drawing.Point(164, 1200)
         Me.LayoutControlItem151.Name = "LayoutControlItem151"
-        Me.LayoutControlItem151.Size = New System.Drawing.Size(609, 24)
+        Me.LayoutControlItem151.Size = New System.Drawing.Size(663, 24)
         Me.LayoutControlItem151.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem151.TextVisible = False
         '
@@ -4277,9 +4280,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem152.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem152.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem152.Control = Me.CheckEdit75
-        Me.LayoutControlItem152.Location = New System.Drawing.Point(0, 1200)
+        Me.LayoutControlItem152.Location = New System.Drawing.Point(0, 1224)
         Me.LayoutControlItem152.Name = "LayoutControlItem152"
-        Me.LayoutControlItem152.Size = New System.Drawing.Size(143, 24)
+        Me.LayoutControlItem152.Size = New System.Drawing.Size(164, 24)
         Me.LayoutControlItem152.Text = "Spleen :"
         Me.LayoutControlItem152.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem152.TextSize = New System.Drawing.Size(100, 20)
@@ -4288,9 +4291,9 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem153
         '
         Me.LayoutControlItem153.Control = Me.CheckEdit76
-        Me.LayoutControlItem153.Location = New System.Drawing.Point(143, 1200)
+        Me.LayoutControlItem153.Location = New System.Drawing.Point(164, 1224)
         Me.LayoutControlItem153.Name = "LayoutControlItem153"
-        Me.LayoutControlItem153.Size = New System.Drawing.Size(609, 24)
+        Me.LayoutControlItem153.Size = New System.Drawing.Size(663, 24)
         Me.LayoutControlItem153.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem153.TextVisible = False
         '
@@ -4299,9 +4302,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem154.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem154.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem154.Control = Me.CheckEdit77
-        Me.LayoutControlItem154.Location = New System.Drawing.Point(0, 1224)
+        Me.LayoutControlItem154.Location = New System.Drawing.Point(0, 1248)
         Me.LayoutControlItem154.Name = "LayoutControlItem154"
-        Me.LayoutControlItem154.Size = New System.Drawing.Size(143, 24)
+        Me.LayoutControlItem154.Size = New System.Drawing.Size(164, 24)
         Me.LayoutControlItem154.Text = "Inguinal :"
         Me.LayoutControlItem154.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem154.TextSize = New System.Drawing.Size(100, 20)
@@ -4310,9 +4313,9 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem155
         '
         Me.LayoutControlItem155.Control = Me.CheckEdit78
-        Me.LayoutControlItem155.Location = New System.Drawing.Point(143, 1224)
+        Me.LayoutControlItem155.Location = New System.Drawing.Point(164, 1248)
         Me.LayoutControlItem155.Name = "LayoutControlItem155"
-        Me.LayoutControlItem155.Size = New System.Drawing.Size(609, 24)
+        Me.LayoutControlItem155.Size = New System.Drawing.Size(663, 24)
         Me.LayoutControlItem155.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem155.TextVisible = False
         '
@@ -4321,9 +4324,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem156.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem156.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem156.Control = Me.CheckEdit79
-        Me.LayoutControlItem156.Location = New System.Drawing.Point(0, 1248)
+        Me.LayoutControlItem156.Location = New System.Drawing.Point(0, 1272)
         Me.LayoutControlItem156.Name = "LayoutControlItem156"
-        Me.LayoutControlItem156.Size = New System.Drawing.Size(143, 24)
+        Me.LayoutControlItem156.Size = New System.Drawing.Size(164, 24)
         Me.LayoutControlItem156.Text = "Ginjal :"
         Me.LayoutControlItem156.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem156.TextSize = New System.Drawing.Size(100, 20)
@@ -4332,9 +4335,9 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem157
         '
         Me.LayoutControlItem157.Control = Me.CheckEdit80
-        Me.LayoutControlItem157.Location = New System.Drawing.Point(143, 1248)
+        Me.LayoutControlItem157.Location = New System.Drawing.Point(164, 1272)
         Me.LayoutControlItem157.Name = "LayoutControlItem157"
-        Me.LayoutControlItem157.Size = New System.Drawing.Size(609, 24)
+        Me.LayoutControlItem157.Size = New System.Drawing.Size(663, 24)
         Me.LayoutControlItem157.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem157.TextVisible = False
         '
@@ -4343,9 +4346,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem158.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem158.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem158.Control = Me.CheckEdit81
-        Me.LayoutControlItem158.Location = New System.Drawing.Point(0, 1272)
+        Me.LayoutControlItem158.Location = New System.Drawing.Point(0, 1296)
         Me.LayoutControlItem158.Name = "LayoutControlItem158"
-        Me.LayoutControlItem158.Size = New System.Drawing.Size(143, 24)
+        Me.LayoutControlItem158.Size = New System.Drawing.Size(164, 24)
         Me.LayoutControlItem158.Text = "Lain-lain :"
         Me.LayoutControlItem158.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem158.TextSize = New System.Drawing.Size(100, 20)
@@ -4354,241 +4357,241 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem159
         '
         Me.LayoutControlItem159.Control = Me.CheckEdit82
-        Me.LayoutControlItem159.Location = New System.Drawing.Point(143, 1272)
+        Me.LayoutControlItem159.Location = New System.Drawing.Point(164, 1296)
         Me.LayoutControlItem159.Name = "LayoutControlItem159"
-        Me.LayoutControlItem159.Size = New System.Drawing.Size(609, 24)
+        Me.LayoutControlItem159.Size = New System.Drawing.Size(663, 24)
         Me.LayoutControlItem159.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem159.TextVisible = False
         '
         'LayoutControlItem165
         '
         Me.LayoutControlItem165.Control = Me.CheckEdit83
-        Me.LayoutControlItem165.Location = New System.Drawing.Point(109, 1296)
+        Me.LayoutControlItem165.Location = New System.Drawing.Point(118, 1320)
         Me.LayoutControlItem165.Name = "LayoutControlItem165"
-        Me.LayoutControlItem165.Size = New System.Drawing.Size(38, 23)
+        Me.LayoutControlItem165.Size = New System.Drawing.Size(59, 23)
         Me.LayoutControlItem165.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem165.TextVisible = False
         '
         'LayoutControlItem166
         '
         Me.LayoutControlItem166.Control = Me.CheckEdit84
-        Me.LayoutControlItem166.Location = New System.Drawing.Point(147, 1296)
+        Me.LayoutControlItem166.Location = New System.Drawing.Point(177, 1320)
         Me.LayoutControlItem166.Name = "LayoutControlItem166"
-        Me.LayoutControlItem166.Size = New System.Drawing.Size(605, 23)
+        Me.LayoutControlItem166.Size = New System.Drawing.Size(650, 23)
         Me.LayoutControlItem166.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem166.TextVisible = False
         '
         'LayoutControlItem167
         '
         Me.LayoutControlItem167.Control = Me.CheckEdit85
-        Me.LayoutControlItem167.Location = New System.Drawing.Point(109, 1319)
+        Me.LayoutControlItem167.Location = New System.Drawing.Point(118, 1343)
         Me.LayoutControlItem167.Name = "LayoutControlItem167"
-        Me.LayoutControlItem167.Size = New System.Drawing.Size(38, 23)
+        Me.LayoutControlItem167.Size = New System.Drawing.Size(59, 23)
         Me.LayoutControlItem167.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem167.TextVisible = False
         '
         'LayoutControlItem168
         '
         Me.LayoutControlItem168.Control = Me.CheckEdit86
-        Me.LayoutControlItem168.Location = New System.Drawing.Point(147, 1319)
+        Me.LayoutControlItem168.Location = New System.Drawing.Point(177, 1343)
         Me.LayoutControlItem168.Name = "LayoutControlItem168"
-        Me.LayoutControlItem168.Size = New System.Drawing.Size(605, 23)
+        Me.LayoutControlItem168.Size = New System.Drawing.Size(650, 23)
         Me.LayoutControlItem168.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem168.TextVisible = False
         '
         'LayoutControlItem169
         '
         Me.LayoutControlItem169.Control = Me.CheckEdit87
-        Me.LayoutControlItem169.Location = New System.Drawing.Point(109, 1342)
+        Me.LayoutControlItem169.Location = New System.Drawing.Point(118, 1366)
         Me.LayoutControlItem169.Name = "LayoutControlItem169"
-        Me.LayoutControlItem169.Size = New System.Drawing.Size(38, 23)
+        Me.LayoutControlItem169.Size = New System.Drawing.Size(59, 23)
         Me.LayoutControlItem169.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem169.TextVisible = False
         '
         'LayoutControlItem170
         '
         Me.LayoutControlItem170.Control = Me.CheckEdit88
-        Me.LayoutControlItem170.Location = New System.Drawing.Point(147, 1342)
+        Me.LayoutControlItem170.Location = New System.Drawing.Point(177, 1366)
         Me.LayoutControlItem170.Name = "LayoutControlItem170"
-        Me.LayoutControlItem170.Size = New System.Drawing.Size(605, 23)
+        Me.LayoutControlItem170.Size = New System.Drawing.Size(650, 23)
         Me.LayoutControlItem170.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem170.TextVisible = False
         '
         'LayoutControlItem171
         '
         Me.LayoutControlItem171.Control = Me.CheckEdit89
-        Me.LayoutControlItem171.Location = New System.Drawing.Point(109, 1365)
+        Me.LayoutControlItem171.Location = New System.Drawing.Point(118, 1389)
         Me.LayoutControlItem171.Name = "LayoutControlItem171"
-        Me.LayoutControlItem171.Size = New System.Drawing.Size(38, 23)
+        Me.LayoutControlItem171.Size = New System.Drawing.Size(59, 23)
         Me.LayoutControlItem171.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem171.TextVisible = False
         '
         'LayoutControlItem172
         '
         Me.LayoutControlItem172.Control = Me.CheckEdit90
-        Me.LayoutControlItem172.Location = New System.Drawing.Point(147, 1365)
+        Me.LayoutControlItem172.Location = New System.Drawing.Point(177, 1389)
         Me.LayoutControlItem172.Name = "LayoutControlItem172"
-        Me.LayoutControlItem172.Size = New System.Drawing.Size(605, 23)
+        Me.LayoutControlItem172.Size = New System.Drawing.Size(650, 23)
         Me.LayoutControlItem172.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem172.TextVisible = False
         '
         'LayoutControlItem173
         '
         Me.LayoutControlItem173.Control = Me.CheckEdit91
-        Me.LayoutControlItem173.Location = New System.Drawing.Point(109, 1388)
+        Me.LayoutControlItem173.Location = New System.Drawing.Point(118, 1412)
         Me.LayoutControlItem173.Name = "LayoutControlItem173"
-        Me.LayoutControlItem173.Size = New System.Drawing.Size(38, 23)
+        Me.LayoutControlItem173.Size = New System.Drawing.Size(59, 23)
         Me.LayoutControlItem173.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem173.TextVisible = False
         '
         'LayoutControlItem174
         '
         Me.LayoutControlItem174.Control = Me.CheckEdit92
-        Me.LayoutControlItem174.Location = New System.Drawing.Point(147, 1388)
+        Me.LayoutControlItem174.Location = New System.Drawing.Point(177, 1412)
         Me.LayoutControlItem174.Name = "LayoutControlItem174"
-        Me.LayoutControlItem174.Size = New System.Drawing.Size(605, 23)
+        Me.LayoutControlItem174.Size = New System.Drawing.Size(650, 23)
         Me.LayoutControlItem174.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem174.TextVisible = False
         '
         'LayoutControlItem160
         '
         Me.LayoutControlItem160.Control = Me.LabelControl47
-        Me.LayoutControlItem160.Location = New System.Drawing.Point(0, 1296)
+        Me.LayoutControlItem160.Location = New System.Drawing.Point(0, 1320)
         Me.LayoutControlItem160.Name = "LayoutControlItem160"
-        Me.LayoutControlItem160.Size = New System.Drawing.Size(109, 23)
+        Me.LayoutControlItem160.Size = New System.Drawing.Size(118, 23)
         Me.LayoutControlItem160.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem160.TextVisible = False
         '
         'LayoutControlItem161
         '
         Me.LayoutControlItem161.Control = Me.LabelControl48
-        Me.LayoutControlItem161.Location = New System.Drawing.Point(0, 1319)
+        Me.LayoutControlItem161.Location = New System.Drawing.Point(0, 1343)
         Me.LayoutControlItem161.Name = "LayoutControlItem161"
-        Me.LayoutControlItem161.Size = New System.Drawing.Size(109, 23)
+        Me.LayoutControlItem161.Size = New System.Drawing.Size(118, 23)
         Me.LayoutControlItem161.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem161.TextVisible = False
         '
         'LayoutControlItem162
         '
         Me.LayoutControlItem162.Control = Me.LabelControl49
-        Me.LayoutControlItem162.Location = New System.Drawing.Point(0, 1342)
+        Me.LayoutControlItem162.Location = New System.Drawing.Point(0, 1366)
         Me.LayoutControlItem162.Name = "LayoutControlItem162"
-        Me.LayoutControlItem162.Size = New System.Drawing.Size(109, 23)
+        Me.LayoutControlItem162.Size = New System.Drawing.Size(118, 23)
         Me.LayoutControlItem162.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem162.TextVisible = False
         '
         'LayoutControlItem163
         '
         Me.LayoutControlItem163.Control = Me.LabelControl50
-        Me.LayoutControlItem163.Location = New System.Drawing.Point(0, 1365)
+        Me.LayoutControlItem163.Location = New System.Drawing.Point(0, 1389)
         Me.LayoutControlItem163.Name = "LayoutControlItem163"
-        Me.LayoutControlItem163.Size = New System.Drawing.Size(109, 23)
+        Me.LayoutControlItem163.Size = New System.Drawing.Size(118, 23)
         Me.LayoutControlItem163.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem163.TextVisible = False
         '
         'LayoutControlItem164
         '
         Me.LayoutControlItem164.Control = Me.LabelControl51
-        Me.LayoutControlItem164.Location = New System.Drawing.Point(0, 1388)
+        Me.LayoutControlItem164.Location = New System.Drawing.Point(0, 1412)
         Me.LayoutControlItem164.Name = "LayoutControlItem164"
-        Me.LayoutControlItem164.Size = New System.Drawing.Size(109, 23)
+        Me.LayoutControlItem164.Size = New System.Drawing.Size(118, 23)
         Me.LayoutControlItem164.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem164.TextVisible = False
         '
         'LayoutControlItem175
         '
         Me.LayoutControlItem175.Control = Me.LabelControl52
-        Me.LayoutControlItem175.Location = New System.Drawing.Point(0, 1048)
+        Me.LayoutControlItem175.Location = New System.Drawing.Point(0, 1072)
         Me.LayoutControlItem175.Name = "LayoutControlItem175"
-        Me.LayoutControlItem175.Size = New System.Drawing.Size(114, 23)
+        Me.LayoutControlItem175.Size = New System.Drawing.Size(123, 23)
         Me.LayoutControlItem175.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem175.TextVisible = False
         '
         'LayoutControlItem176
         '
         Me.LayoutControlItem176.Control = Me.CheckEdit93
-        Me.LayoutControlItem176.Location = New System.Drawing.Point(114, 1048)
+        Me.LayoutControlItem176.Location = New System.Drawing.Point(123, 1072)
         Me.LayoutControlItem176.Name = "LayoutControlItem176"
-        Me.LayoutControlItem176.Size = New System.Drawing.Size(38, 23)
+        Me.LayoutControlItem176.Size = New System.Drawing.Size(59, 23)
         Me.LayoutControlItem176.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem176.TextVisible = False
         '
         'LayoutControlItem177
         '
         Me.LayoutControlItem177.Control = Me.CheckEdit94
-        Me.LayoutControlItem177.Location = New System.Drawing.Point(152, 1048)
+        Me.LayoutControlItem177.Location = New System.Drawing.Point(182, 1072)
         Me.LayoutControlItem177.Name = "LayoutControlItem177"
-        Me.LayoutControlItem177.Size = New System.Drawing.Size(600, 23)
+        Me.LayoutControlItem177.Size = New System.Drawing.Size(645, 23)
         Me.LayoutControlItem177.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem177.TextVisible = False
         '
         'LayoutControlItem71
         '
         Me.LayoutControlItem71.Control = Me.CheckEdit95
-        Me.LayoutControlItem71.Location = New System.Drawing.Point(0, 1575)
+        Me.LayoutControlItem71.Location = New System.Drawing.Point(0, 1599)
         Me.LayoutControlItem71.Name = "LayoutControlItem71"
-        Me.LayoutControlItem71.Size = New System.Drawing.Size(81, 23)
+        Me.LayoutControlItem71.Size = New System.Drawing.Size(87, 23)
         Me.LayoutControlItem71.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem71.TextVisible = False
         '
         'LayoutControlItem72
         '
         Me.LayoutControlItem72.Control = Me.CheckEdit96
-        Me.LayoutControlItem72.Location = New System.Drawing.Point(81, 1575)
+        Me.LayoutControlItem72.Location = New System.Drawing.Point(87, 1599)
         Me.LayoutControlItem72.Name = "LayoutControlItem72"
-        Me.LayoutControlItem72.Size = New System.Drawing.Size(92, 23)
+        Me.LayoutControlItem72.Size = New System.Drawing.Size(99, 23)
         Me.LayoutControlItem72.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem72.TextVisible = False
         '
         'LayoutControlItem73
         '
         Me.LayoutControlItem73.Control = Me.CheckEdit97
-        Me.LayoutControlItem73.Location = New System.Drawing.Point(173, 1575)
+        Me.LayoutControlItem73.Location = New System.Drawing.Point(186, 1599)
         Me.LayoutControlItem73.Name = "LayoutControlItem73"
-        Me.LayoutControlItem73.Size = New System.Drawing.Size(579, 23)
+        Me.LayoutControlItem73.Size = New System.Drawing.Size(641, 23)
         Me.LayoutControlItem73.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem73.TextVisible = False
         '
         'LayoutControlItem74
         '
         Me.LayoutControlItem74.Control = Me.LabelControl20
-        Me.LayoutControlItem74.Location = New System.Drawing.Point(0, 1598)
+        Me.LayoutControlItem74.Location = New System.Drawing.Point(0, 1622)
         Me.LayoutControlItem74.Name = "LayoutControlItem74"
-        Me.LayoutControlItem74.Size = New System.Drawing.Size(752, 17)
+        Me.LayoutControlItem74.Size = New System.Drawing.Size(827, 17)
         Me.LayoutControlItem74.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem74.TextVisible = False
         '
         'LayoutControlItem75
         '
         Me.LayoutControlItem75.Control = Me.LabelControl25
-        Me.LayoutControlItem75.Location = New System.Drawing.Point(0, 1649)
+        Me.LayoutControlItem75.Location = New System.Drawing.Point(0, 1673)
         Me.LayoutControlItem75.Name = "LayoutControlItem75"
-        Me.LayoutControlItem75.Size = New System.Drawing.Size(752, 17)
+        Me.LayoutControlItem75.Size = New System.Drawing.Size(827, 17)
         Me.LayoutControlItem75.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem75.TextVisible = False
         '
         'LayoutControlItem78
         '
         Me.LayoutControlItem78.Control = Me.MemoEdit13
-        Me.LayoutControlItem78.Location = New System.Drawing.Point(0, 1615)
+        Me.LayoutControlItem78.Location = New System.Drawing.Point(0, 1639)
         Me.LayoutControlItem78.Name = "LayoutControlItem78"
-        Me.LayoutControlItem78.Size = New System.Drawing.Size(745, 34)
+        Me.LayoutControlItem78.Size = New System.Drawing.Size(820, 34)
         Me.LayoutControlItem78.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem78.TextVisible = False
         '
         'LayoutControlItem79
         '
         Me.LayoutControlItem79.Control = Me.MemoEdit14
-        Me.LayoutControlItem79.Location = New System.Drawing.Point(0, 1666)
+        Me.LayoutControlItem79.Location = New System.Drawing.Point(0, 1690)
         Me.LayoutControlItem79.Name = "LayoutControlItem79"
-        Me.LayoutControlItem79.Size = New System.Drawing.Size(745, 34)
+        Me.LayoutControlItem79.Size = New System.Drawing.Size(820, 34)
         Me.LayoutControlItem79.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem79.TextVisible = False
         '
         'LayoutControlItem80
         '
         Me.LayoutControlItem80.Control = Me.LabelControl26
-        Me.LayoutControlItem80.Location = New System.Drawing.Point(745, 1615)
+        Me.LayoutControlItem80.Location = New System.Drawing.Point(820, 1639)
         Me.LayoutControlItem80.Name = "LayoutControlItem80"
         Me.LayoutControlItem80.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem80.TextSize = New System.Drawing.Size(0, 0)
@@ -4597,7 +4600,7 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem81
         '
         Me.LayoutControlItem81.Control = Me.LabelControl27
-        Me.LayoutControlItem81.Location = New System.Drawing.Point(745, 1632)
+        Me.LayoutControlItem81.Location = New System.Drawing.Point(820, 1656)
         Me.LayoutControlItem81.Name = "LayoutControlItem81"
         Me.LayoutControlItem81.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem81.TextSize = New System.Drawing.Size(0, 0)
@@ -4606,7 +4609,7 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem82
         '
         Me.LayoutControlItem82.Control = Me.LabelControl28
-        Me.LayoutControlItem82.Location = New System.Drawing.Point(745, 1666)
+        Me.LayoutControlItem82.Location = New System.Drawing.Point(820, 1690)
         Me.LayoutControlItem82.Name = "LayoutControlItem82"
         Me.LayoutControlItem82.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem82.TextSize = New System.Drawing.Size(0, 0)
@@ -4615,7 +4618,7 @@ Partial Class frmMedicalCheckUP
         'LayoutControlItem83
         '
         Me.LayoutControlItem83.Control = Me.LabelControl29
-        Me.LayoutControlItem83.Location = New System.Drawing.Point(745, 1683)
+        Me.LayoutControlItem83.Location = New System.Drawing.Point(820, 1707)
         Me.LayoutControlItem83.Name = "LayoutControlItem83"
         Me.LayoutControlItem83.Size = New System.Drawing.Size(7, 17)
         Me.LayoutControlItem83.TextSize = New System.Drawing.Size(0, 0)
@@ -4626,7 +4629,7 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem85, Me.LayoutControlItem84, Me.LayoutControlItem86, Me.LayoutControlItem87, Me.LayoutControlItem88, Me.LayoutControlItem89})
         Me.LayoutControlGroup2.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlGroup2.Name = "LayoutControlGroup2"
-        Me.LayoutControlGroup2.Size = New System.Drawing.Size(752, 114)
+        Me.LayoutControlGroup2.Size = New System.Drawing.Size(827, 114)
         Me.LayoutControlGroup2.Text = "Identitas Pasien"
         '
         'LayoutControlItem85
@@ -4636,7 +4639,7 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem85.Control = Me.txtNAMA
         Me.LayoutControlItem85.Location = New System.Drawing.Point(0, 24)
         Me.LayoutControlItem85.Name = "LayoutControlItem85"
-        Me.LayoutControlItem85.Size = New System.Drawing.Size(364, 24)
+        Me.LayoutControlItem85.Size = New System.Drawing.Size(392, 24)
         Me.LayoutControlItem85.Text = "Nama :"
         Me.LayoutControlItem85.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem85.TextSize = New System.Drawing.Size(120, 20)
@@ -4649,7 +4652,7 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem84.Control = Me.txtRM
         Me.LayoutControlItem84.Location = New System.Drawing.Point(0, 0)
         Me.LayoutControlItem84.Name = "LayoutControlItem84"
-        Me.LayoutControlItem84.Size = New System.Drawing.Size(364, 24)
+        Me.LayoutControlItem84.Size = New System.Drawing.Size(392, 24)
         Me.LayoutControlItem84.Text = "No RM :"
         Me.LayoutControlItem84.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem84.TextSize = New System.Drawing.Size(120, 20)
@@ -4660,9 +4663,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem86.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem86.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem86.Control = Me.txtTANGGALLAHIR
-        Me.LayoutControlItem86.Location = New System.Drawing.Point(364, 0)
+        Me.LayoutControlItem86.Location = New System.Drawing.Point(392, 0)
         Me.LayoutControlItem86.Name = "LayoutControlItem86"
-        Me.LayoutControlItem86.Size = New System.Drawing.Size(364, 24)
+        Me.LayoutControlItem86.Size = New System.Drawing.Size(411, 24)
         Me.LayoutControlItem86.Text = "Tanggal Lahir :"
         Me.LayoutControlItem86.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem86.TextSize = New System.Drawing.Size(120, 20)
@@ -4673,9 +4676,9 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem87.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem87.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem87.Control = Me.txtUMUR
-        Me.LayoutControlItem87.Location = New System.Drawing.Point(364, 24)
+        Me.LayoutControlItem87.Location = New System.Drawing.Point(392, 24)
         Me.LayoutControlItem87.Name = "LayoutControlItem87"
-        Me.LayoutControlItem87.Size = New System.Drawing.Size(364, 24)
+        Me.LayoutControlItem87.Size = New System.Drawing.Size(411, 24)
         Me.LayoutControlItem87.Text = "Umur :"
         Me.LayoutControlItem87.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem87.TextSize = New System.Drawing.Size(120, 20)
@@ -4688,7 +4691,7 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem88.Control = Me.txtJENISKELAMIN
         Me.LayoutControlItem88.Location = New System.Drawing.Point(0, 48)
         Me.LayoutControlItem88.Name = "LayoutControlItem88"
-        Me.LayoutControlItem88.Size = New System.Drawing.Size(364, 24)
+        Me.LayoutControlItem88.Size = New System.Drawing.Size(392, 24)
         Me.LayoutControlItem88.Text = "Jenis Kelamin :"
         Me.LayoutControlItem88.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem88.TextSize = New System.Drawing.Size(120, 20)
@@ -4699,13 +4702,106 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem89.AppearanceItemCaption.Options.UseTextOptions = True
         Me.LayoutControlItem89.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
         Me.LayoutControlItem89.Control = Me.txtTANGGALMASUK
-        Me.LayoutControlItem89.Location = New System.Drawing.Point(364, 48)
+        Me.LayoutControlItem89.Location = New System.Drawing.Point(392, 48)
         Me.LayoutControlItem89.Name = "LayoutControlItem89"
-        Me.LayoutControlItem89.Size = New System.Drawing.Size(364, 24)
+        Me.LayoutControlItem89.Size = New System.Drawing.Size(411, 24)
         Me.LayoutControlItem89.Text = "Tanggal Masuk :"
         Me.LayoutControlItem89.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.LayoutControlItem89.TextSize = New System.Drawing.Size(120, 20)
         Me.LayoutControlItem89.TextToControlDistance = 5
+        '
+        'EmptySpaceItem7
+        '
+        Me.EmptySpaceItem7.AllowHotTrack = False
+        Me.EmptySpaceItem7.Location = New System.Drawing.Point(631, 661)
+        Me.EmptySpaceItem7.Name = "EmptySpaceItem7"
+        Me.EmptySpaceItem7.Size = New System.Drawing.Size(196, 48)
+        Me.EmptySpaceItem7.TextSize = New System.Drawing.Size(0, 0)
+        '
+        'LayoutControlItem38
+        '
+        Me.LayoutControlItem38.Control = Me.LabelControl11
+        Me.LayoutControlItem38.Location = New System.Drawing.Point(0, 709)
+        Me.LayoutControlItem38.Name = "LayoutControlItem38"
+        Me.LayoutControlItem38.Size = New System.Drawing.Size(827, 17)
+        Me.LayoutControlItem38.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem38.TextVisible = False
+        '
+        'LayoutControlItem90
+        '
+        Me.LayoutControlItem90.AppearanceItemCaption.Options.UseTextOptions = True
+        Me.LayoutControlItem90.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
+        Me.LayoutControlItem90.Control = Me.MemoEdit15
+        Me.LayoutControlItem90.Location = New System.Drawing.Point(403, 685)
+        Me.LayoutControlItem90.Name = "LayoutControlItem90"
+        Me.LayoutControlItem90.Size = New System.Drawing.Size(186, 24)
+        Me.LayoutControlItem90.Text = "x/m Sp.O2 :"
+        Me.LayoutControlItem90.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
+        Me.LayoutControlItem90.TextSize = New System.Drawing.Size(100, 20)
+        Me.LayoutControlItem90.TextToControlDistance = 5
+        '
+        'LayoutControlItem37
+        '
+        Me.LayoutControlItem37.Control = Me.LabelControl10
+        Me.LayoutControlItem37.Location = New System.Drawing.Point(589, 685)
+        Me.LayoutControlItem37.Name = "LayoutControlItem37"
+        Me.LayoutControlItem37.Size = New System.Drawing.Size(42, 24)
+        Me.LayoutControlItem37.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem37.TextVisible = False
+        '
+        'EmptySpaceItem8
+        '
+        Me.EmptySpaceItem8.AllowHotTrack = False
+        Me.EmptySpaceItem8.Location = New System.Drawing.Point(403, 565)
+        Me.EmptySpaceItem8.Name = "EmptySpaceItem8"
+        Me.EmptySpaceItem8.Size = New System.Drawing.Size(424, 48)
+        Me.EmptySpaceItem8.TextSize = New System.Drawing.Size(0, 0)
+        '
+        'LayoutControlItem91
+        '
+        Me.LayoutControlItem91.AppearanceItemCaption.Options.UseTextOptions = True
+        Me.LayoutControlItem91.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
+        Me.LayoutControlItem91.Control = Me.MemoEdit16
+        Me.LayoutControlItem91.Location = New System.Drawing.Point(0, 565)
+        Me.LayoutControlItem91.Name = "LayoutControlItem91"
+        Me.LayoutControlItem91.Size = New System.Drawing.Size(403, 24)
+        Me.LayoutControlItem91.Text = "Kesadaran :"
+        Me.LayoutControlItem91.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
+        Me.LayoutControlItem91.TextSize = New System.Drawing.Size(100, 20)
+        Me.LayoutControlItem91.TextToControlDistance = 5
+        '
+        'MemoEdit17
+        '
+        Me.MemoEdit17.EnterMoveNextControl = True
+        Me.MemoEdit17.Location = New System.Drawing.Point(324, 289)
+        Me.MemoEdit17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.MemoEdit17.Name = "MemoEdit17"
+        Me.MemoEdit17.Properties.Appearance.Options.UseTextOptions = True
+        Me.MemoEdit17.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
+        Me.MemoEdit17.Size = New System.Drawing.Size(87, 20)
+        Me.MemoEdit17.StyleController = Me.layoutControl
+        Me.MemoEdit17.TabIndex = 40
+        '
+        'LayoutControlItem178
+        '
+        Me.LayoutControlItem178.AppearanceItemCaption.Options.UseTextOptions = True
+        Me.LayoutControlItem178.AppearanceItemCaption.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
+        Me.LayoutControlItem178.Control = Me.MemoEdit17
+        Me.LayoutControlItem178.Location = New System.Drawing.Point(207, 637)
+        Me.LayoutControlItem178.Name = "LayoutControlItem178"
+        Me.LayoutControlItem178.Size = New System.Drawing.Size(196, 24)
+        Me.LayoutControlItem178.Text = "cm    IMT :"
+        Me.LayoutControlItem178.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
+        Me.LayoutControlItem178.TextSize = New System.Drawing.Size(100, 20)
+        Me.LayoutControlItem178.TextToControlDistance = 5
+        '
+        'EmptySpaceItem9
+        '
+        Me.EmptySpaceItem9.AllowHotTrack = False
+        Me.EmptySpaceItem9.Location = New System.Drawing.Point(403, 637)
+        Me.EmptySpaceItem9.Name = "EmptySpaceItem9"
+        Me.EmptySpaceItem9.Size = New System.Drawing.Size(424, 24)
+        Me.EmptySpaceItem9.TextSize = New System.Drawing.Size(0, 0)
         '
         'frmMedicalCheckUP
         '
@@ -4713,7 +4809,7 @@ Partial Class frmMedicalCheckUP
         Me.Appearance.Options.UseBackColor = True
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(787, 545)
+        Me.ClientSize = New System.Drawing.Size(864, 545)
         Me.Controls.Add(Me.layoutControl)
         Me.Controls.Add(Me.barDockControlLeft)
         Me.Controls.Add(Me.barDockControlRight)
@@ -4726,10 +4822,12 @@ Partial Class frmMedicalCheckUP
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         CType(Me.layoutControl, System.ComponentModel.ISupportInitialize).EndInit()
         Me.layoutControl.ResumeLayout(False)
-        CType(Me.txtTANGGALMASUK.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MemoEdit16.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.barManager, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.progressBarSave, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.progressSave, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MemoEdit15.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.txtTANGGALMASUK.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtJENISKELAMIN.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtUMUR.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.txtTANGGALLAHIR.Properties, System.ComponentModel.ISupportInitialize).EndInit()
@@ -4890,14 +4988,11 @@ Partial Class frmMedicalCheckUP
         CType(Me.LayoutControlItem28, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem29, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem30, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem31, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem32, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem33, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem34, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem35, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem36, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem37, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem38, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem45, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem47, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem48, System.ComponentModel.ISupportInitialize).EndInit()
@@ -5045,6 +5140,15 @@ Partial Class frmMedicalCheckUP
         CType(Me.LayoutControlItem87, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem88, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem89, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EmptySpaceItem7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem38, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem90, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem37, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EmptySpaceItem8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem91, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MemoEdit17.Properties, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem178, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EmptySpaceItem9, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout
 
@@ -5117,7 +5221,6 @@ End Sub
     Friend WithEvents MemoEdit10 As DevExpress.XtraEditors.MemoEdit
     Friend WithEvents MemoEdit9 As DevExpress.XtraEditors.MemoEdit
     Friend WithEvents LabelControl9 As DevExpress.XtraEditors.LabelControl
-    Friend WithEvents LabelControl8 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents MemoEdit8 As DevExpress.XtraEditors.MemoEdit
     Friend WithEvents MemoEdit7 As DevExpress.XtraEditors.MemoEdit
     Friend WithEvents LabelControl7 As DevExpress.XtraEditors.LabelControl
@@ -5140,7 +5243,6 @@ End Sub
     Friend WithEvents LayoutControlItem28 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents LayoutControlItem29 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents LayoutControlItem30 As DevExpress.XtraLayout.LayoutControlItem
-    Friend WithEvents LayoutControlItem31 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents LayoutControlItem32 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents LayoutControlItem33 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents LayoutControlItem34 As DevExpress.XtraLayout.LayoutControlItem
@@ -5424,4 +5526,13 @@ End Sub
     Friend WithEvents LayoutControlItem87 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents LayoutControlItem88 As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents LayoutControlItem89 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents EmptySpaceItem7 As DevExpress.XtraLayout.EmptySpaceItem
+    Friend WithEvents MemoEdit15 As DevExpress.XtraEditors.MemoEdit
+    Friend WithEvents LayoutControlItem90 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents MemoEdit16 As DevExpress.XtraEditors.ComboBoxEdit
+    Friend WithEvents LayoutControlItem91 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents EmptySpaceItem8 As DevExpress.XtraLayout.EmptySpaceItem
+    Friend WithEvents MemoEdit17 As DevExpress.XtraEditors.TextEdit
+    Friend WithEvents LayoutControlItem178 As DevExpress.XtraLayout.LayoutControlItem
+    Friend WithEvents EmptySpaceItem9 As DevExpress.XtraLayout.EmptySpaceItem
 End Class

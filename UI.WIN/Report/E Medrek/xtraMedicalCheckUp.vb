@@ -10,36 +10,13 @@ Public Class xtraMedicalCheckUp
 
         Try
 
-            Dim value1 As Object = GetCurrentColumnValue("KDPENDAFTARAN")
+            Dim value1 As Object = GetCurrentColumnValue("KDMEDICALCHECKUP")
             Dim value2 As Object = GetCurrentColumnValue("DATE")
 
             If value1 IsNot Nothing Then
-                Dim oKoding As New Admission.clsKoding
-                Dim ds = oKoding.GetDataByKDPENDAFTARAN(value1.ToString())
+                Dim oKoding As New Digital.clsDigital_MedicalChekUp
+                Dim ds = oKoding.GetData(value1.ToString())
                 If ds IsNot Nothing Then
-
-                    'Dim dsReqTambah = oKoding.GetDataTambahan(ds.KDKODING)
-                    'If dsReqTambah IsNot Nothing Then
-                    '    lblGoalOTreatment.Text = dsReqTambah.TAMBAH5
-                    '    lblEdukasi.Text = dsReqTambah.TAMBAH6
-                    '    lblFrekuensi.Text = dsReqTambah.TAMBAH7
-                    'End If
-
-                    'Dim listPlanning As New List(Of String)
-
-                    'For Each xloop In oKoding.GetDataDetailTindakan_(ds.KDKODING)
-                    '    'Tindakan di Poli Hari ini
-                    '    listPlanning.Add(xloop.KETERANGAN)
-                    'Next
-
-                    'For Each xloop In oKoding.GetDataDetailTindakan(ds.KDKODING)
-                    '    listPlanning.Add(xloop.TERAPI & ", " & xloop.TINDAKAN)
-                    'Next
-
-                    'lblPlaning.Text = String.Join(vbCrLf, listPlanning.ToArray)
-
-                    'lblTINDAKLANJUT.Text = ds.DESCRIPTION
-
                     Dim NewCopy As String = sAlamatTandaTanganDokter & ds.KDDOCTOR & "_TTD" & ".png"
                     Dim NewCopy_Cap As String = sAlamatTandaTanganDokter & ds.KDDOCTOR & "_CAP" & ".png"
 
