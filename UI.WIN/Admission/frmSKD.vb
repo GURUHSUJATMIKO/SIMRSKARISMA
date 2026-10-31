@@ -1056,7 +1056,17 @@ Public Class frmSKD
     End Sub
     Private Sub grdKDDOCTOR_EditValueChanged(sender As Object, e As EventArgs) Handles grdKDDOCTOR.EditValueChanged
         If isLoad = True Then
-            lblSisaKuota.Text = "SISA KUOTA " & fn_LoadKDDOCTORJADWALDOKTER(grdKDDOCTOR.EditValue, deDATEKONTROL.DateTime.ToString("yyyyMMdd")) & " DI TANGGAL " & deDATEKONTROL.DateTime.ToString("dd-MM-yyyy")
+            If grdKDDOCTOR.Text <> "" Then
+                lblSisaKuota.Text = "SISA KUOTA " & fn_LoadKDDOCTORJADWALDOKTER(grdKDDOCTOR.EditValue, deDATEKONTROL.DateTime.ToString("yyyyMMdd")) & " DI TANGGAL " & deDATEKONTROL.DateTime.ToString("dd-MM-yyyy")
+            End If
+        End If
+    End Sub
+
+    Private Sub deDATEKONTROL_EditValueChanged(sender As Object, e As EventArgs) Handles deDATEKONTROL.EditValueChanged
+        If isLoad = True Then
+            If grdKDDOCTOR.Text <> "" Then
+                lblSisaKuota.Text = "SISA KUOTA " & fn_LoadKDDOCTORJADWALDOKTER(grdKDDOCTOR.EditValue, deDATEKONTROL.DateTime.ToString("yyyyMMdd")) & " DI TANGGAL " & deDATEKONTROL.DateTime.ToString("dd-MM-yyyy")
+            End If
         End If
     End Sub
 #End Region

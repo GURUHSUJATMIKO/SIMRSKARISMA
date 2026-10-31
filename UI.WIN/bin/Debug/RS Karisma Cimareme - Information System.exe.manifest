@@ -1891,14 +1891,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RS Karisma Cimareme - Information System.exe" size="36860360">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RS Karisma Cimareme - Information System.exe" size="36861384">
       <assemblyIdentity name="RS Karisma Cimareme - Information System" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>d32oALVYSMa+IFyvDcGr/1AEZf8=</dsig:DigestValue>
+        <dsig:DigestValue>JP3hOZN9IvTF3SMj7uqolrQ2sGo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1910,7 +1910,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>c9rkZ/DCb/l8mAsrdF86CmDS1t4=</dsig:DigestValue>
+        <dsig:DigestValue>u0i6qnqQAGM2Xy15fufCzgYlRbY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2247,13 +2247,13 @@
       <dsig:DigestValue>F2dSt5LFB38VbKZfrVnQtbYXHlg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="RS Karisma Cimareme - Information System.pdb" size="9002496">
+  <file name="RS Karisma Cimareme - Information System.pdb" size="9004544">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>/tEOtLJ0coyDcLRPD+oZ8hMfWls=</dsig:DigestValue>
+      <dsig:DigestValue>AXQlAu+ZDWkwzeiheIUY2Dj8drg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="RS Karisma Cimareme - Information System.xml" size="187917">

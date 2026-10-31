@@ -22,6 +22,7 @@ Partial Class frmSKD
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmSKD))
         Me.layoutControl = New DevExpress.XtraLayout.LayoutControl()
+        Me.lblSisaKuota = New DevExpress.XtraEditors.LabelControl()
         Me.deDATEKONTROL_2 = New DevExpress.XtraEditors.DateEdit()
         Me.barManager = New DevExpress.XtraBars.BarManager(Me.components)
         Me.barTop = New DevExpress.XtraBars.Bar()
@@ -72,7 +73,6 @@ Partial Class frmSKD
         Me.lOrderRad = New DevExpress.XtraLayout.LayoutControlItem()
         Me.lOrder = New DevExpress.XtraLayout.LayoutControlItem()
         Me.lDATE_KONTROL_2 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.lblSisaKuota = New DevExpress.XtraEditors.LabelControl()
         Me.lKUOTA = New DevExpress.XtraLayout.LayoutControlItem()
         CType(Me.layoutControl, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.layoutControl.SuspendLayout()
@@ -142,6 +142,19 @@ Partial Class frmSKD
         Me.layoutControl.Size = New System.Drawing.Size(656, 422)
         Me.layoutControl.TabIndex = 0
         Me.layoutControl.Text = "LayoutControl1"
+        '
+        'lblSisaKuota
+        '
+        Me.lblSisaKuota.Appearance.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSisaKuota.Appearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.lblSisaKuota.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
+        Me.lblSisaKuota.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
+        Me.lblSisaKuota.Location = New System.Drawing.Point(12, 296)
+        Me.lblSisaKuota.Name = "lblSisaKuota"
+        Me.lblSisaKuota.Size = New System.Drawing.Size(632, 23)
+        Me.lblSisaKuota.StyleController = Me.layoutControl
+        Me.lblSisaKuota.TabIndex = 1015
+        Me.lblSisaKuota.Text = "0"
         '
         'deDATEKONTROL_2
         '
@@ -645,19 +658,6 @@ Partial Class frmSKD
         Me.lDATE_KONTROL_2.TextAlignMode = DevExpress.XtraLayout.TextAlignModeItem.CustomSize
         Me.lDATE_KONTROL_2.TextSize = New System.Drawing.Size(150, 20)
         Me.lDATE_KONTROL_2.TextToControlDistance = 5
-        '
-        'lblSisaKuota
-        '
-        Me.lblSisaKuota.Appearance.Font = New System.Drawing.Font("Tahoma", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblSisaKuota.Appearance.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.lblSisaKuota.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center
-        Me.lblSisaKuota.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None
-        Me.lblSisaKuota.Location = New System.Drawing.Point(12, 296)
-        Me.lblSisaKuota.Name = "lblSisaKuota"
-        Me.lblSisaKuota.Size = New System.Drawing.Size(632, 23)
-        Me.lblSisaKuota.StyleController = Me.layoutControl
-        Me.lblSisaKuota.TabIndex = 1015
-        Me.lblSisaKuota.Text = "0"
         '
         'lKUOTA
         '
