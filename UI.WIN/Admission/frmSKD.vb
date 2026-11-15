@@ -360,7 +360,7 @@ Public Class frmSKD
                 txtORDERPENUNJANG.Text = .ORDERPENUNJANG
                 deDATEKONTROL_2.DateTime = .DATEKONTROL_2
 
-                lblSisaKuota.Text = "SISA KUOTA " & fn_LoadKDDOCTORJADWALDOKTER(grdKDDOCTOR.EditValue, deDATEKONTROL.DateTime.ToString("yyyyMMdd")) & " DI TANGGAL " & deDATEKONTROL.DateTime.ToString("dd-MM-yyyy")
+                lblSisaKuota.Text = fn_LoadKDDOCTORJADWALDOKTER(grdKDDOCTOR.EditValue, deDATEKONTROL.DateTime.ToString("yyyyMMdd"))
             End With
         Catch oErr As Exception
             MsgBox(Statement.ErrorStatement & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)
@@ -980,15 +980,16 @@ Public Class frmSKD
             MsgBox(Statement.ErrorStatement & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)
         End Try
     End Sub
-    Private Function fn_LoadKDDOCTORJADWALDOKTER(ByVal KDDOCTOR As String, ByVal TANGGAL As String) As Integer
+    Private Function fn_LoadKDDOCTORJADWALDOKTER(ByVal KDDOCTOR As String, ByVal TANGGAL As String) As String
         Try
-            fn_LoadKDDOCTORJADWALDOKTER = 0
+            fn_LoadKDDOCTORJADWALDOKTER = "SISA KUOTA 0 (0) DI TANGGAL " & DateTime.ParseExact(TANGGAL, "yyyyMMdd", CultureInfo.InvariantCulture).ToString("dd-MM-yyyy")
 
             Dim oConn As New SqlConnection
             Dim oComm As New SqlCommand
             Dim da As SqlDataAdapter
             Dim ds As New DataSet
             Dim SQL As String
+            Dim namaHari As String = DateTime.ParseExact(TANGGAL, "yyyyMMdd", CultureInfo.InvariantCulture).ToString("dddd", New CultureInfo("id-ID"))
             Dim sConn As String = Decrypt(My.Computer.Registry.GetValue("HKEY_CURRENT_USER\Software\SIMRS\SW\", "Database", "").ToString())
 
             oConn = New SqlConnection(sConn)
@@ -998,20 +999,40 @@ Public Class frmSKD
             End If
 
             SQL = "SELECT "
-            SQL &= "TOTAL = COUNT(A.KDCOUNTER) "
+            SQL &= "SISA = COUNT(C.KDCOUNTER), "
+            SQL &= "TOTALKUOTA = ISNULL(( "
+            SQL &= "SELECT SUM(ISNULL(B.KUOTAJKN, 0) + ISNULL(B.KUOTANONJKN, 0)) "
+            SQL &= "FROM BUDIJAYAGROUP_RSKC..I_JADWALDOCTOR_H A "
+            SQL &= "INNER JOIN BUDIJAYAGROUP_RSKC..I_JADWALDOCTOR_D B "
+            SQL &= "ON A.KDJADWAL = B.KDJADWAL "
+            SQL &= "WHERE A.KDDOCTOR = @KDDOCTORJADWAL "
+            SQL &= "AND UPPER(LTRIM(RTRIM(B.HARI))) = UPPER(@HARI) "
+            SQL &= "), 0) "
+            SQL &= ",ADAJADWAL = ISNULL(( "
+            SQL &= "SELECT TOP 1 1 "
+            SQL &= "FROM BUDIJAYAGROUP_RSKC..I_JADWALDOCTOR_H A "
+            SQL &= "INNER JOIN BUDIJAYAGROUP_RSKC..I_JADWALDOCTOR_D B "
+            SQL &= "ON A.KDJADWAL = B.KDJADWAL "
+            SQL &= "WHERE A.KDDOCTOR = @KDDOCTORJADWAL "
+            SQL &= "AND UPPER(LTRIM(RTRIM(B.HARI))) = UPPER(@HARI) "
+            SQL &= "), 0) "
             SQL &= "FROM  "
-            SQL &= "BUDIJAYAGROUP_RSKC..Z_COUNTER_ANTRIAN_H A "
-            SQL &= "INNER JOIN BUDIJAYAGROUP_RSKC..Z_COUNTER_ANTRIAN_D B "
-            SQL &= "ON A.KDCOUNTER = B.KDCOUNTER "
+            SQL &= "BUDIJAYAGROUP_RSKC..Z_COUNTER_ANTRIAN_H C "
+            SQL &= "INNER JOIN BUDIJAYAGROUP_RSKC..Z_COUNTER_ANTRIAN_D D "
+            SQL &= "ON C.KDCOUNTER = D.KDCOUNTER "
             SQL &= "WHERE "
-            SQL &= "B.ISCHEKED = 0 "
-            SQL &= "AND CONVERT(VARCHAR(8), A.DATE, 112) = '" & TANGGAL & "' "
-            SQL &= "AND A.KDDOCTOR = '" & KDDOCTOR & "' "
+            SQL &= "D.ISCHEKED = 0 "
+            SQL &= "AND CONVERT(VARCHAR(8), C.DATE, 112) = @TANGGAL "
+            SQL &= "AND C.KDDOCTOR = @KDDOCTOR "
 
             oComm.Connection = oConn
             oComm.CommandText = SQL
             oComm.CommandTimeout = 120
             oComm.CommandType = CommandType.Text
+            oComm.Parameters.Add("@KDDOCTOR", SqlDbType.NVarChar, 50).Value = KDDOCTOR
+            oComm.Parameters.Add("@HARI", SqlDbType.NVarChar, 50).Value = namaHari
+            oComm.Parameters.Add("@TANGGAL", SqlDbType.VarChar, 8).Value = TANGGAL
+            oComm.Parameters.Add("@KDDOCTORJADWAL", SqlDbType.Int).Value = Integer.Parse(KDDOCTOR, CultureInfo.InvariantCulture)
 
             da = New SqlDataAdapter(oComm)
             da.Fill(ds, "Z_COUNTER_ANTRIAN_H")
@@ -1020,13 +1041,18 @@ Public Class frmSKD
                 oConn.Close()
             End If
 
-            For iLoop As Integer = 0 To ds.Tables("Z_COUNTER_ANTRIAN_H").Rows.Count - 1
-                With ds.Tables("Z_COUNTER_ANTRIAN_H")
-                    fn_LoadKDDOCTORJADWALDOKTER = .Rows(iLoop)("TOTAL")
+            If ds.Tables("Z_COUNTER_ANTRIAN_H").Rows.Count > 0 Then
+                With ds.Tables("Z_COUNTER_ANTRIAN_H").Rows(0)
+                    If CInt(.Item("ADAJADWAL")) = 0 Then
+                        fn_LoadKDDOCTORJADWALDOKTER = "Tidak ada jadwal HFIS pada tanggal yang dipilih"
+                    Else
+                        fn_LoadKDDOCTORJADWALDOKTER = "SISA KUOTA " & .Item("SISA").ToString() & " (" & .Item("TOTALKUOTA").ToString() & ") DI TANGGAL " & DateTime.ParseExact(TANGGAL, "yyyyMMdd", CultureInfo.InvariantCulture).ToString("dd-MM-yyyy")
+                    End If
                 End With
-            Next
+            End If
 
         Catch oErr As Exception
+            fn_LoadKDDOCTORJADWALDOKTER = oErr.Message
             MsgBox("Load Kuota Dokter" & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)
         End Try
     End Function
@@ -1057,7 +1083,7 @@ Public Class frmSKD
     Private Sub grdKDDOCTOR_EditValueChanged(sender As Object, e As EventArgs) Handles grdKDDOCTOR.EditValueChanged
         If isLoad = True Then
             If grdKDDOCTOR.Text <> "" Then
-                lblSisaKuota.Text = "SISA KUOTA " & fn_LoadKDDOCTORJADWALDOKTER(grdKDDOCTOR.EditValue, deDATEKONTROL.DateTime.ToString("yyyyMMdd")) & " DI TANGGAL " & deDATEKONTROL.DateTime.ToString("dd-MM-yyyy")
+                lblSisaKuota.Text = fn_LoadKDDOCTORJADWALDOKTER(grdKDDOCTOR.EditValue, deDATEKONTROL.DateTime.ToString("yyyyMMdd"))
             End If
         End If
     End Sub
@@ -1065,7 +1091,7 @@ Public Class frmSKD
     Private Sub deDATEKONTROL_EditValueChanged(sender As Object, e As EventArgs) Handles deDATEKONTROL.EditValueChanged
         If isLoad = True Then
             If grdKDDOCTOR.Text <> "" Then
-                lblSisaKuota.Text = "SISA KUOTA " & fn_LoadKDDOCTORJADWALDOKTER(grdKDDOCTOR.EditValue, deDATEKONTROL.DateTime.ToString("yyyyMMdd")) & " DI TANGGAL " & deDATEKONTROL.DateTime.ToString("dd-MM-yyyy")
+                lblSisaKuota.Text = fn_LoadKDDOCTORJADWALDOKTER(grdKDDOCTOR.EditValue, deDATEKONTROL.DateTime.ToString("yyyyMMdd"))
             End If
         End If
     End Sub

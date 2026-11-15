@@ -1528,6 +1528,7 @@ Public Class frmRawatInapList
             SQL &= "FROM ( "
             SQL &= "SELECT "
             SQL &= "Tanggal = B.DATE "
+            SQL &= ",TanggalUpload = A.DATE "
             SQL &= ",NamaUpload = D.DESCRIPTION "
             SQL &= ",Catatan = C.MEMO "
             SQL &= ",AlamatUpload = C.ALAMATAKHIR_PDF "
@@ -1654,6 +1655,8 @@ Public Class frmRawatInapList
             fn_LoadFormatDataUpload()
 
             grvUpload.Columns("NamaUpload").Caption = "Jenis Pemeriksaan"
+            grvUpload.Columns("Tanggal").Caption = "Tanggal Masuk"
+
             grvUpload.Columns("AlamatUpload").VisibleIndex = -1
             grvUpload.Columns("Type").VisibleIndex = -1
             grvUpload.Columns("Kodeupload").VisibleIndex = -1
@@ -4833,6 +4836,10 @@ Public Class frmRawatInapList
             grdKDITEM.ValueMember = "KDITEM"
             grdKDITEM.DisplayMember = "NMITEM2"
 
+            grdKDITEMASEMEN.DataSource = ds.Tables("ITEM")
+            grdKDITEMASEMEN.ValueMember = "KDITEM"
+            grdKDITEMASEMEN.DisplayMember = "NMITEM2"
+
             If oConn.State = ConnectionState.Open Then
                 oConn.Close()
             End If
@@ -4872,6 +4879,10 @@ Public Class frmRawatInapList
             grdUOM.DataSource = ds.Tables("UOM")
             grdUOM.ValueMember = "KDUOM"
             grdUOM.DisplayMember = "DESCRIPTION"
+
+            grdKDUOMASESMEN.DataSource = ds.Tables("UOM")
+            grdKDUOMASESMEN.ValueMember = "KDUOM"
+            grdKDUOMASESMEN.DisplayMember = "DESCRIPTION"
 
             If oConn.State = ConnectionState.Open Then
                 oConn.Close()
@@ -4913,6 +4924,10 @@ Public Class frmRawatInapList
             grdKDSIGNA.ValueMember = "KDSIGNA"
             grdKDSIGNA.DisplayMember = "DESCRIPTION"
 
+            grdKDSIGNAASESMEN.DataSource = ds.Tables("SIGNA")
+            grdKDSIGNAASESMEN.ValueMember = "KDSIGNA"
+            grdKDSIGNAASESMEN.DisplayMember = "DESCRIPTION"
+
             If oConn.State = ConnectionState.Open Then
                 oConn.Close()
             End If
@@ -4952,6 +4967,10 @@ Public Class frmRawatInapList
             grdCARAPAKAI.DataSource = ds.Tables("CARAPAKAI")
             grdCARAPAKAI.ValueMember = "KDCP"
             grdCARAPAKAI.DisplayMember = "DESCRIPTION"
+
+            grdKDCARAPAKAIASESMEN.DataSource = ds.Tables("CARAPAKAI")
+            grdKDCARAPAKAIASESMEN.ValueMember = "KDCP"
+            grdKDCARAPAKAIASESMEN.DisplayMember = "DESCRIPTION"
 
             If oConn.State = ConnectionState.Open Then
                 oConn.Close()
@@ -9129,22 +9148,30 @@ Public Class frmRawatInapList
                 txtANAMNESIS_19.Text = ds.SURVEY_PERUT_2
                 txtANAMNESIS_20.Text = ds.SURVEY_ALATGERAK_2
 
-                Dim Indikasi As String = String.Empty
+                Dim listIndikasi As New List(Of String)
+
+                'For Each xloop In oS_DIGITAL_IGD_01.GetDataDetailPenunjang(dsTerakhir.KDPENDAFTARAN)
+                '    list.Add(xloop.PENANGANAN)
+                'Next
+
+                ' txtANAMNESIS_33.Text = String.Join(", ", list.ToArray)
+
+                ' Dim Indikasi As String = String.Empty
                 If ds.KRITERIA_01 = True Then
-                    Indikasi = "Mengancam nyawa, membahayakan diri dan orang lain/lingkungan"
+                    listIndikasi.Add("Mengancam nyawa, membahayakan diri dan orang lain/lingkungan")
                 ElseIf ds.KRITERIA_02 = True Then
-                    Indikasi = "Adanya gangguan pada jalan nafas, pernafasan dan sirkulasi"
+                    listIndikasi.Add("Adanya gangguan pada jalan nafas, pernafasan dan sirkulasi")
                 ElseIf ds.KRITERIA_03 = True Then
-                    Indikasi = "Adanya penurunan kesadaran"
+                   listIndikasi.Add("Adanya penurunan kesadaran")
                 ElseIf ds.KRITERIA_04 = True Then
-                    Indikasi = "Adanya gangguan hemodiamik"
+                   listIndikasi.Add("Adanya gangguan hemodiamik")
                 ElseIf ds.KRITERIA_05 = True Then
-                    Indikasi = "Memerlukan tindakan segera"
+                    listIndikasi.Add("Memerlukan tindakan segera")
                 ElseIf ds.KRITERIA_06 = True Then
-                    Indikasi = "Tidak Ada Kegawat Daruratan"
+                    listIndikasi.Add("Tidak Ada Kegawat Daruratan")
                 End If
 
-                txtINDIKASIRAWATDIASESMEN.Text = Indikasi
+                txtINDIKASIRAWATDIASESMEN.Text = String.Join(vbCrLf, listIndikasi.ToArray)
 
                 BindingSourceDiagnosa_Asesmen.DataSource = oS_DIGITAL_IGD_01.GetDataDetail(ds.KDPENDAFTARAN).OrderBy(Function(x) x.SEQ).ToList()
                 grdDiagnosaAsesmen.DataSource = BindingSourceDiagnosa_Asesmen
@@ -9249,7 +9276,7 @@ Public Class frmRawatInapList
             End If
 
         Catch oErr As Exception
-            MsgBox("Load List Data : " & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)
+            MsgBox("Load List Data :  " & vbCrLf & oErr.Message, MsgBoxStyle.Exclamation, Me.Text)
         End Try
     End Sub
 #End Region

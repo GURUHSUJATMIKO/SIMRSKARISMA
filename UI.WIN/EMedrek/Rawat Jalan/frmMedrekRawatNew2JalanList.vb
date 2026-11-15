@@ -786,6 +786,7 @@ Public Class frmMedrekRawatNew2JalanList
             SQL &= "INNER JOIN S_TRANSAKSI_EKG_ECHO E "
             SQL &= "ON C.KDTRANSAKSIRJ = E.KDTRANSAKSIRI "
             SQL &= "WHERE D.KDCUSTOMER = '" & RM & "' "
+            SQL &= "AND B.KDKATEGORI_BPJS IN (8,10,7) "
 
             SQL &= "UNION "
 
@@ -808,6 +809,7 @@ Public Class frmMedrekRawatNew2JalanList
             SQL &= "INNER JOIN S_TRANSAKSI_EKG_ECHO E "
             SQL &= "ON C.KDTRANSAKSIRI = E.KDTRANSAKSIRI "
             SQL &= "WHERE D.KDCUSTOMER = '" & RM & "' "
+            SQL &= "AND B.KDKATEGORI_BPJS IN (8,10,7) "
 
             SQL &= ") Z "
             SQL &= "ORDER BY "

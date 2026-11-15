@@ -1268,6 +1268,7 @@ Public Class frmEmedrekReportList
             SQL &= "FROM ( "
             SQL &= "SELECT "
             SQL &= "Tanggal = B.DATE "
+            SQL &= ",TanggalUpload = A.DATE "
             SQL &= ",NamaUpload = D.DESCRIPTION "
             SQL &= ",Catatan = C.MEMO "
             SQL &= ",AlamatUpload = C.ALAMATAKHIR_PDF "
@@ -1394,6 +1395,7 @@ Public Class frmEmedrekReportList
             fn_LoadFormatDataUpload()
 
             grvUpload.Columns("NamaUpload").Caption = "Jenis Pemeriksaan"
+            grvUpload.Columns("Tanggal").Caption = "Tanggal Masuk"
             grvUpload.Columns("AlamatUpload").VisibleIndex = -1
             grvUpload.Columns("Type").VisibleIndex = -1
             grvUpload.Columns("Kodeupload").VisibleIndex = -1
