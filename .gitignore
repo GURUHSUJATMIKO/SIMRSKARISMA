@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vshost.*
+
+# Build output
+**/bin/
+**/obj/
+**/[Dd]ebug/
+**/[Rr]elease/
+**/TestResults/
+*.pdb
+
+# Temporary and diagnostic files
+*.cache
+*.log
+*.tmp
+*.temp
+*.bak
