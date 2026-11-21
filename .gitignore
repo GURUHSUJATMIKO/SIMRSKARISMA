@@ -5,16 +5,23 @@
 *.userosscache
 *.sln.docstates
 *.vshost.*
+*.pfx
+*.snk
 
 # Build output
 **/bin/
 **/obj/
+[Pp]ackages/
 **/[Dd]ebug/
 **/[Rr]elease/
+**/[Xx]64/
+**/[Xx]86/
 **/TestResults/
+**/app.publish/
 *.pdb
 
 # Temporary and diagnostic files
+_temp/
 *.cache
 *.log
 *.tmp
