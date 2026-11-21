@@ -4293,4 +4293,28 @@ Public Class frmMedrekRawatNewJalanList
             frmDigital_MPPAList = Nothing
         End Try
     End Sub
+    Private Sub KonsultasiToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KonsultasiToolStripMenuItem.Click
+        If sisDOkter = True Then
+            Dim frmKonsulDokter As New frmKonsulDokter
+            Try
+                frmKonsulDokter.fn_LoadMe(lblRegister.Text, grdDPJP.EditValue, "", 1, "", "", "", "")
+                frmKonsulDokter.ShowDialog(Me)
+            Catch ex As Exception
+                MsgBox("Load Form Detail : " & vbCrLf & ex.Message, MsgBoxStyle.Exclamation, Me.Text)
+            Finally
+                If Not frmKonsulDokter Is Nothing Then frmKonsulDokter.Dispose()
+                frmKonsulDokter = Nothing
+
+                'If sKONSULTASI <> "" Then
+                '    txtINTRUKSILAIN.Text = txtINTRUKSILAIN.Text & vbCrLf & "Konsultasi Ke Dokter" & sKONSULTASI
+
+                '    'If lblNoCPPT.Text <> "" Then
+                '    '    btnSimpanCPPT_Click()
+                '    'End If
+                'End If
+            End Try
+        Else
+            MsgBox("Silahkan Pilih Modul Dokter", MsgBoxStyle.Exclamation, Me.Text)
+        End If
+    End Sub
 End Class

@@ -243,6 +243,7 @@ Partial Class frmKonsulDokter
         Me.cboSEQ.Name = "cboSEQ"
         Me.cboSEQ.Properties.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)})
         Me.cboSEQ.Properties.Items.AddRange(New Object() {"2", "3", "4", "5"})
+        Me.cboSEQ.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor
         Me.cboSEQ.Size = New System.Drawing.Size(326, 20)
         Me.cboSEQ.StyleController = Me.layoutControl
         Me.cboSEQ.TabIndex = 61

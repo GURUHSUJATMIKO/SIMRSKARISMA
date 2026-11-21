@@ -21,8 +21,8 @@ Partial Class frmRawatInapList
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmRawatInapList))
-        Dim SerializableAppearanceObject5 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
-        Dim SerializableAppearanceObject6 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject1 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
+        Dim SerializableAppearanceObject2 As DevExpress.Utils.SerializableAppearanceObject = New DevExpress.Utils.SerializableAppearanceObject()
         Me.BarButtonItem1 = New DevExpress.XtraBars.BarButtonItem()
         Me.BarButtonItem2 = New DevExpress.XtraBars.BarButtonItem()
         Me.BarButtonItem3 = New DevExpress.XtraBars.BarButtonItem()
@@ -97,11 +97,11 @@ Partial Class frmRawatInapList
         Me.btnURL = New DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit()
         Me.LayoutControlGroup1 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.tabbedControlGroup1 = New DevExpress.XtraLayout.TabbedControlGroup()
-        Me.LayoutControlGroup36 = New DevExpress.XtraLayout.LayoutControlGroup()
-        Me.llFormulirMPP_Viewer_Pdf = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.lFormulirMPP_Viewer_grd = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlItem106 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.EmptySpaceItem18 = New DevExpress.XtraLayout.EmptySpaceItem()
+        Me.LayoutControlGroup18 = New DevExpress.XtraLayout.LayoutControlGroup()
+        Me.LayoutControlItem33 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.EmptySpaceItem6 = New DevExpress.XtraLayout.EmptySpaceItem()
+        Me.LayoutControlItem34 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.lUPLOAD = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlGroup4 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlItem1 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlGroup11 = New DevExpress.XtraLayout.LayoutControlGroup()
@@ -143,11 +143,6 @@ Partial Class frmRawatInapList
         Me.EmptySpaceItem15 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.LayoutControlGroup17 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlItem32 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControlGroup18 = New DevExpress.XtraLayout.LayoutControlGroup()
-        Me.LayoutControlItem33 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.EmptySpaceItem6 = New DevExpress.XtraLayout.EmptySpaceItem()
-        Me.LayoutControlItem34 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.lUPLOAD = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlGroup19 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.lLISTGERD = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem50 = New DevExpress.XtraLayout.LayoutControlItem()
@@ -164,6 +159,11 @@ Partial Class frmRawatInapList
         Me.EmptySpaceItem13 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.LayoutControlGroup34 = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlItem96 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlGroup36 = New DevExpress.XtraLayout.LayoutControlGroup()
+        Me.llFormulirMPP_Viewer_Pdf = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.lFormulirMPP_Viewer_grd = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem106 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.EmptySpaceItem18 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.LayoutControl2 = New DevExpress.XtraLayout.LayoutControl()
         Me.lblGrouperHasil = New DevExpress.XtraEditors.LabelControl()
         Me.lblUsia = New DevExpress.XtraEditors.LabelControl()
@@ -1503,11 +1503,11 @@ Partial Class frmRawatInapList
         CType(Me.btnURL, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.tabbedControlGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlGroup36, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.llFormulirMPP_Viewer_Pdf, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.lFormulirMPP_Viewer_grd, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem106, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EmptySpaceItem18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlGroup18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem33, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EmptySpaceItem6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem34, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lUPLOAD, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlGroup4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlGroup11, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1549,11 +1549,6 @@ Partial Class frmRawatInapList
         CType(Me.EmptySpaceItem15, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlGroup17, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem32, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlGroup18, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem33, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.EmptySpaceItem6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem34, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.lUPLOAD, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlGroup19, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lLISTGERD, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem50, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1570,6 +1565,11 @@ Partial Class frmRawatInapList
         CType(Me.EmptySpaceItem13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlGroup34, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem96, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlGroup36, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.llFormulirMPP_Viewer_Pdf, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.lFormulirMPP_Viewer_grd, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem106, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.EmptySpaceItem18, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControl2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.LayoutControl2.SuspendLayout()
         CType(Me.lblRuangan.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -3209,56 +3209,55 @@ Partial Class frmRawatInapList
         Me.tabbedControlGroup1.Location = New System.Drawing.Point(0, 0)
         Me.tabbedControlGroup1.MultiLine = DevExpress.Utils.DefaultBoolean.[True]
         Me.tabbedControlGroup1.Name = "tabbedControlGroup1"
-        Me.tabbedControlGroup1.SelectedTabPage = Me.LayoutControlGroup18
-        Me.tabbedControlGroup1.SelectedTabPageIndex = 10
+        Me.tabbedControlGroup1.SelectedTabPage = Me.LayoutControlGroup10
+        Me.tabbedControlGroup1.SelectedTabPageIndex = 5
         Me.tabbedControlGroup1.Size = New System.Drawing.Size(723, 740)
         Me.tabbedControlGroup1.TabPages.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlGroup4, Me.LayoutControlGroup11, Me.LayoutControlGroup12, Me.LayoutControlGroup5, Me.LayoutControlGroup9, Me.LayoutControlGroup10, Me.LayoutControlGroup14, Me.LayoutControlGroup15, Me.LayoutControlGroup16, Me.LayoutControlGroup17, Me.LayoutControlGroup18, Me.LayoutControlGroup19, Me.LayoutControlGroup20, Me.LayoutControlGroup22, Me.LayoutControlGroup24, Me.LayoutControlGroup34, Me.LayoutControlGroup36})
         Me.tabbedControlGroup1.Text = "SBAR"
         Me.tabbedControlGroup1.TextLocation = DevExpress.Utils.Locations.[Default]
         '
-        'LayoutControlGroup36
+        'LayoutControlGroup18
         '
-        Me.LayoutControlGroup36.CustomizationFormText = "FORMULIR MPP"
-        Me.LayoutControlGroup36.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.llFormulirMPP_Viewer_Pdf, Me.lFormulirMPP_Viewer_grd, Me.LayoutControlItem106, Me.EmptySpaceItem18})
-        Me.LayoutControlGroup36.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlGroup36.Name = "LayoutControlGroup36"
-        Me.LayoutControlGroup36.Size = New System.Drawing.Size(699, 584)
-        Me.LayoutControlGroup36.Text = "FORMULIR MPP"
+        Me.LayoutControlGroup18.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem33, Me.EmptySpaceItem6, Me.LayoutControlItem34, Me.lUPLOAD})
+        Me.LayoutControlGroup18.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlGroup18.Name = "LayoutControlGroup18"
+        Me.LayoutControlGroup18.Size = New System.Drawing.Size(699, 584)
+        Me.LayoutControlGroup18.Text = "PENUNJANG LAIN"
         '
-        'llFormulirMPP_Viewer_Pdf
+        'LayoutControlItem33
         '
-        Me.llFormulirMPP_Viewer_Pdf.Control = Me.PdfViewerFormulirMPP
-        Me.llFormulirMPP_Viewer_Pdf.Location = New System.Drawing.Point(0, 154)
-        Me.llFormulirMPP_Viewer_Pdf.Name = "llFormulirMPP_Viewer_Pdf"
-        Me.llFormulirMPP_Viewer_Pdf.Size = New System.Drawing.Size(699, 430)
-        Me.llFormulirMPP_Viewer_Pdf.TextSize = New System.Drawing.Size(0, 0)
-        Me.llFormulirMPP_Viewer_Pdf.TextVisible = False
+        Me.LayoutControlItem33.Control = Me.btnUploadList
+        Me.LayoutControlItem33.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlItem33.Name = "LayoutControlItem33"
+        Me.LayoutControlItem33.Size = New System.Drawing.Size(76, 26)
+        Me.LayoutControlItem33.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem33.TextVisible = False
         '
-        'lFormulirMPP_Viewer_grd
+        'EmptySpaceItem6
         '
-        Me.lFormulirMPP_Viewer_grd.Control = Me.grdFormulirMPP_Viewer
-        Me.lFormulirMPP_Viewer_grd.Location = New System.Drawing.Point(0, 26)
-        Me.lFormulirMPP_Viewer_grd.Name = "lFormulirMPP_Viewer_grd"
-        Me.lFormulirMPP_Viewer_grd.Size = New System.Drawing.Size(699, 128)
-        Me.lFormulirMPP_Viewer_grd.TextSize = New System.Drawing.Size(0, 0)
-        Me.lFormulirMPP_Viewer_grd.TextVisible = False
+        Me.EmptySpaceItem6.AllowHotTrack = False
+        Me.EmptySpaceItem6.Location = New System.Drawing.Point(76, 0)
+        Me.EmptySpaceItem6.Name = "EmptySpaceItem6"
+        Me.EmptySpaceItem6.Size = New System.Drawing.Size(623, 26)
+        Me.EmptySpaceItem6.TextSize = New System.Drawing.Size(0, 0)
         '
-        'LayoutControlItem106
+        'LayoutControlItem34
         '
-        Me.LayoutControlItem106.Control = Me.btnTutupFormulirMPP
-        Me.LayoutControlItem106.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlItem106.Name = "LayoutControlItem106"
-        Me.LayoutControlItem106.Size = New System.Drawing.Size(71, 26)
-        Me.LayoutControlItem106.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem106.TextVisible = False
+        Me.LayoutControlItem34.Control = Me.PdfViewerUpload
+        Me.LayoutControlItem34.Location = New System.Drawing.Point(0, 210)
+        Me.LayoutControlItem34.Name = "LayoutControlItem34"
+        Me.LayoutControlItem34.Size = New System.Drawing.Size(699, 374)
+        Me.LayoutControlItem34.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem34.TextVisible = False
         '
-        'EmptySpaceItem18
+        'lUPLOAD
         '
-        Me.EmptySpaceItem18.AllowHotTrack = False
-        Me.EmptySpaceItem18.Location = New System.Drawing.Point(71, 0)
-        Me.EmptySpaceItem18.Name = "EmptySpaceItem18"
-        Me.EmptySpaceItem18.Size = New System.Drawing.Size(628, 26)
-        Me.EmptySpaceItem18.TextSize = New System.Drawing.Size(0, 0)
+        Me.lUPLOAD.Control = Me.grdUpload
+        Me.lUPLOAD.Location = New System.Drawing.Point(0, 26)
+        Me.lUPLOAD.Name = "lUPLOAD"
+        Me.lUPLOAD.Size = New System.Drawing.Size(699, 184)
+        Me.lUPLOAD.TextSize = New System.Drawing.Size(0, 0)
+        Me.lUPLOAD.TextVisible = False
         '
         'LayoutControlGroup4
         '
@@ -3617,49 +3616,6 @@ Partial Class frmRawatInapList
         Me.LayoutControlItem32.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem32.TextVisible = False
         '
-        'LayoutControlGroup18
-        '
-        Me.LayoutControlGroup18.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem33, Me.EmptySpaceItem6, Me.LayoutControlItem34, Me.lUPLOAD})
-        Me.LayoutControlGroup18.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlGroup18.Name = "LayoutControlGroup18"
-        Me.LayoutControlGroup18.Size = New System.Drawing.Size(699, 584)
-        Me.LayoutControlGroup18.Text = "PENUNJANG LAIN"
-        '
-        'LayoutControlItem33
-        '
-        Me.LayoutControlItem33.Control = Me.btnUploadList
-        Me.LayoutControlItem33.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlItem33.Name = "LayoutControlItem33"
-        Me.LayoutControlItem33.Size = New System.Drawing.Size(76, 26)
-        Me.LayoutControlItem33.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem33.TextVisible = False
-        '
-        'EmptySpaceItem6
-        '
-        Me.EmptySpaceItem6.AllowHotTrack = False
-        Me.EmptySpaceItem6.Location = New System.Drawing.Point(76, 0)
-        Me.EmptySpaceItem6.Name = "EmptySpaceItem6"
-        Me.EmptySpaceItem6.Size = New System.Drawing.Size(623, 26)
-        Me.EmptySpaceItem6.TextSize = New System.Drawing.Size(0, 0)
-        '
-        'LayoutControlItem34
-        '
-        Me.LayoutControlItem34.Control = Me.PdfViewerUpload
-        Me.LayoutControlItem34.Location = New System.Drawing.Point(0, 210)
-        Me.LayoutControlItem34.Name = "LayoutControlItem34"
-        Me.LayoutControlItem34.Size = New System.Drawing.Size(699, 374)
-        Me.LayoutControlItem34.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem34.TextVisible = False
-        '
-        'lUPLOAD
-        '
-        Me.lUPLOAD.Control = Me.grdUpload
-        Me.lUPLOAD.Location = New System.Drawing.Point(0, 26)
-        Me.lUPLOAD.Name = "lUPLOAD"
-        Me.lUPLOAD.Size = New System.Drawing.Size(699, 184)
-        Me.lUPLOAD.TextSize = New System.Drawing.Size(0, 0)
-        Me.lUPLOAD.TextVisible = False
-        '
         'LayoutControlGroup19
         '
         Me.LayoutControlGroup19.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.lLISTGERD, Me.LayoutControlItem50, Me.EmptySpaceItem8, Me.LayoutControlItem36})
@@ -3796,6 +3752,50 @@ Partial Class frmRawatInapList
         Me.LayoutControlItem96.Size = New System.Drawing.Size(699, 584)
         Me.LayoutControlItem96.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem96.TextVisible = False
+        '
+        'LayoutControlGroup36
+        '
+        Me.LayoutControlGroup36.CustomizationFormText = "FORMULIR MPP"
+        Me.LayoutControlGroup36.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.llFormulirMPP_Viewer_Pdf, Me.lFormulirMPP_Viewer_grd, Me.LayoutControlItem106, Me.EmptySpaceItem18})
+        Me.LayoutControlGroup36.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlGroup36.Name = "LayoutControlGroup36"
+        Me.LayoutControlGroup36.Size = New System.Drawing.Size(699, 584)
+        Me.LayoutControlGroup36.Text = "FORMULIR MPP"
+        '
+        'llFormulirMPP_Viewer_Pdf
+        '
+        Me.llFormulirMPP_Viewer_Pdf.Control = Me.PdfViewerFormulirMPP
+        Me.llFormulirMPP_Viewer_Pdf.Location = New System.Drawing.Point(0, 154)
+        Me.llFormulirMPP_Viewer_Pdf.Name = "llFormulirMPP_Viewer_Pdf"
+        Me.llFormulirMPP_Viewer_Pdf.Size = New System.Drawing.Size(699, 430)
+        Me.llFormulirMPP_Viewer_Pdf.TextSize = New System.Drawing.Size(0, 0)
+        Me.llFormulirMPP_Viewer_Pdf.TextVisible = False
+        '
+        'lFormulirMPP_Viewer_grd
+        '
+        Me.lFormulirMPP_Viewer_grd.Control = Me.grdFormulirMPP_Viewer
+        Me.lFormulirMPP_Viewer_grd.Location = New System.Drawing.Point(0, 26)
+        Me.lFormulirMPP_Viewer_grd.Name = "lFormulirMPP_Viewer_grd"
+        Me.lFormulirMPP_Viewer_grd.Size = New System.Drawing.Size(699, 128)
+        Me.lFormulirMPP_Viewer_grd.TextSize = New System.Drawing.Size(0, 0)
+        Me.lFormulirMPP_Viewer_grd.TextVisible = False
+        '
+        'LayoutControlItem106
+        '
+        Me.LayoutControlItem106.Control = Me.btnTutupFormulirMPP
+        Me.LayoutControlItem106.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlItem106.Name = "LayoutControlItem106"
+        Me.LayoutControlItem106.Size = New System.Drawing.Size(71, 26)
+        Me.LayoutControlItem106.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem106.TextVisible = False
+        '
+        'EmptySpaceItem18
+        '
+        Me.EmptySpaceItem18.AllowHotTrack = False
+        Me.EmptySpaceItem18.Location = New System.Drawing.Point(71, 0)
+        Me.EmptySpaceItem18.Name = "EmptySpaceItem18"
+        Me.EmptySpaceItem18.Size = New System.Drawing.Size(628, 26)
+        Me.EmptySpaceItem18.TextSize = New System.Drawing.Size(0, 0)
         '
         'LayoutControl2
         '
@@ -4674,7 +4674,7 @@ Partial Class frmRawatInapList
         'RepositoryItemButtonEdit1
         '
         Me.RepositoryItemButtonEdit1.AutoHeight = False
-        Me.RepositoryItemButtonEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, CType(resources.GetObject("RepositoryItemButtonEdit1.Buttons"), System.Drawing.Image), New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject5, "", Nothing, Nothing, True)})
+        Me.RepositoryItemButtonEdit1.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, CType(resources.GetObject("RepositoryItemButtonEdit1.Buttons"), System.Drawing.Image), New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject1, "", Nothing, Nothing, True)})
         Me.RepositoryItemButtonEdit1.Name = "RepositoryItemButtonEdit1"
         Me.RepositoryItemButtonEdit1.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
         '
@@ -6868,7 +6868,7 @@ Partial Class frmRawatInapList
         'RepositoryItemButtonEdit2
         '
         Me.RepositoryItemButtonEdit2.AutoHeight = False
-        Me.RepositoryItemButtonEdit2.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, CType(resources.GetObject("RepositoryItemButtonEdit2.Buttons"), System.Drawing.Image), New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject6, "", Nothing, Nothing, True)})
+        Me.RepositoryItemButtonEdit2.Buttons.AddRange(New DevExpress.XtraEditors.Controls.EditorButton() {New DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, True, True, False, DevExpress.XtraEditors.ImageLocation.MiddleCenter, CType(resources.GetObject("RepositoryItemButtonEdit2.Buttons"), System.Drawing.Image), New DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), SerializableAppearanceObject2, "", Nothing, Nothing, True)})
         Me.RepositoryItemButtonEdit2.Name = "RepositoryItemButtonEdit2"
         Me.RepositoryItemButtonEdit2.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor
         '
@@ -17224,11 +17224,11 @@ Partial Class frmRawatInapList
         CType(Me.btnURL, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlGroup1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.tabbedControlGroup1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlGroup36, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.llFormulirMPP_Viewer_Pdf, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.lFormulirMPP_Viewer_grd, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem106, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EmptySpaceItem18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlGroup18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem33, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EmptySpaceItem6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem34, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lUPLOAD, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlGroup4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlGroup11, System.ComponentModel.ISupportInitialize).EndInit()
@@ -17270,11 +17270,6 @@ Partial Class frmRawatInapList
         CType(Me.EmptySpaceItem15, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlGroup17, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem32, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlGroup18, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem33, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.EmptySpaceItem6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem34, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.lUPLOAD, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlGroup19, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lLISTGERD, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem50, System.ComponentModel.ISupportInitialize).EndInit()
@@ -17291,6 +17286,11 @@ Partial Class frmRawatInapList
         CType(Me.EmptySpaceItem13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlGroup34, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem96, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlGroup36, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.llFormulirMPP_Viewer_Pdf, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.lFormulirMPP_Viewer_grd, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem106, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.EmptySpaceItem18, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControl2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.LayoutControl2.ResumeLayout(False)
         CType(Me.lblRuangan.Properties, System.ComponentModel.ISupportInitialize).EndInit()

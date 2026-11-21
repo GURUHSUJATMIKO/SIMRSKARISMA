@@ -189,6 +189,7 @@ Partial Class frmMedrekRawatNewJalanList
         Me.DeleteToolStripMenuItem_PJ = New System.Windows.Forms.ToolStripMenuItem()
         Me.mnuStrip_Terapi = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.KonsultasiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.PanelControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.PanelControl1.SuspendLayout()
         Me.TableLayoutPanel2.SuspendLayout()
@@ -744,9 +745,9 @@ Partial Class frmMedrekRawatNewJalanList
         '
         'mnuStripAddAll
         '
-        Me.mnuStripAddAll.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddToolStripMenuItem, Me.PemeriksaanAwalToolStripMenuItem, Me.AsesmenMedisIGDToolStripMenuItem, Me.AsesmenAwalPerawatIGDToolStripMenuItem, Me.GERDQToolStripMenuItem, Me.AsesmenKebidananToolStripMenuItem, Me.TindakLanjutToolStripMenuItem, Me.NaikRanapToolStripMenuItem1, Me.LaporanObservasiiToolStripMenuItem, Me.AsesmenAwalKeperawatanRawatJalanToolStripMenuItem, Me.FormulirMPPAToolStripMenuItem})
+        Me.mnuStripAddAll.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AddToolStripMenuItem, Me.PemeriksaanAwalToolStripMenuItem, Me.AsesmenMedisIGDToolStripMenuItem, Me.AsesmenAwalPerawatIGDToolStripMenuItem, Me.GERDQToolStripMenuItem, Me.AsesmenKebidananToolStripMenuItem, Me.TindakLanjutToolStripMenuItem, Me.NaikRanapToolStripMenuItem1, Me.LaporanObservasiiToolStripMenuItem, Me.AsesmenAwalKeperawatanRawatJalanToolStripMenuItem, Me.FormulirMPPAToolStripMenuItem, Me.KonsultasiToolStripMenuItem})
         Me.mnuStripAddAll.Name = "mnuStripAddAll"
-        Me.mnuStripAddAll.Size = New System.Drawing.Size(287, 268)
+        Me.mnuStripAddAll.Size = New System.Drawing.Size(287, 290)
         '
         'AddToolStripMenuItem
         '
@@ -794,31 +795,31 @@ Partial Class frmMedrekRawatNewJalanList
         'RawatInapToolStripMenuItem
         '
         Me.RawatInapToolStripMenuItem.Name = "RawatInapToolStripMenuItem"
-        Me.RawatInapToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.RawatInapToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.RawatInapToolStripMenuItem.Text = "Rawat Inap"
         '
         'PulangToolStripMenuItem
         '
         Me.PulangToolStripMenuItem.Name = "PulangToolStripMenuItem"
-        Me.PulangToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.PulangToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.PulangToolStripMenuItem.Text = "Pulang"
         '
         'RujukToolStripMenuItem
         '
         Me.RujukToolStripMenuItem.Name = "RujukToolStripMenuItem"
-        Me.RujukToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.RujukToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.RujukToolStripMenuItem.Text = "Rujuk"
         '
         'PulangPaksaToolStripMenuItem
         '
         Me.PulangPaksaToolStripMenuItem.Name = "PulangPaksaToolStripMenuItem"
-        Me.PulangPaksaToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.PulangPaksaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.PulangPaksaToolStripMenuItem.Text = "Pulang Paksa"
         '
         'MeninggalToolStripMenuItem
         '
         Me.MeninggalToolStripMenuItem.Name = "MeninggalToolStripMenuItem"
-        Me.MeninggalToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.MeninggalToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.MeninggalToolStripMenuItem.Text = "Meninggal"
         '
         'NaikRanapToolStripMenuItem1
@@ -1907,6 +1908,12 @@ Partial Class frmMedrekRawatNewJalanList
         Me.ToolStripMenuItem1.Size = New System.Drawing.Size(107, 22)
         Me.ToolStripMenuItem1.Text = "Delete"
         '
+        'KonsultasiToolStripMenuItem
+        '
+        Me.KonsultasiToolStripMenuItem.Name = "KonsultasiToolStripMenuItem"
+        Me.KonsultasiToolStripMenuItem.Size = New System.Drawing.Size(286, 22)
+        Me.KonsultasiToolStripMenuItem.Text = "Konsultasi"
+        '
         'frmMedrekRawatNewJalanList
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2200,4 +2207,5 @@ Partial Class frmMedrekRawatNewJalanList
     Friend WithEvents txtLayananRataRata As DevExpress.XtraEditors.TextEdit
     Friend WithEvents lWaktuIGD As DevExpress.XtraLayout.LayoutControlItem
     Friend WithEvents GridColumn4 As DevExpress.XtraGrid.Columns.GridColumn
+    Friend WithEvents KonsultasiToolStripMenuItem As ToolStripMenuItem
 End Class

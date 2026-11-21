@@ -21,6 +21,7 @@ Public Class frmMedrekRawatNew2JalanList
     Private sALAMATPASIEN As String = String.Empty
     Private sTEMPATLAHIR As String = String.Empty
     Private sKDDEPARTMENT As String = String.Empty
+    Private sKETERANGANHARIINI As String = String.Empty
 
 #Region "Function"
     Public Sub fn_LoadMe(ByVal isDOKTER As Boolean)
@@ -202,6 +203,7 @@ Public Class frmMedrekRawatNew2JalanList
         PdfViewerFormulirMPP.CloseDocument()
         PdfViewerSkinAnalysis.CloseDocument()
         PdfViewerMCU.CloseDocument()
+        PdfViewerKonsul.CloseDocument()
 
         txtKDPENDAFTARAN.ResetText()
         txtKDCUSTOMER.ResetText()
@@ -371,7 +373,6 @@ Public Class frmMedrekRawatNew2JalanList
             SQL &= "SELECT "
             SQL &= "NoRegister = B.KDREG "
             SQL &= ",Antrian = (SELECT CASE B.ISRESUME WHEN 0 THEN (SELECT CASE B.ANTRIANDOKTER WHEN 0 THEN 'X' ELSE 'A' + RIGHT('000' + CONVERT(NVARCHAR(50), B.ANTRIANDOKTER), 3) END) ELSE 'Y' + RIGHT('000' + CONVERT(NVARCHAR(50), B.ANTRIANDOKTER), 3) END) "
-            'SQL &= ",AntrianDokter = B.ANTRIANDOKTER "
             SQL &= ",KodeBooking = B.NOMORANTRIAN "
             SQL &= ",Pasien = D.NAME_DISPLAY + ' ' + IIf(D.FRONT_TITLE IS NULL, '', D.FRONT_TITLE + ' ') + D.BACK_TITLE "
             SQL &= ",Dokter = C.NAME_DISPLAY "
@@ -383,7 +384,6 @@ Public Class frmMedrekRawatNew2JalanList
             SQL &= ",B.DATE "
             SQL &= ",WaktuPeriksa = ISNULL((SELECT FORMAT(WAKTU, 'HH:mm:ss') FROM Z_ANTRIAN_POLI WHERE B.NOMORANTRIAN = KODEBOOKING AND TAKSID = 4) ,'')  "
             SQL &= ",WaktuSelisih = ISNULL((SELECT  DATEDIFF(MINUTE, B.DATE, WAKTU) FROM Z_ANTRIAN_POLI WHERE B.NOMORANTRIAN = KODEBOOKING AND TAKSID = 4) ,'') "
-            'SQL &= ",WaktuSelesai = ISNULL((SELECT FORMAT(WAKTU, 'HH:mm:ss') FROM Z_ANTRIAN_POLI WHERE B.NOMORANTRIAN = KODEBOOKING AND TAKSID = 5) ,'')  "
             SQL &= ",PENJAMIN = F.NAME_DISPLAY "
             SQL &= ",B.NOMORSEP "
             SQL &= ",B.KARTUBPJS "
@@ -420,6 +420,50 @@ Public Class frmMedrekRawatNew2JalanList
                 SQL &= "AND B.KONSUL <> '1052' "
             End If
 
+
+            SQL &= "UNION "
+
+            SQL &= "SELECT "
+            SQL &= "NoRegister = B.KDREG "
+            SQL &= ",Antrian = 'ZZZ' + CONVERT(nvarchar(3), G.SEQ) "
+            SQL &= ",KodeBooking = B.NOMORANTRIAN "
+            SQL &= ",Pasien = D.NAME_DISPLAY + ' ' + IIf(D.FRONT_TITLE IS NULL, '', D.FRONT_TITLE + ' ') + D.BACK_TITLE "
+            SQL &= ",Dokter = C.NAME_DISPLAY "
+            SQL &= ",SIP = C.SIP "
+            SQL &= ",B.KDCUSTOMER "
+            SQL &= ",B.USIA "
+            SQL &= ",D.TANGGALLAHIR "
+            SQL &= ",DIAGNOSA = '-' "
+            SQL &= ",B.DATE "
+            SQL &= ",WaktuPeriksa = ''  "
+            SQL &= ",WaktuSelisih = '' "
+            SQL &= ",PENJAMIN = F.NAME_DISPLAY "
+            SQL &= ",B.NOMORSEP "
+            SQL &= ",B.KARTUBPJS "
+            SQL &= ",Cek = B.ISRESUME "
+            SQL &= ",C.KDDOCTOR "
+            SQL &= ",D.JK "
+            SQL &= ",B.ISPERAWAT "
+            'SQL &= ",Keterangan = B.KETERANGAN_TINDAKLANJUT "
+            SQL &= ",Keterangan = 'Konsul IGD dari Dokter ' + C.NAME_DISPLAY + ' ' + G.ISIKONSUL "
+            SQL &= ",KeteranganPenunjangHariIni = 'Konsul IGD dari Dokter ' + C.NAME_DISPLAY "
+            SQL &= ",B.ADDRESS_STREET "
+            SQL &= ",D.TEMPATLAHIR "
+            SQL &= ",B.KDDEPARTMENT "
+            SQL &= "FROM "
+            SQL &= "S_PENDAFTARAN_H B "
+            SQL &= "INNER JOIN M_DOCTOR C "
+            SQL &= "ON B.KDDOCTOR = C.KDDOCTOR "
+            SQL &= "INNER JOIN M_CUSTOMER D "
+            SQL &= "ON B.KDCUSTOMER = D.KDCUSTOMER "
+            'SQL &= "INNER JOIN M_DIAGNOSAICD10 E "
+            'SQL &= "ON B.KDDIAGNOSA = E.KDDIAGNOSA "
+            SQL &= "INNER JOIN M_DEBTOR F "
+            SQL &= "ON B.KDDEBTOR = F.KDDEBTOR "
+            SQL &= "INNER JOIN I_TRACKING_KDDOCTOR G "
+            SQL &= "ON B.KDREG = G.KDREG "
+            SQL &= "WHERE G.TANGGAL_ISIKONSUL LIKE '%" & deDATE.DateTime.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture) & "%' "
+            SQL &= "AND KDDOCTOR_KEPADA = '" & grdDPJP.EditValue & "' "
             SQL &= ") Z "
             SQL &= "ORDER BY Z.Antrian, Z.NoRegister ASC "
 
@@ -856,6 +900,49 @@ Public Class frmMedrekRawatNew2JalanList
             End If
         Next
     End Sub
+    Private Sub grvDokterBersama_FocusedRowChanged(ByVal sender As System.Object, ByVal e As DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs) Handles grvDokterBersama.FocusedRowChanged
+        If grvDokterBersama.GetFocusedRowCellValue("ISIKONSUL") Is Nothing Then
+            PdfViewerKonsul.CloseDocument()
+            Exit Sub
+        End If
+
+        Try
+            sNAMA_DIKONSUL = txtNAMAPASIEN.Text
+            sRM_DIKONSUL = txtKDCUSTOMER.Text
+            sRUANG_DIKONSUL = "IGD"
+            sDOKTERDARI_DIKONSUL = grvDokterBersama.GetFocusedRowCellValue("DARIDOKTER")
+            sDOKTERKEPADA_DIKONSUL = grvDokterBersama.GetFocusedRowCellValue("KEPADADOKTER")
+            sISIKONSUL_DIKONSUL = grvDokterBersama.GetFocusedRowCellValue("ISIKONSUL")
+            sJAWABKONSUL_DIKONSUL = grvDokterBersama.GetFocusedRowCellValue("JAWABKONSUL")
+
+            Dim rpt As New xtraKonsul
+
+            rpt.ShowPrintMarginsWarning = False
+            rpt.Watermark.Text = sWATERMARK
+
+            'rpt.BindingSource1.DataSource = ds
+            Dim FolderSimpan = "C:/KONSULTASI/"
+
+            Try
+
+                If Not Directory.Exists(FolderSimpan) Then
+                    Directory.CreateDirectory(FolderSimpan)
+                Else
+                    DeleteDirectory(FolderSimpan)
+                    Directory.CreateDirectory(FolderSimpan)
+                End If
+            Catch ex As Exception
+
+            End Try
+
+            Dim waktu As String = Now.ToString("ddMMyyyyHHmmss")
+            rpt.ExportToPdf(FolderSimpan & waktu & grvDokterBersama.GetFocusedRowCellValue("SEQ") & ".pdf")
+            PdfViewerKonsul.LoadDocument(FolderSimpan & waktu & grvDokterBersama.GetFocusedRowCellValue("SEQ") & ".pdf")
+
+        Catch ex As Exception
+            MsgBox("Cetak Konsultasi " & vbCrLf & ex.Message, MsgBoxStyle.Exclamation, Me.Text)
+        End Try
+    End Sub
     Private Sub fn_DokterBersama(ByVal kdcustomer As String)
         Try
             grvDokterBersama.OptionsSelection.MultiSelect = True
@@ -936,6 +1023,7 @@ Public Class frmMedrekRawatNew2JalanList
         PdfViewerFormulirMPP.CloseDocument()
         PdfViewerSkinAnalysis.CloseDocument
         PdfViewerMCU.CloseDocument()
+        PdfViewerKonsul.CloseDocument()
 
         If XtraTabControl1.SelectedTabPageIndex = 0 Then
             SplashScreenManager.ShowForm(Me, GetType(frmLoadingPanel), True, True, False)
@@ -1624,6 +1712,9 @@ Public Class frmMedrekRawatNew2JalanList
             'End If
         End Try
     End Sub
+    Private Sub btnHapusKonsul_Click(sender As Object, e As EventArgs) Handles btnHapusKonsul.Click
+
+    End Sub
     Private Sub fn_PrintStrukResumeRawatJalan(ByVal NoTransaksi As String, ByVal RM As String, ByVal isPDF As Boolean, ByVal sKDREGfisio As String)
         Try
             Dim oKoding As New Transaksi.clsReq_Recipe
@@ -1868,6 +1959,7 @@ Public Class frmMedrekRawatNew2JalanList
             Exit Sub
         End If
 
+        sKETERANGANHARIINI = grvListPasien.GetFocusedRowCellValue("KeteranganPenunjangHariIni")
         deTANGGALDATANG.DateTime = grvListPasien.GetFocusedRowCellValue("DATE")
         txtKDPENDAFTARAN.Text = grvListPasien.GetFocusedRowCellValue("NoRegister")
         txtKDCUSTOMER.Text = grvListPasien.GetFocusedRowCellValue("KDCUSTOMER")
@@ -1976,21 +2068,29 @@ Public Class frmMedrekRawatNew2JalanList
     End Sub
     Private Sub grvListPasien_RowStyle(sender As System.Object, e As DevExpress.XtraGrid.Views.Grid.RowStyleEventArgs) Handles grvListPasien.RowStyle
         If grvListPasien.IsFilterRow(e.RowHandle) Then Exit Sub
-        If grvListPasien.GetRowCellValue(e.RowHandle, "Cek") = True Then
-            If grvListPasien.GetRowCellValue(e.RowHandle, "Keterangan").ToString.Contains("PENUNJANG HARI INI") Then
-                If grvListPasien.GetRowCellValue(e.RowHandle, "KeteranganPenunjangHariIni").ToString <> "" Then
-                    e.Appearance.BackColor = Color.Aqua
+
+        Dim keterangan As String = Convert.ToString(grvListPasien.GetRowCellValue(e.RowHandle, "KeteranganPenunjangHariIni"))
+
+        If Not String.IsNullOrWhiteSpace(keterangan) AndAlso keterangan.IndexOf("Konsul IGD dari Dokter", StringComparison.OrdinalIgnoreCase) >= 0 Then
+            e.Appearance.BackColor = Color.HotPink
+        Else
+            If grvListPasien.GetRowCellValue(e.RowHandle, "Cek") = True Then
+                If grvListPasien.GetRowCellValue(e.RowHandle, "Keterangan").ToString.Contains("PENUNJANG HARI INI") Then
+                    If grvListPasien.GetRowCellValue(e.RowHandle, "KeteranganPenunjangHariIni").ToString <> "" Then
+                        e.Appearance.BackColor = Color.Aqua
+                    Else
+                        e.Appearance.BackColor = Color.Yellow
+                    End If
                 Else
-                    e.Appearance.BackColor = Color.Yellow
+                    e.Appearance.BackColor = Color.LawnGreen
                 End If
             Else
-                e.Appearance.BackColor = Color.LawnGreen
-            End If
-        Else
-            If grvListPasien.GetRowCellValue(e.RowHandle, "ISPERAWAT") = True Then
-                e.Appearance.BackColor = Color.Orange
+                If grvListPasien.GetRowCellValue(e.RowHandle, "ISPERAWAT") = True Then
+                    e.Appearance.BackColor = Color.Orange
+                End If
             End If
         End If
+
     End Sub
     Private Sub grvListantrian_RowStyle(sender As System.Object, e As DevExpress.XtraGrid.Views.Grid.RowStyleEventArgs) Handles grvListantrian.RowStyle
         If grvListantrian.IsFilterRow(e.RowHandle) Then Exit Sub
@@ -2513,6 +2613,12 @@ Public Class frmMedrekRawatNew2JalanList
         colKDCARAPAKAI.OptionsColumn.ReadOnly = False
         grdDetailResep.ContextMenuStrip = mnuStrip
         GroupControl1.Text = "Resep"
+
+        If sKETERANGANHARIINI.Contains("Konsul IGD dari Dokter") Then
+            MsgBox("Silahkan klik tab konsultasi untuk menjawab konsul", MsgBoxStyle.Exclamation, Me.Text)
+            XtraTabControl1.SelectedTabPageIndex = 8
+            Exit Sub
+        End If
 
         If sisDOkter = True Then
             If grdKDDEPARTMENT.Text <> "IGD" Then
@@ -6052,4 +6158,5 @@ Public Class frmMedrekRawatNew2JalanList
             End Try
         End If
     End Sub
+
 End Class
