@@ -1898,7 +1898,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>M92Tspn+/N8ddSpXaGLbI16hFYQ=</dsig:DigestValue>
+        <dsig:DigestValue>eFQfsc1bbP/uhIyxxZ2Sed7zJx0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -1910,7 +1910,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>V+oHRuSp9FW3MLC56jSKkDhPoEw=</dsig:DigestValue>
+        <dsig:DigestValue>CGlJxQd2CfeBUKXKOsoaSijnB7Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2247,13 +2247,13 @@
       <dsig:DigestValue>F2dSt5LFB38VbKZfrVnQtbYXHlg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="RS Karisma Cimareme - Information System.pdb" size="9006592">
+  <file name="RS Karisma Cimareme - Information System.pdb" size="9002496">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>kPjLCuoC7SCISRaRCYwtI89UaV0=</dsig:DigestValue>
+      <dsig:DigestValue>nrmYU0CFhoboD24GyVwVFN48ggo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="RS Karisma Cimareme - Information System.xml" size="187917">
