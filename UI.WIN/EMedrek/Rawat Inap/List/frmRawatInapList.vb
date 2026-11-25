@@ -125,7 +125,7 @@ Public Class frmRawatInapList
         sUMURPASIEN = HitungUmur(sTanggalLahir, deTANGGALMASUK.DateTime)
         sUmurPasienDiCPPT = sUMURPASIEN
         deWAKTUPEMBERIANRESEP.DateTime = Now
-        lblUsia.Text = sUMURPASIEN
+        lblUsia.Text = HitungUmur(sTanggalLahir, Date.Today)
 
         If sISDOKTER = True Then
             'btnSBAR.Visible = False

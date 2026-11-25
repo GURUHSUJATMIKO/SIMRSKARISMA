@@ -971,8 +971,6 @@ Public Class frmMedrekRawatNew2JalanList
             SQL &= ",A.ISIKONSUL "
             SQL &= ",A.JAWABKONSUL "
             SQL &= ",A.SEQ "
-            SQL &= ",KDDOCTOR_DARI "
-            SQL &= ",KDDOCTOR_KEPADA "
             SQL &= ",TGLKONSUL = A.TANGGAL_ISIKONSUL "
             SQL &= ",A.ISIKONSUL "
             SQL &= ",TGLJAWAB = A.TANGGAL_JAWABKONSUL "

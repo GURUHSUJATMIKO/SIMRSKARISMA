@@ -1579,28 +1579,32 @@ Partial Class frmMainNew
         Me.barDockControlTop.CausesValidation = False
         Me.barDockControlTop.Dock = System.Windows.Forms.DockStyle.Top
         Me.barDockControlTop.Location = New System.Drawing.Point(0, 0)
-        Me.barDockControlTop.Size = New System.Drawing.Size(792, 44)
+        Me.barDockControlTop.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.barDockControlTop.Size = New System.Drawing.Size(924, 58)
         '
         'barDockControlBottom
         '
         Me.barDockControlBottom.CausesValidation = False
         Me.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 548)
-        Me.barDockControlBottom.Size = New System.Drawing.Size(792, 25)
+        Me.barDockControlBottom.Location = New System.Drawing.Point(0, 671)
+        Me.barDockControlBottom.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.barDockControlBottom.Size = New System.Drawing.Size(924, 34)
         '
         'barDockControlLeft
         '
         Me.barDockControlLeft.CausesValidation = False
         Me.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left
-        Me.barDockControlLeft.Location = New System.Drawing.Point(0, 44)
-        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 504)
+        Me.barDockControlLeft.Location = New System.Drawing.Point(0, 58)
+        Me.barDockControlLeft.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.barDockControlLeft.Size = New System.Drawing.Size(0, 613)
         '
         'barDockControlRight
         '
         Me.barDockControlRight.CausesValidation = False
         Me.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right
-        Me.barDockControlRight.Location = New System.Drawing.Point(792, 44)
-        Me.barDockControlRight.Size = New System.Drawing.Size(0, 504)
+        Me.barDockControlRight.Location = New System.Drawing.Point(924, 58)
+        Me.barDockControlRight.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.barDockControlRight.Size = New System.Drawing.Size(0, 613)
         '
         'mnuReferenceCOA
         '
@@ -2658,15 +2662,16 @@ Partial Class frmMainNew
         '
         'frmMainNew
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(792, 573)
+        Me.ClientSize = New System.Drawing.Size(924, 705)
         Me.Controls.Add(Me.barDockControlLeft)
         Me.Controls.Add(Me.barDockControlRight)
         Me.Controls.Add(Me.barDockControlBottom)
         Me.Controls.Add(Me.barDockControlTop)
         Me.IsMdiContainer = True
         Me.KeyPreview = True
+        Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "frmMainNew"
         Me.ShowIcon = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
