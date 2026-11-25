@@ -4350,7 +4350,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'sS
         '
-        Me.sS.Expression = "[CheckEdit11] + ' °C'"
+        Me.sS.Expression = "[CheckEdit11] + ' ï¿½C'"
         Me.sS.Name = "sS"
         '
         'sR
