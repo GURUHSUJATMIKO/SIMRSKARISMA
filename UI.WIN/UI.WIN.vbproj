@@ -6100,6 +6100,7 @@
     <None Include="Resources\Refresh.png" />
     <None Include="Resources\pemberi.png" />
     <None Include="Resources\penerima.png" />
+    <None Include="Resources\LogoRS.jpeg" />
     <Content Include="rskcicon.ico" />
     <None Include="Resources\gambar_2.jpg" />
     <None Include="Resources\newrologi.JPG" />

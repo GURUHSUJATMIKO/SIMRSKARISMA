@@ -4,34 +4,34 @@ Public Class xtraMedicalCheckUp
     Private watermarkImage As Bitmap
 
     Private Sub xtra_BeforePrint(ByVal sender As System.Object, ByVal e As System.Drawing.Printing.PrintEventArgs) Handles MyBase.BeforePrint
-        Me.Watermark.Text = String.Empty
-        Dim watermarkPath As String = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "watermark.png")
-        If Not System.IO.File.Exists(watermarkPath) Then
-            Throw New System.IO.FileNotFoundException("File watermark.png tidak ditemukan.", watermarkPath)
-        End If
+        'Me.Watermark.Text = String.Empty
+        'Dim watermarkPath As String = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "watermark.png")
+        'If Not System.IO.File.Exists(watermarkPath) Then
+        '    Throw New System.IO.FileNotFoundException("File watermark.png tidak ditemukan.", watermarkPath)
+        'End If
 
-        Using sourceImage As Image = Image.FromFile(watermarkPath)
-            Dim scaledImage As New Bitmap(
-                Math.Max(1, CInt(sourceImage.Width * 1.50)),
-                Math.Max(1, CInt(sourceImage.Height * 1.50)))
+        'Using sourceImage As Image = My.Resources.LogoRS
+        '    Dim scaledImage As New Bitmap(
+        '        Math.Max(1, CInt(sourceImage.Width * 1.5)),
+        '        Math.Max(1, CInt(sourceImage.Height * 1.5)))
 
-            scaledImage.SetResolution(sourceImage.HorizontalResolution, sourceImage.VerticalResolution)
-            Using graphics As Graphics = Graphics.FromImage(scaledImage)
-                graphics.InterpolationMode = Drawing2D.InterpolationMode.HighQualityBicubic
-                graphics.DrawImage(sourceImage, New Rectangle(0, 0, scaledImage.Width, scaledImage.Height))
-            End Using
+        '    scaledImage.SetResolution(sourceImage.HorizontalResolution, sourceImage.VerticalResolution)
+        '    Using graphics As Graphics = Graphics.FromImage(scaledImage)
+        '        graphics.InterpolationMode = Drawing2D.InterpolationMode.HighQualityBicubic
+        '        graphics.DrawImage(sourceImage, New Rectangle(0, 0, scaledImage.Width, scaledImage.Height))
+        '    End Using
 
-            If watermarkImage IsNot Nothing Then
-                watermarkImage.Dispose()
-            End If
-            watermarkImage = scaledImage
-        End Using
+        '    If watermarkImage IsNot Nothing Then
+        '        watermarkImage.Dispose()
+        '    End If
+        '    watermarkImage = scaledImage
+        'End Using
 
-        Me.Watermark.Image = watermarkImage
-        Me.Watermark.ImageAlign = Drawing.ContentAlignment.MiddleCenter
-        Me.Watermark.ImageViewMode = DevExpress.XtraPrinting.Drawing.ImageViewMode.Clip
-        Me.Watermark.ImageTransparency = 195
-        Me.Watermark.ShowBehind = True
+        'Me.Watermark.Image = watermarkImage
+        'Me.Watermark.ImageAlign = Drawing.ContentAlignment.MiddleCenter
+        'Me.Watermark.ImageViewMode = DevExpress.XtraPrinting.Drawing.ImageViewMode.Clip
+        'Me.Watermark.ImageTransparency = 195
+        'Me.Watermark.ShowBehind = True
 
         Try
             XrPictureBox2.Image = GetImageFromURL(GetCurrentColumnValue("MemoEdit37").ToString())

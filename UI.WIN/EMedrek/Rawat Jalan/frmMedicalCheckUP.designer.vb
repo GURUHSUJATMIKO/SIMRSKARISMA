@@ -21,6 +21,7 @@ Partial Class frmMedicalCheckUP
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.layoutControl = New DevExpress.XtraLayout.LayoutControl()
+        Me.MemoEdit17 = New DevExpress.XtraEditors.TextEdit()
         Me.MemoEdit16 = New DevExpress.XtraEditors.ComboBoxEdit()
         Me.barManager = New DevExpress.XtraBars.BarManager(Me.components)
         Me.barTop = New DevExpress.XtraBars.Bar()
@@ -399,11 +400,11 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem37 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.EmptySpaceItem8 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.LayoutControlItem91 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.MemoEdit17 = New DevExpress.XtraEditors.TextEdit()
         Me.LayoutControlItem178 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.EmptySpaceItem9 = New DevExpress.XtraLayout.EmptySpaceItem()
         CType(Me.layoutControl, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.layoutControl.SuspendLayout()
+        CType(Me.MemoEdit17.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MemoEdit16.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.barManager, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.progressBarSave, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -728,7 +729,6 @@ Partial Class frmMedicalCheckUP
         CType(Me.LayoutControlItem37, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EmptySpaceItem8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem91, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.MemoEdit17.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LayoutControlItem178, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.EmptySpaceItem9, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -921,6 +921,18 @@ Partial Class frmMedicalCheckUP
         Me.layoutControl.Size = New System.Drawing.Size(864, 523)
         Me.layoutControl.TabIndex = 0
         Me.layoutControl.Text = "LayoutControl1"
+        '
+        'MemoEdit17
+        '
+        Me.MemoEdit17.EnterMoveNextControl = True
+        Me.MemoEdit17.Location = New System.Drawing.Point(324, 289)
+        Me.MemoEdit17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.MemoEdit17.Name = "MemoEdit17"
+        Me.MemoEdit17.Properties.Appearance.Options.UseTextOptions = True
+        Me.MemoEdit17.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
+        Me.MemoEdit17.Size = New System.Drawing.Size(87, 20)
+        Me.MemoEdit17.StyleController = Me.layoutControl
+        Me.MemoEdit17.TabIndex = 40
         '
         'MemoEdit16
         '
@@ -4770,18 +4782,6 @@ Partial Class frmMedicalCheckUP
         Me.LayoutControlItem91.TextSize = New System.Drawing.Size(100, 20)
         Me.LayoutControlItem91.TextToControlDistance = 5
         '
-        'MemoEdit17
-        '
-        Me.MemoEdit17.EnterMoveNextControl = True
-        Me.MemoEdit17.Location = New System.Drawing.Point(324, 289)
-        Me.MemoEdit17.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.MemoEdit17.Name = "MemoEdit17"
-        Me.MemoEdit17.Properties.Appearance.Options.UseTextOptions = True
-        Me.MemoEdit17.Properties.Appearance.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far
-        Me.MemoEdit17.Size = New System.Drawing.Size(87, 20)
-        Me.MemoEdit17.StyleController = Me.layoutControl
-        Me.MemoEdit17.TabIndex = 40
-        '
         'LayoutControlItem178
         '
         Me.LayoutControlItem178.AppearanceItemCaption.Options.UseTextOptions = True
@@ -4822,6 +4822,7 @@ Partial Class frmMedicalCheckUP
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         CType(Me.layoutControl, System.ComponentModel.ISupportInitialize).EndInit()
         Me.layoutControl.ResumeLayout(False)
+        CType(Me.MemoEdit17.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MemoEdit16.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.barManager, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.progressBarSave, System.ComponentModel.ISupportInitialize).EndInit()
@@ -5146,7 +5147,6 @@ Partial Class frmMedicalCheckUP
         CType(Me.LayoutControlItem37, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EmptySpaceItem8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem91, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.MemoEdit17.Properties, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LayoutControlItem178, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.EmptySpaceItem9, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

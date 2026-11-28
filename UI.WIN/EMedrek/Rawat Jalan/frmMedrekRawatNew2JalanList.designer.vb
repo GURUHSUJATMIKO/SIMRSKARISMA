@@ -520,8 +520,13 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.tab7 = New DevExpress.XtraTab.XtraTabPage()
         Me.pdfGERD = New DevExpress.XtraPdfViewer.PdfViewer()
         Me.tab8 = New DevExpress.XtraTab.XtraTabPage()
+        Me.LayoutControl2 = New DevExpress.XtraLayout.LayoutControl()
+        Me.PdfViewerKonsul = New DevExpress.XtraPdfViewer.PdfViewer()
         Me.grdDokterBersama = New DevExpress.XtraGrid.GridControl()
         Me.grvDokterBersama = New DevExpress.XtraGrid.Views.Grid.GridView()
+        Me.LayoutControlGroup2 = New DevExpress.XtraLayout.LayoutControlGroup()
+        Me.LayoutControlItem8 = New DevExpress.XtraLayout.LayoutControlItem()
+        Me.LayoutControlItem9 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.btnHapusKonsul = New DevExpress.XtraEditors.LabelControl()
         Me.btnJawabKonsul = New DevExpress.XtraEditors.LabelControl()
         Me.tab9 = New DevExpress.XtraTab.XtraTabPage()
@@ -565,11 +570,6 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.LayoutControlItem63 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.lLISTANTRIAN = New DevExpress.XtraLayout.LayoutControlItem()
         Me.lLISTANTRIANCHEK = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LayoutControl2 = New DevExpress.XtraLayout.LayoutControl()
-        Me.LayoutControlGroup2 = New DevExpress.XtraLayout.LayoutControlGroup()
-        Me.LayoutControlItem8 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.PdfViewerKonsul = New DevExpress.XtraPdfViewer.PdfViewer()
-        Me.LayoutControlItem9 = New DevExpress.XtraLayout.LayoutControlItem()
         CType(Me.LayoutControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.LayoutControl1.SuspendLayout()
         CType(Me.txtLayananRataRata.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -888,8 +888,13 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.tab5.SuspendLayout()
         Me.tab7.SuspendLayout()
         Me.tab8.SuspendLayout()
+        CType(Me.LayoutControl2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.LayoutControl2.SuspendLayout()
         CType(Me.grdDokterBersama, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.grvDokterBersama, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlGroup2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.LayoutControlItem9, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tab9.SuspendLayout()
         Me.tab10.SuspendLayout()
         CType(Me.LayoutControl13, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -923,11 +928,6 @@ Partial Class frmMedrekRawatNew2JalanList
         CType(Me.LayoutControlItem63, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lLISTANTRIAN, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.lLISTANTRIANCHEK, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControl2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.LayoutControl2.SuspendLayout()
-        CType(Me.LayoutControlGroup2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.LayoutControlItem9, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnMasukPoli
@@ -5659,6 +5659,25 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.tab8.Size = New System.Drawing.Size(242, 258)
         Me.tab8.Text = "Konsultasi"
         '
+        'LayoutControl2
+        '
+        Me.LayoutControl2.Controls.Add(Me.PdfViewerKonsul)
+        Me.LayoutControl2.Controls.Add(Me.grdDokterBersama)
+        Me.LayoutControl2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.LayoutControl2.Location = New System.Drawing.Point(0, 37)
+        Me.LayoutControl2.Name = "LayoutControl2"
+        Me.LayoutControl2.Root = Me.LayoutControlGroup2
+        Me.LayoutControl2.Size = New System.Drawing.Size(242, 221)
+        Me.LayoutControl2.TabIndex = 64
+        Me.LayoutControl2.Text = "LayoutControl2"
+        '
+        'PdfViewerKonsul
+        '
+        Me.PdfViewerKonsul.Location = New System.Drawing.Point(2, 66)
+        Me.PdfViewerKonsul.Name = "PdfViewerKonsul"
+        Me.PdfViewerKonsul.Size = New System.Drawing.Size(238, 153)
+        Me.PdfViewerKonsul.TabIndex = 71
+        '
         'grdDokterBersama
         '
         Me.grdDokterBersama.Location = New System.Drawing.Point(2, 2)
@@ -5675,6 +5694,35 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.grvDokterBersama.OptionsBehavior.Editable = False
         Me.grvDokterBersama.OptionsBehavior.ReadOnly = True
         Me.grvDokterBersama.OptionsView.ShowGroupPanel = False
+        '
+        'LayoutControlGroup2
+        '
+        Me.LayoutControlGroup2.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
+        Me.LayoutControlGroup2.GroupBordersVisible = False
+        Me.LayoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem8, Me.LayoutControlItem9})
+        Me.LayoutControlGroup2.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlGroup2.Name = "LayoutControlGroup2"
+        Me.LayoutControlGroup2.Padding = New DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0)
+        Me.LayoutControlGroup2.Size = New System.Drawing.Size(242, 221)
+        Me.LayoutControlGroup2.TextVisible = False
+        '
+        'LayoutControlItem8
+        '
+        Me.LayoutControlItem8.Control = Me.grdDokterBersama
+        Me.LayoutControlItem8.Location = New System.Drawing.Point(0, 0)
+        Me.LayoutControlItem8.Name = "LayoutControlItem8"
+        Me.LayoutControlItem8.Size = New System.Drawing.Size(242, 64)
+        Me.LayoutControlItem8.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem8.TextVisible = False
+        '
+        'LayoutControlItem9
+        '
+        Me.LayoutControlItem9.Control = Me.PdfViewerKonsul
+        Me.LayoutControlItem9.Location = New System.Drawing.Point(0, 64)
+        Me.LayoutControlItem9.Name = "LayoutControlItem9"
+        Me.LayoutControlItem9.Size = New System.Drawing.Size(242, 157)
+        Me.LayoutControlItem9.TextSize = New System.Drawing.Size(0, 0)
+        Me.LayoutControlItem9.TextVisible = False
         '
         'btnHapusKonsul
         '
@@ -6074,54 +6122,6 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.lLISTANTRIANCHEK.TextSize = New System.Drawing.Size(0, 0)
         Me.lLISTANTRIANCHEK.TextVisible = False
         '
-        'LayoutControl2
-        '
-        Me.LayoutControl2.Controls.Add(Me.PdfViewerKonsul)
-        Me.LayoutControl2.Controls.Add(Me.grdDokterBersama)
-        Me.LayoutControl2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.LayoutControl2.Location = New System.Drawing.Point(0, 37)
-        Me.LayoutControl2.Name = "LayoutControl2"
-        Me.LayoutControl2.Root = Me.LayoutControlGroup2
-        Me.LayoutControl2.Size = New System.Drawing.Size(242, 221)
-        Me.LayoutControl2.TabIndex = 64
-        Me.LayoutControl2.Text = "LayoutControl2"
-        '
-        'LayoutControlGroup2
-        '
-        Me.LayoutControlGroup2.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
-        Me.LayoutControlGroup2.GroupBordersVisible = False
-        Me.LayoutControlGroup2.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.LayoutControlItem8, Me.LayoutControlItem9})
-        Me.LayoutControlGroup2.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlGroup2.Name = "LayoutControlGroup2"
-        Me.LayoutControlGroup2.Padding = New DevExpress.XtraLayout.Utils.Padding(0, 0, 0, 0)
-        Me.LayoutControlGroup2.Size = New System.Drawing.Size(242, 221)
-        Me.LayoutControlGroup2.TextVisible = False
-        '
-        'LayoutControlItem8
-        '
-        Me.LayoutControlItem8.Control = Me.grdDokterBersama
-        Me.LayoutControlItem8.Location = New System.Drawing.Point(0, 0)
-        Me.LayoutControlItem8.Name = "LayoutControlItem8"
-        Me.LayoutControlItem8.Size = New System.Drawing.Size(242, 64)
-        Me.LayoutControlItem8.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem8.TextVisible = False
-        '
-        'PdfViewerKonsul
-        '
-        Me.PdfViewerKonsul.Location = New System.Drawing.Point(2, 66)
-        Me.PdfViewerKonsul.Name = "PdfViewerKonsul"
-        Me.PdfViewerKonsul.Size = New System.Drawing.Size(238, 153)
-        Me.PdfViewerKonsul.TabIndex = 71
-        '
-        'LayoutControlItem9
-        '
-        Me.LayoutControlItem9.Control = Me.PdfViewerKonsul
-        Me.LayoutControlItem9.Location = New System.Drawing.Point(0, 64)
-        Me.LayoutControlItem9.Name = "LayoutControlItem9"
-        Me.LayoutControlItem9.Size = New System.Drawing.Size(242, 157)
-        Me.LayoutControlItem9.TextSize = New System.Drawing.Size(0, 0)
-        Me.LayoutControlItem9.TextVisible = False
-        '
         'frmMedrekRawatNew2JalanList
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -6451,8 +6451,13 @@ Partial Class frmMedrekRawatNew2JalanList
         Me.tab5.ResumeLayout(False)
         Me.tab7.ResumeLayout(False)
         Me.tab8.ResumeLayout(False)
+        CType(Me.LayoutControl2, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.LayoutControl2.ResumeLayout(False)
         CType(Me.grdDokterBersama, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.grvDokterBersama, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlGroup2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.LayoutControlItem9, System.ComponentModel.ISupportInitialize).EndInit()
         Me.tab9.ResumeLayout(False)
         Me.tab10.ResumeLayout(False)
         CType(Me.LayoutControl13, System.ComponentModel.ISupportInitialize).EndInit()
@@ -6486,11 +6491,6 @@ Partial Class frmMedrekRawatNew2JalanList
         CType(Me.LayoutControlItem63, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lLISTANTRIAN, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.lLISTANTRIANCHEK, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControl2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.LayoutControl2.ResumeLayout(False)
-        CType(Me.LayoutControlGroup2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.LayoutControlItem9, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub

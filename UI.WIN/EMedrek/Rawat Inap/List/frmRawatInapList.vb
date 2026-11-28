@@ -1656,10 +1656,12 @@ Public Class frmRawatInapList
 
             grvUpload.Columns("NamaUpload").Caption = "Jenis Pemeriksaan"
             grvUpload.Columns("Tanggal").Caption = "Tanggal Masuk"
+            grvUpload.Columns("TanggalUpload").Caption = "Tanggal Pemeriksaan"
 
             grvUpload.Columns("AlamatUpload").VisibleIndex = -1
             grvUpload.Columns("Type").VisibleIndex = -1
             grvUpload.Columns("Kodeupload").VisibleIndex = -1
+            grvUpload.Columns("Tanggal").VisibleIndex = -1
 
             grvUpload.BestFitColumns()
 

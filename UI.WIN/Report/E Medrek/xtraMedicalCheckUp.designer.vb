@@ -29,25 +29,35 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrLabel2 = New DevExpress.XtraReports.UI.XRLabel()
         Me.XrTable1 = New DevExpress.XtraReports.UI.XRTable()
         Me.XrTableRow1 = New DevExpress.XtraReports.UI.XRTableRow()
+        Me.XrTableCell286 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell1 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell2 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell3 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableRow2 = New DevExpress.XtraReports.UI.XRTableRow()
+        Me.XrTableCell287 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell4 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell5 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell6 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableRow3 = New DevExpress.XtraReports.UI.XRTableRow()
+        Me.XrTableCell288 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell7 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell8 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell9 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableRow4 = New DevExpress.XtraReports.UI.XRTableRow()
+        Me.XrTableCell289 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell10 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell11 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell12 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableRow5 = New DevExpress.XtraReports.UI.XRTableRow()
+        Me.XrTableCell290 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell13 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell14 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell15 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableRow65 = New DevExpress.XtraReports.UI.XRTableRow()
+        Me.XrTableCell291 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell280 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell281 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell282 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrPictureBox1 = New DevExpress.XtraReports.UI.XRPictureBox()
         Me.XrTable2 = New DevExpress.XtraReports.UI.XRTable()
         Me.XrTableRow6 = New DevExpress.XtraReports.UI.XRTableRow()
@@ -204,6 +214,10 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrCheckBox12 = New DevExpress.XtraReports.UI.XRCheckBox()
         Me.XrTableRow14 = New DevExpress.XtraReports.UI.XRTableRow()
         Me.XrTableCell52 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableRow64 = New DevExpress.XtraReports.UI.XRTableRow()
+        Me.XrTableCell277 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell278 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.XrTableCell279 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableRow46 = New DevExpress.XtraReports.UI.XRTableRow()
         Me.XrTableCell170 = New DevExpress.XtraReports.UI.XRTableCell()
         Me.XrTableCell171 = New DevExpress.XtraReports.UI.XRTableCell()
@@ -502,20 +516,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.sR = New DevExpress.XtraReports.UI.CalculatedField()
         Me.sTanggalLahir = New DevExpress.XtraReports.UI.CalculatedField()
         Me.bindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.XrTableRow64 = New DevExpress.XtraReports.UI.XRTableRow()
-        Me.XrTableCell277 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell278 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell279 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell282 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell281 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell280 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableRow65 = New DevExpress.XtraReports.UI.XRTableRow()
-        Me.XrTableCell286 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell287 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell288 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell289 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell290 = New DevExpress.XtraReports.UI.XRTableCell()
-        Me.XrTableCell291 = New DevExpress.XtraReports.UI.XRTableCell()
+        Me.sDataS = New DevExpress.XtraReports.UI.CalculatedField()
         CType(Me.XrTable1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.XrTable2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.XrTable4, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -594,6 +595,18 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableRow1.StylePriority.UseBorders = False
         Me.XrTableRow1.Weight = 1.0R
         '
+        'XrTableCell286
+        '
+        Me.XrTableCell286.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top), DevExpress.XtraPrinting.BorderSide)
+        Me.XrTableCell286.BorderWidth = 1.0!
+        Me.XrTableCell286.Name = "XrTableCell286"
+        Me.XrTableCell286.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
+        Me.XrTableCell286.RowSpan = 6
+        Me.XrTableCell286.StylePriority.UseBorders = False
+        Me.XrTableCell286.StylePriority.UseBorderWidth = False
+        Me.XrTableCell286.StylePriority.UsePadding = False
+        Me.XrTableCell286.Weight = 4.9228521289639R
+        '
         'XrTableCell1
         '
         Me.XrTableCell1.Borders = DevExpress.XtraPrinting.BorderSide.Top
@@ -602,7 +615,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell1.StylePriority.UseBorders = False
         Me.XrTableCell1.StylePriority.UsePadding = False
         Me.XrTableCell1.Text = "Nama Pasien"
-        Me.XrTableCell1.Weight = 2.3171157774187296R
+        Me.XrTableCell1.Weight = 2.31711577741873R
         '
         'XrTableCell2
         '
@@ -612,7 +625,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell2.StylePriority.UseTextAlignment = False
         Me.XrTableCell2.Text = ":"
         Me.XrTableCell2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrTableCell2.Weight = 0.057458834419369331R
+        Me.XrTableCell2.Weight = 0.0574588344193693R
         '
         'XrTableCell3
         '
@@ -620,13 +633,23 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell3.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "NAMAPASIEN")})
         Me.XrTableCell3.Name = "XrTableCell3"
         Me.XrTableCell3.StylePriority.UseBorders = False
-        Me.XrTableCell3.Weight = 4.1205728391005438R
+        Me.XrTableCell3.Weight = 4.12057283910054R
         '
         'XrTableRow2
         '
         Me.XrTableRow2.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell287, Me.XrTableCell4, Me.XrTableCell5, Me.XrTableCell6})
         Me.XrTableRow2.Name = "XrTableRow2"
         Me.XrTableRow2.Weight = 1.0R
+        '
+        'XrTableCell287
+        '
+        Me.XrTableCell287.Borders = DevExpress.XtraPrinting.BorderSide.Left
+        Me.XrTableCell287.Name = "XrTableCell287"
+        Me.XrTableCell287.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
+        Me.XrTableCell287.StylePriority.UseBorders = False
+        Me.XrTableCell287.StylePriority.UsePadding = False
+        Me.XrTableCell287.Text = "XrTableCell287"
+        Me.XrTableCell287.Weight = 4.9228521289639R
         '
         'XrTableCell4
         '
@@ -636,7 +659,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell4.StylePriority.UseBorders = False
         Me.XrTableCell4.StylePriority.UsePadding = False
         Me.XrTableCell4.Text = "Nomor Rekam Medis"
-        Me.XrTableCell4.Weight = 2.3171157774187296R
+        Me.XrTableCell4.Weight = 2.31711577741873R
         '
         'XrTableCell5
         '
@@ -644,7 +667,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell5.StylePriority.UseTextAlignment = False
         Me.XrTableCell5.Text = ":"
         Me.XrTableCell5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrTableCell5.Weight = 0.057458834419369331R
+        Me.XrTableCell5.Weight = 0.0574588344193693R
         '
         'XrTableCell6
         '
@@ -652,13 +675,23 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell6.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "KDCUSTOMER")})
         Me.XrTableCell6.Name = "XrTableCell6"
         Me.XrTableCell6.StylePriority.UseBorders = False
-        Me.XrTableCell6.Weight = 4.1205728391005438R
+        Me.XrTableCell6.Weight = 4.12057283910054R
         '
         'XrTableRow3
         '
         Me.XrTableRow3.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell288, Me.XrTableCell7, Me.XrTableCell8, Me.XrTableCell9})
         Me.XrTableRow3.Name = "XrTableRow3"
         Me.XrTableRow3.Weight = 1.0R
+        '
+        'XrTableCell288
+        '
+        Me.XrTableCell288.Borders = DevExpress.XtraPrinting.BorderSide.Left
+        Me.XrTableCell288.Name = "XrTableCell288"
+        Me.XrTableCell288.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
+        Me.XrTableCell288.StylePriority.UseBorders = False
+        Me.XrTableCell288.StylePriority.UsePadding = False
+        Me.XrTableCell288.Text = "XrTableCell288"
+        Me.XrTableCell288.Weight = 4.9228521289639R
         '
         'XrTableCell7
         '
@@ -668,7 +701,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell7.StylePriority.UseBorders = False
         Me.XrTableCell7.StylePriority.UsePadding = False
         Me.XrTableCell7.Text = "Tanggal Lahir"
-        Me.XrTableCell7.Weight = 2.3171157774187296R
+        Me.XrTableCell7.Weight = 2.31711577741873R
         '
         'XrTableCell8
         '
@@ -676,7 +709,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell8.StylePriority.UseTextAlignment = False
         Me.XrTableCell8.Text = ":"
         Me.XrTableCell8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrTableCell8.Weight = 0.057458834419369331R
+        Me.XrTableCell8.Weight = 0.0574588344193693R
         '
         'XrTableCell9
         '
@@ -684,13 +717,23 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell9.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sTanggalLahir")})
         Me.XrTableCell9.Name = "XrTableCell9"
         Me.XrTableCell9.StylePriority.UseBorders = False
-        Me.XrTableCell9.Weight = 4.1205728391005438R
+        Me.XrTableCell9.Weight = 4.12057283910054R
         '
         'XrTableRow4
         '
         Me.XrTableRow4.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell289, Me.XrTableCell10, Me.XrTableCell11, Me.XrTableCell12})
         Me.XrTableRow4.Name = "XrTableRow4"
         Me.XrTableRow4.Weight = 1.0R
+        '
+        'XrTableCell289
+        '
+        Me.XrTableCell289.Borders = DevExpress.XtraPrinting.BorderSide.Left
+        Me.XrTableCell289.Name = "XrTableCell289"
+        Me.XrTableCell289.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
+        Me.XrTableCell289.StylePriority.UseBorders = False
+        Me.XrTableCell289.StylePriority.UsePadding = False
+        Me.XrTableCell289.Text = "XrTableCell289"
+        Me.XrTableCell289.Weight = 4.9228521289639R
         '
         'XrTableCell10
         '
@@ -700,7 +743,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell10.StylePriority.UseBorders = False
         Me.XrTableCell10.StylePriority.UsePadding = False
         Me.XrTableCell10.Text = "Jenis kelamin"
-        Me.XrTableCell10.Weight = 2.3171157774187296R
+        Me.XrTableCell10.Weight = 2.31711577741873R
         '
         'XrTableCell11
         '
@@ -708,7 +751,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell11.StylePriority.UseTextAlignment = False
         Me.XrTableCell11.Text = ":"
         Me.XrTableCell11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrTableCell11.Weight = 0.057458834419369331R
+        Me.XrTableCell11.Weight = 0.0574588344193693R
         '
         'XrTableCell12
         '
@@ -716,13 +759,23 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell12.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "MemoEdit39")})
         Me.XrTableCell12.Name = "XrTableCell12"
         Me.XrTableCell12.StylePriority.UseBorders = False
-        Me.XrTableCell12.Weight = 4.1205728391005438R
+        Me.XrTableCell12.Weight = 4.12057283910054R
         '
         'XrTableRow5
         '
         Me.XrTableRow5.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell290, Me.XrTableCell13, Me.XrTableCell14, Me.XrTableCell15})
         Me.XrTableRow5.Name = "XrTableRow5"
         Me.XrTableRow5.Weight = 1.0R
+        '
+        'XrTableCell290
+        '
+        Me.XrTableCell290.Borders = DevExpress.XtraPrinting.BorderSide.Left
+        Me.XrTableCell290.Name = "XrTableCell290"
+        Me.XrTableCell290.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
+        Me.XrTableCell290.StylePriority.UseBorders = False
+        Me.XrTableCell290.StylePriority.UsePadding = False
+        Me.XrTableCell290.Text = "XrTableCell290"
+        Me.XrTableCell290.Weight = 4.9228521289639R
         '
         'XrTableCell13
         '
@@ -732,7 +785,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell13.StylePriority.UseBorders = False
         Me.XrTableCell13.StylePriority.UsePadding = False
         Me.XrTableCell13.Text = "Tanggal Pemeriksaan"
-        Me.XrTableCell13.Weight = 2.3171157774187296R
+        Me.XrTableCell13.Weight = 2.31711577741873R
         '
         'XrTableCell14
         '
@@ -740,7 +793,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell14.StylePriority.UseTextAlignment = False
         Me.XrTableCell14.Text = ":"
         Me.XrTableCell14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrTableCell14.Weight = 0.057458834419369331R
+        Me.XrTableCell14.Weight = 0.0574588344193693R
         '
         'XrTableCell15
         '
@@ -748,7 +801,50 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell15.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "DATE", "{0:dd/MM/yyyy}")})
         Me.XrTableCell15.Name = "XrTableCell15"
         Me.XrTableCell15.StylePriority.UseBorders = False
-        Me.XrTableCell15.Weight = 4.1205728391005438R
+        Me.XrTableCell15.Weight = 4.12057283910054R
+        '
+        'XrTableRow65
+        '
+        Me.XrTableRow65.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell291, Me.XrTableCell280, Me.XrTableCell281, Me.XrTableCell282})
+        Me.XrTableRow65.Name = "XrTableRow65"
+        Me.XrTableRow65.Weight = 1.0R
+        '
+        'XrTableCell291
+        '
+        Me.XrTableCell291.Borders = DevExpress.XtraPrinting.BorderSide.Left
+        Me.XrTableCell291.Name = "XrTableCell291"
+        Me.XrTableCell291.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
+        Me.XrTableCell291.StylePriority.UseBorders = False
+        Me.XrTableCell291.StylePriority.UsePadding = False
+        Me.XrTableCell291.Text = "XrTableCell291"
+        Me.XrTableCell291.Weight = 4.9228521289639R
+        '
+        'XrTableCell280
+        '
+        Me.XrTableCell280.Borders = DevExpress.XtraPrinting.BorderSide.None
+        Me.XrTableCell280.Name = "XrTableCell280"
+        Me.XrTableCell280.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
+        Me.XrTableCell280.StylePriority.UseBorders = False
+        Me.XrTableCell280.StylePriority.UsePadding = False
+        Me.XrTableCell280.Text = "Dokter"
+        Me.XrTableCell280.Weight = 2.31711577741873R
+        '
+        'XrTableCell281
+        '
+        Me.XrTableCell281.Name = "XrTableCell281"
+        Me.XrTableCell281.StylePriority.UseTextAlignment = False
+        Me.XrTableCell281.Text = ":"
+        Me.XrTableCell281.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
+        Me.XrTableCell281.Weight = 0.0574588344193693R
+        '
+        'XrTableCell282
+        '
+        Me.XrTableCell282.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrTableCell282.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "NAMADOKTER")})
+        Me.XrTableCell282.Name = "XrTableCell282"
+        Me.XrTableCell282.StylePriority.UseBorders = False
+        Me.XrTableCell282.Text = "XrTableCell282"
+        Me.XrTableCell282.Weight = 4.12057283910054R
         '
         'XrPictureBox1
         '
@@ -2018,6 +2114,37 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell52.Text = "II. Pemeriksaan Fisik"
         Me.XrTableCell52.Weight = 9.35418007077397R
         '
+        'XrTableRow64
+        '
+        Me.XrTableRow64.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell277, Me.XrTableCell278, Me.XrTableCell279})
+        Me.XrTableRow64.Name = "XrTableRow64"
+        Me.XrTableRow64.Weight = 1.0R
+        '
+        'XrTableCell277
+        '
+        Me.XrTableCell277.Borders = DevExpress.XtraPrinting.BorderSide.Left
+        Me.XrTableCell277.Name = "XrTableCell277"
+        Me.XrTableCell277.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
+        Me.XrTableCell277.StylePriority.UseBorders = False
+        Me.XrTableCell277.StylePriority.UsePadding = False
+        Me.XrTableCell277.Text = "Kesadaran"
+        Me.XrTableCell277.Weight = 3.07493903021653R
+        '
+        'XrTableCell278
+        '
+        Me.XrTableCell278.Name = "XrTableCell278"
+        Me.XrTableCell278.Text = ":"
+        Me.XrTableCell278.Weight = 0.199299718727616R
+        '
+        'XrTableCell279
+        '
+        Me.XrTableCell279.Borders = DevExpress.XtraPrinting.BorderSide.Right
+        Me.XrTableCell279.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "MemoEdit16")})
+        Me.XrTableCell279.Name = "XrTableCell279"
+        Me.XrTableCell279.StylePriority.UseBorders = False
+        Me.XrTableCell279.Text = "XrTableCell279"
+        Me.XrTableCell279.Weight = 11.6396608571637R
+        '
         'XrTableRow46
         '
         Me.XrTableRow46.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell170, Me.XrTableCell171, Me.XrTableCell182})
@@ -2201,13 +2328,13 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.XrTableCell72.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sVital")})
         Me.XrTableCell72.Name = "XrTableCell72"
-        Me.XrTableCell72.Weight = 3.0937343448879839R
+        Me.XrTableCell72.Weight = 3.09373434488798R
         '
         'XrTableCell84
         '
         Me.XrTableCell84.Name = "XrTableCell84"
         Me.XrTableCell84.Text = "N :"
-        Me.XrTableCell84.Weight = 0.34780726918840066R
+        Me.XrTableCell84.Weight = 0.347807269188401R
         '
         'XrTableCell96
         '
@@ -2215,7 +2342,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell96.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sN")})
         Me.XrTableCell96.Name = "XrTableCell96"
         Me.XrTableCell96.StylePriority.UseBorders = False
-        Me.XrTableCell96.Weight = 5.5060217083773306R
+        Me.XrTableCell96.Weight = 5.50602170837733R
         '
         'XrTableRow18
         '
@@ -2251,15 +2378,15 @@ Partial Public Class xtraMedicalCheckUp
         '
         'XrTableCell64
         '
-        Me.XrTableCell64.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sS")})
+        Me.XrTableCell64.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sDataS")})
         Me.XrTableCell64.Name = "XrTableCell64"
-        Me.XrTableCell64.Weight = 3.0937374645365212R
+        Me.XrTableCell64.Weight = 3.09373746453652R
         '
         'XrTableCell65
         '
         Me.XrTableCell65.Name = "XrTableCell65"
         Me.XrTableCell65.Text = "R :"
-        Me.XrTableCell65.Weight = 0.34780624930330473R
+        Me.XrTableCell65.Weight = 0.347806249303305R
         '
         'XrTableCell66
         '
@@ -2267,7 +2394,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell66.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "sR")})
         Me.XrTableCell66.Name = "XrTableCell66"
         Me.XrTableCell66.StylePriority.UseBorders = False
-        Me.XrTableCell66.Weight = 5.5060210484516778R
+        Me.XrTableCell66.Weight = 5.50602104845168R
         '
         'GroupHeader1
         '
@@ -3115,7 +3242,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell102.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox69, Me.XrCheckBox70})
         Me.XrTableCell102.Name = "XrTableCell102"
         Me.XrTableCell102.StylePriority.UseBorders = False
-        Me.XrTableCell102.Weight = 6.3846482086181622R
+        Me.XrTableCell102.Weight = 6.38464820861816R
         '
         'XrCheckBox69
         '
@@ -3174,7 +3301,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell103.Borders = DevExpress.XtraPrinting.BorderSide.Right
         Me.XrTableCell103.Name = "XrTableCell103"
         Me.XrTableCell103.StylePriority.UseBorders = False
-        Me.XrTableCell103.Weight = 6.3846482086181622R
+        Me.XrTableCell103.Weight = 6.38464820861816R
         '
         'XrTableRow26
         '
@@ -3211,7 +3338,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell104.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox71, Me.XrCheckBox72})
         Me.XrTableCell104.Name = "XrTableCell104"
         Me.XrTableCell104.StylePriority.UseBorders = False
-        Me.XrTableCell104.Weight = 6.3846482086181622R
+        Me.XrTableCell104.Weight = 6.38464820861816R
         '
         'XrCheckBox71
         '
@@ -3272,7 +3399,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell105.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox73, Me.XrCheckBox74})
         Me.XrTableCell105.Name = "XrTableCell105"
         Me.XrTableCell105.StylePriority.UseBorders = False
-        Me.XrTableCell105.Weight = 6.3846482086181622R
+        Me.XrTableCell105.Weight = 6.38464820861816R
         '
         'XrCheckBox73
         '
@@ -3335,7 +3462,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell109.Borders = CType((DevExpress.XtraPrinting.BorderSide.Top Or DevExpress.XtraPrinting.BorderSide.Right), DevExpress.XtraPrinting.BorderSide)
         Me.XrTableCell109.Name = "XrTableCell109"
         Me.XrTableCell109.StylePriority.UseBorders = False
-        Me.XrTableCell109.Weight = 6.3846482086181622R
+        Me.XrTableCell109.Weight = 6.38464820861816R
         '
         'XrTableRow33
         '
@@ -3374,7 +3501,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell227.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox75, Me.XrCheckBox76})
         Me.XrTableCell227.Name = "XrTableCell227"
         Me.XrTableCell227.StylePriority.UseBorders = False
-        Me.XrTableCell227.Weight = 6.3846482086181622R
+        Me.XrTableCell227.Weight = 6.38464820861816R
         '
         'XrCheckBox75
         '
@@ -3433,7 +3560,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell234.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox77, Me.XrCheckBox78})
         Me.XrTableCell234.Name = "XrTableCell234"
         Me.XrTableCell234.StylePriority.UseBorders = False
-        Me.XrTableCell234.Weight = 6.3846482086181622R
+        Me.XrTableCell234.Weight = 6.38464820861816R
         '
         'XrCheckBox77
         '
@@ -3492,7 +3619,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell242.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox79, Me.XrCheckBox80})
         Me.XrTableCell242.Name = "XrTableCell242"
         Me.XrTableCell242.StylePriority.UseBorders = False
-        Me.XrTableCell242.Weight = 6.3846482086181622R
+        Me.XrTableCell242.Weight = 6.38464820861816R
         '
         'XrCheckBox79
         '
@@ -3551,7 +3678,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell250.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox81, Me.XrCheckBox82})
         Me.XrTableCell250.Name = "XrTableCell250"
         Me.XrTableCell250.StylePriority.UseBorders = False
-        Me.XrTableCell250.Weight = 6.3846482086181622R
+        Me.XrTableCell250.Weight = 6.38464820861816R
         '
         'XrCheckBox81
         '
@@ -3610,7 +3737,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell254.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox83, Me.XrCheckBox84})
         Me.XrTableCell254.Name = "XrTableCell254"
         Me.XrTableCell254.StylePriority.UseBorders = False
-        Me.XrTableCell254.Weight = 6.3846482086181622R
+        Me.XrTableCell254.Weight = 6.38464820861816R
         '
         'XrCheckBox83
         '
@@ -3670,7 +3797,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell113.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox85, Me.XrCheckBox86})
         Me.XrTableCell113.Name = "XrTableCell113"
         Me.XrTableCell113.StylePriority.UseBorders = False
-        Me.XrTableCell113.Weight = 6.3846482086181622R
+        Me.XrTableCell113.Weight = 6.38464820861816R
         '
         'XrCheckBox85
         '
@@ -3730,7 +3857,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell117.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox87, Me.XrCheckBox88})
         Me.XrTableCell117.Name = "XrTableCell117"
         Me.XrTableCell117.StylePriority.UseBorders = False
-        Me.XrTableCell117.Weight = 6.3846482086181622R
+        Me.XrTableCell117.Weight = 6.38464820861816R
         '
         'XrCheckBox87
         '
@@ -3790,7 +3917,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell121.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox89, Me.XrCheckBox90})
         Me.XrTableCell121.Name = "XrTableCell121"
         Me.XrTableCell121.StylePriority.UseBorders = False
-        Me.XrTableCell121.Weight = 6.3846482086181622R
+        Me.XrTableCell121.Weight = 6.38464820861816R
         '
         'XrCheckBox89
         '
@@ -3850,7 +3977,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell258.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox91, Me.XrCheckBox92})
         Me.XrTableCell258.Name = "XrTableCell258"
         Me.XrTableCell258.StylePriority.UseBorders = False
-        Me.XrTableCell258.Weight = 6.3846482086181622R
+        Me.XrTableCell258.Weight = 6.38464820861816R
         '
         'XrCheckBox91
         '
@@ -3910,7 +4037,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell125.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox93, Me.XrCheckBox94})
         Me.XrTableCell125.Name = "XrTableCell125"
         Me.XrTableCell125.StylePriority.UseBorders = False
-        Me.XrTableCell125.Weight = 6.3846482086181622R
+        Me.XrTableCell125.Weight = 6.38464820861816R
         '
         'XrCheckBox93
         '
@@ -3950,7 +4077,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell54.StylePriority.UseFont = False
         Me.XrTableCell54.StylePriority.UsePadding = False
         Me.XrTableCell54.Text = "III. Pemeriksaan Penunjang"
-        Me.XrTableCell54.Weight = 7.8900012207031223R
+        Me.XrTableCell54.Weight = 7.89000122070312R
         '
         'XrTableRow35
         '
@@ -3986,7 +4113,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell132.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "MemoEdit26")})
         Me.XrTableCell132.Name = "XrTableCell132"
         Me.XrTableCell132.StylePriority.UseBorders = False
-        Me.XrTableCell132.Weight = 6.5456201934814429R
+        Me.XrTableCell132.Weight = 6.54562019348144R
         '
         'XrTableRow36
         '
@@ -4022,7 +4149,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell133.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "MemoEdit27")})
         Me.XrTableCell133.Name = "XrTableCell133"
         Me.XrTableCell133.StylePriority.UseBorders = False
-        Me.XrTableCell133.Weight = 6.5456201934814429R
+        Me.XrTableCell133.Weight = 6.54562019348144R
         '
         'XrTableRow38
         '
@@ -4058,7 +4185,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell141.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "MemoEdit28")})
         Me.XrTableCell141.Name = "XrTableCell141"
         Me.XrTableCell141.StylePriority.UseBorders = False
-        Me.XrTableCell141.Weight = 6.5456201934814429R
+        Me.XrTableCell141.Weight = 6.54562019348144R
         '
         'XrTableRow37
         '
@@ -4094,7 +4221,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell137.Controls.AddRange(New DevExpress.XtraReports.UI.XRControl() {Me.XrCheckBox18, Me.XrCheckBox17, Me.XrCheckBox16})
         Me.XrTableCell137.Name = "XrTableCell137"
         Me.XrTableCell137.StylePriority.UseBorders = False
-        Me.XrTableCell137.Weight = 6.5456201934814429R
+        Me.XrTableCell137.Weight = 6.54562019348144R
         '
         'XrCheckBox18
         '
@@ -4165,7 +4292,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell145.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "MemoEdit29")})
         Me.XrTableCell145.Name = "XrTableCell145"
         Me.XrTableCell145.StylePriority.UseBorders = False
-        Me.XrTableCell145.Weight = 6.5456201934814429R
+        Me.XrTableCell145.Weight = 6.54562019348144R
         '
         'XrTableRow55
         '
@@ -4183,7 +4310,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell259.StylePriority.UseFont = False
         Me.XrTableCell259.StylePriority.UsePadding = False
         Me.XrTableCell259.Text = "IV. KESIMPULAN HASIL PEMERIKSAAN INI"
-        Me.XrTableCell259.Weight = 7.8900012207031223R
+        Me.XrTableCell259.Weight = 7.89000122070312R
         '
         'XrTableRow57
         '
@@ -4202,7 +4329,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell260.StylePriority.UseBorders = False
         Me.XrTableCell260.StylePriority.UseFont = False
         Me.XrTableCell260.StylePriority.UsePadding = False
-        Me.XrTableCell260.Weight = 7.8900012207031223R
+        Me.XrTableCell260.Weight = 7.89000122070312R
         '
         'XrCheckBox97
         '
@@ -4256,7 +4383,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell261.StylePriority.UseFont = False
         Me.XrTableCell261.StylePriority.UsePadding = False
         Me.XrTableCell261.Text = "V. CATATAN"
-        Me.XrTableCell261.Weight = 7.8900012207031223R
+        Me.XrTableCell261.Weight = 7.89000122070312R
         '
         'XrTableRow58
         '
@@ -4275,7 +4402,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell262.StylePriority.UseBorders = False
         Me.XrTableCell262.StylePriority.UseFont = False
         Me.XrTableCell262.StylePriority.UsePadding = False
-        Me.XrTableCell262.Weight = 7.8900012207031223R
+        Me.XrTableCell262.Weight = 7.89000122070312R
         '
         'XrTableRow59
         '
@@ -4293,7 +4420,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell263.StylePriority.UseFont = False
         Me.XrTableCell263.StylePriority.UsePadding = False
         Me.XrTableCell263.Text = "VI. SARAN"
-        Me.XrTableCell263.Weight = 7.8900012207031223R
+        Me.XrTableCell263.Weight = 7.89000122070312R
         '
         'XrTableRow60
         '
@@ -4312,7 +4439,7 @@ Partial Public Class xtraMedicalCheckUp
         Me.XrTableCell264.StylePriority.UseBorders = False
         Me.XrTableCell264.StylePriority.UseFont = False
         Me.XrTableCell264.StylePriority.UsePadding = False
-        Me.XrTableCell264.Weight = 7.8900012207031223R
+        Me.XrTableCell264.Weight = 7.89000122070312R
         '
         'XrPictureBox2
         '
@@ -4330,7 +4457,7 @@ Partial Public Class xtraMedicalCheckUp
         '
         'sBMI
         '
-        Me.sBMI.Expression = "[MemoEdit7] + ' Kg/m2'"
+        Me.sBMI.Expression = "[MemoEdit6] + ' Kg/m2'"
         Me.sBMI.Name = "sBMI"
         '
         'sTB
@@ -4345,12 +4472,12 @@ Partial Public Class xtraMedicalCheckUp
         '
         'sN
         '
-        Me.sN.Expression = "[MemoEdit10] + ' x/m'             + 'Spo2 : ' + [MemoEdit15]"
+        Me.sN.Expression = "[MemoEdit10] + ' x/m' + '              Spo2 : ' + [MemoEdit15] + ' %'"
         Me.sN.Name = "sN"
         '
         'sS
         '
-        Me.sS.Expression = "[CheckEdit11] + ' �C'"
+        Me.sS.Expression = "[CheckEdit11]"
         Me.sS.Name = "sS"
         '
         'sR
@@ -4367,136 +4494,15 @@ Partial Public Class xtraMedicalCheckUp
         '
         Me.bindingSource.DataSource = GetType(DataAccess.S_DIGITAL_MEDICALCHECKUP)
         '
-        'XrTableRow64
+        'sDataS
         '
-        Me.XrTableRow64.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell277, Me.XrTableCell278, Me.XrTableCell279})
-        Me.XrTableRow64.Name = "XrTableRow64"
-        Me.XrTableRow64.Weight = 1.0R
-        '
-        'XrTableCell277
-        '
-        Me.XrTableCell277.Borders = DevExpress.XtraPrinting.BorderSide.Left
-        Me.XrTableCell277.Name = "XrTableCell277"
-        Me.XrTableCell277.Padding = New DevExpress.XtraPrinting.PaddingInfo(20, 0, 0, 0, 100.0!)
-        Me.XrTableCell277.StylePriority.UseBorders = False
-        Me.XrTableCell277.StylePriority.UsePadding = False
-        Me.XrTableCell277.Text = "Kesadaran"
-        Me.XrTableCell277.Weight = 3.07493903021653R
-        '
-        'XrTableCell278
-        '
-        Me.XrTableCell278.Name = "XrTableCell278"
-        Me.XrTableCell278.Text = ":"
-        Me.XrTableCell278.Weight = 0.199299718727616R
-        '
-        'XrTableCell279
-        '
-        Me.XrTableCell279.Borders = DevExpress.XtraPrinting.BorderSide.Right
-        Me.XrTableCell279.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "MemoEdit16")})
-        Me.XrTableCell279.Name = "XrTableCell279"
-        Me.XrTableCell279.StylePriority.UseBorders = False
-        Me.XrTableCell279.Text = "XrTableCell279"
-        Me.XrTableCell279.Weight = 11.6396608571637R
-        '
-        'XrTableCell282
-        '
-        Me.XrTableCell282.Borders = DevExpress.XtraPrinting.BorderSide.Right
-        Me.XrTableCell282.DataBindings.AddRange(New DevExpress.XtraReports.UI.XRBinding() {New DevExpress.XtraReports.UI.XRBinding("Text", Nothing, "NAMADOKTER")})
-        Me.XrTableCell282.Name = "XrTableCell282"
-        Me.XrTableCell282.StylePriority.UseBorders = False
-        Me.XrTableCell282.Text = "XrTableCell282"
-        Me.XrTableCell282.Weight = 4.1205728391005438R
-        '
-        'XrTableCell281
-        '
-        Me.XrTableCell281.Name = "XrTableCell281"
-        Me.XrTableCell281.StylePriority.UseTextAlignment = False
-        Me.XrTableCell281.Text = ":"
-        Me.XrTableCell281.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter
-        Me.XrTableCell281.Weight = 0.057458834419369331R
-        '
-        'XrTableCell280
-        '
-        Me.XrTableCell280.Borders = DevExpress.XtraPrinting.BorderSide.None
-        Me.XrTableCell280.Name = "XrTableCell280"
-        Me.XrTableCell280.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
-        Me.XrTableCell280.StylePriority.UseBorders = False
-        Me.XrTableCell280.StylePriority.UsePadding = False
-        Me.XrTableCell280.Text = "Dokter"
-        Me.XrTableCell280.Weight = 2.3171157774187296R
-        '
-        'XrTableRow65
-        '
-        Me.XrTableRow65.Cells.AddRange(New DevExpress.XtraReports.UI.XRTableCell() {Me.XrTableCell291, Me.XrTableCell280, Me.XrTableCell281, Me.XrTableCell282})
-        Me.XrTableRow65.Name = "XrTableRow65"
-        Me.XrTableRow65.Weight = 1.0R
-        '
-        'XrTableCell286
-        '
-        Me.XrTableCell286.Borders = CType((DevExpress.XtraPrinting.BorderSide.Left Or DevExpress.XtraPrinting.BorderSide.Top), DevExpress.XtraPrinting.BorderSide)
-        Me.XrTableCell286.BorderWidth = 1.0!
-        Me.XrTableCell286.Name = "XrTableCell286"
-        Me.XrTableCell286.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
-        Me.XrTableCell286.RowSpan = 6
-        Me.XrTableCell286.StylePriority.UseBorders = False
-        Me.XrTableCell286.StylePriority.UseBorderWidth = False
-        Me.XrTableCell286.StylePriority.UsePadding = False
-        Me.XrTableCell286.Weight = 4.9228521289639042R
-        '
-        'XrTableCell287
-        '
-        Me.XrTableCell287.Borders = DevExpress.XtraPrinting.BorderSide.Left
-        Me.XrTableCell287.Name = "XrTableCell287"
-        Me.XrTableCell287.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
-        Me.XrTableCell287.StylePriority.UseBorders = False
-        Me.XrTableCell287.StylePriority.UsePadding = False
-        Me.XrTableCell287.Text = "XrTableCell287"
-        Me.XrTableCell287.Weight = 4.9228521289639042R
-        '
-        'XrTableCell288
-        '
-        Me.XrTableCell288.Borders = DevExpress.XtraPrinting.BorderSide.Left
-        Me.XrTableCell288.Name = "XrTableCell288"
-        Me.XrTableCell288.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
-        Me.XrTableCell288.StylePriority.UseBorders = False
-        Me.XrTableCell288.StylePriority.UsePadding = False
-        Me.XrTableCell288.Text = "XrTableCell288"
-        Me.XrTableCell288.Weight = 4.9228521289639042R
-        '
-        'XrTableCell289
-        '
-        Me.XrTableCell289.Borders = DevExpress.XtraPrinting.BorderSide.Left
-        Me.XrTableCell289.Name = "XrTableCell289"
-        Me.XrTableCell289.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
-        Me.XrTableCell289.StylePriority.UseBorders = False
-        Me.XrTableCell289.StylePriority.UsePadding = False
-        Me.XrTableCell289.Text = "XrTableCell289"
-        Me.XrTableCell289.Weight = 4.9228521289639042R
-        '
-        'XrTableCell290
-        '
-        Me.XrTableCell290.Borders = DevExpress.XtraPrinting.BorderSide.Left
-        Me.XrTableCell290.Name = "XrTableCell290"
-        Me.XrTableCell290.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
-        Me.XrTableCell290.StylePriority.UseBorders = False
-        Me.XrTableCell290.StylePriority.UsePadding = False
-        Me.XrTableCell290.Text = "XrTableCell290"
-        Me.XrTableCell290.Weight = 4.9228521289639042R
-        '
-        'XrTableCell291
-        '
-        Me.XrTableCell291.Borders = DevExpress.XtraPrinting.BorderSide.Left
-        Me.XrTableCell291.Name = "XrTableCell291"
-        Me.XrTableCell291.Padding = New DevExpress.XtraPrinting.PaddingInfo(10, 0, 0, 0, 100.0!)
-        Me.XrTableCell291.StylePriority.UseBorders = False
-        Me.XrTableCell291.StylePriority.UsePadding = False
-        Me.XrTableCell291.Text = "XrTableCell291"
-        Me.XrTableCell291.Weight = 4.9228521289639042R
+        Me.sDataS.Expression = "[MemoEdit11] + ' oC'"
+        Me.sDataS.Name = "sDataS"
         '
         'xtraMedicalCheckUp
         '
         Me.Bands.AddRange(New DevExpress.XtraReports.UI.Band() {Me.Detail, Me.TopMargin, Me.BottomMargin, Me.ReportHeader, Me.GroupHeader1})
-        Me.CalculatedFields.AddRange(New DevExpress.XtraReports.UI.CalculatedField() {Me.sBB, Me.sBMI, Me.sTB, Me.sVital, Me.sN, Me.sS, Me.sR, Me.sTanggalLahir})
+        Me.CalculatedFields.AddRange(New DevExpress.XtraReports.UI.CalculatedField() {Me.sBB, Me.sBMI, Me.sTB, Me.sVital, Me.sN, Me.sS, Me.sR, Me.sTanggalLahir, Me.sDataS})
         Me.DataSource = Me.bindingSource
         Me.Margins = New System.Drawing.Printing.Margins(22, 16, 20, 24)
         Me.PageHeight = 1169
@@ -4505,6 +4511,8 @@ Partial Public Class xtraMedicalCheckUp
         Me.ShowPrintMarginsWarning = False
         Me.StyleSheet.AddRange(New DevExpress.XtraReports.UI.XRControlStyle() {Me.XrControlStyle1})
         Me.Version = "15.1"
+        Me.Watermark.Image = CType(resources.GetObject("xtraMedicalCheckUp.Watermark.Image"), System.Drawing.Image)
+        Me.Watermark.ImageTransparency = 195
         CType(Me.XrTable1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.XrTable2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.XrTable4, System.ComponentModel.ISupportInitialize).EndInit()
@@ -5010,4 +5018,5 @@ Partial Public Class xtraMedicalCheckUp
     Friend WithEvents XrTableCell280 As DevExpress.XtraReports.UI.XRTableCell
     Friend WithEvents XrTableCell281 As DevExpress.XtraReports.UI.XRTableCell
     Friend WithEvents XrTableCell282 As DevExpress.XtraReports.UI.XRTableCell
+    Friend WithEvents sDataS As DevExpress.XtraReports.UI.CalculatedField
 End Class

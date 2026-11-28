@@ -697,7 +697,7 @@ Public Class frmMedrekRawatNew2JalanList
             SQL &= "FROM ( "
             SQL &= "SELECT "
             'SQL &= "Kategori = CONVERT(VARCHAR(8), B.DATE, 103) + ', ' + E.NAME_DISPLAY + ', ' + F.NAME_DISPLAY "
-            SQL &= "Tanggal = B.DATE "
+            SQL &= "Tanggal = A.DATE "
             SQL &= ",NamaUpload = D.DESCRIPTION "
             SQL &= ",Catatan = C.MEMO "
             SQL &= ",AlamatUpload = C.ALAMATAKHIR_PDF "
@@ -723,7 +723,7 @@ Public Class frmMedrekRawatNew2JalanList
 
             SQL &= "SELECT "
             'SQL &= "Kategori = CONVERT(VARCHAR(8), B.DATE, 103) + ', ' + E.NAME_DISPLAY + ', ' + F.NAME_DISPLAY "
-            SQL &= "Tanggal = B.DATE "
+            SQL &= "Tanggal = A.DATE "
             SQL &= ",NamaUpload = 'RONTGEN' "
             SQL &= ",Catatan = A.EXAMDESC "
             SQL &= ",AlamatUpload = A.EXAMDESC "
@@ -745,7 +745,7 @@ Public Class frmMedrekRawatNew2JalanList
 
             SQL &= "SELECT "
             'SQL &= "Kategori = CONVERT(VARCHAR(8), B.DATE, 103) + ', ' + E.NAME_DISPLAY + ', ' + F.NAME_DISPLAY "
-            SQL &= "Tanggal = B.DATE "
+            SQL &= "Tanggal = A.DATE "
             SQL &= ",NamaUpload = 'USG' "
             SQL &= ",Catatan = A.KDTARIF "
             SQL &= ",AlamatUpload = A.GEJALA "
@@ -767,7 +767,7 @@ Public Class frmMedrekRawatNew2JalanList
 
             SQL &= "SELECT "
             'SQL &= "Kategori = CONVERT(VARCHAR(8), B.DATE, 103) + ', ' + E.NAME_DISPLAY + ', ' + F.NAME_DISPLAY "
-            SQL &= "Tanggal = B.DATE "
+            SQL &= "Tanggal = A.DATE "
             SQL &= ",NamaUpload = 'LABORATORIUM' "
             SQL &= ",Catatan = H.NAMA_TARIF "
             SQL &= ",AlamatUpload = '" & sAlamatSimpanPDFLaboratorium & "' "
@@ -793,7 +793,7 @@ Public Class frmMedrekRawatNew2JalanList
 
             SQL &= "SELECT "
             'SQL &= "Kategori = CONVERT(VARCHAR(8), B.DATE, 103) + ', ' + E.NAME_DISPLAY + ', ' + F.NAME_DISPLAY "
-            SQL &= "Tanggal = D.DATE "
+            SQL &= "Tanggal = C.DATE "
             SQL &= ",NamaUpload = 'RADIOLOGI' "
             SQL &= ",Catatan = B.NAMA_TARIF "
             SQL &= ",AlamatUpload = C.NORADIOLOGI "
@@ -813,7 +813,7 @@ Public Class frmMedrekRawatNew2JalanList
 
             SQL &= "SELECT "
             'SQL &= "Kategori = CONVERT(VARCHAR(8), B.DATE, 103) + ', ' + E.NAME_DISPLAY + ', ' + F.NAME_DISPLAY "
-            SQL &= "Tanggal = D.DATE "
+            SQL &= "Tanggal = E.DATE "
             SQL &= ",NamaUpload = 'EKG-ECHO (RJ)' "
             SQL &= ",Catatan = B.NAMA_TARIF "
             SQL &= ",AlamatUpload = E.NORADIOLOGI "
@@ -836,7 +836,7 @@ Public Class frmMedrekRawatNew2JalanList
 
             SQL &= "SELECT "
             'SQL &= "Kategori = CONVERT(VARCHAR(8), B.DATE, 103) + ', ' + E.NAME_DISPLAY + ', ' + F.NAME_DISPLAY "
-            SQL &= "Tanggal = D.DATE "
+            SQL &= "Tanggal = E.DATE "
             SQL &= ",NamaUpload = 'EKG-ECHO (RI)' "
             SQL &= ",Catatan = B.NAMA_TARIF "
             SQL &= ",AlamatUpload = E.NORADIOLOGI "
@@ -881,6 +881,7 @@ Public Class frmMedrekRawatNew2JalanList
             grvUpload.Columns("AlamatUpload").VisibleIndex = -1
             grvUpload.Columns("Type").VisibleIndex = -1
             grvUpload.Columns("Kodeupload").VisibleIndex = -1
+            grvUpload.Columns("Tanggal").Caption = "Tanggal Pemeriksaan"
 
             grvUpload.BestFitColumns()
 

@@ -3,6 +3,7 @@ Imports UI.WIN.MAIN.My.Resources
 Imports System.Linq
 Imports System.Data
 Imports System.Data.SqlClient
+Imports DevExpress.XtraSplashScreen
 
 Public Class frmReportMedicalRoom
     Private oFormMode As FORM_MODE = FORM_MODE.FORM_MODE_VIEW
@@ -140,6 +141,11 @@ Public Class frmReportMedicalRoom
         Try
             If grdDPJPUtama.Text = "" Then Exit Sub
 
+
+            SplashScreenManager.ShowForm(Me, GetType(frmLoadingPanel), True, True, False)
+
+            SplashScreenManager.Default.SetWaitFormCaption("Processing Load Data.....")
+
             Dim oConn As New SqlConnection
             Dim oComm As New SqlCommand
             Dim da As SqlDataAdapter
@@ -272,12 +278,17 @@ Public Class frmReportMedicalRoom
             grd.DataSource = ds.Tables("M_MEDICALROOM")
             grd.ForceInitialize()
 
+            SplashScreenManager.CloseForm(False)
+
+
             fn_SetFormat()
 
             If oConn.State = ConnectionState.Open Then
                 oConn.Close()
             End If
+
         Catch ex As Exception
+            SplashScreenManager.CloseForm(False)
             MsgBox("Preview Data : " & vbCrLf & ex.Message, MsgBoxStyle.Exclamation, Me.Text)
         End Try
     End Sub
